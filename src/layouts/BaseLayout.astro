@@ -1,0 +1,33 @@
+---
+import Header from '../components/Header/index';
+
+const { title } = Astro.props.frontmatter ?? Astro.props;
+
+import '../styles/global.css';
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,600;1,300&family=DM+Serif+Display&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ben Saufley - {title}</title>
+  </head>
+  <body>
+    <Header currentPath={/** TODO */ '/'} />
+
+    <main>
+      <slot />
+    </main>
+    <footer>
+      <p>©{new Date().getFullYear()} <a href="/contact">Ben Saufley</a></p>
+    </footer>
+  </body>
+</html>
