@@ -1,7 +1,15 @@
 ---
 import Header from '../components/Header/index';
 
+let pathname: string;
 const { title } = Astro.props.frontmatter ?? Astro.props;
+if (Astro.props.frontmatter) {
+  ({ pathname } = Astro.props);
+} else if (Astro.props.request) {
+  ({ pathname } = Astro.props.request);
+} else {
+  pathname = '/';
+}
 
 import '../styles/global.css';
 ---
@@ -21,7 +29,7 @@ import '../styles/global.css';
     <title>Ben Saufley - {title}</title>
   </head>
   <body>
-    <Header currentPath={/** TODO */ '/'} />
+    <Header currentPath={pathname} />
 
     <main>
       <slot />

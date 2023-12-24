@@ -1,0 +1,81 @@
+---
+import { getCollection } from 'astro:content';
+import dayjs from 'dayjs';
+import utc from 'dayjs/plugin/utc';
+import { unified } from 'unified';
+import remarkParse from 'remark-parse';
+import rehype from 'remark-rehype';
+import rehypeStringify from 'rehype-stringify';
+import { Fragment, type ComponentType } from 'preact';
+import type { AstroComponentFactory } from 'astro/runtime/server/index.js';
+
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+dayjs.extend(utc);
+export interface Props {
+  page: number;
+}
+
+const { page } = Astro.props as Props;
+
+export const PER_PAGE = 3;
+
+const posts = await getCollection('posts');
+
+const more = posts.length >= (page + 1) * PER_PAGE;
+
+const renderedPosts = await Promise.all(
+  posts
+    .toSorted(({ data: { date: a } }, { data: { date: b } }) => dayjs(b).diff(a))
+    .slice(page * PER_PAGE, (page + 1) * PER_PAGE)
+    .map(async (post) => {
+      let Content: AstroComponentFactory | ComponentType = () => null;
+      let html: string | null = null;
+      if (post.body.includes('<!--more-->') || post.body.includes('{/* more */}')) {
+        const [teaser] = post.body.split(/(<!--more-->|\{\/\* more \*\/\})/);
+        // TODO: remark plugins are showing type mismatches and I don't feel like dealing with it right now
+        // @ts-ignore
+        const { value } = await unified().use(remarkParse).use(rehype).use(rehypeStringify).process(teaser);
+        // Manually replace footnote links with links to anchors in the blog post itself
+        html = value
+          .toString()
+          .replace(/\[\^(\d+)\]/g, (_, n) => `<sup><a href="/blog/${post.slug}#user-content-fn-${n}">${n}</a></sup>`);
+      } else {
+        ({ Content } = await post.render());
+      }
+
+      return {
+        ...post,
+        Content,
+        html,
+      };
+    }),
+);
+---
+
+<BaseLayout title={page === 0 ? 'Home' : 'Blog'}>
+  {
+    renderedPosts.map(({ data: { title, date }, html, Content, slug }) => (
+      <section>
+        <h2>
+          <a href={`/blog/${slug}`}>{title}</a>
+        </h2>
+        <time datetime={dayjs.utc(date).startOf('day').toISOString()}>
+          {dayjs.utc(date).startOf('day').format('D MMMM, YYYY')}
+        </time>
+        {html ? (
+          <>
+            <Fragment set:html={html} />
+            <p>
+              <a href={`/blog/${slug}`}>Read more&hellip;</a>
+            </p>
+          </>
+        ) : (
+          <Content />
+        )}
+      </section>
+    ))
+  }
+  {page > 0 && <a href={page === 1 ? '/' : `/blog/${page - 1}`}>Previous page</a>}
+  {more && <a href={`/blog/${page + 1}`}>Next page</a>}
+</BaseLayout>

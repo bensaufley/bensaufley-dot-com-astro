@@ -1,31 +1,5 @@
 ---
-import { getCollection } from 'astro:content';
-import dayjs from 'dayjs';
-import BaseLayout from '../layouts/BaseLayout.astro';
-
-const posts = await getCollection('posts');
-const renderedPosts = await Promise.all(
-  posts
-    .toSorted(({ data: { date: a } }, { data: { date: b } }) => dayjs(b).diff(a))
-    .slice(0, 2)
-    .map(async (post) => {
-      const { Content } = await post.render();
-      return {
-        ...post,
-        Content,
-      };
-    }),
-);
+import Page from './blog/[page].astro';
 ---
 
-<BaseLayout title="Home">
-  {
-    renderedPosts.map(({ data: { title, date }, Content }) => (
-      <section>
-        <h2>{title}</h2>
-        <p>{dayjs(date).format('D MMMM, YYYY')}</p>
-        <Content />
-      </section>
-    ))
-  }
-</BaseLayout>
+<Page page={0} />
