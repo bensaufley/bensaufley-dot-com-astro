@@ -1,3 +1,43 @@
-.active {
-  color: #ccc;
+.pageHeader {
+  nav {
+    background: var(--navBg);
+    color: var(--navColor);
+    font-family:  'DM Serif Display', serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+
+    ul {
+      display: flex;
+      flex-flow: row nowrap;
+      list-style-type: '';
+    }
+
+    a {
+      display: block;
+      padding: 1rem 0.75rem;
+    }
+  }
+
+  a:link,
+  a:visited {
+    color: var(--navColor);
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &.active {
+      opacity: 0.9;
+    }
+  }
 }

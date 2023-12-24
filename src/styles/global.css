@@ -7,14 +7,70 @@ h4,
 h5,
 h6 {
   font-family: 'DM Serif Display', serif;
-  font-weight: 600;
+  font-weight: 400;
+}
+
+:root {
+  --navBg: #fff;
+  --navColor: #333;
+
+  --mainBg: #ffe;
+  --mainColor: #444;
+
+  --mainLinkColor: #430;
+
+  @media (prefers-color-scheme: dark) {
+    --navBg: #333;
+    --navColor: #fff;
+
+    --mainBg: #444;
+    --mainColor: #ffe;
+
+    --mainLinkColor: #fec;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+  }
 }
 
 body {
   font-family: 'DM Sans', sans-serif;
   font-weight: 300;
 
+  background: var(--mainBg);
+  color: var(--mainColor);
+
   strong {
     font-weight: 600;
+  }
+}
+
+a:link,
+a:visited {
+  &:not(nav *) {
+    color: var(--mainLinkColor);
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      inset: 0 calc(100% + 0.5rem) 0 -0.5rem;
+      background: var(--mainLinkColor);
+      opacity: 0;
+      transform: rotate(-3deg);
+      border-radius: 2px;
+      transition: opacity 300ms, inset 300ms;
+    }
+
+    &:hover,
+    &:focus {
+      &::after {
+        opacity: 0.25;
+        inset: 0 -0.5rem;
+      }
+    }
   }
 }

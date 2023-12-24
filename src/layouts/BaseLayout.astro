@@ -1,4 +1,6 @@
 ---
+import '../styles/global.css';
+
 import Header from '../components/Header/index';
 
 let pathname: string;
@@ -10,8 +12,6 @@ if (Astro.props.frontmatter) {
 } else {
   pathname = '/';
 }
-
-import '../styles/global.css';
 ---
 
 <html lang="en">

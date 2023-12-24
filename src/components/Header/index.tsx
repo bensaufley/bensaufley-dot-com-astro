@@ -5,9 +5,9 @@ interface Props {
 }
 
 const Header = ({ currentPath }: Props) => (
-  <header>
+  <header class={styles.pageHeader}>
     <h2>Ben Saufley</h2>
-    <h3>Software Engineer</h3>
+    <h3>Software Engineering Leader</h3>
     <nav>
       <ul>
         <li>
