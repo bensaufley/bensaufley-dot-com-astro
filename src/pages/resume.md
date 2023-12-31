@@ -12,7 +12,7 @@ layout: '../layouts/BaseLayout.astro'
 
 <p style="text-align: center;">~</p>
 
-**[Triplebyte](https://triplebyte.com)** _2021 – Aug 2022_
+**[Triplebyte](https://triplebyte.com)** _2021 – Aug 2022_  
 **Senior Software Engineer** _Remote_
 
 Part of a small team of experienced full-stack product engineers in a cross-disciplinary squad that worked to conceive, build, ship, analyze, and refine new features for the developing Screen product in Ruby on Rails and React with TypeScript.

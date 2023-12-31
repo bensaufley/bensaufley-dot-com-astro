@@ -1,0 +1,28 @@
+:root {
+  --navBg: #fff;
+  --navColor: #333;
+
+  --mainBg: #fbf9f4;
+  --mainColor: #444;
+
+  --mainLinkColor: #430;
+  --mainLinkHoverColor: #fec;
+
+  --accentColor: #b74;
+
+  @media (prefers-color-scheme: dark) {
+    --navBg: #333;
+    --navColor: #fff;
+
+    --mainBg: #444;
+    --mainColor: #eee;
+
+    --mainLinkColor: #fec;
+    --mainLinkHoverColor: #000;
+
+    --accentColor: #fca;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+  }
+}

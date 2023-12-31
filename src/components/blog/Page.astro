@@ -9,7 +9,10 @@ import rehypeStringify from 'rehype-stringify';
 import { Fragment, type ComponentType } from 'preact';
 import type { AstroComponentFactory } from 'astro/runtime/server/index.js';
 
+import Post from './Post';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+
+import styles from './Page.module.css';
 
 dayjs.extend(utc);
 export interface Props {
@@ -56,24 +59,18 @@ const renderedPosts = await Promise.all(
 <BaseLayout title={page === 0 ? 'Home' : 'Blog'}>
   {
     renderedPosts.map(({ data: { title, date }, html, Content, slug }) => (
-      <section>
-        <h2>
-          <a href={`/blog/${slug}`}>{title}</a>
-        </h2>
-        <time datetime={dayjs.utc(date).startOf('day').toISOString()}>
-          {dayjs.utc(date).startOf('day').format('D MMMM, YYYY')}
-        </time>
+      <Post title={title} titleElement="h2" posted={date} slug={slug}>
         {html ? (
           <>
             <Fragment set:html={html} />
-            <p>
-              <a href={`/blog/${slug}`}>Read more&hellip;</a>
-            </p>
+            <a class={styles.readMore} href={`/blog/${slug}`}>
+              Read more&hellip;
+            </a>
           </>
         ) : (
           <Content />
         )}
-      </section>
+      </Post>
     ))
   }
   {page > 0 && <a href={page === 1 ? '/' : `/blog/${page - 1}`}>Previous page</a>}

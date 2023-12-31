@@ -1,0 +1,22 @@
+@import url('../../shared/mixins.css');
+
+.blogPost {
+  + & {
+    margin-top: 2rem;
+  }
+
+  > main > * {
+    margin: 0.5rem 0;
+
+    @mixin desktop {
+      margin: 0.75rem 0;
+    }
+  }
+
+  code {
+    color: var(--accentColor);
+    font-size: 0.875rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}

@@ -1,17 +1,40 @@
 ---
+import clsx from 'clsx';
+
 import '../styles/global.css';
 
 import Header from '../components/Header/index';
 
+type ConditionalProps =
+  | {
+      request?: {
+        pathname: string;
+      };
+      frontmatter?: never;
+    }
+  | {
+      url: string;
+      frontmatter: {
+        title: string;
+      };
+    };
+export type Props = ConditionalProps & {
+  title: string;
+  class?: string;
+};
+
 let pathname: string;
+const { class: className } = Astro.props;
 const { title } = Astro.props.frontmatter ?? Astro.props;
 if (Astro.props.frontmatter) {
-  ({ pathname } = Astro.props);
+  ({ url: pathname } = Astro.props);
 } else if (Astro.props.request) {
   ({ pathname } = Astro.props.request);
 } else {
   pathname = '/';
 }
+
+console.log(JSON.stringify(Astro.props, null, 2));
 ---
 
 <html lang="en">
@@ -28,13 +51,13 @@ if (Astro.props.frontmatter) {
     />
     <title>Ben Saufley - {title}</title>
   </head>
-  <body>
+  <body class={clsx(className)}>
     <Header currentPath={pathname} />
 
     <main>
       <slot />
     </main>
-    <footer>
+    <footer class="pageFooter">
       <p>©{new Date().getFullYear()} <a href="/contact">Ben Saufley</a></p>
     </footer>
   </body>

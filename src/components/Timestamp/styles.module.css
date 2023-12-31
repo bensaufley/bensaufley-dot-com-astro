@@ -1,0 +1,17 @@
+.timestamp {
+  &:not(.inline) {
+    display: block;
+    font-size: 0.875em;
+    margin: 0.5em 0;
+  }
+
+  opacity: 0.5;
+
+  .inline {
+    transition: opacity 300ms;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

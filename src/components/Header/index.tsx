@@ -5,10 +5,12 @@ interface Props {
 }
 
 const Header = ({ currentPath }: Props) => (
-  <header class={styles.pageHeader}>
-    <h2>Ben Saufley</h2>
-    <h3>Software Engineering Leader</h3>
-    <nav>
+  <>
+    <header class={styles.pageHeader}>
+      <h2>Ben Saufley</h2>
+      <h3>Software Engineering Leader</h3>
+    </header>
+    <nav class={styles.stickyNav}>
       <ul>
         <li>
           <a href="/" class={currentPath === '/' ? styles.active : ''}>
@@ -32,7 +34,7 @@ const Header = ({ currentPath }: Props) => (
         </li>
       </ul>
     </nav>
-  </header>
+  </>
 );
 
 export default Header;

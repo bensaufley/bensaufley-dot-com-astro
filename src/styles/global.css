@@ -1,4 +1,6 @@
+@import url('../shared/mixins.css');
 @import url('./css-reset.css');
+@import url('./vars.css');
 
 h1,
 h2,
@@ -11,25 +13,10 @@ h6 {
 }
 
 :root {
-  --navBg: #fff;
-  --navColor: #333;
+  font-size: 14px;
 
-  --mainBg: #ffe;
-  --mainColor: #444;
-
-  --mainLinkColor: #430;
-
-  @media (prefers-color-scheme: dark) {
-    --navBg: #333;
-    --navColor: #fff;
-
-    --mainBg: #444;
-    --mainColor: #ffe;
-
-    --mainLinkColor: #fec;
-
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
+  @mixin desktop {
+    font-size: 16px;
   }
 }
 
@@ -54,23 +41,49 @@ a:visited {
     position: relative;
 
     &::after {
+      background-color: var(--mainLinkHoverColor);
+      border-radius: 2px;
       content: '';
       display: block;
-      position: absolute;
       inset: 0 calc(100% + 0.5rem) 0 -0.5rem;
-      background: var(--mainLinkColor);
       opacity: 0;
+      position: absolute;
       transform: rotate(-3deg);
-      border-radius: 2px;
       transition: opacity 300ms, inset 300ms;
+      z-index: -1;
     }
 
     &:hover,
     &:focus {
       &::after {
-        opacity: 0.25;
+        opacity: 1;
         inset: 0 -0.5rem;
       }
     }
   }
+
+  h1 &,
+  h2 &,
+  h3 &,
+  h4 &,
+  h5 &,
+  h6 &,
+  strong & {
+    color: var(--accentColor);
+    text-decoration: underline;
+  }
+}
+
+body > main {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+body > footer {
+  font-size: 0.875rem;
+  margin: 0 auto;
+  opacity: 0.5;
+  padding: 2rem 1rem 1rem;
+  text-align: center;
 }

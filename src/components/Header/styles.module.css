@@ -1,39 +1,82 @@
-.pageHeader {
-  nav {
-    background: var(--navBg);
-    color: var(--navColor);
-    font-family:  'DM Serif Display', serif;
-    font-size: 1.25rem;
-    font-weight: 400;
-    position: sticky;
-    top: 0;
-    left: 0;
-    right: 0;
+@import url('../../shared/mixins.css');
 
+.stickyNav {
+  background: var(--navBg);
+  color: var(--navColor);
+  display: flex;
+  flex-flow: row nowrap;
+  font-family:  'DM Serif Display', serif;
+  font-size: 1rem;
+  font-weight: 400;
+  justify-content: center;
+  left: 0;
+  margin-bottom: 1rem;
+  position: sticky;
+  right: 0;
+  top: 0;
+  z-index: 10;
+
+  ul {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
-
-    ul {
-      display: flex;
-      flex-flow: row nowrap;
-      list-style-type: '';
-    }
-
-    a {
-      display: block;
-      padding: 1rem 0.75rem;
-    }
+    list-style-type: '';
   }
 
+  a {
+    display: block;
+    padding: 1rem 0.75rem;
+  }
+
+  @mixin desktop {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.pageHeader,
+.stickyNav {
   a:link,
   a:visited {
     color: var(--navColor);
+    position: relative;
     text-decoration: none;
 
+    &::before,
+    &::after {
+      content: '';
+      display: block;
+      height: 0;
+      width: 0;
+      left: 50%;
+      border: 0.5rem solid transparent;
+      bottom: 0;
+      position: absolute;
+      transition: transform 250ms ease-out, opacity 250ms ease-out;
+    }
+
+    &::before {
+      transform: translate(-50%, 50%);
+    }
+
+    &::after {
+      transform: translate(-50%, -50%);
+      opacity: 0;
+    }
+
     &:focus,
-    &:hover {
-      text-decoration: underline;
+    &:hover,
+    &.active {
+      &::before {
+        border-top-color: var(--navBg);
+        border-width: 0.75rem;
+        transform: translate(-50%, 100%);
+      }
+
+      &::after {
+        border-top-color: var(--navColor);
+        opacity: 1;
+        transform: translate(-50%, calc(100% - 2px));
+      }
     }
 
     &.active {
