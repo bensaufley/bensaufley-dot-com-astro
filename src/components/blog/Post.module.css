@@ -8,8 +8,12 @@
   > main > * {
     margin: 0.5rem 0;
 
-    @mixin desktop {
+    @mixin tablet {
       margin: 0.75rem 0;
+    }
+
+    @mixin desktop {
+      margin: 1rem 0;
     }
   }
 

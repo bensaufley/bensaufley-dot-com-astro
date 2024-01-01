@@ -9,7 +9,13 @@ export async function getStaticPaths() {
     length: Math.ceil(posts.length / PER_PAGE),
   }).map((_, i) => ({ params: { page: i }, props: { page: i } }));
 }
-const { page = 0 } = Astro.props;
+
+export interface Props {
+  class?: string | undefined;
+  page?: number;
+}
+
+const { class: className, page = 0 } = Astro.props;
 ---
 
-<Page page={page} />
+<Page class={className} page={page} />

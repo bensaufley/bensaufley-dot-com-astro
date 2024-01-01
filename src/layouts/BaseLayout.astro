@@ -4,6 +4,7 @@ import clsx from 'clsx';
 import '../styles/global.css';
 
 import Header from '../components/Header/index';
+import cssVariables from '../shared/variables.module.css';
 
 type ConditionalProps =
   | {
@@ -18,9 +19,10 @@ type ConditionalProps =
         title: string;
       };
     };
+
 export type Props = ConditionalProps & {
   title: string;
-  class?: string;
+  class?: string | undefined;
 };
 
 let pathname: string;
@@ -33,8 +35,6 @@ if (Astro.props.frontmatter) {
 } else {
   pathname = '/';
 }
-
-console.log(JSON.stringify(Astro.props, null, 2));
 ---
 
 <html lang="en">
@@ -49,6 +49,8 @@ console.log(JSON.stringify(Astro.props, null, 2));
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,600;1,300&family=DM+Serif+Display&display=swap"
       rel="stylesheet"
     />
+    <meta name="theme-color" content={cssVariables.light} />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content={cssVariables.dark} />
     <title>Ben Saufley - {title}</title>
   </head>
   <body class={clsx(className)}>
@@ -60,5 +62,28 @@ console.log(JSON.stringify(Astro.props, null, 2));
     <footer class="pageFooter">
       <p>©{new Date().getFullYear()} <a href="/contact">Ben Saufley</a></p>
     </footer>
+    <script>
+      import throttle from '../lib/throttle';
+
+      const scrollListener = throttle(
+        () => {
+          console.log('scroll');
+          Array.from(document.querySelectorAll('.sticky')).forEach((el) => {
+            console.log(el.getBoundingClientRect().top);
+            if (Math.floor(el.getBoundingClientRect().top) <= 0) {
+              el.classList.add('stuck');
+            } else {
+              el.classList.remove('stuck');
+            }
+          });
+        },
+        25,
+        true,
+      );
+
+      scrollListener();
+
+      window.addEventListener('scroll', scrollListener);
+    </script>
   </body>
 </html>

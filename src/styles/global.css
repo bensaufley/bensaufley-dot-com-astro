@@ -1,3 +1,4 @@
+@import url('../shared/variables.css');
 @import url('../shared/mixins.css');
 @import url('./css-reset.css');
 @import url('./vars.css');
@@ -8,27 +9,57 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'DM Serif Display', serif;
+  font-family: $serifStack;
   font-weight: 400;
 }
 
 :root {
   font-size: 14px;
 
-  @mixin desktop {
+  @mixin tablet {
     font-size: 16px;
   }
 }
 
 body {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 300;
-
   background: var(--mainBg);
   color: var(--mainColor);
+  font-family: $sansStack;
+  font-weight: 300;
+  overscroll-behavior: none;
 
   strong {
     font-weight: 600;
+  }
+
+  > main {
+    grid-area: main;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  > footer {
+    font-size: 0.875rem;
+    grid-area: footer;
+    margin: 0 auto;
+    opacity: 0.5;
+    padding: 2rem 1rem 1rem;
+    text-align: center;
+  }
+
+  @mixin desktop {
+    display: grid;
+    gap: 1rem;
+    grid-template:
+      'nav nav nav nav' auto
+      '. header main .' 1fr
+      'footer footer footer footer' auto / 1fr 20rem 40rem 1fr;
+
+    > header,
+    > main {
+      align-self: top;
+    }
   }
 }
 
@@ -61,29 +92,10 @@ a:visited {
       }
     }
   }
-
-  h1 &,
-  h2 &,
-  h3 &,
-  h4 &,
-  h5 &,
-  h6 &,
-  strong & {
-    color: var(--accentColor);
-    text-decoration: underline;
-  }
 }
 
-body > main {
-  max-width: 60rem;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-body > footer {
-  font-size: 0.875rem;
-  margin: 0 auto;
-  opacity: 0.5;
-  padding: 2rem 1rem 1rem;
-  text-align: center;
+code a:link,
+a:link code {
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
 }

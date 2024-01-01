@@ -1,26 +1,32 @@
+@import url('../shared/variables.css');
+
 :root {
-  --navBg: #fff;
-  --navColor: #333;
+  color-scheme: light dark;
 
-  --mainBg: #fbf9f4;
-  --mainColor: #444;
+  --navBg: $white;
+  --navColor: $dark;
 
-  --mainLinkColor: #430;
-  --mainLinkHoverColor: #fec;
+  --mainBg: $light;
+  --mainColor: $dark;
 
-  --accentColor: #b74;
+  --mainLinkColor: $fireEngineRed;
+  --mainLinkHoverColor: $xanthous;
+
+  --accentColor: $fireEngineRed;
+  --secondaryAccentColor: $orange;
 
   @media (prefers-color-scheme: dark) {
-    --navBg: #333;
-    --navColor: #fff;
+    --navBg: $black;
+    --navColor: $white;
 
-    --mainBg: #444;
-    --mainColor: #eee;
+    --mainBg: $dark;
+    --mainColor: $light;
 
-    --mainLinkColor: #fec;
-    --mainLinkHoverColor: #000;
+    --mainLinkColor: $xanthous;
+    --mainLinkHoverColor: $black;
 
-    --accentColor: #fca;
+    --accentColor: $xanthous;
+    --secondaryAccentColor: $fireEngineRed;
 
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;

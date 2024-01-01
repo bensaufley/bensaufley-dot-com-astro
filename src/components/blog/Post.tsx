@@ -8,13 +8,13 @@ interface Props {
   title: string;
   titleElement?: keyof JSX.IntrinsicElements;
   posted: Date | Dayjs | number | string;
-  slug?: string;
+  href?: string;
 }
 
-const Post = ({ title, titleElement: Title = 'h1', posted, slug, children }: RenderableProps<Props>) => (
+const Post = ({ title, titleElement: Title = 'h1', posted, href, children }: RenderableProps<Props>) => (
   <section class={styles.blogPost}>
     <header>
-      <Title>{slug ? <a href={`/blog/${slug}`}>{title}</a> : title}</Title>
+      <Title>{href ? <a href={href}>{title}</a> : title}</Title>
       <Timestamp value={posted} />
     </header>
     <main>{children}</main>

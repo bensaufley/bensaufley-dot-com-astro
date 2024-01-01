@@ -16,10 +16,11 @@ import styles from './Page.module.css';
 
 dayjs.extend(utc);
 export interface Props {
+  class?: string | undefined;
   page: number;
 }
 
-const { page } = Astro.props as Props;
+const { class: className, page } = Astro.props as Props;
 
 export const PER_PAGE = 3;
 
@@ -56,10 +57,10 @@ const renderedPosts = await Promise.all(
 );
 ---
 
-<BaseLayout title={page === 0 ? 'Home' : 'Blog'}>
+<BaseLayout class={className} title={page === 0 ? 'Home' : 'Blog'}>
   {
     renderedPosts.map(({ data: { title, date }, html, Content, slug }) => (
-      <Post title={title} titleElement="h2" posted={date} slug={slug}>
+      <Post title={title} titleElement="h2" posted={date} href={`/blog/${slug}`}>
         {html ? (
           <>
             <Fragment set:html={html} />

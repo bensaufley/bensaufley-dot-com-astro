@@ -1,5 +1,49 @@
-@define-mixin desktop {
-  @media (min-width: 40rem) {
+@define-mixin tablet {
+  @media (width >= 40em) {
     @mixin-content;
   }
+}
+
+@define-mixin desktop {
+  @media (width >= 62em) {
+    @mixin-content;
+  }
+}
+
+@define-mixin stroke $width, $color {
+  /* Solidify "stroke" by stacking the same blurred shadow 4 times */
+  text-shadow:
+    -$width 0 $width $color,
+    -$width 0 $width $color,
+    -$width 0 $width $color,
+    -$width 0 $width $color,
+    0 -$width $width $color,
+    0 -$width $width $color,
+    0 -$width $width $color,
+    0 -$width $width $color,
+    $width -$width $width $color,
+    $width -$width $width $color,
+    $width -$width $width $color,
+    $width -$width $width $color,
+    $width 0 $width $color,
+    $width 0 $width $color,
+    $width 0 $width $color,
+    $width 0 $width $color,
+    $width $width $width $color,
+    $width $width $width $color,
+    $width $width $width $color,
+    $width $width $width $color,
+    0 $width $width $color,
+    0 $width $width $color,
+    0 $width $width $color,
+    0 $width $width $color,
+    -$width $width $width $color,
+    -$width $width $width $color,
+    -$width $width $width $color,
+    -$width $width $width $color,
+    -$width 0 $width $color,
+    -$width 0 $width $color,
+    -$width 0 $width $color,
+    -$width 0 $width $color
+    ;
 }

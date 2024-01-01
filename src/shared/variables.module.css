@@ -1,0 +1,19 @@
+@import url('./variables.css');
+
+:export {
+  cornSilk: $cornSilk;
+  xanthous: $xanthous;
+  orange: $orange;
+  fireEngineRed: $fireEngineRed;
+  prussianBlue: $prussianBlue;
+
+  white: $white;
+  black: $black;
+
+  light: $light;
+  dark: $dark;
+  accent: $accent;
+
+  sansStack: $sansStack;
+  serifStack: $serifStack;
+}
