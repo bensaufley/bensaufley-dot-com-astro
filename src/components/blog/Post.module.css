@@ -28,6 +28,11 @@
     border: 2px solid var(--secondaryAccentColor);
     cursor: pointer;
     display: block;
+    height: auto;
+    width: 150px;
+    float: none;
+    margin: 10px auto;
+
 
     &:hover {
       border-color: var(--accentColor);
@@ -44,17 +49,6 @@
         cursor: default;
       }
     }
-
-    &:global(.thumb) {
-      height: auto;
-      width: 150px;
-    }
-
-    &:global(.align-center) {
-      float: none;
-      margin: 10px auto;
-    }
-
     &:global(.align-left) {
       float: left;
       margin-right: 10px;

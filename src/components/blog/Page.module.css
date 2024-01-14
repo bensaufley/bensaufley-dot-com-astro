@@ -1,5 +1,9 @@
-.readMore {
-  display: block;
+a:link,
+a:visited {
+  &.readMore {
+    display: block;
+    width: max-content;
+  }
 }
 
 .pageNav {

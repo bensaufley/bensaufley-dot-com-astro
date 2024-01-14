@@ -37,6 +37,14 @@ body {
     max-width: 60rem;
     margin: 0 auto;
     padding: 0 1rem;
+
+    p,
+    ul,
+    ol,
+    blockquote {
+      margin: 1rem 0;
+    }
+
   }
 
   > footer {
@@ -98,4 +106,12 @@ code a:link,
 a:link code {
   text-decoration: underline;
   text-underline-offset: 0.25rem;
+}
+
+hr {
+  border: 0 solid var(--mainColor);
+  border-width: 0 0 1px;
+  margin: 1rem auto;
+  max-width: 20rem;
+  width: 75%;
 }
