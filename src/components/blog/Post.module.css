@@ -23,4 +23,46 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+
+  img {
+    border: 2px solid var(--secondaryAccentColor);
+    cursor: pointer;
+    display: block;
+
+    &:hover {
+      border-color: var(--accentColor);
+    }
+
+    &:global(.no-border) {
+      border: none;
+    }
+
+    &:global(.no-link) {
+      &,
+      &:hover {
+        border-color: var(--secondaryAccentColor);
+        cursor: default;
+      }
+    }
+
+    &:global(.thumb) {
+      height: auto;
+      width: 150px;
+    }
+
+    &:global(.align-center) {
+      float: none;
+      margin: 10px auto;
+    }
+
+    &:global(.align-left) {
+      float: left;
+      margin-right: 10px;
+    }
+
+    &:global(.align-right) {
+      float: right;
+      margin-right: 10px;
+    }
+  }
 }

@@ -2,12 +2,18 @@
 import { getCollection } from 'astro:content';
 import dayjs from 'dayjs';
 import utc from 'dayjs/plugin/utc';
-import { unified } from 'unified';
-import remarkParse from 'remark-parse';
-import rehype from 'remark-rehype';
-import rehypeStringify from 'rehype-stringify';
-import { Fragment, type ComponentType } from 'preact';
+import { Fragment, type ComponentType, h } from 'preact';
 import type { AstroComponentFactory } from 'astro/runtime/server/index.js';
+import renderToString from 'preact-render-to-string';
+import { importFromString } from 'import-from-string';
+import { dirname } from 'node:path';
+
+import { createMarkdownProcessor } from '@astrojs/markdown-remark';
+import { VFile } from '../../../node_modules/unified/node_modules/vfile';
+import { createMdxProcessor } from '../../../node_modules/@astrojs/mdx/dist/plugins.js';
+import { ignoreStringPlugins, parseFrontmatter } from '../../../node_modules/@astrojs/mdx/dist/utils.js';
+import { markdownConfigDefaults } from '@astrojs/markdown-remark';
+import { setVfileFrontmatter } from '@astrojs/markdown-remark';
 
 import Post from './Post';
 import BaseLayout from '../../layouts/BaseLayout.astro';
@@ -28,18 +34,58 @@ const posts = await getCollection('posts');
 
 const more = posts.length >= (page + 1) * PER_PAGE;
 
+const mdxParser = createMdxProcessor(
+  {
+    extendMarkdownConfig: true,
+    recmaPlugins: [],
+    ...markdownConfigDefaults,
+    remarkPlugins: ignoreStringPlugins(markdownConfigDefaults.remarkPlugins),
+    rehypePlugins: ignoreStringPlugins(markdownConfigDefaults.rehypePlugins),
+    remarkRehype: (markdownConfigDefaults.remarkRehype as any) ?? {},
+    optimize: false,
+  },
+  { sourcemap: true, importMetaEnv: { SITE: 'bensaufley.com', ...import.meta.env } },
+);
+
+const parseMdx = async (source: string, id: string) => {
+  const { data: frontmatter, content: pageContent } = parseFrontmatter(source, id);
+  const vfile = new VFile({ value: pageContent, path: id });
+  setVfileFrontmatter(vfile, frontmatter);
+  return new Promise<VFile>((resolve) => {
+    mdxParser.process(vfile, (_, f) => {
+      resolve(f!);
+    });
+  });
+};
+
+const mdParser = await createMarkdownProcessor();
+
+const parseMd = async (source: string, _id: string) => {
+  return mdParser.render(source);
+};
+
 const renderedPosts = await Promise.all(
   posts
     .toSorted(({ data: { date: a } }, { data: { date: b } }) => dayjs(b).diff(a))
     .slice(page * PER_PAGE, (page + 1) * PER_PAGE)
     .map(async (post) => {
+      const isMdx = post.id.endsWith('.mdx');
       let Content: AstroComponentFactory | ComponentType = () => null;
       let html: string | null = null;
-      if (post.body.includes('<!--more-->') || post.body.includes('{/* more */}')) {
-        const [teaser] = post.body.split(/(<!--more-->|\{\/\* more \*\/\})/);
-        // TODO: remark plugins are showing type mismatches and I don't feel like dealing with it right now
-        // @ts-ignore
-        const { value } = await unified().use(remarkParse).use(rehype).use(rehypeStringify).process(teaser);
+      if (isMdx ? post.body.includes('{/* more */}') : post.body.includes('<!--more-->')) {
+        const [teaser] = post.body.split(/(<!--more-->|\{\/\* ?more ?\*\/\})/);
+        let value: Buffer | Uint8Array | string = '';
+        if (isMdx) {
+          const resp = await parseMdx(teaser!, post.id);
+          console.log('resp mdx', resp);
+          const { value: raw } = resp;
+          const C = await importFromString(raw.toString(), { filename: post.id, dirname: dirname(post.id) });
+          value = renderToString(h(C, null));
+        } else {
+          const resp = await parseMd(teaser!, post.id);
+          console.log('resp md', resp);
+          ({ code: value } = resp);
+        }
         // Manually replace footnote links with links to anchors in the blog post itself
         html = value
           .toString()
@@ -55,6 +101,8 @@ const renderedPosts = await Promise.all(
       };
     }),
 );
+
+const pages = Array.from({ length: Math.ceil(posts.length / PER_PAGE) - 2 }, (_, i) => i + 1);
 ---
 
 <BaseLayout class={className} title={page === 0 ? 'Home' : 'Blog'}>
@@ -74,6 +122,9 @@ const renderedPosts = await Promise.all(
       </Post>
     ))
   }
-  {page > 0 && <a href={page === 1 ? '/' : `/blog/${page - 1}`}>Previous page</a>}
-  {more && <a href={`/blog/${page + 1}`}>Next page</a>}
+  <div class={styles.pageNav}>
+    {page > 0 && <a href={page === 1 ? '/' : `/blog/${page - 1}`}>&#9666; Previous</a>}
+    {pages.map((n) => <a href={`/blog/${n}`}>{n}</a>)}
+    {more && <a href={`/blog/${page + 1}`}>Next &#9656;</a>}
+  </div>
 </BaseLayout>

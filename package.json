@@ -18,10 +18,12 @@
     "browserslist": "^4.22.2",
     "clsx": "^2.1.0",
     "dayjs": "^1.11.10",
+    "import-from-string": "^0.0.4",
     "postcss-mixins": "^9.0.4",
     "postcss-preset-env": "^9.3.0",
     "postcss-variables": "^1.1.1",
     "preact": "^10.19.3",
+    "preact-render-to-string": "^6.3.1",
     "typescript": "^5.3.3",
     "unified": "^11.0.4"
   },
