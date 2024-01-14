@@ -2,11 +2,8 @@
 import { getCollection } from 'astro:content';
 import dayjs from 'dayjs';
 import utc from 'dayjs/plugin/utc';
-import { Fragment, type ComponentType, h } from 'preact';
+import { Fragment, type ComponentType } from 'preact';
 import type { AstroComponentFactory } from 'astro/runtime/server/index.js';
-import renderToString from 'preact-render-to-string';
-import { importFromString } from 'import-from-string';
-import { dirname } from 'node:path';
 
 import { createMarkdownProcessor } from '@astrojs/markdown-remark';
 import { VFile } from '../../../node_modules/unified/node_modules/vfile';
@@ -78,9 +75,7 @@ const renderedPosts = await Promise.all(
         if (isMdx) {
           const resp = await parseMdx(teaser!, post.id);
           console.log('resp mdx', resp);
-          const { value: raw } = resp;
-          const C = await importFromString(raw.toString(), { filename: post.id, dirname: dirname(post.id) });
-          value = renderToString(h(C, null));
+          ({ value } = resp);
         } else {
           const resp = await parseMd(teaser!, post.id);
           console.log('resp md', resp);
