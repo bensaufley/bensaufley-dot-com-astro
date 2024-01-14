@@ -47,7 +47,8 @@ body {
 
   }
 
-  > footer {
+  > footer,
+  > astro-island > footer {
     font-size: 0.875rem;
     grid-area: footer;
     margin: 0 auto;

@@ -3,7 +3,8 @@ import clsx from 'clsx';
 
 import '../styles/global.css';
 
-import Header from '../components/Header/index';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 import cssVariables from '../shared/variables.module.css';
 
 type ConditionalProps =
@@ -59,9 +60,7 @@ if (Astro.props.frontmatter) {
     <main>
       <slot />
     </main>
-    <footer class="pageFooter">
-      <p>©{new Date().getFullYear()} <a href="/contact">Ben Saufley</a></p>
-    </footer>
+    <Footer client:load />
     <script>
       import throttle from '../lib/throttle';
 

@@ -16,6 +16,25 @@
   --secondaryAccentColor: $orange;
 
   @media (prefers-color-scheme: dark) {
+    body:not(.light) {
+      --navBg: $black;
+      --navColor: $white;
+
+      --mainBg: $dark;
+      --mainColor: $light;
+
+      --mainLinkColor: $xanthous;
+      --mainLinkHoverColor: $black;
+
+      --accentColor: $xanthous;
+      --secondaryAccentColor: $fireEngineRed;
+
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+    }
+  }
+
+  body.dark {
     --navBg: $black;
     --navColor: $white;
 
