@@ -24,7 +24,13 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
-  img {
+  .headerImage {
+    margin: 1rem auto;
+    max-height: 18rem;
+    max-width: 100%;
+  }
+
+  img:not(.headerImage) {
     border: 2px solid var(--secondaryAccentColor);
     cursor: pointer;
     display: block;

@@ -10,13 +10,20 @@ interface Props {
   titleElement?: keyof JSX.IntrinsicElements;
   posted: Date | Dayjs | number | string;
   href?: string;
+  headerImage?:
+    | {
+        url: string;
+        alt: string;
+      }
+    | undefined;
 }
 
-const Post = ({ title, titleElement: Title = 'h1', posted, href, children }: RenderableProps<Props>) => (
+const Post = ({ title, titleElement: Title = 'h1', posted, href, headerImage, children }: RenderableProps<Props>) => (
   <section class={styles.blogPost}>
     <header>
       <Title>{href ? <a href={href}>{title}</a> : title}</Title>
       <Timestamp value={posted} />
+      {headerImage && <img src={headerImage.url} alt={headerImage.alt} class={styles.headerImage} />}
     </header>
     <main>{children}</main>
   </section>

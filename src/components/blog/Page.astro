@@ -35,11 +35,10 @@ const renderedPosts = await Promise.all(
     .toSorted(({ data: { date: a } }, { data: { date: b } }) => dayjs(b).diff(a))
     .slice(page * PER_PAGE, (page + 1) * PER_PAGE)
     .map(async (post) => {
-      const isMdx = post.id.endsWith('.mdx');
       let Content: AstroComponentFactory | ComponentType = () => null;
       let html: string | null = null;
-      if (isMdx) {
-        if (post.data.preview) html = post.data.preview;
+      if (post.data.preview) {
+        html = post.data.preview;
       } else if (post.body.includes('<!--more-->')) {
         const [teaser] = post.body.split(/(<!--more-->|\{\/\* ?more ?\*\/\})/);
         const resp = await parseMd(teaser!, post.id);
@@ -65,10 +64,16 @@ const pages = Array.from({ length: Math.ceil(posts.length / PER_PAGE) - 2 }, (_,
 
 <BaseLayout class={className} title={page === 0 ? 'Home' : 'Blog'}>
   {
-    renderedPosts.map(({ data: { title, date }, html, Content, slug }, i) => (
+    renderedPosts.map(({ data: { title, date, headerImage, headerImageAlt }, html, Content, slug }, i) => (
       <Fragment key={slug}>
         {i !== 0 && <hr />}
-        <Post title={title} titleElement="h2" posted={date} href={`/blog/${slug}`}>
+        <Post
+          title={title}
+          titleElement="h2"
+          posted={date}
+          href={`/blog/${slug}`}
+          headerImage={headerImage ? { url: headerImage.src, alt: headerImageAlt! } : undefined}
+        >
           {html ? (
             <>
               <Fragment set:html={html} />
