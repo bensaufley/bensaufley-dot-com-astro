@@ -1,7 +1,7 @@
+import clsx from 'clsx';
 import dayjs, { type Dayjs, type OpUnitType } from 'dayjs';
 
 import styles from './styles.module.css';
-import clsx from 'clsx';
 
 type Props = {
   format?: string;

@@ -3,7 +3,7 @@ title: Parental Leave
 date: 2023-11-04
 ---
 
-_I posted this [on LinkedIn](https://www.linkedin.com/posts/bensaufley_birth-parentalleave-activity-7126370597068009472-hZfk?utm_source=share&utm_medium=member_desktop) in December and am posting it here, backdated, as I'm updating my website, because I think it's important._
+_I posted this [on LinkedIn](https://www.linkedin.com/posts/bensaufley_birth-parentalleave-activity-7126370597068009472-hZfk?utm_source=share&utm_medium=member_desktop) in November and am posting it here, backdated, as I'm updating my website, because I think it's important._
 
 In August, my wife gave birth to our first child. She's the best. We're so happy. It's been a long journey. This isn't a post about the years it took to get there, but the weeks since.
 

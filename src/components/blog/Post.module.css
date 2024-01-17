@@ -33,7 +33,6 @@
     float: none;
     margin: 10px auto;
 
-
     &:hover {
       border-color: var(--accentColor);
     }

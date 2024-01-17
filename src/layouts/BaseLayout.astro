@@ -1,10 +1,11 @@
 ---
-import clsx from 'clsx';
-
 import '../styles/global.css';
 
-import Header from '../components/Header';
+import clsx from 'clsx';
+
 import Footer from '../components/Footer';
+import Header from '../components/Header';
+
 import cssVariables from '../shared/variables.module.css';
 
 type ConditionalProps =
@@ -66,9 +67,7 @@ if (Astro.props.frontmatter) {
 
       const scrollListener = throttle(
         () => {
-          console.log('scroll');
           Array.from(document.querySelectorAll('.sticky')).forEach((el) => {
-            console.log(el.getBoundingClientRect().top);
             if (Math.floor(el.getBoundingClientRect().top) <= 0) {
               el.classList.add('stuck');
             } else {

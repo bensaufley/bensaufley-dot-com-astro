@@ -24,8 +24,8 @@ Part of a small team of experienced full-stack product engineers in a cross-disc
 
 Previously:
 
-- **Director, Front-End Engineering** _Aug 2017 – Jan 2019_  
-- **Technical Lead** _Jan 2015 – Aug 2017_  
+- **Director, Front-End Engineering** _Aug 2017 – Jan 2019_
+- **Technical Lead** _Jan 2015 – Aug 2017_
 - **Web Designer & Front-End Developer** _2013 – Jan 2015_
 
 Software engineer, beginning as a designer/developer and growing into a full-stack subject matter expert for a large portion of the company’s consumer-facing code and infrastructure. Provided technical leadership, code review and standards, career growth support, and architectural leadership. Lead the development of two microservices that replaced the front end of the Rails monolith, significantly improving performance, using Go and isomorphic React with TypeScript; and helped to lay the foundations and launch Kotlin-based third-party APIs with embeddable React widgets.

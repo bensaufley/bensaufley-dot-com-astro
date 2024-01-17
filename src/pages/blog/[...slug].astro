@@ -1,11 +1,11 @@
 ---
 import type { GetStaticPaths } from 'astro';
-import { getCollection, getEntryBySlug } from 'astro:content';
+import { getCollection, getEntry } from 'astro:content';
 import dayjs from 'dayjs';
 import utc from 'dayjs/plugin/utc';
 
-import BaseLayout from '../../layouts/BaseLayout.astro';
 import Post from '../../components/blog/Post';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 
 dayjs.extend(utc);
 
@@ -15,7 +15,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 const { slug } = Astro.params;
-const post = (await getEntryBySlug('posts', slug as string))!;
+const post = (await getEntry('posts', slug as string))!;
 const {
   data: { title, date },
 } = post;

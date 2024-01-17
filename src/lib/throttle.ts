@@ -1,4 +1,4 @@
-const throttle = <A extends any[], R extends any>(
+const throttle = <A extends any[], R>(
   cb: (...args: A) => R,
   delay: number,
   finalCall = true,

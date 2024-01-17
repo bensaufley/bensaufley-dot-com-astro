@@ -1,14 +1,14 @@
 ---
+import { createMarkdownProcessor } from '@astrojs/markdown-remark';
+import type { AstroComponentFactory } from 'astro/runtime/server/index.js';
 import { getCollection } from 'astro:content';
 import dayjs from 'dayjs';
 import utc from 'dayjs/plugin/utc';
-import { Fragment, type ComponentType } from 'preact';
-import type { AstroComponentFactory } from 'astro/runtime/server/index.js';
+import { type ComponentType, Fragment } from 'preact';
 
-import { createMarkdownProcessor } from '@astrojs/markdown-remark';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 
 import Post from './Post';
-import BaseLayout from '../../layouts/BaseLayout.astro';
 
 import styles from './Page.module.css';
 
@@ -28,9 +28,7 @@ const more = posts.length >= (page + 1) * PER_PAGE;
 
 const mdParser = await createMarkdownProcessor();
 
-const parseMd = async (source: string, _id: string) => {
-  return mdParser.render(source);
-};
+const parseMd = async (source: string, _id: string) => mdParser.render(source);
 
 const renderedPosts = await Promise.all(
   posts

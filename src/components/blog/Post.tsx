@@ -1,8 +1,9 @@
-import type { JSX, RenderableProps } from 'preact';
 import type { Dayjs } from 'dayjs';
+import type { JSX, RenderableProps } from 'preact';
+
+import Timestamp from '../Timestamp';
 
 import styles from './Post.module.css';
-import Timestamp from '../Timestamp';
 
 interface Props {
   title: string;
