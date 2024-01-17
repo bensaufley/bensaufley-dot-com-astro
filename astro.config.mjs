@@ -11,6 +11,9 @@ export default defineConfig({
   integrations: [preact(), mdx(), sitemap()],
   vite: {
     plugins: [
+      // TS doesn't like Plugin<any> in PluginOptions but it works and
+      // this isn't even TypeScript where I could maybe coerce better.
+      // @ts-ignore
       svgr({
         svgrOptions: {
           jsxRuntime: 'classic-preact',
