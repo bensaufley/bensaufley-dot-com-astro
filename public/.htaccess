@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteRule ^confused/??(.*)$ http://confused.bensaufley.com/$1?ref=old&%{QUERY_STRING} [R=301,L,NC]
+
+Options -Indexes
+
+# ErrorDocument 404 /404/index.html
