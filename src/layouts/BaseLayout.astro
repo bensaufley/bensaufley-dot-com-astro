@@ -3,8 +3,8 @@ import '../styles/global.css';
 
 import clsx from 'clsx';
 
-import Footer from '../components/Footer';
-import Header from '../components/Header';
+import Footer from '../components/Footer/index.astro';
+import Header from '../components/Header/index.astro';
 
 import cssVariables from '../shared/variables.module.css';
 
@@ -61,7 +61,7 @@ if (Astro.props.frontmatter) {
     <main>
       <slot />
     </main>
-    <Footer client:load />
+    <Footer />
     <script>
       import throttle from '../lib/throttle';
 

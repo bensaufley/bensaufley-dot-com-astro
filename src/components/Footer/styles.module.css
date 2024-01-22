@@ -7,30 +7,3 @@
     grid-area: copyright;
   }
 }
-
-.themeToggle {
-  display: flex;
-  flex-flow: row nowrap;
-  grid-area: theme;
-  margin-left: auto;
-  justify-self: flex-end;
-
-  button {
-    appearance: none;
-    background: transparent;
-    border: 0;
-    color: var(--mainColor);
-    cursor: pointer;
-    transition: scale 300ms;
-
-    body.light &.light,
-    body.dark &.dark,
-    body:not(.light):not(.dark) &.system {
-      scale: 1.2;
-    }
-
-    &:hover {
-      scale: 1.5;
-    }
-  }
-}

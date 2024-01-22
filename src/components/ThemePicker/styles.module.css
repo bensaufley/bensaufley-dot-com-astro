@@ -1,0 +1,50 @@
+@import url('../../shared/variables.css');
+@import url('../../shared/mixins.css');
+
+.themeToggle {
+  flex-flow: row nowrap;
+  grid-area: theme;
+  margin-left: auto;
+  justify-self: flex-end;
+
+  button {
+    appearance: none;
+    background: transparent;
+    border: 0;
+    color: var(--mainColor);
+    cursor: pointer;
+    transition: scale 300ms;
+
+    body.light &.light,
+    body.dark &.dark,
+    body:not(.light):not(.dark) &.system {
+      scale: 1.2;
+    }
+
+    &:hover {
+      scale: 1.5;
+    }
+  }
+
+  &.footer {
+    display: flex;
+
+    @mixin desktop {
+      display: none;
+    }
+  }
+
+  &.header {
+    display: none;
+
+    @mixin desktop {
+      display: flex;
+    }
+  }
+
+  nav & {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+    padding: 0 1rem;
+  }
+}

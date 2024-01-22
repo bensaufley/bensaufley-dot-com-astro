@@ -3,19 +3,21 @@ title: Résumé
 layout: '../layouts/BaseLayout.astro'
 ---
 
-# Résumé <small>([pdf](/resumes/2022-09-resume-ben-saufley.pdf))</small>
+# Résumé <small>([pdf](/resumes/2024-01-resume-ben-saufley.pdf))</small>
 
 ## Experience
 
-**[Momentum Commerce](https://momentumcommerce.com)** _Sep 2021 - Present_  
+**[Momentum Commerce](https://www.momentumcommerce.com)** _2022 - Present_  
 **Director, Frontend Engineering** _Remote_
+
+Principal engineer and manager of frontend team for internal and consumer-facing applications for analysis of online retail and marketing data. Consult on broader tech team architectural and DX efforts. Building in TypeScript Preact backed by PHP with Laravel and Python with FastAPI.
 
 <p style="text-align: center;">~</p>
 
-**[Triplebyte](https://triplebyte.com)** _2021 – Aug 2022_  
+**Triplebyte** _2021 – 2022_  
 **Senior Software Engineer** _Remote_
 
-Part of a small team of experienced full-stack product engineers in a cross-disciplinary squad that worked to conceive, build, ship, analyze, and refine new features for the developing Screen product in Ruby on Rails and React with TypeScript.
+Small team of product engineers working in React, TypeScript, and Ruby on Rails.
 
 <p style="text-align: center;">~</p>
 
@@ -28,14 +30,14 @@ Previously:
 - **Technical Lead** _Jan 2015 – Aug 2017_
 - **Web Designer & Front-End Developer** _2013 – Jan 2015_
 
-Software engineer, beginning as a designer/developer and growing into a full-stack subject matter expert for a large portion of the company’s consumer-facing code and infrastructure. Provided technical leadership, code review and standards, career growth support, and architectural leadership. Lead the development of two microservices that replaced the front end of the Rails monolith, significantly improving performance, using Go and isomorphic React with TypeScript; and helped to lay the foundations and launch Kotlin-based third-party APIs with embeddable React widgets.
+Quickly developed into a full-stack subject matter expert for a large portion of the company’s consumer-facing code and infrastructure. Technical/architectural leadership, code review and standards, and career growth support. Led the development of microservices that replaced the front end of a legacy Rails monolith, significantly improving technical and business metrics, with Go and isomorphic React in TypeScript. Helped to lay the foundations and launch Kotlin-based third-party APIs with embeddable React widgets.
 
 <p style="text-align: center;">~</p>
 
 **Millennium Partners Sports Club Management, LLC** _2009 – 2013_  
 **Online Marketing Designer & Developer** _Boston, MA_
 
-Sole in-house developer and digital designer, working in collaboration with print designer. Designed, developed, and sent thousands of emails per week to club members, employees, and prospects, in addition to developing, maintaining and improving web pages and web applications. Created and maintained database-backed web applications for a number of purposes including member communications and class scheduling.
+Sole in-house developer and digital designer. Independently designed, developed, and sent thousands of emails weekly to club members, employees, and prospects. Managed web pages and applications, creating and maintaining database-backed solutions for member communications and class scheduling.
 
 ---
 

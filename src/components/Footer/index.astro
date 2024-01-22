@@ -1,0 +1,13 @@
+---
+import ThemePicker from '../ThemePicker';
+
+import styles from './styles.module.css';
+---
+
+<footer class={styles.pageFooter}>
+  <p>
+    ©{new Date().getFullYear()}{' '}
+    <a href="/contact">Ben Saufley</a>
+  </p>
+  <ThemePicker context="footer" client:only="preact" />
+</footer>

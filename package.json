@@ -15,6 +15,7 @@
     "@astrojs/mdx": "^1.1.5",
     "@astrojs/preact": "^3.0.1",
     "@astrojs/sitemap": "^3.0.3",
+    "@preact/signals": "^1.2.2",
     "astro": "^3.6.4",
     "bootstrap-icons": "^1.11.3",
     "browserslist": "^4.22.2",
