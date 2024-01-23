@@ -4,7 +4,13 @@
 module.exports = {
   extends: ['@bensaufley', 'plugin:astro/recommended'],
   rules: {
+    'implicit-arrow-linebreak': 'off',
     'import/no-unresolved': ['error', { ignore: ['astro:content'] }],
+  },
+  globals: {
+    dataLayer: 'writable',
+    gtag: 'writable',
+    partytown: 'writable',
   },
   overrides: [
     {

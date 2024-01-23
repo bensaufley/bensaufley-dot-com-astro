@@ -50,9 +50,9 @@ if (Astro.props.frontmatter) {
         <script type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=UA-7186972-1"></script>
         <script type="text/partytown">
           window.dataLayer ||= [];
-          function gtag() {
-            dataLayer.push(arguments);
-          }
+          window.gtag = (...args) => {
+            dataLayer.push(args);
+          };
           gtag('js', new Date());
 
           gtag('config', 'UA-7186972-1');

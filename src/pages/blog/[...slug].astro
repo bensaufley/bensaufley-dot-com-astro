@@ -19,7 +19,6 @@ const post = (await getEntry('posts', slug as string))!;
 const {
   data: { title, date, headerImage, headerImageAlt },
 } = post;
-console.log('headerImage', headerImage);
 const img = headerImage ? { url: headerImage.src, alt: headerImageAlt! } : undefined;
 const published = dayjs.utc(date).startOf('day');
 

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 // @ts-check
 
 const simpleVars = require('postcss-simple-vars');
