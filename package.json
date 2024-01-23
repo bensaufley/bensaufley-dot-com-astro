@@ -50,6 +50,6 @@
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "postcss-load-config": "^5.0.2",
     "prettier": "^3.2.2",
-    "prettier-plugin-astro": "^0.12.2"
+    "prettier-plugin-astro": "^0.13.0"
   }
 }
