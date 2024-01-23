@@ -9,6 +9,7 @@ import svgr from 'vite-plugin-svgr';
 // https://astro.build/config
 export default defineConfig({
   integrations: [preact(), mdx(), sitemap(), partytown()],
+  site: 'https://bensaufley.com',
   vite: {
     plugins: [
       // TS doesn't like Plugin<any> in PluginOptions but it works and
