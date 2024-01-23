@@ -44,6 +44,27 @@ if (Astro.props.frontmatter) {
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
+
+    {import.meta.env.PROD && (
+      <>
+        <script type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=UA-7186972-1"></script>
+        <script type="text/partytown">
+          window.dataLayer ||= [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag('js', new Date());
+
+          gtag('config', 'UA-7186972-1');
+        </script>
+        <script>
+          partytown = {
+            forward: ['dataLayer.push'],
+          };
+        </script>
+      </>
+    )}
+
     <meta name="generator" content={Astro.generator} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
