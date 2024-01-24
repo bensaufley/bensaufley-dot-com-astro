@@ -11,7 +11,7 @@ With this in mind, I set out to rebuild the Revs’ logo. I decided that unlike 
 
 <!--more-->
 
-![The first attempt](../../../../assets/images/2012/02/crest-1.jpg)
+![The first attempt](../../assets/images/2012-revs-rebrand/crest-1.jpg)
 
 I started with a banner, a battle standard. This would allow me to keep some of the coat-of-arms aesthetic and familiar shield shape of other logos in the league, while staying true to the identity of the New England Revolution. I did some research, and came up with a rough, semi-ornate standard, drawing visually from the American flag (in part a nod to the current logo) and from actual standards from the Revolutionary War.
 
@@ -26,13 +26,13 @@ I didn't round it out, because I knew I wasn't going to use it as the final vers
 
 The most glaring omission was the team's name. I decided to save what I'd done and head in a different direction – something a bit more sleek and “modern,” more MLS-friendly.
 
-![The shield emerges](../../../../assets/images/2012/02/crest-2.jpg)
+![The shield emerges](../../assets/images/2012-revs-rebrand/crest-2.jpg)
 
 I rounded the bottom corners of the flag, and decided to lose the stars and the flourishes on the crossbeam from which the flag was to hang. The blue behind the Lexington Minuteman seemed a bit empty, and I considered how much modern sports love subtle textures, so I added a thin honeycomb over the blue to imply/echo the stitch of the soccer ball.
 
 I also added the team name. I'm not incredibly happy with the typeface – Bank Gothic – but I ended up sticking with it for two reasons: it seemed to fit the design, and more than that, it seemed like a typeface that MLS, and the Revolution, might actually use. Look at the font MLS has chosen to use on all jerseys for names and numbers – it aspires to be modern and edgy, without entirely being either. It seems to be based on a kind of dated idea of the modern aesthetic. I think this typeface has some of these same traits, unfortunately, but my hope is that it leans that way just enough and then gets out of the way without distracting from the rest of the design.
 
-![Adding depth](../../../../assets/images/2012/02/crest-3.jpg)
+![Adding depth](../../assets/images/2012-revs-rebrand/crest-3.jpg)
 
 From here, the next thing I tried to do was bring some depth to the image. From the start, I'd envisioned at least part of the name being on a banner, à la [Toronto FC](http://www.sportslogos.net/logo.php?id=0gfaomjubvw58whdep6w). In creating this effect though, I stumbled upon something I liked much more. This ring that I had created added interest and depth to the image that had definitely been missing before. I also kind of liked how it implied another form of the word “revolution” - that is, it encircled the rest of the logo.
 
@@ -43,7 +43,7 @@ Yes, a fox. I know, and I'll be the first person to criticize Slyde the Fox (the
 1. On a basic aesthetic level, I liked the idea of an animal that could represent the area being used on the standard. A lot of crests and standards make use of various symbolic animals. I considered the dissected snake from Benjamin Franklin’s famous “JOIN, OR DIE” [cartoon](http://en.wikipedia.org/wiki/Join,_or_Die), but that referred to colonies all down the coast – plus there's the whole “Sons of Ben” thing in Philadelphia.
 2. The Revolution has 16+ years of history, and that includes Slyde the Fox. Silly as he may be, I want to embrace that history, not run from it. And what better way than to really bring the fox into the team's identity?
 
-![The final outcome](../../../../assets/images/2012/02/crest-4.jpg)
+![The final outcome](../../assets/images/2012-revs-rebrand/crest-4.jpg)
 
 And that was how I arrived here.
 
@@ -53,7 +53,7 @@ The final composition uses just four colors (besides white): red, silver, blue, 
 
 Of course, floating the logo in white space doesn't present it in its ideal form. I made one last pass at it to give it some depth and substance with subtle gradients and other small, optional effects, and placed it on a background that helped it stand out. Here’s the final result – what I would do with the New England Revolution’s logo if it were up to me:
 
-![The final logo, stylized](../../../../assets/images/2012/02/crest-4-gradient.jpg)
+![The final logo, stylized](../../assets/images/2012-revs-rebrand/crest-4-gradient.jpg)
 
 [^1]: The team has a hard time fighting its reputation as the Pats’ shunned step-brother, and the Krafts have recently done little to prove otherwise.
 [^2]: I went back and forth on whether to include this, and decided it should be there, partially as a nod to the current logo and partially to distinguish the logo out of context. The Revs aren't the only team in the league that feature a soccer ball in their logo.

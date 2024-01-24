@@ -7,6 +7,7 @@ import utc from 'dayjs/plugin/utc';
 import { type ComponentType, Fragment } from 'preact';
 
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { slug as getSlug } from '../../lib/posts';
 
 import Post from './Post';
 
@@ -35,6 +36,7 @@ const renderedPosts = await Promise.all(
     .toSorted(({ data: { date: a } }, { data: { date: b } }) => dayjs(b).diff(a))
     .slice(page * PER_PAGE, (page + 1) * PER_PAGE)
     .map(async (post) => {
+      const slug = getSlug(post);
       let Content: AstroComponentFactory | ComponentType = () => null;
       let html: string | null = null;
       if (post.data.preview) {
@@ -46,7 +48,7 @@ const renderedPosts = await Promise.all(
         // Manually replace footnote links with links to anchors in the blog post itself
         html = value
           .toString()
-          .replace(/\[\^(\d+)\]/g, (_, n) => `<sup><a href="/blog/${post.slug}#user-content-fn-${n}">${n}</a></sup>`);
+          .replace(/\[\^(\d+)\]/g, (_, n) => `<sup><a href="/blog/${slug}#user-content-fn-${n}">${n}</a></sup>`);
       } else {
         ({ Content } = await post.render());
       }
@@ -55,6 +57,7 @@ const renderedPosts = await Promise.all(
         ...post,
         Content,
         html,
+        slug,
       };
     }),
 );

@@ -1,7 +1,7 @@
 ---
 title: Parental Leave
 date: 2023-11-04
-headerImage: ./git-contributions.png
+headerImage: ../../assets/images/parental-leave-git-contributions.png
 headerImageAlt: graph of git contributions with gap for parental leave
 ---
 

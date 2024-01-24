@@ -1,7 +1,10 @@
 import clsx from 'clsx';
 import dayjs, { type Dayjs, type OpUnitType } from 'dayjs';
+import utcPlugin from 'dayjs/plugin/utc';
 
 import styles from './styles.module.css';
+
+dayjs.extend(utcPlugin);
 
 type Props = {
   format?: string;

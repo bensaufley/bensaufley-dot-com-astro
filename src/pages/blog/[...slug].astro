@@ -1,21 +1,32 @@
 ---
 import type { GetStaticPaths } from 'astro';
-import { getCollection, getEntry } from 'astro:content';
+import { getCollection } from 'astro:content';
 import dayjs from 'dayjs';
 import utc from 'dayjs/plugin/utc';
 
 import Post from '../../components/blog/Post';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { slug as getSlug } from '../../lib/posts';
 
 dayjs.extend(utc);
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const posts = await getCollection('posts');
-  return posts.map((post) => ({ data: post.data, params: { slug: post.slug } }));
+  return posts.map((post) => {
+    const slug = getSlug(post);
+
+    return {
+      post,
+      params: { slug },
+    };
+  });
 };
 
 const { slug } = Astro.params;
-const post = (await getEntry('posts', slug as string))!;
+
+const post = (await getCollection('posts', (p) => slug === getSlug(p)))[0];
+if (!post) throw new Error(`Post not found: ${slug}`);
+
 const {
   data: { title, date, headerImage, headerImageAlt },
 } = post;
