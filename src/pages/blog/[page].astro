@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 
-import Page, { PER_PAGE } from '../../components/blog/Page.astro';
+import PageComponent, { PER_PAGE } from '../../components/blog/Page.astro';
 
 export const getStaticPaths = async () => {
   const posts = await getCollection('posts');
@@ -19,4 +19,4 @@ export interface Props {
 const { class: className, page = 0 } = Astro.props;
 ---
 
-<Page class={className} page={page} />
+<PageComponent class={className} page={page} />

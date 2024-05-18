@@ -9,9 +9,10 @@
     "preview": "astro preview",
     "astro": "astro",
     "format:es": "bslint --format",
+    "lint:astro": "astro check",
     "lint:es": "bslint",
     "typecheck": "tsc --noEmit",
-    "check": "npm-run-all --parallel --continue-on-error typecheck lint:es"
+    "check": "npm-run-all --parallel --continue-on-error typecheck lint:astro lint:es"
   },
   "dependencies": {
     "@astrojs/check": "^0.6.0",

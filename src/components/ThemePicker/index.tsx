@@ -26,13 +26,31 @@ const updateTheme = (newTheme: 'light' | 'dark' | null) => {
 
 const ThemePicker = ({ context }: Props) => (
   <div class={clsx(styles.themeToggle, styles[context])}>
-    <button onClick={() => updateTheme('light')} class={styles.light} title="Use Light Theme">
+    <button
+      onClick={() => updateTheme('light')}
+      class={styles.light}
+      title="Use Light Theme"
+      aria-label="Use Light Theme"
+      type="button"
+    >
       <Circle />
     </button>
-    <button onClick={() => updateTheme(null)} class={styles.system} title="Use System Theme">
+    <button
+      onClick={() => updateTheme(null)}
+      class={styles.system}
+      title="Use System Theme"
+      aria-label="Use System Theme"
+      type="button"
+    >
       <CircleHalf />
     </button>
-    <button onClick={() => updateTheme('dark')} class={styles.dark} title="Use Dark Theme">
+    <button
+      onClick={() => updateTheme('dark')}
+      class={styles.dark}
+      title="Use Dark Theme"
+      aria-label="Use Dark Theme"
+      type="button"
+    >
       <CircleFill />
     </button>
   </div>

@@ -14,7 +14,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['.tsx', '.jsx'],
+      files: ['*.tsx', '*.jsx'],
       extends: [require.resolve('@bensaufley/eslint-config/preact.cjs')],
     },
     {
