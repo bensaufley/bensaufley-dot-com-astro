@@ -20,7 +20,7 @@
     "@astrojs/mdx": "^1.1.5",
     "@astrojs/partytown": "^2.0.4",
     "@astrojs/preact": "^3.2.0",
-    "@astrojs/sitemap": "^3.1.2",
+    "@astrojs/sitemap": "^3.1.4",
     "@preact/signals": "^1.2.3",
     "astro": "^3.6.4",
     "bootstrap-icons": "^1.11.3",
