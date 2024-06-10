@@ -32,7 +32,7 @@
     "postcss-simple-vars": "^7.0.1",
     "preact": "^10.19.3",
     "shikiji": "^0.10.2",
-    "typescript": "^5.3.3",
+    "typescript": "^5.4.5",
     "unified": "^11.0.4",
     "vite-plugin-svgr": "^4.2.0"
   },
