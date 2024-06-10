@@ -30,7 +30,7 @@
     "postcss-mixins": "^10.0.1",
     "postcss-preset-env": "^9.3.0",
     "postcss-simple-vars": "^7.0.1",
-    "preact": "^10.19.3",
+    "preact": "^10.22.0",
     "shikiji": "^0.10.2",
     "typescript": "^5.3.3",
     "unified": "^11.0.4",
