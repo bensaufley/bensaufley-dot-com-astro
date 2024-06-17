@@ -25,7 +25,7 @@
     "astro": "^3.6.4",
     "bootstrap-icons": "^1.11.3",
     "browserslist": "^4.23.1",
-    "clsx": "^2.1.0",
+    "clsx": "^2.1.1",
     "dayjs": "^1.11.11",
     "postcss-mixins": "^10.0.1",
     "postcss-preset-env": "^9.3.0",
