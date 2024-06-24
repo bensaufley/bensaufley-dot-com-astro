@@ -33,7 +33,7 @@
     "preact": "^10.22.0",
     "shikiji": "^0.10.2",
     "typescript": "^5.4.5",
-    "unified": "^11.0.4",
+    "unified": "^11.0.5",
     "vite-plugin-svgr": "^4.2.0"
   },
   "devDependencies": {
