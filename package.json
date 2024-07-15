@@ -22,7 +22,7 @@
     "@astrojs/preact": "^3.4.0",
     "@astrojs/sitemap": "^3.1.6",
     "@preact/signals": "^1.2.3",
-    "astro": "^3.6.4",
+    "astro": "^3.6.5",
     "bootstrap-icons": "^1.11.3",
     "browserslist": "^4.23.1",
     "clsx": "^2.1.1",
