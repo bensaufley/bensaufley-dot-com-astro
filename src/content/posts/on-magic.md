@@ -38,11 +38,17 @@ I think magic is great for bootstrapping and prototyping, but can quickly become
 In an industry where the average tenure is supposedly two years, placing so much reliance on company veterans and choosing long ramp-up times for new hires is going to be a sacrifice that I think most companies will _eventually_ have to address, and I can say from experience that that's going to be a large undertaking. Choosing against magic from the start is an investment in the future of an application, and the company.
 
 [^1]: Another example that I have limited experience with is Spring in the Java/Kotlin ecosystem, which is _more_ explicit than Rails because of the nature of Java, but still does a number of things at least semi-magically.
+
 [^2]: À la [`gqlgen`], where files are programmatically created that you would check in like any other code
+
 [^3]: And I've found that in most cases, if things don't appear that way at first, it's not a problem with Rails, it's a problem with how I'm thinking about my data.
+
 [^4]: OK, the metaphor starts to fall apart here: there are pianos with light-up keys that could help point you in the right direction, but give me some leeway here.
+
 [^5]: The tl;dr is "it doesn't know anything you don't tell it, but sometimes you've told it in a way that you don't realize"
+
 [^6]: I think there's a secondary problem that is not the fault of magic, which is that because Rails is so good for bootstrapping, you can easily end up with a large production application that is somewhat haphazardly built, with new features slapped on quickly, taking the bootstrapping far beyond the first days of the application. Obviously, "a good engineering team does it right from the start," but company pressures to launch and scale tend to take that out of the hands of even the best engineers.
+
 [^7]: I'm a big fan of [Go](https://go.dev), which, with its lack of even a lot of simple iterator methods like `map`, is essentially the polar opposite of something like Ruby
 
 [rails guides]: https://guides.rubyonrails.org/

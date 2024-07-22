@@ -56,4 +56,5 @@ Of course, floating the logo in white space doesn't present it in its ideal form
 ![The final logo, stylized](../../assets/images/2012-revs-rebrand/crest-4-gradient.jpg)
 
 [^1]: The team has a hard time fighting its reputation as the Pats’ shunned step-brother, and the Krafts have recently done little to prove otherwise.
+
 [^2]: I went back and forth on whether to include this, and decided it should be there, partially as a nod to the current logo and partially to distinguish the logo out of context. The Revs aren't the only team in the league that feature a soccer ball in their logo.
