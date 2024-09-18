@@ -28,7 +28,7 @@
     "clsx": "^2.1.1",
     "dayjs": "^1.11.11",
     "postcss-mixins": "^10.0.1",
-    "postcss-preset-env": "^9.6.0",
+    "postcss-preset-env": "^10.0.3",
     "postcss-simple-vars": "^7.0.1",
     "preact": "^10.23.2",
     "shikiji": "^0.10.2",
