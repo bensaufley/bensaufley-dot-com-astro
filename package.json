@@ -27,7 +27,7 @@
     "browserslist": "^4.23.3",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.13",
-    "postcss-mixins": "^10.0.1",
+    "postcss-mixins": "^11.0.1",
     "postcss-preset-env": "^10.0.3",
     "postcss-simple-vars": "^7.0.1",
     "preact": "^10.23.2",
