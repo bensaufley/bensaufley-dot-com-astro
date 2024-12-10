@@ -24,7 +24,7 @@
     "@preact/signals": "^1.3.0",
     "astro": "^4.16.1",
     "bootstrap-icons": "^1.11.3",
-    "browserslist": "^4.23.3",
+    "browserslist": "^4.24.2",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.13",
     "postcss-mixins": "^11.0.1",
