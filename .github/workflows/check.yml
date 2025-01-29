@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Get Node Version
         id: node-version
-        run: echo "node-version=$(echo .node-version)" >> $GITHUB_OUTPUT
+        run: echo "node-version=$(cat .node-version)" >> $GITHUB_OUTPUT
       - name: Set Up Node
         uses: actions/setup-node@v4
         with:
