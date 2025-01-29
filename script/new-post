@@ -19,8 +19,8 @@ if [ "$1" = "-h" ]; then help; exit 0; fi
 title="$1"
 date="${2:-$(date +%Y-%m-%d)}"
 
-filename="src/content/posts/$date/$(echo "$title" | sed 's/[^[:alnum:]]/-/g' | tr -s '-' | tr A-Z a-z)"
+filename="src/content/posts/$date--$(echo "$title" | sed 's/[^[:alnum:]]/-/g' | tr -s '-' | tr A-Z a-z)"
 
-printf "---\ntitle: %s\ndate: %s\n---\n\n" "$title" "$date" > "$filename.md"
+printf -- "---\ntitle: %s\ndate: %s\n---\n\n" "$title" "$date" > "$filename.md"
 
 echo "Created new post at $filename"
