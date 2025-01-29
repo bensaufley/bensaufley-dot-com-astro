@@ -25,5 +25,7 @@ jobs:
           node-version: ${{ steps.node-version.outputs.node-version }}
       - name: Install Dependencies
         run: npm ci
+      - name: Sync Astro
+        run: npx astro sync
       - name: Check
         run: npm run check
