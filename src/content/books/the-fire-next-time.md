@@ -1,0 +1,17 @@
+---
+title: The Fire Next Time
+authors:
+- lastName: Baldwin
+  firstName: James
+isbn10: '067974472X'
+isbn13: '9780679744726'
+read: 2017-05-15
+rating: 5
+yearPublished: 1992
+reading: false
+asin:
+subtitle:
+narrators:
+cover:
+---
+I read Ta-Nehisi Coates's [b:Between the World and Me|25489625|Between the World and Me|Ta-Nehisi Coates|https://images.gr-assets.com/books/1451435027s/25489625.jpg|44848425] last year, a book that obviously draws a lot of inspiration from this one (including, I think, its title?). I'd recommend this book to anyone. It's a very short read, and it's very insightful. On top of that, while it's always worth noting that the abused have no obligation to consider the feelings of their abuser, Baldwin's words here are sympathetic and perhaps forgiving. I want to say more but everything I write just sounds dumb. Just read it, it's short.

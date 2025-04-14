@@ -1,0 +1,141 @@
+.hud {
+  display: grid;
+  gap: 1rem;
+
+  @media (width >= 60em) {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+}
+
+@property --ratingAnimation {
+  syntax: '<number>';
+  inherits: true;
+  initial-value: 0;
+}
+
+.read {
+  .books {
+    list-style: none;
+    padding: 0;
+  }
+
+  .book {
+    display: grid;
+    grid-template:
+      'title title title' auto
+      'author finished rating' auto
+      'review review review' auto / 1fr 1fr 1fr;
+    gap: 0 0.5rem;
+    align-items: center;
+    margin-bottom: 1rem;
+    position: relative;
+
+    h3, p {
+      margin: 0;
+    }
+
+    h3 {
+      font-size: 1rem;
+      color: color-mix(in srgb, var(--accentColor), var(--mainColor));
+      grid-area: title;
+    }
+
+    p {
+      font-size: 0.875rem;
+    }
+
+    p.author {
+      grid-area: author;
+      font-style: italic;
+    }
+
+    p.finished {
+      grid-area: finished;
+      justify-self: flex-end;
+    }
+
+    .rating {
+      grid-area: rating;
+    }
+
+    .review {
+      grid-area: review;
+
+      &:not(:empty) {
+        margin-top: 1rem;
+      }
+    }
+  }
+
+  .icons {
+    display: inline-flex;
+    gap: 0.5rem;
+    flex-flow: row wrap;
+    align-items: center;
+    float: right;
+    vertical-align: baseline;
+
+    span {
+      width: 1rem;
+      height: 1rem;
+    }
+
+    svg {
+      height: 1rem;
+      width: 1rem;
+    }
+  }
+
+  .rating {
+    --circleSize: 1rem;
+
+    background-image: linear-gradient(
+      to right,
+      var(--secondaryAccentColor) 20%,
+      color-mix(in srgb, var(--secondaryAccentColor), var(--accentColor) 25%) 20%,
+      color-mix(in srgb, var(--secondaryAccentColor), var(--accentColor) 25%) 40%,
+      color-mix(in srgb, var(--secondaryAccentColor), var(--accentColor) 50%) 40%,
+      color-mix(in srgb, var(--secondaryAccentColor), var(--accentColor) 50%) 60%,
+      color-mix(in srgb, var(--secondaryAccentColor), var(--accentColor) 80%) 60%,
+      color-mix(in srgb, var(--secondaryAccentColor), var(--accentColor) 80%) 80%,
+      var(--accentColor) 80%
+    );
+    mask:
+      radial-gradient(circle at 10% calc(var(--circleSize) * 1.1 / 2), transparent calc(var(--ratingAnimation) * var(--circleSize) * 0.45), #999 calc(var(--ratingAnimation) * var(--circleSize) * 0.45), #999 calc(var(--ratingAnimation) * var(--circleSize) / 2), transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)),
+      radial-gradient(circle at 30% calc(var(--circleSize) * 1.1 / 2), transparent calc(var(--ratingAnimation) * var(--circleSize) * 0.45), #999 calc(var(--ratingAnimation) * var(--circleSize) * 0.45), #999 calc(var(--ratingAnimation) * var(--circleSize) / 2), transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)),
+      radial-gradient(circle at 50% calc(var(--circleSize) * 1.1 / 2), transparent calc(var(--ratingAnimation) * var(--circleSize) * 0.45), #999 calc(var(--ratingAnimation) * var(--circleSize) * 0.45), #999 calc(var(--ratingAnimation) * var(--circleSize) / 2), transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)),
+      radial-gradient(circle at 70% calc(var(--circleSize) * 1.1 / 2), transparent calc(var(--ratingAnimation) * var(--circleSize) * 0.45), #999 calc(var(--ratingAnimation) * var(--circleSize) * 0.45), #999 calc(var(--ratingAnimation) * var(--circleSize) / 2), transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)),
+      radial-gradient(circle at 90% calc(var(--circleSize) * 1.1 / 2), transparent calc(var(--ratingAnimation) * var(--circleSize) * 0.45), #999 calc(var(--ratingAnimation) * var(--circleSize) * 0.45), #999 calc(var(--ratingAnimation) * var(--circleSize) / 2), transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)),
+      linear-gradient(to left, #fff, #fff calc(var(--rating) / 5 * 100% * var(--ratingAnimation)), transparent calc(var(--rating) / 5 * 100% * var(--ratingAnimation))) intersect,
+      radial-gradient(circle at 10% calc(var(--circleSize) * 1.1 / 2), #fff, #fff calc(var(--ratingAnimation) * var(--circleSize) / 2), transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)),
+      radial-gradient(circle at 30% calc(var(--circleSize) * 1.1 / 2), #fff, #fff calc(var(--ratingAnimation) * var(--circleSize) / 2), transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)),
+      radial-gradient(circle at 50% calc(var(--circleSize) * 1.1 / 2), #fff, #fff calc(var(--ratingAnimation) * var(--circleSize) / 2), transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)),
+      radial-gradient(circle at 70% calc(var(--circleSize) * 1.1 / 2), #fff, #fff calc(var(--ratingAnimation) * var(--circleSize) / 2), transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)),
+      radial-gradient(circle at 90% calc(var(--circleSize) * 1.1 / 2), #fff, #fff calc(var(--ratingAnimation) * var(--circleSize) / 2), transparent calc(var(--ratingAnimation) * var(--circleSize) / 2));
+    mask-mode: luminance;
+    height: calc(var(--circleSize) * 1.1);
+    width: calc(var(--circleSize) * 5 + var(--circleSize) * 4 * 0.25);
+    justify-self: flex-end;
+
+    &.visible {
+      @media (prefers-reduced-motion: no-preference) {
+          animation: showRating 500ms 100ms ease-in-out forwards;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        --ratingAnimation: 1;
+      }
+    }
+  }
+}
+
+@keyframes showRating {
+  0% {
+    --ratingAnimation: 0;
+  }
+  75% {
+    --ratingAnimation: 1.1;
+  }
+  100% {
+    --ratingAnimation: 1;
+  }
+}

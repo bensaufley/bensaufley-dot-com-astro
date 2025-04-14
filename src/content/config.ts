@@ -1,4 +1,4 @@
-import { defineCollection, z } from 'astro:content';
+import { type CollectionConfig, defineCollection, z } from 'astro:content';
 
 const posts = defineCollection({
   type: 'content',
@@ -13,5 +13,47 @@ const posts = defineCollection({
     }),
 });
 
+const personSchema = z.object({
+  firstName: z.string().optional(),
+  lastName: z.string(),
+});
+
+const books = defineCollection({
+  type: 'content',
+  schema: ({ image }) => {
+    const bookBaseSchema = z.object({
+      title: z.string(),
+      subtitle: z.string().nullable(),
+      authors: z.array(personSchema),
+      narrators: z.array(personSchema).nullable(),
+      yearPublished: z.number().nullable(),
+      cover: image().nullable(),
+      read: z.coerce.date().nullable(),
+      isbn10: z.string().nullable(),
+      isbn13: z.string().nullable(),
+      asin: z.string().nullable(),
+    });
+
+    return z.union([
+      bookBaseSchema.extend({
+        read: z.coerce.date(),
+        rating: z.number().min(0).max(5).nullable(),
+        reading: z.literal(false),
+      }),
+      bookBaseSchema.extend({
+        read: z.null(),
+        reading: z.boolean(),
+        rating: z.null(),
+      }),
+    ]);
+  },
+});
+
+type InferCollectionSchema<T extends CollectionConfig<any>> = T extends CollectionConfig<infer U> ? z.infer<U> : never;
+
+export type BookFrontmatter = InferCollectionSchema<typeof books>;
+export type PostFrontmatter = InferCollectionSchema<typeof posts>;
+export type Person = z.infer<typeof personSchema>;
+
 // eslint-disable-next-line import/prefer-default-export
-export const collections = { posts };
+export const collections = { books, posts };

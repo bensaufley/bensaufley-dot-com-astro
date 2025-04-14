@@ -1,6 +1,8 @@
 ---
 import clsx from 'clsx';
+import { basename, extname, relative, resolve } from 'node:path';
 
+import type { Frontmatter } from '../../layouts/BaseLayout.astro';
 import ThemePicker from '../ThemePicker';
 
 import styles from './styles.module.css';
@@ -10,6 +12,22 @@ interface Props {
 }
 
 const { currentPath } = Astro.props;
+
+const topLevelFms = Object.entries<Frontmatter>(import.meta.glob('../../pages/{*.astro,*.md,*.mdx,*/index.astro,*/index.md,*/index.mdx}', {
+  eager: true,
+  import: 'frontmatter',
+})).map(([filename, fm]) => {
+  const path = `/${relative(resolve('../../pages'), filename)}`;
+  const ext = extname(path);
+  const isIndex = basename(path, ext) === 'index';
+  return { path: path.slice(0, isIndex ? -(`index${ext}`).length : -ext.length).replace(/\/$/, '/'), ...fm };
+}).toSorted((a, b) => {
+  if (a.order === undefined && b.order === undefined) return a.title.localeCompare(b.title);
+  if (a.order === undefined) return 1;
+  if (b.order === undefined) return -1;
+  return a.order - b.order;
+});
+
 ---
 
 <header class={styles.pageHeader}>
@@ -25,18 +43,13 @@ const { currentPath } = Astro.props;
 <nav class={clsx('sticky', styles.stickyNav)}>
   <a href="/" class={styles.name}> BS</a>
   <ul>
-    <li>
-      <a href="/" class={currentPath === '/' ? styles.active : ''}> Home</a>
-    </li>
-    <li>
-      <a href="/projects" class={currentPath === '/projects' ? styles.active : ''}> Projects</a>
-    </li>
-    <li>
-      <a href="/resume" class={currentPath === '/resume' ? styles.active : ''}> Résumé</a>
-    </li>
-    <li>
-      <a href="/contact" class={currentPath === '/contact' ? styles.active : ''}> Contact</a>
-    </li>
+    {topLevelFms.map((fm) => (
+      <li>
+        <a href={fm.path} class={clsx(new RegExp(`^${fm.path}(\\d*)?$`).test(currentPath) && styles.active)}>
+          {fm.title}
+        </a>
+      </li>
+    ))}
   </ul>
   <ThemePicker context="header" client:only="preact" />
 </nav>

@@ -1,0 +1,25 @@
+---
+import { getCollection } from 'astro:content';
+
+import Read, { PER_PAGE } from '~components/reading/Read.astro';
+import BaseLayout, { type Frontmatter } from '~layouts/BaseLayout.astro';
+
+export const getStaticPaths = async () => {
+  const books = await getCollection('books', (book) => !!book.data.read);
+
+  return Array.from({
+    length: Math.ceil(books.length / PER_PAGE),
+  }).map((_, i) => ({ params: { page: i }, props: { page: i } }));
+};
+
+export interface Props {
+  class?: string | undefined;
+  page?: number;
+}
+
+const { class: className, page = 0 } = Astro.props;
+---
+
+<BaseLayout class={className} frontmatter={{ title: "Reading" } satisfies Frontmatter} url={`/reading/${page}`}>
+  <Read page={page} />
+</BaseLayout>

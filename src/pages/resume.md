@@ -1,27 +1,28 @@
 ---
 title: Résumé
 layout: '../layouts/BaseLayout.astro'
+order: 4
 ---
 
 # Résumé <small>([pdf](/resumes/2024-01-resume-ben-saufley.pdf))</small>
 
 ## Experience
 
-**[Momentum Commerce](https://www.momentumcommerce.com)** _2022 - Present_  
+**[Momentum Commerce](https://www.momentumcommerce.com)** _2022 - Present_
 **Director, Frontend Engineering** _Remote_
 
 Principal engineer and manager of frontend team for internal and consumer-facing applications for analysis of online retail and marketing data. Consult on broader tech team architectural and DX efforts. Building in TypeScript Preact backed by PHP with Laravel and Python with FastAPI.
 
 <p style="text-align: center;">~</p>
 
-**Triplebyte** _2021 – 2022_  
+**Triplebyte** _2021 – 2022_
 **Senior Software Engineer** _Remote_
 
 Small team of product engineers working in React, TypeScript, and Ruby on Rails.
 
 <p style="text-align: center;">~</p>
 
-**[EverQuote, Inc](https://everquote.com)** _2013 – 2021_  
+**[EverQuote, Inc](https://everquote.com)** _2013 – 2021_
 **Principal Engineer** _Cambridge, MA_ &rarr; _Remote (Aug 2019)_
 
 Previously:
@@ -34,7 +35,7 @@ Quickly developed into a full-stack subject matter expert for a large portion of
 
 <p style="text-align: center;">~</p>
 
-**Millennium Partners Sports Club Management, LLC** _2009 – 2013_  
+**Millennium Partners Sports Club Management, LLC** _2009 – 2013_
 **Online Marketing Designer & Developer** _Boston, MA_
 
 Sole in-house developer and digital designer. Independently designed, developed, and sent thousands of emails weekly to club members, employees, and prospects. Managed web pages and applications, creating and maintaining database-backed solutions for member communications and class scheduling.
@@ -43,10 +44,10 @@ Sole in-house developer and digital designer. Independently designed, developed,
 
 ## Education
 
-**Emerson College** _2009_  
+**Emerson College** _2009_
 **MA, Global Marketing Communication & Advertising** _Boston, MA_
 
-**Savannah College of Art & Design** _2007_  
+**Savannah College of Art & Design** _2007_
 **BFA, Animation** _Savannah, GA_
 
 ---

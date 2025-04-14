@@ -3,33 +3,36 @@ import '../styles/global.css';
 
 import clsx from 'clsx';
 
-import Footer from '../components/Footer/index.astro';
-import Header from '../components/Header/index.astro';
+import Footer from '~components/Footer/index.astro';
+import Header from '~components/Header/index.astro';
 
 import cssVariables from '../shared/variables.module.css';
 
+export interface Frontmatter {
+  title: string;
+  order?: number;
+  description?: string;
+};
+
 type ConditionalProps =
   | {
+      url: string;
+      frontmatter: Frontmatter;
+    }
+  | ({
       request?: {
         pathname: string;
       };
       frontmatter?: never;
-    }
-  | {
-      url: string;
-      frontmatter: {
-        title: string;
-      };
-    };
+    } & Frontmatter);
 
 export type Props = ConditionalProps & {
-  title: string;
   class?: string | undefined;
 };
 
 let pathname: string;
 const { class: className } = Astro.props;
-const { title } = Astro.props.frontmatter ?? Astro.props;
+const { title, description } = Astro.props.frontmatter ?? Astro.props;
 if (Astro.props.frontmatter) {
   ({ url: pathname } = Astro.props);
 } else if (Astro.props.request) {
@@ -42,6 +45,7 @@ if (Astro.props.frontmatter) {
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="generator" content={Astro.generator} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
 
@@ -75,6 +79,7 @@ if (Astro.props.frontmatter) {
     <meta name="theme-color" content={cssVariables.light} />
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content={cssVariables.dark} />
     <title>Ben Saufley - {title}</title>
+    <meta name="description" content={description ?? 'Personal website for Ben Saufley, a software engineer and illustrator from Portland, Maine.'} />
   </head>
   <body class={clsx(className)}>
     <Header currentPath={pathname} />

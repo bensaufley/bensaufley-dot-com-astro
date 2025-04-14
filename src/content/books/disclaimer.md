@@ -1,0 +1,17 @@
+---
+title: Disclaimer
+authors:
+- lastName: Knight
+  firstName: Renée
+isbn10: '0857522817'
+isbn13: '9780857522818'
+read: 2016-05-11
+rating: 4
+yearPublished: 2015
+reading: false
+asin:
+subtitle:
+narrators:
+cover:
+---
+Not a lot to say about this book that wouldn't ruin it but I really enjoyed it. It's pulpy and a bit graphic, in sometimes maybe unnecessary ways, but it's really well put-together and unpredictable start-to-finish.

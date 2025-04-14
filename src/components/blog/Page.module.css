@@ -1,6 +1,6 @@
-a:link,
-a:visited {
-  &.readMore {
+a.readMore {
+  &:link,
+  &:visited {
     display: block;
     width: max-content;
   }
