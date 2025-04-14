@@ -1,0 +1,17 @@
+---
+title: The Dragon Republic
+authors:
+- lastName: Kuang
+  firstName: R. F.
+isbn10:
+isbn13: '9780062662613'
+read: 2023-01-21
+rating: 4.5
+yearPublished: 2019
+reading: false
+asin:
+subtitle:
+narrators: []
+cover: "../../assets/images/reading/covers/the-dragon-republic.jpg"
+hardcoverUrl: https://hardcover.app/books/the-dragon-republic/editions/30399338
+---

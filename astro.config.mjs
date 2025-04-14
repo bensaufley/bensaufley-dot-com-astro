@@ -40,7 +40,6 @@ export default defineConfig({
   },
   output: 'static',
   redirects: {
-    '/blog': '/',
     '/blog/': '/',
     '/blog/0': '/',
     '/reading/0': '/reading',
