@@ -19,7 +19,7 @@ coverImageUrl: https://assets.hardcover.app/editions/30503336/2516242451446449.j
 hardcoverUrl:
 ---
 
-**Note:** please see my 2025 [blog post re: Rowling](/blog/2025-02-14/jk-rowling)
+**Note:** please see my 2025 [blog post re: Rowling](/blog/2025/04/jk-rowling)
 
 <details>
 <summary>Original Review</summary>

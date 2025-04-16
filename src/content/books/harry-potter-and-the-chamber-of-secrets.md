@@ -16,4 +16,4 @@ coverImageUrl: https://assets.hardcover.app/editions/25614271/4833571895209920-l
 hardcoverUrl: https://hardcover.app/books/harry-potter-and-the-chamber-of-secrets/editions/25614271
 ---
 
-**Note:** please see my 2025 [Note Re: Rowling](/blog/2025-02-14/jk-rowling)
+**Note:** please see my 2025 [Note Re: Rowling](/blog/2025/04/jk-rowling)

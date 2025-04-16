@@ -19,7 +19,7 @@ coverImageUrl: https://assets.hardcover.app/external_data/61548706/a0e812ac1bffd
 hardcoverUrl: https://hardcover.app/books/career-of-evil/editions/13550205
 ---
 
-**Note:** please see my 2025 [Note Re: Rowling](/blog/2025-02-14/jk-rowling)
+**Note:** please see my 2025 [Note Re: Rowling](/blog/2025/04/jk-rowling)
 
 <details>
 <summary>Original Review</summary>

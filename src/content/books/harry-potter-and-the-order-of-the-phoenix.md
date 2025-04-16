@@ -15,4 +15,4 @@ narrators:
 coverImageUrl: https://assets.hardcover.app/editions/29262698/2170450621507933-58613451.jpg
 hardcoverUrl: https://hardcover.app/books/harry-potter-and-the-order-of-the-phoenix/editions/11816654
 ---
-**Note:** please see my 2025 [blog post re: Rowling](/blog/2025-02-14/jk-rowling)
+**Note:** please see my 2025 [blog post re: Rowling](/blog/2025/04/jk-rowling)

@@ -19,4 +19,4 @@ coverImageUrl: https://assets.hardcover.app/editions/14019917/7017379795452299-5
 hardcoverUrl: https://hardcover.app/books/harry-potter-and-the-deathly-hallows/editions/14019917
 ---
 
-**Note:** please see my 2025 [blog post re: Rowling](/blog/2025-02-14/jk-rowling)
+**Note:** please see my 2025 [blog post re: Rowling](/blog/2025/04/jk-rowling)
