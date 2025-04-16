@@ -12,5 +12,16 @@ reading: false
 asin:
 subtitle:
 narrators:
-cover:
+- lastName: Offerman
+  firstName: Nick
+- lastName: Sedaris
+  firstName: David
+- lastName: Brownstein
+  firstName: Carrie
+- lastName: July
+  firstName: Miranda
+- lastName: Dunham
+  firstName: Lena
+coverImageUrl: https://assets.hardcover.app/external_data/37178166/56a00c139c890ff18802c0a049fbc0a13c0d36bd.jpeg
+hardcoverUrl: https://hardcover.app/books/lincoln-in-the-bardo/editions/12959293
 ---

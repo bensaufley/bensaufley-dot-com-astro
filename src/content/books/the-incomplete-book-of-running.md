@@ -12,5 +12,6 @@ reading: false
 asin:
 subtitle:
 narrators:
-cover:
+coverImageUrl: https://assets.hardcover.app/external_data/59632134/170d7ab021810793614f0dcbf85986de456c76b8.jpeg
+hardcoverUrl: https://hardcover.app/books/the-incomplete-book-of-running/editions/30562977
 ---

@@ -12,5 +12,6 @@ reading: false
 asin:
 subtitle:
 narrators:
-cover:
+coverImageUrl: https://assets.hardcover.app/edition/30399545/22a077d7c5cc34bf31fd72d67ed7286796ea73dc.jpeg
+hardcoverUrl: https://hardcover.app/books/the-girl-on-the-train/editions/30399545
 ---

@@ -3,16 +3,15 @@ title: The Fountainhead
 authors:
 - lastName: Rand
   firstName: Ayn
-- lastName: Peikoff
-  firstName: Leonard
-isbn10: ''
-isbn13: ''
-read: 2009-01-01
+isbn10: '0451158237'
+isbn13: '9780451158239'
+read: 2019-12-22
 rating:
-yearPublished: 1996
+yearPublished: 1943
 reading: false
 asin:
 subtitle:
 narrators:
-cover:
+coverImageUrl: https://assets.hardcover.app/edition/14007042/7095957-L.jpg
+hardcoverUrl: https://hardcover.app/books/the-fountainhead/editions/16903532
 ---

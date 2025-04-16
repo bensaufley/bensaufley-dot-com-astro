@@ -11,7 +11,7 @@ yearPublished: 2023
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/after-world.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/external_data/60120641/2c1472464ba9c1721227609b8fbfe6070210f360.jpeg
 hardcoverUrl: https://hardcover.app/books/after-world/editions/31539009
 ---

@@ -1,5 +1,6 @@
 ---
 title: Résumé
+icon: file-text
 layout: '../layouts/BaseLayout.astro'
 order: 4
 ---

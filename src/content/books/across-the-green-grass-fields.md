@@ -11,7 +11,7 @@ yearPublished:
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/across-the-green-grass-fields.jpg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/edition/9533835/10152888-L.jpg
 hardcoverUrl: https://hardcover.app/books/across-the-green-grass-fields/editions/30615179
 ---

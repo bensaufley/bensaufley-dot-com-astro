@@ -11,7 +11,7 @@ yearPublished: 2018
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/nine-perfect-strangers.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/edition/30399447/a80aa968b5a594fba99f5d744c0d1217cae2ff1c.jpeg
 hardcoverUrl: https://hardcover.app/books/nine-perfect-strangers/editions/30399447
 ---

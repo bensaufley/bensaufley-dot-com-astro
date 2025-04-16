@@ -11,7 +11,7 @@ yearPublished: 2016
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/dark-matter.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/book_mappings/7332342/e3c5928fc0a24ca97940c68f03dd2b503e42ba4f.jpeg
 hardcoverUrl: https://hardcover.app/books/dark-matter/editions/10826328
 ---

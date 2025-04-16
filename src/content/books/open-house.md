@@ -11,7 +11,7 @@ yearPublished: 2020
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/open-house-2020.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/edition/30602784/content.jpeg
 hardcoverUrl: https://hardcover.app/books/open-house-2020/editions/30602784
 ---

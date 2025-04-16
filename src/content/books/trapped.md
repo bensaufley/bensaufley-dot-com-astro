@@ -12,5 +12,6 @@ reading: false
 asin:
 subtitle:
 narrators:
-cover:
+coverImageUrl: https://assets.hardcover.app/edition/8812272/e8550f0d4a37ea3fa8716aaaf2be37be5eddaf16.jpeg
+hardcoverUrl: https://hardcover.app/books/trapped-d3957a2c-3adc-431b-8163-c86f7a9d9983/editions/8812272
 ---

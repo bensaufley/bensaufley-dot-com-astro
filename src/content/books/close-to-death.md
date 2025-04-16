@@ -11,7 +11,7 @@ yearPublished: 2024
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/close-to-death.jpg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/editions/31048496/2940213235006786.jpg
 hardcoverUrl: https://hardcover.app/books/close-to-death/editions/31048496
 ---

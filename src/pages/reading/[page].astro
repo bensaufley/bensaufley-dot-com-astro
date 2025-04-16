@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 
 import Read, { PER_PAGE } from '~components/reading/Read.astro';
-import BaseLayout, { type Frontmatter } from '~layouts/BaseLayout.astro';
+import BaseLayout from '~layouts/BaseLayout.astro';
 
 export const getStaticPaths = async () => {
   const books = await getCollection('books', (book) => !!book.data.read);
@@ -20,6 +20,6 @@ export interface Props {
 const { class: className, page = 0 } = Astro.props;
 ---
 
-<BaseLayout class={className} frontmatter={{ title: "Reading" } satisfies Frontmatter} url={`/reading/${page}`}>
+<BaseLayout class={className} frontmatter={{ title: "Reading", icon: 'books' }} url={page === 0 ? '/reading' : `/reading/${page}`}>
   <Read page={page} />
 </BaseLayout>

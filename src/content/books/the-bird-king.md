@@ -12,5 +12,6 @@ reading: false
 asin:
 subtitle:
 narrators:
-cover:
+coverImageUrl: https://assets.hardcover.app/edition/13908281/8805828-L.jpg
+hardcoverUrl: https://hardcover.app/books/the-bird-king/editions/13908281
 ---

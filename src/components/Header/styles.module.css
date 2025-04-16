@@ -178,13 +178,45 @@
   }
 
   a {
-    display: block;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0.5rem;
+    align-items: center;
     padding: 1rem 0.75rem;
+
+    .icon {
+      height: 2rem;
+      width: 2rem;
+    }
+
+    .text {
+      display: none;
+    }
   }
 
   @mixin tablet {
     font-size: 1.25rem;
     margin-bottom: 2rem;
+
+    a {
+      .icon {
+        height: 1rem;
+        width: 1rem;
+      }
+
+      .text {
+        display: block;
+      }
+    }
+  }
+
+  @mixin desktop {
+    a {
+      .icon {
+        height: 1.25rem;
+        width: 1.25rem;
+      }
+    }
   }
 
   style,
@@ -193,55 +225,77 @@
   }
 }
 
-.stickyNav ul {
-  a:link,
-  a:visited {
-    color: var(--navColor);
-    position: relative;
-    text-decoration: none;
+.stickyNav {
+  ul {
+    a:link,
+    a:visited {
+      color: var(--navColor);
+      position: relative;
+      text-decoration: none;
 
-    &::before,
-    &::after {
-      content: '';
-      display: block;
-      height: 0;
-      width: 0;
-      left: 50%;
-      border: 0.5rem solid transparent;
-      bottom: 0;
-      position: absolute;
-      transition:
-        transform 250ms ease-out,
-        opacity 250ms ease-out;
-    }
+      &::before,
+      &::after {
+        content: '';
+        display: block;
+        height: 0;
+        width: 0;
+        left: 50%;
+        border: 0.5rem solid transparent;
+        bottom: 0;
+        position: absolute;
+        transition:
+          transform 250ms ease-out,
+          opacity 250ms ease-out;
+      }
 
-    &::before {
-      transform: translate(-50%, 50%);
-    }
-
-    &::after {
-      transform: translate(-50%, -50%);
-      opacity: 0;
-    }
-
-    &:focus,
-    &:hover,
-    &.active {
       &::before {
-        border-top-color: var(--navBg);
-        border-width: 0.75rem;
-        transform: translate(-50%, 100%);
+        transform: translate(-50%, 50%);
       }
 
       &::after {
-        border-top-color: var(--navColor);
-        opacity: 1;
-        transform: translate(-50%, calc(100% - 2px));
+        transform: translate(-50%, -50%);
+        opacity: 0;
+      }
+
+      &:focus,
+      &:hover,
+      &.active {
+        &::before {
+          border-top-color: var(--navBg);
+          border-width: 0.75rem;
+          transform: translate(-50%, 100%);
+        }
+
+        &::after {
+          border-top-color: var(--navColor);
+          opacity: 1;
+          transform: translate(-50%, calc(100% - 2px));
+        }
+      }
+
+      &.active {
+        opacity: 0.9;
       }
     }
 
-    &.active {
-      opacity: 0.9;
+    @mixin desktop {
+      margin-left: 0;
+
+      @media (prefers-reduced-motion: no-preference) {
+        transition: margin-left 300ms ease-in-out, font-size 300ms ease-in-out;
+      }
     }
+  }
+}
+
+@mixin desktop {
+  :has(.pageHeader:global(.stuck)) {
+    .stickyNav {
+      font-size: 1rem;
+
+      ul {
+      margin-left: 10rem;
+    }
+  }
   }
 }

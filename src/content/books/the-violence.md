@@ -11,7 +11,7 @@ yearPublished: 2022
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/the-violence.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/edition/30394776/3c0029a2ef430e1a2364e7cb6995edc4751a2913.jpeg
 hardcoverUrl: https://hardcover.app/books/the-violence/editions/30394776
 ---

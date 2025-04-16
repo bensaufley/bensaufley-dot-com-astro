@@ -12,5 +12,6 @@ reading: false
 asin:
 subtitle:
 narrators:
-cover:
+coverImageUrl: https://assets.hardcover.app/edition/428032/ab4258a1cf3e76b243ee258c5378c651d2042bca.jpeg
+hardcoverUrl: https://hardcover.app/books/upright-women-wanted/editions/428032
 ---

@@ -11,8 +11,8 @@ yearPublished: 2023
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/zero-days.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/external_data/61194388/54575a12d19302b10a8fea647460a4be8cd55dd6.jpeg
 hardcoverUrl: https://hardcover.app/books/zero-days/editions/30874376
 ---
 Love Ruth Ware and her storytelling kept me in this till the end but it was disappointing overall—predictable almost from the start.

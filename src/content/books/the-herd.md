@@ -11,7 +11,7 @@ yearPublished: 2020
 reading: false
 asin: '0593167244'
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/the-herd.jpg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/edition/1846894/6d3ed92de8971def2c94c8b8ce0c9054ba111aaa.jpeg
 hardcoverUrl: https://hardcover.app/books/the-herd/editions/31826839
 ---

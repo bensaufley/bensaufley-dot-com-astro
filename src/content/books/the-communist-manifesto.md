@@ -3,30 +3,15 @@ title: The Communist Manifesto
 authors:
 - lastName: Marx
   firstName: Karl
-- lastName: Engels
-  firstName: Friedrich
-- lastName: Trotsky
-  firstName: Leon
-- lastName: Moore
-  firstName: Samuel
-- lastName: Özalp
-  firstName: Erkin
-- lastName: Lee
-  firstName: Amanda
-- lastName: Braga
-  firstName: Antonio Carlos
-- lastName: Evies
-  firstName: Aldrin Alexander
-- lastName: Eloğlu
-  firstName: Oqtay
 isbn10: '0140447571'
 isbn13: '9780140447576'
 read: 2018-12-21
 rating: 4
-yearPublished: 2002
+yearPublished: 1848
 reading: false
 asin:
 subtitle:
 narrators:
-cover:
+coverImageUrl: https://assets.hardcover.app/external_data/59977714/ec92d944360c72485503b17704d32b51446407a8.jpeg
+hardcoverUrl: https://hardcover.app/books/the-communist-manifesto/editions/16294758
 ---

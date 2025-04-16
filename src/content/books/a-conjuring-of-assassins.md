@@ -11,7 +11,7 @@ yearPublished: 2020
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/a-conjuring-of-assassins.jpg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/edition/30445020/45046601._SX98_.jpg
 hardcoverUrl: https://hardcover.app/books/a-conjuring-of-assassins/editions/30445020
 ---

@@ -3,9 +3,7 @@ title: Repeat
 authors:
 - lastName: Pollack
   firstName: Neal
-- lastName: Cummings
-  firstName: Jeff
-isbn10: '1501217046'
+isbn10:
 isbn13: '9781501217043'
 read: 2019-12-07
 rating: 3
@@ -14,5 +12,6 @@ reading: false
 asin:
 subtitle:
 narrators:
-cover:
+coverImageUrl: https://assets.hardcover.app/edition/30419675/8972272-L.jpg
+hardcoverUrl: https://hardcover.app/books/repeat-2015/editions/31497132
 ---

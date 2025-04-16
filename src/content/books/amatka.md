@@ -11,7 +11,7 @@ yearPublished: 2012
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/amatka.jpg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/edition/30404926/8443773-L.jpg
 hardcoverUrl: https://hardcover.app/books/amatka/editions/30404926
 ---

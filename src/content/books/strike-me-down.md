@@ -3,14 +3,15 @@ title: Strike Me Down
 authors:
 - lastName: Mejia
   firstName: Mindy
-isbn10: '1982133236'
-isbn13: '9781982133238'
+isbn10:
+isbn13: '9781797100968'
 read: 2022-01-21
-rating: 4
+rating:
 yearPublished: 2020
 reading: false
 asin:
 subtitle:
 narrators:
-cover:
+coverImageUrl: https://assets.hardcover.app/edition/18643988/9324947-L.jpg
+hardcoverUrl: https://hardcover.app/books/strike-me-down/editions/31497101
 ---

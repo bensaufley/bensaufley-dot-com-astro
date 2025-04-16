@@ -11,7 +11,7 @@ yearPublished: 2012
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/wool.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/editions/30399206/224453795040747.jpg
 hardcoverUrl: https://hardcover.app/books/wool/editions/30805933
 ---

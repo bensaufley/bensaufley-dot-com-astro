@@ -1,12 +1,8 @@
 ---
-title: Tales of H.P. Lovecraft
+title: Tales of H. P. Lovecraft
 authors:
-- lastName: Lovecraft
-  firstName: H.P.
 - lastName: Oates
   firstName: Joyce Carol
-- lastName: Mignola
-  firstName: Mike
 isbn10: '0061374601'
 isbn13: '9780061374609'
 read: 2010-03-17
@@ -16,5 +12,6 @@ reading: false
 asin:
 subtitle:
 narrators:
-cover:
+coverImageUrl: https://assets.hardcover.app/edition/30652385/content.jpeg
+hardcoverUrl: https://hardcover.app/books/tales-of-h-p-lovecraft/editions/30652385
 ---

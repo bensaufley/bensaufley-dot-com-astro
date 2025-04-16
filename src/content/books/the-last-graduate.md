@@ -11,7 +11,7 @@ yearPublished: 2021
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/the-last-graduate.jpg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/editions/30396979/4323730316562786.jpg
 hardcoverUrl: https://hardcover.app/books/the-last-graduate/editions/30396979
 ---

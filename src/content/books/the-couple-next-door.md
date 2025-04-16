@@ -12,5 +12,6 @@ reading: false
 asin:
 subtitle:
 narrators:
-cover:
+coverImageUrl: https://assets.hardcover.app/edition/14260697/8466573-L.jpg
+hardcoverUrl: https://hardcover.app/books/the-couple-next-door/editions/14260697
 ---

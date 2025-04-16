@@ -12,6 +12,7 @@ reading: false
 asin:
 subtitle:
 narrators:
-cover:
+coverImageUrl: https://assets.hardcover.app/edition/30679829/content.jpeg
+hardcoverUrl: https://hardcover.app/books/the-red-hunter/editions/30679829
 ---
 Pretty predictable at a certain point, but overall enjoyable.

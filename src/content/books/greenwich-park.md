@@ -11,7 +11,7 @@ yearPublished: 2021
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/greenwich-park.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/external_data/59525621/2cc0be2e2f6617ad3288552eb3f23c5331880f4d.jpeg
 hardcoverUrl: https://hardcover.app/books/greenwich-park/editions/31497055
 ---

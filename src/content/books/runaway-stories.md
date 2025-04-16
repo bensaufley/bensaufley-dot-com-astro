@@ -1,16 +1,17 @@
 ---
-title: 'Runaway: Stories'
+title: Runaway
+subtitle: Stories
 authors:
 - lastName: Munro
   firstName: Alice
-isbn10: ''
-isbn13: ''
+isbn10: '0792733673'
+isbn13: '9780792733676'
 read: 2018-12-15
 rating: 3
-yearPublished: 2008
+yearPublished: 2003
 reading: false
 asin:
-subtitle:
 narrators:
-cover:
+coverImageUrl: https://assets.hardcover.app/edition/23039578/ceaa577ba67af7ccaabfc85c2fa890297d1b1399.jpeg
+hardcoverUrl: https://hardcover.app/books/runaway-stories/editions/11224501
 ---

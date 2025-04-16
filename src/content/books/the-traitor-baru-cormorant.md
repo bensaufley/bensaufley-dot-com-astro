@@ -11,7 +11,7 @@ yearPublished: 2015
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/the-traitor-baru-cormorant.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/edition/6336284/51bd032bbe68a5f3531d79fab8beab188bcb13d2.jpeg
 hardcoverUrl: https://hardcover.app/books/the-traitor-baru-cormorant/editions/25267282
 ---

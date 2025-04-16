@@ -11,7 +11,7 @@ yearPublished: 2018
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/the-wolf-under-the-northern-sky-1.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/external_data/60045458/e88475e8cd51836bd6d1a46e0e56d15081dea8c2.jpeg
 hardcoverUrl: https://hardcover.app/books/the-wolf-under-the-northern-sky-1/editions/30421295
 ---

@@ -11,7 +11,7 @@ yearPublished: 2018
 reading: false
 asin: B072L58JW6
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/the-poppy-war.jpg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/editions/30399494/2613225725250086.jpg
 hardcoverUrl: https://hardcover.app/books/the-poppy-war/editions/30399494
 ---

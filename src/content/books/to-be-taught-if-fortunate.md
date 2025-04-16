@@ -12,5 +12,6 @@ reading: false
 asin:
 subtitle:
 narrators:
-cover:
+coverImageUrl: https://assets.hardcover.app/edition/30405524/bf27c0cafc8689d490adcb5e1a98f9242d88408b.jpeg
+hardcoverUrl: https://hardcover.app/books/to-be-taught-if-fortunate/editions/30405524
 ---

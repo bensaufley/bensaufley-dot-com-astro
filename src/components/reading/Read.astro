@@ -1,15 +1,12 @@
 ---
-import Goodreads from '@phosphor-icons/core/regular/goodreads-logo.svg?react';
 import { getCollection } from 'astro:content';
 import dayjs from 'dayjs';
 import utc from 'dayjs/plugin/utc';
+import { basename, extname } from 'node:path';
 
 import Pagination from '~components/Pagination';
 
-import Bookshop from '../../assets/images/brand-bookshop.svg?react';
-import Libro from '../../assets/images/brand-libro.svg?react';
-
-import Rating from './Rating';
+import ReadBook from './ReadBook.astro';
 
 import styles from './styles.module.css';
 
@@ -21,7 +18,7 @@ dayjs.extend(utc);
 
 const { page } = Astro.props;
 
-export const PER_PAGE = 10;
+export const PER_PAGE = 15;
 const allBooks = (await getCollection('books', (book) => !!book.data.read)).toSorted((a, b) => dayjs.utc(b.data.read).diff(a.data.read, 'day'));
 
 const pages = Math.ceil(allBooks.length / PER_PAGE);
@@ -41,23 +38,7 @@ export const LEFT_GOODREADS_DATE = dayjs('2022-02-15');
   <h3>Read</h3>
 
   <ul class={styles.books}>
-    {books
-      .map(({ Content, ...book }) => (
-        <li class={styles.book}>
-          <h3>
-            <div class={styles.icons}>
-              {book.data.isbn13 && <a href={`https://bookshop.org/book/${book.data.isbn13}`} target="_blank" rel="noopener"><Bookshop /></a>}
-              {book.data.isbn13 && <a href={`https://libro.fm/audiobooks/${book.data.isbn13}`} target="_blank" rel="noopener"><Libro /></a>}
-              {LEFT_GOODREADS_DATE.isAfter(book.data.read, 'day') && <span title="Imported from Goodreads"><Goodreads /></span>}
-            </div>
-            {book.data.title}
-          </h3>
-          <p class={styles.author}>by {book.data.authors.map(({ firstName, lastName }) => `${firstName} ${lastName}`).join(', ')}</p>
-          <Rating client:load rating={book.data.rating} />
-          <p class={styles.finished}>Finished <time datetime={dayjs.utc(book.data.read!).toISOString()}>{dayjs.utc(book.data.read!).format('YYYY-MM-DD')}</time></p>
-          <div class={styles.review}><Content /></div>
-        </li>
-      ))}
+    {books.map(({ Content, body, id: slug, data }) => (<ReadBook book={data} hasReview={!!body} slug={basename(slug, extname(slug))}><Content /></ReadBook>))}
   </ul>
 
   <Pagination page={page} pages={pages} path="/reading/" />

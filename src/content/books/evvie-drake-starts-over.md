@@ -12,5 +12,6 @@ reading: false
 asin:
 subtitle:
 narrators:
-cover:
+coverImageUrl: https://assets.hardcover.app/edition/1015980/24d88d3293e1bcbb1e2ccc39acc49bd7acd6d7ab.jpeg
+hardcoverUrl: https://hardcover.app/books/evvie-drake-starts-over/editions/1015980
 ---

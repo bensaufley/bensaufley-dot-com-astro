@@ -1,5 +1,6 @@
 ---
-title: 'On the Other Side of Freedom: The Case for Hope'
+title: On the Other Side of Freedom
+subtitle: The Case for Hope
 authors:
 - lastName: Mckesson
   firstName: DeRay
@@ -10,7 +11,7 @@ rating: 4
 yearPublished: 2018
 reading: false
 asin:
-subtitle:
 narrators:
-cover:
+coverImageUrl: https://assets.hardcover.app/edition/2907525/38562634._SX98_.jpg
+hardcoverUrl: https://hardcover.app/books/on-the-other-side-of-freedom-the-case-for-hope/editions/2907525
 ---

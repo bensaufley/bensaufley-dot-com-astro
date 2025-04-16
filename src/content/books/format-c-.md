@@ -12,6 +12,6 @@ reading: false
 asin:
 subtitle:
 narrators:
-cover:
+hardcoverUrl: https://hardcover.app/books/format-c/editions/11463969
 ---
 Just remembered this book. I loved it as a kid. Only 22 reviews?? Crazy.

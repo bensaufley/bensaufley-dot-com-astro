@@ -10,6 +10,7 @@ import cssVariables from '../shared/variables.module.css';
 
 export interface Frontmatter {
   title: string;
+  icon: string;
   order?: number;
   description?: string;
 };
@@ -47,24 +48,20 @@ if (Astro.props.frontmatter) {
     <meta charset="utf-8" />
     <meta name="generator" content={Astro.generator} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
     <meta name="viewport" content="width=device-width" />
 
     {import.meta.env.PROD && (
       <>
-        <script is:inline type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=UA-7186972-1"></script>
-        <script is:inline type="text/partytown">
-          window.dataLayer ||= [];
-          window.gtag = (...args) => {
-            dataLayer.push(args);
-          };
+        <!-- Google tag (gtag.js) -->
+        <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-HXDEJNG2F6"></script>
+        <script is:inline>
+          window.dataLayer = window.dataLayer || [];
+          /* eslint-disable-next-line prefer-rest-params */
+          function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'UA-7186972-1');
-        </script>
-        <script>
-          partytown = {
-            forward: ['dataLayer.push'],
-          };
+          gtag('config', 'G-HXDEJNG2F6');
         </script>
       </>
     )}
@@ -80,6 +77,14 @@ if (Astro.props.frontmatter) {
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content={cssVariables.dark} />
     <title>Ben Saufley - {title}</title>
     <meta name="description" content={description ?? 'Personal website for Ben Saufley, a software engineer and illustrator from Portland, Maine.'} />
+    <!-- web components -->
+    <script>
+      import Spoiler from '~components/webComponents/Spoiler';
+
+      console.log('registering Web Components');
+      Spoiler.register();
+    </script>
+    <!-- end web components -->
   </head>
   <body class={clsx(className)}>
     <Header currentPath={pathname} />
@@ -88,8 +93,9 @@ if (Astro.props.frontmatter) {
       <slot />
     </main>
     <Footer />
+    <!-- scroll listener -->
     <script>
-      import throttle from '../lib/throttle';
+      import throttle from '~lib/throttle';
 
       const scrollListener = throttle(
         () => {
@@ -109,5 +115,6 @@ if (Astro.props.frontmatter) {
 
       window.addEventListener('scroll', scrollListener);
     </script>
+    <!-- end scroll listener -->
   </body>
 </html>

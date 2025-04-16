@@ -1,7 +1,7 @@
+import CircleFill from '@phosphor-icons/core/fill/circle-fill.svg?react';
+import Circle from '@phosphor-icons/core/regular/circle.svg?react';
+import CircleHalf from '@phosphor-icons/core/regular/circle-half.svg?react';
 import { effect, signal } from '@preact/signals';
-import Circle from 'bootstrap-icons/icons/circle.svg?react';
-import CircleFill from 'bootstrap-icons/icons/circle-fill.svg?react';
-import CircleHalf from 'bootstrap-icons/icons/circle-half.svg?react';
 import clsx from 'clsx';
 
 import styles from './styles.module.css';

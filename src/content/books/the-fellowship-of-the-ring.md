@@ -11,7 +11,7 @@ yearPublished: 1954
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/the-fellowship-of-the-ring.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/external_data/60317439/7b1ee0c176bc47adc4fcf2a5b695989577f907c2.jpeg
 hardcoverUrl: https://hardcover.app/books/the-fellowship-of-the-ring/editions/16862026
 ---

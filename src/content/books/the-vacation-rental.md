@@ -11,7 +11,7 @@ yearPublished: 2024
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/the-vacation-rental.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/external_data/60420441/a15f0604824285adc83c049cd5d218db25b30877.jpeg
 hardcoverUrl: https://hardcover.app/books/the-vacation-rental/editions/31305590
 ---

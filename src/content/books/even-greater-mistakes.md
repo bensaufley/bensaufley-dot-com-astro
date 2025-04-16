@@ -11,7 +11,6 @@ yearPublished: 2021
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/even-greater-mistakes.jpeg"
+narrators:
 hardcoverUrl: https://hardcover.app/books/even-greater-mistakes/editions/30408649
 ---

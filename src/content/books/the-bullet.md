@@ -12,5 +12,6 @@ reading: false
 asin:
 subtitle:
 narrators:
-cover:
+coverImageUrl: https://assets.hardcover.app/edition/22794929/9525644-L.jpg
+hardcoverUrl: https://hardcover.app/books/the-bullet/editions/30403348
 ---

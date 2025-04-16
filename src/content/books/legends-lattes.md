@@ -11,8 +11,8 @@ yearPublished: 2022
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/legends-lattes.jpg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/editions/30396420/4372639752917043.jpg
 hardcoverUrl: https://hardcover.app/books/legends-lattes/editions/30648259
 ---
 This came highly recommended from a few people but it didn't do much for me. It was fine. I listened to it on audiobook and like six of the nine recurring characters are pendry/hendry/tendry or something? Why do that?

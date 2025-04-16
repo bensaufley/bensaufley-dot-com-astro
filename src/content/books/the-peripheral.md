@@ -11,7 +11,7 @@ yearPublished: 2014
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/the-peripheral.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/edition/30381158/content.jpeg
 hardcoverUrl: https://hardcover.app/books/the-peripheral/editions/30381158
 ---

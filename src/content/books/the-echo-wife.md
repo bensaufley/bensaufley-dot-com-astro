@@ -12,5 +12,6 @@ reading: false
 asin:
 subtitle:
 narrators:
-cover:
+coverImageUrl: https://assets.hardcover.app/external_data/37179942/61bbdff0ec8fde9c99e167cb1d1dfc11ab083e03.jpeg
+hardcoverUrl: https://hardcover.app/books/the-echo-wife/editions/13438092
 ---

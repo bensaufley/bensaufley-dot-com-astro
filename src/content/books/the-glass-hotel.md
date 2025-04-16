@@ -12,6 +12,7 @@ reading: false
 asin:
 subtitle:
 narrators:
-cover:
+coverImageUrl: https://assets.hardcover.app/edition/29271113/ea287c0553c26688cc8bf065dc78e3145506b87d.jpeg
+hardcoverUrl: https://hardcover.app/books/the-glass-hotel/editions/29271113
 ---
-I really liked <i>Station Eleven</i>. This one, I found interesting, but I'm not sure I got it. I feel like I might be too dumb to understand the subtext or the … point? of the story. Or even why it's named <i>The Glass Hotel</i>.
+I really liked  _Station Eleven_ . This one, I found interesting, but I'm not sure I got it. I feel like I might be too dumb to understand the subtext or the … point? of the story. Or even why it's named  _The Glass Hotel_ .

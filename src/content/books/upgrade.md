@@ -6,12 +6,12 @@ authors:
 isbn10: '1529045363'
 isbn13: '9781529045369'
 read: 2024-12-30
-rating: 3.0
+rating: 3
 yearPublished: 2022
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/upgrade.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/external_data/59914457/6d05bef9020342f3438d865b650b76f4989b8408.jpeg
 hardcoverUrl: https://hardcover.app/books/upgrade/editions/30420227
 ---

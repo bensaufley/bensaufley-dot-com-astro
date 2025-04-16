@@ -12,5 +12,6 @@ reading: false
 asin:
 subtitle:
 narrators:
-cover:
+coverImageUrl: https://assets.hardcover.app/external_data/37317466/80396c6a6b2e6f46c9785e292ce0cb1410c5f4aa.jpeg
+hardcoverUrl: https://hardcover.app/books/local-woman-missing/editions/30382594
 ---

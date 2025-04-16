@@ -12,6 +12,7 @@ reading: false
 asin:
 subtitle:
 narrators:
-cover:
+coverImageUrl: https://assets.hardcover.app/edition/8823324/9169240-L.jpg
+hardcoverUrl: https://hardcover.app/books/need-to-know/editions/30403423
 ---
 This analyst is very bad at her job.

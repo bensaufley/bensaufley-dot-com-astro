@@ -5,6 +5,41 @@
   @media (width >= 60em) {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   }
+
+  .nowReading,
+  .upNext {
+    h3 + p {
+      margin-top: 0;
+    }
+  }
+
+  .hint {
+    font-style: italic;
+    font-size: 0.875rem;
+    opacity: 0.8;
+  }
+
+  ul {
+    list-style: none;
+    padding: 1rem;
+    margin: 0 -1rem;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1rem;
+    overflow-x: auto;
+
+    object {
+      height: 4.5rem;
+      width: 3rem;
+    }
+
+    a:link,
+    a:visited {
+      &::after {
+        display: none;
+      }
+    }
+  }
 }
 
 @property --ratingAnimation {
@@ -17,18 +52,41 @@
   .books {
     list-style: none;
     padding: 0;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: min(15%, 4rem) 1fr 1fr 1fr;
+    grid-auto-rows: auto;
   }
 
   .book {
     display: grid;
+    grid-column: 1 / -1;
     grid-template:
-      'title title title' auto
-      'author finished rating' auto
-      'review review review' auto / 1fr 1fr 1fr;
+      'cover title title title' auto
+      'cover author finished rating' auto
+      '. review review review' auto / min(15%, 4rem) 1fr 1fr 1fr;
+    grid-template-columns: subgrid;
     gap: 0 0.5rem;
     align-items: center;
     margin-bottom: 1rem;
     position: relative;
+
+    .cover {
+      align-items: center;
+      container-type: inline-size;
+      display: flex;
+      flex-flow: row nowrap;
+      grid-area: cover;
+      justify-content: center;
+      margin-right: 0.5rem;
+
+      img {
+        height: auto;
+        max-height: 100cqw;
+        max-width: 100%;
+      }
+    }
 
     h3, p {
       margin: 0;
@@ -61,6 +119,12 @@
     .review {
       grid-area: review;
 
+      p + p,
+      p + x-spoiler:has(p),
+      x-spoiler:has(p) + p {
+        margin-top: 1rem;
+      }
+
       &:not(:empty) {
         margin-top: 1rem;
       }
@@ -83,6 +147,21 @@
     svg {
       height: 1rem;
       width: 1rem;
+    }
+
+    a:link,
+    a:visited {
+      &::after {
+        display: none;
+      }
+
+      &:hover {
+        transform: scale(1.25);
+
+        @media (prefers-reduced-motion: no-preference) {
+          transition: transform 300ms;
+        }
+      }
     }
   }
 
@@ -137,5 +216,41 @@
   }
   100% {
     --ratingAnimation: 1;
+  }
+}
+
+.cover {
+  img,
+  object {
+    border-radius: 3px;
+  }
+
+  a&:link,
+  a&:visited {
+    display: block;
+
+    &::after {
+      display: none;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      transition: filter 300ms ease-in-out;
+      filter: drop-shadow(0 0 0 rgba(0 0 0 / 0.8));
+
+      img,
+      object {
+        transform: rotate(0deg) scale(1);
+        transition: transform 300ms ease-in-out;
+      }
+
+      &:hover {
+        filter: drop-shadow(0 6px 6px rgba(0 0 0 / 0.3));
+
+        img,
+        object {
+          transform: rotate(-3deg) scale(1.1);
+        }
+      }
+    }
   }
 }

@@ -11,7 +11,7 @@ yearPublished: 1976
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/woman-on-the-edge-of-time.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/edition/30252768/289841-L.jpg
 hardcoverUrl: https://hardcover.app/books/woman-on-the-edge-of-time/editions/31497035
 ---

@@ -11,7 +11,7 @@ yearPublished: 2023
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/wrong-place-wrong-time-2022.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/external_data/61208165/023d2820c923a090367c49681ffbb516994cc012.jpeg
 hardcoverUrl: https://hardcover.app/books/wrong-place-wrong-time-2022/editions/30464530
 ---

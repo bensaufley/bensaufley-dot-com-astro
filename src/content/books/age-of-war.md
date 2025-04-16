@@ -11,7 +11,7 @@ yearPublished: 2018
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/age-of-war.jpg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/edition/7998375/10292465-L.jpg
 hardcoverUrl: https://hardcover.app/books/age-of-war/editions/7998375
 ---

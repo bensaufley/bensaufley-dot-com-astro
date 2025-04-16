@@ -11,7 +11,7 @@ yearPublished: 1969
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/the-left-hand-of-darkness.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/external_data/24542917/d68669a2fa471f20f2bec91f8c35c8b855470387.jpeg
 hardcoverUrl: https://hardcover.app/books/the-left-hand-of-darkness/editions/30400648
 ---

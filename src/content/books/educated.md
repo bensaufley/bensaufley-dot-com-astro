@@ -3,8 +3,8 @@ title: Educated
 authors:
 - lastName: Westover
   firstName: Tara
-isbn10: '0399590501'
-isbn13: '9780399590504'
+isbn10: '0525510672'
+isbn13: '9780525510673'
 read: 2019-08-06
 rating: 5
 yearPublished: 2018
@@ -12,5 +12,5 @@ reading: false
 asin:
 subtitle:
 narrators:
-cover:
+hardcoverUrl: https://hardcover.app/books/educated/editions/30510139
 ---

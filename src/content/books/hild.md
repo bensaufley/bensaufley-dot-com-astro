@@ -11,7 +11,7 @@ yearPublished: 2014
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/hild.jpg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/edition/16978500/9130139-L.jpg
 hardcoverUrl: https://hardcover.app/books/hild/editions/11900188
 ---

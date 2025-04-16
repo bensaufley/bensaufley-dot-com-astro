@@ -11,7 +11,7 @@ yearPublished: 2019
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/the-dragon-republic.jpg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/editions/30399338/9690680324495866.jpg
 hardcoverUrl: https://hardcover.app/books/the-dragon-republic/editions/30399338
 ---

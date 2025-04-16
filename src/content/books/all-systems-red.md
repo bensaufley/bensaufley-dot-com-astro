@@ -11,7 +11,7 @@ yearPublished: 2017
 reading: false
 asin: B01MYZ8X5C
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/all-systems-red.jpg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/editions/30399613/495a5b89-af3e-4588-82ca-f8ce6928ab0e-allsystems.jpg
 hardcoverUrl: https://hardcover.app/books/all-systems-red/editions/30431489
 ---

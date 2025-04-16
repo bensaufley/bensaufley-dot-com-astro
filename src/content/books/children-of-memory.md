@@ -11,7 +11,7 @@ yearPublished: 2022
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/children-of-memory.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/edition/30550486/9b0c81d2c764e15e8276810503cf327c19ae1810.jpeg
 hardcoverUrl: https://hardcover.app/books/children-of-memory/editions/30920110
 ---

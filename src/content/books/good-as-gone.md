@@ -12,5 +12,6 @@ reading: false
 asin:
 subtitle:
 narrators:
-cover:
+coverImageUrl: https://assets.hardcover.app/edition/30604034/content.jpeg
+hardcoverUrl: https://hardcover.app/books/good-as-gone-2016/editions/17930753
 ---

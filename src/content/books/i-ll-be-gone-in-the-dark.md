@@ -3,16 +3,8 @@ title: I'll Be Gone in the Dark
 authors:
 - lastName: McNamara
   firstName: Michelle
-- lastName: Flynn
-  firstName: Gillian
-- lastName: Oswalt
-  firstName: Patton
-- lastName: Haynes
-  firstName: Paul
-- lastName: Jensen
-  firstName: Billy
-isbn10: ''
-isbn13: ''
+isbn10: '0571345166'
+isbn13: '9780571345168'
 read: 2019-09-28
 rating: 4
 yearPublished: 2018
@@ -20,5 +12,11 @@ reading: false
 asin:
 subtitle:
 narrators:
-cover:
+- lastName: Flynn
+  firstName: Gillian
+- lastName: Oswalt
+  firstName: Patton
+- lastName: Zackman
+  firstName: Gabra
+hardcoverUrl: https://hardcover.app/books/ill-be-gone-in-the-dark/editions/30683020
 ---

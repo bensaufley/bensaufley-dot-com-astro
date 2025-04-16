@@ -11,7 +11,6 @@ yearPublished: 2020
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/a-deadly-education.jpg"
+narrators:
 hardcoverUrl: https://hardcover.app/books/a-deadly-education/editions/30399805
 ---

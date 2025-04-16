@@ -11,7 +11,7 @@ yearPublished: 1954
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/the-two-towers.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/edition/25616931/cd5d5770785ed7174f4649b06ff4feb6cbdb800e.jpeg
 hardcoverUrl: https://hardcover.app/books/the-two-towers/editions/11937048
 ---

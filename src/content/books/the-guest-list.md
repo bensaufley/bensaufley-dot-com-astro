@@ -11,7 +11,7 @@ yearPublished: 2020
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/the-guest-list.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/external_data/35435236/43242e719c3badc4629b1728254757cba51d2d7f.jpeg
 hardcoverUrl: https://hardcover.app/books/the-guest-list/editions/7648184
 ---

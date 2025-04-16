@@ -11,7 +11,7 @@ yearPublished: 2014
 reading: false
 asin: B00I2VWW5U
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/red-rising.jpg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/editions/26096001/3897005112280259.jpg
 hardcoverUrl: https://hardcover.app/books/red-rising/editions/30920119
 ---

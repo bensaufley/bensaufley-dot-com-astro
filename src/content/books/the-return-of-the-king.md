@@ -11,7 +11,7 @@ yearPublished: 1955
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/the-return-of-the-king.jpg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/external_data/28439979/3339defcd86934d0c4a59dffc8d5aec7def13475.jpeg
 hardcoverUrl: https://hardcover.app/books/the-return-of-the-king/editions/13417614
 ---

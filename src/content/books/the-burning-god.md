@@ -11,7 +11,7 @@ yearPublished: 2020
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/the-burning-god.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/editions/31645018/4742123748791802.jpg
 hardcoverUrl: https://hardcover.app/books/the-burning-god/editions/15105726
 ---

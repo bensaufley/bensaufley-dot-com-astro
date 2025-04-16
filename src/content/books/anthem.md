@@ -14,5 +14,4 @@ reading: false
 asin:
 subtitle:
 narrators:
-cover:
 ---

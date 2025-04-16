@@ -11,7 +11,7 @@ yearPublished: 2019
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/the-never-tilting-world.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/edition/13081998/9084664-L.jpg
 hardcoverUrl: https://hardcover.app/books/the-never-tilting-world/editions/31497040
 ---

@@ -5,6 +5,8 @@ import { basename, extname, relative, resolve } from 'node:path';
 import type { Frontmatter } from '../../layouts/BaseLayout.astro';
 import ThemePicker from '../ThemePicker';
 
+import NavItem from './NavItem.astro';
+
 import styles from './styles.module.css';
 
 interface Props {
@@ -20,7 +22,7 @@ const topLevelFms = Object.entries<Frontmatter>(import.meta.glob('../../pages/{*
   const path = `/${relative(resolve('../../pages'), filename)}`;
   const ext = extname(path);
   const isIndex = basename(path, ext) === 'index';
-  return { path: path.slice(0, isIndex ? -(`index${ext}`).length : -ext.length).replace(/\/$/, '/'), ...fm };
+  return { path: path.slice(0, isIndex ? -(`index${ext}`).length : -ext.length).replace(/\/?$/, '/'), ...fm };
 }).toSorted((a, b) => {
   if (a.order === undefined && b.order === undefined) return a.title.localeCompare(b.title);
   if (a.order === undefined) return 1;
@@ -30,7 +32,7 @@ const topLevelFms = Object.entries<Frontmatter>(import.meta.glob('../../pages/{*
 
 ---
 
-<header class={styles.pageHeader}>
+<header class={clsx('sticky', styles.pageHeader)}>
   <h2 class={styles.name}>
     <span class={styles.firstName}>Ben</span>
     <span class={styles.lastName}>Saufley</span>
@@ -43,13 +45,7 @@ const topLevelFms = Object.entries<Frontmatter>(import.meta.glob('../../pages/{*
 <nav class={clsx('sticky', styles.stickyNav)}>
   <a href="/" class={styles.name}> BS</a>
   <ul>
-    {topLevelFms.map((fm) => (
-      <li>
-        <a href={fm.path} class={clsx(new RegExp(`^${fm.path}(\\d*)?$`).test(currentPath) && styles.active)}>
-          {fm.title}
-        </a>
-      </li>
-    ))}
+    {topLevelFms.map((fm) => (<NavItem currentPath={currentPath} data={fm} />))}
   </ul>
   <ThemePicker context="header" client:only="preact" />
 </nav>

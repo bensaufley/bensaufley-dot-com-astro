@@ -11,7 +11,7 @@ yearPublished: 2013
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/shift.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/external_data/29271861/c94b7e6c183918c7357dde9f5646d44c0161ae53.jpeg
 hardcoverUrl: https://hardcover.app/books/shift/editions/30693269
 ---

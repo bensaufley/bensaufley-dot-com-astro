@@ -11,7 +11,7 @@ yearPublished: 2013
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/the-boy-on-the-bridge.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/edition/5985140/2d945b669316ec04d2c399a9458658239b0eafe4.jpeg
 hardcoverUrl: https://hardcover.app/books/the-boy-on-the-bridge/editions/31497061
 ---

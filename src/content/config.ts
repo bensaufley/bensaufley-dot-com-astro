@@ -20,19 +20,24 @@ const personSchema = z.object({
 
 const books = defineCollection({
   type: 'content',
-  schema: ({ image }) => {
+  schema: () => {
     const bookBaseSchema = z.object({
       title: z.string(),
       subtitle: z.string().nullable(),
       authors: z.array(personSchema),
-      narrators: z.array(personSchema).nullable(),
+      narrators: z.array(personSchema).nullable().optional(),
       yearPublished: z.number().nullable(),
-      cover: image().nullable(),
-      read: z.coerce.date().nullable(),
       isbn10: z.string().nullable(),
       isbn13: z.string().nullable(),
       asin: z.string().nullable(),
+      coverImageUrl: z.string().url().nullable().optional(),
       hardcoverUrl: z.string().url().nullable().optional(),
+      series: z
+        .object({
+          name: z.string(),
+          volume: z.number(),
+        })
+        .optional(),
     });
 
     return z.union([

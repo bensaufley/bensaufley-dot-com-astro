@@ -14,5 +14,6 @@ reading: false
 asin:
 subtitle:
 narrators:
-cover:
+coverImageUrl: https://assets.hardcover.app/book_mappings/7333187/ec03824f57546809f48806cf464fbcba9723943d.jpeg
+hardcoverUrl: https://hardcover.app/books/modern-romance/editions/30399481
 ---

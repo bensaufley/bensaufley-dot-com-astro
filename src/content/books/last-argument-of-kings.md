@@ -11,7 +11,7 @@ yearPublished: 2008
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/last-argument-of-kings.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/edition/15570228/e754d16a5fde232ce433aba834d3819c433e443d.jpeg
 hardcoverUrl: https://hardcover.app/books/last-argument-of-kings/editions/15570228
 ---

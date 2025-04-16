@@ -11,7 +11,7 @@ yearPublished: 1990
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/the-shadow-rising.webp"
+narrators:
+coverImageUrl: https://assets.hardcover.app/edition/30400065/1b64fd675785d62815f8aca504fd0df111bfe269.jpeg
 hardcoverUrl: https://hardcover.app/books/the-shadow-rising/editions/31657198
 ---

@@ -12,5 +12,6 @@ reading: false
 asin:
 subtitle:
 narrators:
-cover:
+coverImageUrl: https://assets.hardcover.app/external_data/47671286/cde65e40092722f63a5b9a29a672d12bc75ae19b.jpeg
+hardcoverUrl: https://hardcover.app/books/station-eleven/editions/14028427
 ---

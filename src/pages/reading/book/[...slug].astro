@@ -1,0 +1,37 @@
+---
+import type { GetStaticPaths } from 'astro';
+import type { AstroComponentFactory } from 'astro/runtime/server/index.js';
+import { getCollection, type InferEntrySchema } from 'astro:content';
+import dayjs from 'dayjs';
+import { basename, extname } from 'path';
+
+import BaseLayout from '~layouts/BaseLayout.astro';
+
+export const getStaticPaths: GetStaticPaths = async () => {
+
+  const posts = (await getCollection('books', (book) => !!book.data.read && !!book.body)).toSorted((a, b) => dayjs.utc(b.data.read).diff(a.data.read, 'day'));
+
+  return Promise.all(posts.map(async (post) => {
+    const { Content } = await post.render();
+
+    return {
+      post,
+      props: { Content, ...post.data },
+      params: { slug: basename(post.id, extname(post.id)) },
+    };
+  }));
+};
+
+export type Props = InferEntrySchema<"books"> & {
+  Content: AstroComponentFactory;
+};
+
+const { params: { slug }, props: { Content, ...book} } = Astro;
+
+---
+
+<BaseLayout url={`/reading/book/${slug}`} frontmatter={{ title: book.title, icon: "book" }}>
+  <h2>{book.title}</h2>
+
+  <Content />
+</BaseLayout>

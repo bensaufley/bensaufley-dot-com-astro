@@ -1,5 +1,5 @@
 ---
-title: A rainha do castelo de ar
+title: The Girl Who Kicked The Hornet's Nest
 authors:
 - lastName: Larsson
   firstName: Stieg
@@ -11,7 +11,7 @@ yearPublished: 2007
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/the-girl-who-kicked-the-hornets-nest-9f685be0-bfdd-4031-8b74-6a6930893290.jpeg"
-hardcoverUrl: https://hardcover.app/books/the-girl-who-kicked-the-hornets-nest-9f685be0-bfdd-4031-8b74-6a6930893290/editions/30382467
+narrators:
+coverImageUrl: https://assets.hardcover.app/book_mappings/7332882/9a42a57b3d3bc0b88bb57069767caa2ba55bf2c6.jpeg
+hardcoverUrl: https://hardcover.app/books/the-girl-who-kicked-the-hornets-nest-9f685be0-bfdd-4031-8b74-6a6930893290/editions/30401479
 ---

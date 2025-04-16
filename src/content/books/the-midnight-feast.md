@@ -11,7 +11,7 @@ yearPublished: 2024
 reading: false
 asin: B0CLMHRSKW
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/the-midnight-feast.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/edition/31107980/7b683f4279a70d7b3e7c03f4eb5bffcc2c720ead.jpeg
 hardcoverUrl: https://hardcover.app/books/the-midnight-feast/editions/31497056
 ---

@@ -11,7 +11,7 @@ yearPublished: 2022
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/tomorrow-and-tomorrow-and-tomorrow.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/edition/30535150/2efdfd508a803c89913fd6e987f69048a17c89c6.jpeg
 hardcoverUrl: https://hardcover.app/books/tomorrow-and-tomorrow-and-tomorrow/editions/30419881
 ---

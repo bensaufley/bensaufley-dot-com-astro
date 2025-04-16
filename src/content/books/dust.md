@@ -11,7 +11,7 @@ yearPublished: 2013
 reading: false
 asin:
 subtitle:
-narrators: []
-cover: "../../assets/images/reading/covers/dust.jpeg"
+narrators:
+coverImageUrl: https://assets.hardcover.app/external_data/29348425/5349cdbece64f141de3f562b304b25e11fe08ef1.jpeg
 hardcoverUrl: https://hardcover.app/books/dust/editions/31491069
 ---
