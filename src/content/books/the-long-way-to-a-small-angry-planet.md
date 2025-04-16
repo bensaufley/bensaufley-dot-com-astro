@@ -1,20 +1,20 @@
 ---
 title: The Long Way to a Small, Angry Planet
-subtitle:
 series:
   name: Wayfarers
   volume: 1
 authors:
 - lastName: Chambers
   firstName: Becky
-isbn10:
-isbn13:
-read: 2019-07-02
+isbn10: '1500453307'
+isbn13: '9788594540508'
+read: 2019-07-03
 rating: 4
-yearPublished: 2015
+yearPublished: 2014
 reading: false
 asin:
+subtitle:
 narrators:
 coverImageUrl: https://assets.hardcover.app/editions/30403894/3494270170561911.jpg
-hardcoverUrl:
+hardcoverUrl: https://hardcover.app/books/the-long-way-to-a-small-angry-planet/editions/88026
 ---
