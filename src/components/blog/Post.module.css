@@ -64,4 +64,16 @@
       margin-right: 10px;
     }
   }
+
+  :global(.footnotes) {
+    font-size: 0.875rem;
+
+    h2 {
+      font-size: 1rem;
+    }
+
+    ol {
+      padding-left: 1rem;
+    }
+  }
 }

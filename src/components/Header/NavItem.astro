@@ -1,0 +1,31 @@
+---
+import clsx from 'clsx';
+import type { ComponentType, JSX } from 'preact';
+
+import type { Frontmatter } from '~layouts/BaseLayout.astro';
+
+import styles from './styles.module.css';
+
+export interface Props {
+  data: Frontmatter & { path: string };
+  currentPath: string;
+}
+
+const { data, currentPath } = Astro.props;
+// It's annoying that we have to eager-load all of these :(
+const icons: Record<string, ComponentType<JSX.IntrinsicElements['svg']>> = import.meta.glob('../../../node_modules/@phosphor-icons/core/assets/regular/*.svg', { query: 'react', eager: true, import: 'default' });
+const filename = `node_modules/@phosphor-icons/core/assets/regular/${data.icon}.svg`;
+
+const Icon = icons[`../../../${filename}`]!;
+
+const root = data.path.split('/')[1] || 'blog';
+const currentRoot = currentPath.split('/')[1] || 'blog';
+const isCurrentPath = root === currentRoot;
+---
+
+<li>
+  <a href={data.path} class={clsx(isCurrentPath && styles.active)}>
+    <span class={styles.icon}><Icon /></span>
+    <span class={styles.text}>{data.title}</span>
+  </a>
+</li>

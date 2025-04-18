@@ -1,6 +1,8 @@
 ---
 title: Projects
+icon: hammer
 layout: '../layouts/BaseLayout.astro'
+order: 2
 ---
 
 # Projects

@@ -1,0 +1,26 @@
+---
+title: Reading
+icon: books
+layout: '../../layouts/BaseLayout.astro'
+order: 1
+---
+
+import styles from '~components/reading/styles.module.css';
+import NowReading from '~components/reading/NowReading.astro';
+import UpNext from '~components/reading/UpNext.astro';
+import Read from '~components/reading/Read.astro';
+
+# Reading
+
+I read a lot, mostly in the form of audiobooks. I have enough audiobooks that I
+[built an app to manage the files][audiobook-catalog]. Here's what I'm reading,
+what I've read, and what I'm looking to read next.
+
+<div class={styles.hud}>
+  <NowReading />
+  <UpNext />
+</div>
+
+<Read page={0} />
+
+[audiobook-catalog]: /projects#audiobook-catalog

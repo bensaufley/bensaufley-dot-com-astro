@@ -1,0 +1,45 @@
+---
+import { getCollection } from 'astro:content';
+import dayjs from 'dayjs';
+import utc from 'dayjs/plugin/utc';
+import { basename, extname } from 'node:path';
+
+import Pagination from '~components/Pagination';
+
+import ReadBook from './ReadBook.astro';
+
+import styles from './styles.module.css';
+
+export interface Props {
+  page: number;
+}
+
+dayjs.extend(utc);
+
+const { page } = Astro.props;
+
+export const PER_PAGE = 15;
+const allBooks = (await getCollection('books', (book) => !!book.data.read)).toSorted((a, b) => dayjs.utc(b.data.read).diff(a.data.read, 'day'));
+
+const pages = Math.ceil(allBooks.length / PER_PAGE);
+const books = await Promise.all(
+  allBooks.slice(page * PER_PAGE, (page + 1) * PER_PAGE)
+    .map(async (book) => {
+      const { Content} = await book.render();
+      return {...book, Content };
+    }),
+  );
+
+// Not an exact date, but before this point everything is Goodreads
+export const LEFT_GOODREADS_DATE = dayjs('2022-02-15');
+---
+
+<div class={styles.read}>
+  <h3>Read</h3>
+
+  <ul class={styles.books}>
+    {books.map(({ Content, body, id: slug, data }) => (<ReadBook book={data} hasReview={!!body} slug={basename(slug, extname(slug))}><Content /></ReadBook>))}
+  </ul>
+
+  <Pagination page={page} pages={pages} path="/reading/" />
+</div>

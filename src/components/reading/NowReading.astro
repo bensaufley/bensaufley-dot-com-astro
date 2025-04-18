@@ -1,0 +1,25 @@
+---
+import { getCollection } from 'astro:content';
+import dayjs from 'dayjs';
+import utc from 'dayjs/plugin/utc';
+
+import styles from './styles.module.css';
+
+dayjs.extend(utc);
+
+const allBooks = (await getCollection('books', (book) => !book.data.read && !!book.data.reading)).toSorted((a, b) => dayjs.utc(b.data.read).diff(a.data.read, 'day'));
+---
+<div class={styles.nowReading}>
+  <h3>Now Reading</h3>
+  <ul>
+    {allBooks.map((book) => (
+      <li class={styles.book}>
+        <a href={book.data.hardcoverUrl!} class={styles.cover} target="_blank" rel="noopener">
+          <object data={book.data.coverImageUrl} class={styles.coverImage}>
+            {book.data.title}
+          </object>
+        </a>
+      </li>
+    ))}
+  </ul>
+</div>

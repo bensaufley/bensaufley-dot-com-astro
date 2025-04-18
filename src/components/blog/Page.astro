@@ -6,8 +6,9 @@ import dayjs from 'dayjs';
 import utc from 'dayjs/plugin/utc';
 import { type ComponentType, Fragment } from 'preact';
 
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import { slug as getSlug } from '../../lib/posts';
+import Pagination from '~components/Pagination';
+import BaseLayout from '~layouts/BaseLayout.astro';
+import { slug as getSlug } from '~lib/posts';
 
 import Post from './Post';
 
@@ -24,8 +25,6 @@ const { class: className, page } = Astro.props as Props;
 export const PER_PAGE = 3;
 
 const posts = await getCollection('posts');
-
-const more = posts.length >= (page + 1) * PER_PAGE;
 
 const mdParser = await createMarkdownProcessor();
 
@@ -62,10 +61,10 @@ const renderedPosts = await Promise.all(
     }),
 );
 
-const pages = Array.from({ length: Math.ceil(posts.length / PER_PAGE) - 2 }, (_, i) => i + 1);
+const pages = Math.ceil(posts.length / PER_PAGE);
 ---
 
-<BaseLayout class={className} title={page === 0 ? 'Home' : 'Blog'}>
+<BaseLayout class={className} frontmatter={{ title: page === 0 ? 'Home' : 'Blog', icon: 'house' }} url={page === 0 ? '/' : `/blog/${page}`}>
   {
     renderedPosts.map(({ data: { title, date, headerImage, headerImageAlt }, html, Content, slug }, i) => (
       <Fragment key={slug}>
@@ -91,9 +90,5 @@ const pages = Array.from({ length: Math.ceil(posts.length / PER_PAGE) - 2 }, (_,
       </Fragment>
     ))
   }
-  <div class={styles.pageNav}>
-    {page > 0 && <a href={page === 1 ? '/' : `/blog/${page - 1}`}>&#9666; Previous</a>}
-    {pages.map((n) => <a href={`/blog/${n}`}>{n}</a>)}
-    {more && <a href={`/blog/${page + 1}`}>Next &#9656;</a>}
-  </div>
+  <Pagination page={page} pages={pages} path="/blog/" />
 </BaseLayout>

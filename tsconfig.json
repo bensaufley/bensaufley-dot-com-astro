@@ -4,7 +4,14 @@
     "jsx": "react-jsx",
     "jsxImportSource": "preact",
     "strictNullChecks": true,
-    "allowJs": true
+    "allowJs": true,
+    "paths": {
+      "~components/*": ["./src/components/*"],
+      "~content/*": ["./src/content/*"],
+      "~layouts/*": ["./src/layouts/*"],
+      "~lib/*": ["./src/lib/*"],
+      "~pages/*": ["./src/pages/*"]
+    }
   },
   "exclude": ["node_modules", "dist"]
 }
