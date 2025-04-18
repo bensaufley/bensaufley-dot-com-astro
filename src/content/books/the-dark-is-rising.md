@@ -5,8 +5,8 @@ series:
   name: The Dark is Rising
   volume: 2
 authors:
-- lastName: Cooper
-  firstName: Susan
+  - lastName: Cooper
+    firstName: Susan
 narrators:
 yearPublished: 2007
 isbn10: '1416949658'
@@ -18,6 +18,7 @@ read: 2015-02-01
 rating: 2
 reading: false
 ---
+
 I remember liking [b:Over Sea, Under Stone|11312|Over Sea, Under Stone (The Dark is Rising, #1)|Susan Cooper|https://d.gr-assets.com/books/1166468889s/11312.jpg|742] a lot more than this one, but I finished that one years ago.
 
 This felt a lot less like _an adventure_ and a lot more like …a kid who had a bunch of stuff happen to him. And it wasn't even, like, "kid gets swept up in major adventure." More like "kid goes about his day, but every now and then weird stuff happens that he's somehow an important part of… without his actually making any decisions about those things."

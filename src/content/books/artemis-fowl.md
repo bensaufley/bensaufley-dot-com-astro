@@ -1,8 +1,8 @@
 ---
 title: Artemis Fowl
 authors:
-- lastName: Colfer
-  firstName: Eoin
+  - lastName: Colfer
+    firstName: Eoin
 isbn10: '3471772510'
 isbn13: '9783471772515'
 read: 2019-02-23

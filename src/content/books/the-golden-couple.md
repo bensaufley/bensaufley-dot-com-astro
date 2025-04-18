@@ -1,10 +1,10 @@
 ---
 title: The Golden Couple
 authors:
-- lastName: Hendricks
-  firstName: Greer
-- lastName: Pekkanen
-  firstName: Sarah
+  - lastName: Hendricks
+    firstName: Greer
+  - lastName: Pekkanen
+    firstName: Sarah
 isbn10: '1250273218'
 isbn13: '9781250273215'
 read: 2022-05-11

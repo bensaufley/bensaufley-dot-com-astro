@@ -5,8 +5,8 @@ series:
   name: Amulet
   volume: 2
 authors:
-- lastName: Kibuishi
-  firstName: Kazu
+  - lastName: Kibuishi
+    firstName: Kazu
 narrators:
 yearPublished: 2009
 isbn10: '0439846838'

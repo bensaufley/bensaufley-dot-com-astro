@@ -1,8 +1,8 @@
 ---
 title: The Last Policeman
 authors:
-- lastName: Winters
-  firstName: Ben H.
+  - lastName: Winters
+    firstName: Ben H.
 isbn10: '1594745765'
 isbn13: '9781594745768'
 read: 2022-06-30

@@ -1,8 +1,8 @@
 ---
 title: Yellowface
 authors:
-- lastName: Kuang
-  firstName: R. F.
+  - lastName: Kuang
+    firstName: R. F.
 isbn10:
 isbn13: '9780063250864'
 read: 2024-02-25

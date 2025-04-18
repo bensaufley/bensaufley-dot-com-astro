@@ -5,8 +5,8 @@ series:
   name: The Way
   volume: 1
 authors:
-- lastName: Bear
-  firstName: Greg
+  - lastName: Bear
+    firstName: Greg
 isbn10: '0812520475'
 isbn13: '9780812520477'
 read: 2015-08-13

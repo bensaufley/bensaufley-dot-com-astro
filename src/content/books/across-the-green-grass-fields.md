@@ -1,8 +1,8 @@
 ---
 title: Across the Green Grass Fields
 authors:
-- lastName: McGuire
-  firstName: Seanan
+  - lastName: McGuire
+    firstName: Seanan
 isbn10:
 isbn13: '9781250790101'
 read: 2023-03-17

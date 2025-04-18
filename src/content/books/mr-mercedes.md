@@ -5,8 +5,8 @@ series:
   name: Bill Hodges Trilogy
   volume: 1
 authors:
-- lastName: King
-  firstName: Stephen
+  - lastName: King
+    firstName: Stephen
 narrators:
 yearPublished: 2014
 isbn10: '1476754454'

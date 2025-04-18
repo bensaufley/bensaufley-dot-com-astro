@@ -2,8 +2,8 @@
 title: How to Hide an Empire
 subtitle: A History of the Greater United States
 authors:
-- lastName: Immerwahr
-  firstName: Daniel
+  - lastName: Immerwahr
+    firstName: Daniel
 isbn10: '0374172145'
 isbn13: '9780374172145'
 read: 2020-02-02

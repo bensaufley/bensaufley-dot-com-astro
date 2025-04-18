@@ -1,8 +1,8 @@
 ---
 title: Harry Potter and the Deathly Hallows
 authors:
-- lastName: Rowling
-  firstName: J. K.
+  - lastName: Rowling
+    firstName: J. K.
 isbn10: '0545010225'
 isbn13: '9780545010221'
 read: 2016-08-17

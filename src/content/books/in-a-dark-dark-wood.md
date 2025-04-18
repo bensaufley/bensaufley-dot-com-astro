@@ -1,8 +1,8 @@
 ---
 title: In a Dark, Dark Wood
 authors:
-- lastName: Ware
-  firstName: Ruth
+  - lastName: Ware
+    firstName: Ruth
 isbn10: '1846558913'
 isbn13: '9781846558917'
 read: 2017-01-22

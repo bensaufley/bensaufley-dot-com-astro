@@ -5,8 +5,8 @@ series:
   name: The Wormwood Trilogy
   volume: 1
 authors:
-- lastName: Thompson
-  firstName: Tade
+  - lastName: Thompson
+    firstName: Tade
 narrators:
 yearPublished: 2018
 isbn10: '0316449059'

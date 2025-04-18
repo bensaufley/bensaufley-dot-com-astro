@@ -5,11 +5,11 @@ series:
   name: Old Man's War
   volume: 2
 authors:
-- lastName: Scalzi
-  firstName: John
+  - lastName: Scalzi
+    firstName: John
 narrators:
-- lastName: Dufris
-  firstName: William
+  - lastName: Dufris
+    firstName: William
 yearPublished: 2007
 isbn10: '0765354063'
 isbn13: '9780765354068'

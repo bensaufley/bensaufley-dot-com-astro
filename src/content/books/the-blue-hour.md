@@ -1,8 +1,8 @@
 ---
 title: The Blue Hour
 authors:
-- lastName: Hawkins
-  firstName: Paula
+  - lastName: Hawkins
+    firstName: Paula
 isbn10:
 isbn13:
 read: 2024-11-18

@@ -23,6 +23,12 @@ As a supporter of human rights, it's heartbreaking. To see someone so prominent 
 
 As a reader, it's disappointing. I liked her books. They meant something to me. But with her still making millions (billions?) on her IP; with companies still lining up dump trucks of money at her door; now isn't the time to "separate the art from the artist"[^1]. When fall comes around, I usually have a moment of sadness as I remember that a "comfort watch" is no longer viable. But it isn't viable. It's tainted; even if I'm not giving her money at this point, I can't look at her work the same way again. Her work's greatest attribute was the feeling of safety it gave me, and Rowling has made sure the world is anything but safe, so that's that.
 
+I want to be clear on this because since I started to write this I've encountered someone declaring that boycotting authors like JKR for their views and actions is "cultural vandalism":
+
+**No**.
+
+There is no blame on _my shoulders_ for the destructive and hateful actions JKR has chosen to take. I owe her nothing, and any direct or indirect effect on "culture" her actions have is hers to own, including but not limited to her [recent success][uk] in making it harder for trans people and gender-nonconforming cis people to exist in the UK. Any attempt to shift the blame for societal harms from the _people causing the harms_ to the people upset about it is, on its face, ridiculous and whether or not you intend it (as many of these statements come alongside an "I don't agree with the author, but" caveat) only benefit the person causing the harm.
+
 As an aside: if this hasn't taught me to be careful about putting celebrities on a pedestal nothing will, but I do credit the three young actors who started their careers in the Potter film franchise for having the courage not to bow to Rowling—who clearly sees herself as their creator and [master][three-guesses]—and to speak out frankly and unequivocally for trans rights.
 
 Trans rights are human rights. In denying that, in forcefully coming out in opposition to human rights—in the process making allies of misogynists, white nationalists, and homophobes—Rowling has betrayed her readers (many of whom _were trans_) and made the world less safe.
@@ -35,4 +41,5 @@ I will leave my old reviews in place because I believe in being transparent abou
 [transphobe]: https://web.archive.org/web/https://theweek.com/feature/1020838/jk-rowlings-transphobia-controversy-a-complete-timeline
 [transpop]: https://www.transpop.org/
 [elon]: https://web.archive.org/web/https://www.them.us/story/elon-musk-pride-month-tweet-likes-anti-trans
+[uk]: https://web.archive.org/web/https://www.bbc.com/news/articles/cy8q55d27lgo
 [three-guesses]: https://web.archive.org/web/https://www.euronews.com/culture/2025/03/20/three-guesses-jk-rowling-appears-to-take-a-swipe-at-harry-potter-stars-amid-feud

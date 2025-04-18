@@ -1,8 +1,8 @@
 ---
 title: Children of Memory
 authors:
-- lastName: Tchaikovsky
-  firstName: Adrian
+  - lastName: Tchaikovsky
+    firstName: Adrian
 isbn10: '1529087201'
 isbn13: '9781529087208'
 read: 2024-09-06

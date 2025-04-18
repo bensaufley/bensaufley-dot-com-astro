@@ -2,8 +2,8 @@
 title: Exodus
 subtitle: The Archimedes Engine
 authors:
-- lastName: Hamilton
-  firstName: Peter F.
+  - lastName: Hamilton
+    firstName: Peter F.
 isbn10:
 isbn13:
 read: 2024-10-20
@@ -14,6 +14,7 @@ asin: B0CTKSG1VB
 narrators:
 hardcoverUrl: https://hardcover.app/books/exodus-the-archimedes-engine/editions/31549094
 ---
+
 The synopsis had me really interested but I think this book has maybe made me realize I'm not as big on the "space opera" subgenre as I thought I was. The book has some of the trappings of "hard" sci-fi, but is really just a fantasy book with a coat of sci-fi paint. The technology is magic; the near-lightspeed travel – although I'm sure the author had it all worked out – definitely _felt_ squishy as far as what it meant for who was where, when. My order of interest went 1. Terrence, 2. Finn, ….10. whoever was in the palace intrigue subplot.
 
 If I'm going to be reading a book like this, I want to care more about the individuals and I'm less excited by "fate of the universe" stuff. When the stakes get too high and the settings, tools, weapons all become too distant from the "real" world, I zone out. I can't get invested. Maybe paradoxically, this book felt to me at times too distant from anything I could relate to, and also too close to present-day humankind to be believable as 30,000 years in the future.

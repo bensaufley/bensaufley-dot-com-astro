@@ -5,8 +5,8 @@ series:
   name: Dublin Murder Squad
   volume: 1
 authors:
-- lastName: French
-  firstName: Tana
+  - lastName: French
+    firstName: Tana
 narrators:
 yearPublished: 2008
 isbn10: '0670038601'

@@ -1,8 +1,8 @@
 ---
 title: House of X/Powers of X
 authors:
-- lastName: Hickman
-  firstName: Jonathan
+  - lastName: Hickman
+    firstName: Jonathan
 isbn10:
 isbn13: '9781302915704'
 read: 2021-03-06

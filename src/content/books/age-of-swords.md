@@ -5,10 +5,10 @@ series:
   name: The Legends of the First Empire
   volume: 2
 authors:
-- lastName: Sullivan
-  firstName: Michael J.
-- lastName: Simonetti
-  firstName: Marc
+  - lastName: Sullivan
+    firstName: Michael J.
+  - lastName: Simonetti
+    firstName: Marc
 narrators:
 yearPublished: 2017
 isbn10: '1101965363'

@@ -5,8 +5,8 @@ series:
   name: Sherlock Holmes
   volume: 1
 authors:
-- lastName: Doyle
-  firstName: Arthur Conan
+  - lastName: Doyle
+    firstName: Arthur Conan
 narrators:
 yearPublished: 2005
 isbn10: '1420925539'

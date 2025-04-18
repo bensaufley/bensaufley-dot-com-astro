@@ -1,8 +1,8 @@
 ---
 title: The Last Graduate
 authors:
-- lastName: Novik
-  firstName: Naomi
+  - lastName: Novik
+    firstName: Naomi
 isbn10: '0593128869'
 isbn13: '9780593128862'
 read: 2024-03-15

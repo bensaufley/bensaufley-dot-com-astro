@@ -1,8 +1,8 @@
 ---
 title: Black Sun
 authors:
-- lastName: Roanhorse
-  firstName: Rebecca
+  - lastName: Roanhorse
+    firstName: Rebecca
 isbn10:
 isbn13: '9781534437678'
 read: 2020-12-03

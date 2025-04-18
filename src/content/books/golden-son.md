@@ -1,8 +1,8 @@
 ---
 title: Golden Son
 authors:
-- lastName: Brown
-  firstName: Pierce
+  - lastName: Brown
+    firstName: Pierce
 isbn10:
 isbn13:
 read: 2023-06-26

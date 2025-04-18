@@ -4,21 +4,16 @@ import partytown from '@astrojs/partytown';
 import preact from '@astrojs/preact';
 import sitemap from '@astrojs/sitemap';
 import { defineConfig } from 'astro/config';
-import dayjs, { type Dayjs } from 'dayjs';
+import dayjs from 'dayjs';
 import minMax from 'dayjs/plugin/minMax';
 import { resolve } from 'node:path';
 import svgr from 'vite-plugin-svgr';
 
-import { getLastMods } from './getLatestChanged.js';
+import { getLastMods, type LastMods } from './getLatestChanged.js';
 
 dayjs.extend(minMax);
 
-let lastMods: {
-  latestSharedChange: Dayjs;
-  latestBlogEntryChange: Dayjs;
-  latestReadingEntryChange: Dayjs;
-  blogPostUpdates: Record<string, Dayjs>;
-};
+let lastMods: LastMods;
 
 export default defineConfig({
   integrations: [
@@ -46,6 +41,13 @@ export default defineConfig({
             };
           }
           case '/reading': {
+            const pathname = new URL(entry.url).pathname.replace(/\/$/, '');
+            if (pathname in blogPostUpdates) {
+              return {
+                ...entry,
+                lastmod: dayjs.max(blogPostUpdates[pathname]!, latestSharedChange).toISOString(),
+              };
+            }
             return {
               ...entry,
               lastmod: dayjs.max(latestReadingEntryChange, latestSharedChange).toISOString(),

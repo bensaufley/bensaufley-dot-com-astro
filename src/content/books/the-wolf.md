@@ -1,8 +1,8 @@
 ---
 title: The Wolf
 authors:
-- lastName: Carew
-  firstName: Leo
+  - lastName: Carew
+    firstName: Leo
 isbn10: 031652137X
 isbn13: '9780316521376'
 read: 2023-08-22

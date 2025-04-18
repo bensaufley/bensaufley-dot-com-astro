@@ -1,8 +1,8 @@
 ---
 title: The Squire
 authors:
-- lastName: Hamilton
-  firstName: Duncan M.
+  - lastName: Hamilton
+    firstName: Duncan M.
 isbn10:
 isbn13: '9798731336253'
 read: 2022-04-27

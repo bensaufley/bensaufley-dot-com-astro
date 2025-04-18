@@ -2,8 +2,8 @@
 title: Bird by Bird
 subtitle: Some Instructions on Writing and Life
 authors:
-- lastName: Lamott
-  firstName: Anne
+  - lastName: Lamott
+    firstName: Anne
 isbn10: '1921372478'
 isbn13: '9781921372476'
 read: 2016-02-27

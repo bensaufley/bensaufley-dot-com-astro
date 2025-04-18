@@ -1,8 +1,8 @@
 ---
 title: The Maid
 authors:
-- lastName: Prose
-  firstName: Nita
+  - lastName: Prose
+    firstName: Nita
 isbn10: '000843574X'
 isbn13: '9780008435769'
 read: 2022-12-17

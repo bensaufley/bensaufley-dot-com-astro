@@ -1,8 +1,8 @@
 ---
 title: The Woman in the Window
 authors:
-- lastName: Finn
-  firstName: A.J.
+  - lastName: Finn
+    firstName: A.J.
 isbn10: '0062678426'
 isbn13: '9780062678423'
 read: 2018-03-13

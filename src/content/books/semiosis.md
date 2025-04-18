@@ -1,8 +1,8 @@
 ---
 title: Semiosis
 authors:
-- lastName: Burke
-  firstName: Sue
+  - lastName: Burke
+    firstName: Sue
 isbn10:
 isbn13:
 read: 2025-03-16

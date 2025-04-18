@@ -3,7 +3,10 @@
   color: transparent;
   cursor: default;
   padding: 0.125rem 0.25rem;
-  transition: color 300ms, background-color 300ms, filter 300ms;
+  transition:
+    color 300ms,
+    background-color 300ms,
+    filter 300ms;
 
   &:has(p),
   &:has(div) {

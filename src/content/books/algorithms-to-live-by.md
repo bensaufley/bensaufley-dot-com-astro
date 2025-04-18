@@ -2,10 +2,10 @@
 title: Algorithms to Live By
 subtitle: The Computer Science of Human Decisions
 authors:
-- lastName: Christian
-  firstName: Brian
-- lastName: Griffiths
-  firstName: Tom
+  - lastName: Christian
+    firstName: Brian
+  - lastName: Griffiths
+    firstName: Tom
 isbn10:
 isbn13: '9781627790369'
 read: 2018-01-22

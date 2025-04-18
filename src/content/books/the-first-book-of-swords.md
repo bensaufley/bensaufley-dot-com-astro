@@ -5,8 +5,8 @@ series:
   name: Books of Swords
   volume: 1
 authors:
-- lastName: Saberhagen
-  firstName: Fred
+  - lastName: Saberhagen
+    firstName: Fred
 narrators:
 yearPublished: 1984
 isbn10: '0812523563'

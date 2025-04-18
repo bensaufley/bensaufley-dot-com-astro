@@ -1,8 +1,8 @@
 ---
 title: One Perfect Couple
 authors:
-- lastName: Ware
-  firstName: Ruth
+  - lastName: Ware
+    firstName: Ruth
 isbn10: '1668025590'
 isbn13: '9781668025598'
 read: 2024-05-26

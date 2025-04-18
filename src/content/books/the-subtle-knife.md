@@ -5,8 +5,8 @@ series:
   name: His Dark Materials
   volume: 2
 authors:
-- lastName: Pullman
-  firstName: Philip
+  - lastName: Pullman
+    firstName: Philip
 narrators:
 yearPublished: 2018
 isbn10: '0439944678'

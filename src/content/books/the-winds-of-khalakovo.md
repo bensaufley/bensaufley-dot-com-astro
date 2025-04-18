@@ -5,8 +5,8 @@ series:
   name: Lays of Anuskaya
   volume: 1
 authors:
-- lastName: Beaulieu
-  firstName: Bradley P.
+  - lastName: Beaulieu
+    firstName: Bradley P.
 narrators:
 yearPublished: 2011
 isbn10:

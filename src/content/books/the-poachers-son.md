@@ -1,8 +1,8 @@
 ---
 title: The Poacher's Son
 authors:
-- lastName: Doiron
-  firstName: Paul
+  - lastName: Doiron
+    firstName: Paul
 isbn10:
 isbn13:
 read: 2025-03-31

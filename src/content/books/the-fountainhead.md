@@ -1,8 +1,8 @@
 ---
 title: The Fountainhead
 authors:
-- lastName: Rand
-  firstName: Ayn
+  - lastName: Rand
+    firstName: Ayn
 isbn10: '0451158237'
 isbn13: '9780451158239'
 read: 2019-12-22

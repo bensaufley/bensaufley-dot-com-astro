@@ -1,8 +1,8 @@
 ---
 title: Tomorrow, and Tomorrow, and Tomorrow
 authors:
-- lastName: Zevin
-  firstName: Gabrielle
+  - lastName: Zevin
+    firstName: Gabrielle
 isbn10: '0593321200'
 isbn13: '9780593321201'
 read: 2024-05-09

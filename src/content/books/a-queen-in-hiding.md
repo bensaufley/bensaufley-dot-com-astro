@@ -5,13 +5,13 @@ series:
   name: The Nine Realms
   volume: 1
 authors:
-- lastName: Kozloff
-  firstName: Sarah
-- lastName: Church
-  firstName: Imogene
+  - lastName: Kozloff
+    firstName: Sarah
+  - lastName: Church
+    firstName: Imogene
 narrators:
-- lastName: Church
-  firstName: Imogene
+  - lastName: Church
+    firstName: Imogene
 yearPublished: 2020
 isbn10: '1250243548'
 isbn13: '9781250243546'

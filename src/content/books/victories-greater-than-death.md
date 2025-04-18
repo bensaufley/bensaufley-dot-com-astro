@@ -4,8 +4,8 @@ series:
   name: Unstoppable
   volume: 1
 authors:
-- lastName: Anders
-  firstName: Charlie Jane
+  - lastName: Anders
+    firstName: Charlie Jane
 isbn10: '1789094720'
 isbn13: '9781789094725'
 read: 2021-05-13

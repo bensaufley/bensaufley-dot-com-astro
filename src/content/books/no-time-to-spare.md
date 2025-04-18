@@ -2,8 +2,8 @@
 title: No Time to Spare
 subtitle: Thinking About What Matters
 authors:
-- lastName: Guin
-  firstName: Ursula K. Le
+  - lastName: Guin
+    firstName: Ursula K. Le
 isbn10: '1328661598'
 isbn13: '9781328661593'
 read: 2019-04-10

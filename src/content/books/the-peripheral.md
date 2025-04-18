@@ -1,8 +1,8 @@
 ---
 title: The Peripheral
 authors:
-- lastName: Gibson
-  firstName: William
+  - lastName: Gibson
+    firstName: William
 isbn10: '1611763355'
 isbn13: '9781611763355'
 read: 2022-11-19

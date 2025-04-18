@@ -1,8 +1,8 @@
 ---
 title: A Conjuring of Light
 authors:
-- lastName: Schwab
-  firstName: V. E.
+  - lastName: Schwab
+    firstName: V. E.
 isbn10:
 isbn13: '9781427288509'
 read: 2024-01-11

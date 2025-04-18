@@ -1,8 +1,8 @@
 ---
 title: Something in the Water
 authors:
-- lastName: Steadman
-  firstName: Catherine
+  - lastName: Steadman
+    firstName: Catherine
 isbn10: '1524797189'
 isbn13: '9781524797188'
 read: 2019-12-01

@@ -5,10 +5,10 @@ series:
   name: The Final Architecture
   volume: 1
 authors:
-- lastName: Tchaikovsky
-  firstName: Adrian
-- lastName: Aldred
-  firstName: Sophie
+  - lastName: Tchaikovsky
+    firstName: Adrian
+  - lastName: Aldred
+    firstName: Sophie
 narrators:
 yearPublished: 2021
 isbn10: '1549106392'

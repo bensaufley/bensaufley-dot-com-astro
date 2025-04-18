@@ -1,8 +1,8 @@
 ---
 title: Sunrise on the Reaping
 authors:
-- lastName: Collins
-  firstName: Suzanne
+  - lastName: Collins
+    firstName: Suzanne
 isbn10:
 isbn13: '9781546171492'
 read: 2025-04-10

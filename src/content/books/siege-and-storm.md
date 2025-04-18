@@ -5,8 +5,8 @@ series:
   name: The Shadow and Bone Trilogy
   volume: 2
 authors:
-- lastName: Bardugo
-  firstName: Leigh
+  - lastName: Bardugo
+    firstName: Leigh
 narrators:
 yearPublished: 2013
 isbn10: 125004443X

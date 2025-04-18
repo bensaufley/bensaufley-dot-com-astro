@@ -1,8 +1,8 @@
 ---
 title: Please See Us
 authors:
-- lastName: Mullen
-  firstName: Caitlin
+  - lastName: Mullen
+    firstName: Caitlin
 isbn10: '1982127503'
 isbn13: '9781982127503'
 read: 2020-07-09

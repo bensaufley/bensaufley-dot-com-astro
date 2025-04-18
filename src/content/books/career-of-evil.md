@@ -1,8 +1,8 @@
 ---
 title: Career of Evil
 authors:
-- lastName: Galbraith
-  firstName: Robert
+  - lastName: Galbraith
+    firstName: Robert
 isbn10: '0316349933'
 isbn13: '9780316349932'
 read: 2016-06-07

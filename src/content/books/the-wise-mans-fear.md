@@ -5,8 +5,8 @@ series:
   name: The Kingkiller Chronicle
   volume: 2
 authors:
-- lastName: Rothfuss
-  firstName: Patrick
+  - lastName: Rothfuss
+    firstName: Patrick
 narrators:
 yearPublished: 2011
 isbn10: '0756404738'
@@ -18,6 +18,7 @@ read: 2012-10-18
 rating: 4
 reading: false
 ---
+
 Enjoyed the hell out of this one, like the last. Ate it right up. That said, a few concerns:
 
 • First, if one more person's mouth makes a line (grim or otherwise) I'm going to lose it.

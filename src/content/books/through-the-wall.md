@@ -1,8 +1,8 @@
 ---
 title: Through the Wall
 authors:
-- lastName: Corcoran
-  firstName: Caroline
+  - lastName: Corcoran
+    firstName: Caroline
 isbn10: '0008335095'
 isbn13: '9780008335090'
 read: 2020-08-31

@@ -1,8 +1,8 @@
 ---
 title: Head On
 authors:
-- lastName: Scalzi
-  firstName: John
+  - lastName: Scalzi
+    firstName: John
 isbn10:
 isbn13: '9780765388919'
 read: 2018-06-20

@@ -1,8 +1,8 @@
 ---
 title: The Great Hunt
 authors:
-- lastName: Jordan
-  firstName: Robert
+  - lastName: Jordan
+    firstName: Robert
 isbn10: '0812517725'
 isbn13: '9780812517729'
 read: 2023-02-22

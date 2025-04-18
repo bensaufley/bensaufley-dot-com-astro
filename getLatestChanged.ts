@@ -8,7 +8,7 @@ import utc from 'dayjs/plugin/utc';
 import { cruise, type ICruiseResult } from 'dependency-cruiser';
 import { existsSync, readdirSync } from 'node:fs';
 import { readFile } from 'node:fs/promises';
-import { resolve } from 'node:path';
+import { basename, extname, resolve } from 'node:path';
 import simpleGit from 'simple-git';
 
 import { slug } from './src/lib/posts.js';
@@ -55,7 +55,15 @@ const getLatestChanged = async (input: string | string[]): Promise<Dayjs> => {
   return latestChange;
 };
 
-export const getLastMods = async () => {
+export interface LastMods {
+  latestSharedChange: Dayjs;
+  latestBlogEntryChange: Dayjs;
+  latestReadingEntryChange: Dayjs;
+  blogPostUpdates: Record<string, Dayjs>;
+  bookReviewUpdates: Record<string, Dayjs>;
+}
+
+export const getLastMods = async (): Promise<LastMods> => {
   const baseLayout = 'src/layouts/BaseLayout.astro';
   const latestSharedChange = await getLatestChanged(baseLayout);
   console.log(`Latest shared file change: ${latestSharedChange}`);
@@ -74,7 +82,7 @@ export const getLastMods = async () => {
         .map(async (file) => {
           const raw = (await readFile(file)).toString();
           const frontmatter = parseFrontmatter(raw).frontmatter as InferEntrySchema<'posts'>;
-          console.log({ file, frontmatter });
+
           return [
             slug({ id: file, data: frontmatter }),
             await getLatestChanged(file)
@@ -86,6 +94,29 @@ export const getLastMods = async () => {
   );
   console.log(`Latest blog entry changes: ${JSON.stringify(blogPostUpdates, null, 2)}`);
 
+  const bookReviewUpdates = Object.fromEntries<Dayjs>(
+    await Promise.all(
+      readdirSync('./src/content/books', { withFileTypes: true })
+        .filter((file) => file.isFile())
+        .map((file) => `src/content/books/${file.name}`)
+        .map(async (file) => {
+          const raw = (await readFile(file)).toString();
+          const data = parseFrontmatter(raw);
+          const frontmatter = data.frontmatter as InferEntrySchema<'books'>;
+          const id = basename(file, extname(file));
+          if (!data.content.trim()) return null;
+
+          return [
+            id,
+            await getLatestChanged(file)
+              .catch(() => null)
+              .then((d) => d || dayjs.tz(frontmatter.read!, 'America/New_York')),
+          ] as const;
+        }),
+    ).then((arr) => arr.filter((v) => !!v)),
+  );
+  console.log(`Latest book review changes: ${JSON.stringify(bookReviewUpdates, null, 2)}`);
+
   const latestReadingEntryChange = await getLatestChanged(
     readdirSync('./src/content/books', { withFileTypes: true })
       .filter((file) => file.isFile())
@@ -96,7 +127,8 @@ export const getLastMods = async () => {
   return {
     latestSharedChange,
     latestBlogEntryChange,
-    blogPostUpdates,
     latestReadingEntryChange,
+    blogPostUpdates,
+    bookReviewUpdates,
   };
 };

@@ -2,8 +2,8 @@
 title: Factfulness
 subtitle: Ten Reasons We're Wrong About the World – and Why Things Are Better Than You Think
 authors:
-- lastName: Rosling
-  firstName: Hans
+  - lastName: Rosling
+    firstName: Hans
 isbn10: '1473637465'
 isbn13: '9781473637467'
 read: 2018-05-17

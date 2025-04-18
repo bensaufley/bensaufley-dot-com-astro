@@ -1,8 +1,8 @@
 ---
 title: Midnight's Furies
 authors:
-- lastName: Hajari
-  firstName: Nisid
+  - lastName: Hajari
+    firstName: Nisid
 isbn10: '0547669240'
 isbn13: '9780547669243'
 read: 2018-08-11

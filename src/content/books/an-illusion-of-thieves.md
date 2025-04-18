@@ -1,8 +1,8 @@
 ---
 title: An Illusion of Thieves
 authors:
-- lastName: Glass
-  firstName: Cate
+  - lastName: Glass
+    firstName: Cate
 isbn10: '1250311004'
 isbn13: '9781250311009'
 read: 2021-11-18

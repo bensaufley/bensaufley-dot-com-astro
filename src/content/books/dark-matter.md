@@ -1,8 +1,8 @@
 ---
 title: Dark Matter
 authors:
-- lastName: Crouch
-  firstName: Blake
+  - lastName: Crouch
+    firstName: Blake
 isbn10: '1101904224'
 isbn13: '9781101904220'
 read: 2024-05-11

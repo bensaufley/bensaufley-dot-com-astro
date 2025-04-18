@@ -1,8 +1,8 @@
 ---
 title: The Ballad of Songbirds and Snakes
 authors:
-- lastName: Collins
-  firstName: Suzanne
+  - lastName: Collins
+    firstName: Suzanne
 isbn10: '1338635182'
 isbn13: '9781338635201'
 read: 2024-06-22
@@ -15,4 +15,5 @@ narrators:
 coverImageUrl: https://assets.hardcover.app/external_data/60155070/1a615511c6859c37b49ab663bcb279e8528024c5.jpeg
 hardcoverUrl: https://hardcover.app/books/the-ballad-of-songbirds-and-snakes/editions/30399380
 ---
-I didn't hate this. I really loved the way Collins ended the trilogy; it was so interesting and real, in a universe that wasn't very. So I was curious to see how she'd do Snow. I think the biggest issue I have is the pacing. The heel turn feels sudden and late, even if there are some smart breadcrumbs left along the whole journey.  <x-spoiler>I also expected the heel turn to be _in response to something_ but I think it was sly that it was basically always in him. He was never going to be anything else because of his basic flawed belief system. A lot of “banality of evil” stuff here.</x-spoiler>  So I liked it overall but yeah I think it could've been better paced and while I thing Collin's is smarter than some of her “dystopian YA” peers about the things she writes about, I don't know that this one will stick with me too long, like the epilogue of the trilogy did.
+
+I didn't hate this. I really loved the way Collins ended the trilogy; it was so interesting and real, in a universe that wasn't very. So I was curious to see how she'd do Snow. I think the biggest issue I have is the pacing. The heel turn feels sudden and late, even if there are some smart breadcrumbs left along the whole journey. <x-spoiler>I also expected the heel turn to be _in response to something_ but I think it was sly that it was basically always in him. He was never going to be anything else because of his basic flawed belief system. A lot of “banality of evil” stuff here.</x-spoiler> So I liked it overall but yeah I think it could've been better paced and while I thing Collin's is smarter than some of her “dystopian YA” peers about the things she writes about, I don't know that this one will stick with me too long, like the epilogue of the trilogy did.

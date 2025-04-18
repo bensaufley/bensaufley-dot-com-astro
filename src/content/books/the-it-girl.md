@@ -1,8 +1,8 @@
 ---
 title: The It Girl
 authors:
-- lastName: Ware
-  firstName: Ruth
+  - lastName: Ware
+    firstName: Ruth
 isbn10: '1982155264'
 isbn13: '9781982155261'
 read: 2022-07-20

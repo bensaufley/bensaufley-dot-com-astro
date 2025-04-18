@@ -4,8 +4,8 @@ series:
   name: Everfair
   volume: 1
 authors:
-- lastName: Shawl
-  firstName: Nisi
+  - lastName: Shawl
+    firstName: Nisi
 isbn10: '1466837845'
 isbn13: '9781466837843'
 read: 2018-05-10

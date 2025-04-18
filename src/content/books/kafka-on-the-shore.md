@@ -1,8 +1,8 @@
 ---
 title: Kafka on the Shore
 authors:
-- lastName: Murakami
-  firstName: Haruki
+  - lastName: Murakami
+    firstName: Haruki
 isbn10: '1400079276'
 isbn13: '9781400079278'
 read: 2018-04-11
@@ -15,6 +15,7 @@ narrators:
 coverImageUrl: https://assets.hardcover.app/editions/31491275/5427275157910645.jpg
 hardcoverUrl: https://hardcover.app/books/kafka-on-the-shore/editions/31491275
 ---
+
 If I'm being honest, this one is getting an extra star for “I'm clearly too stupid to understand this.” I didn't really enjoy it. Nakata's storyline was interesting, although it never really amounted to anything concrete. There was a lot of “he didn't know how he knew; he just knew” which in real life is an interesting phenomenon, but in fiction just feels like a cop-out. And when it all came to a head, there was clearly a metaphor or some kind of symbolism that I just missed entirely. Kafka's storyline, meanwhile, was full of horniness and potential incest and mostly just made me uncomfortable. Also a bit of what I would consider to be mishandling of a trans character.I loved [b:What I Talk About When I Talk About Running
 2195464
 What I Talk About When I Talk About Running

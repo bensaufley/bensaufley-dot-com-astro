@@ -2,8 +2,8 @@
 title: How Civil Wars Start
 subtitle: And How to Stop Them
 authors:
-- lastName: Walter
-  firstName: Barbara F.
+  - lastName: Walter
+    firstName: Barbara F.
 isbn10:
 isbn13: '9780593506080'
 read: 2025-01-23

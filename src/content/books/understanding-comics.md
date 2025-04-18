@@ -2,8 +2,8 @@
 title: Understanding Comics
 subtitle: The Invisible Art
 authors:
-- lastName: McCloud
-  firstName: Scott
+  - lastName: McCloud
+    firstName: Scott
 isbn10:
 isbn13: '9780878162437'
 read: 2010-03-16

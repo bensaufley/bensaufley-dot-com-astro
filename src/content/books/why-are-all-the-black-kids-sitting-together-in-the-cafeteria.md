@@ -2,8 +2,8 @@
 title: Why Are All the Black Kids Sitting Together in the Cafeteria?
 subtitle: And Other Conversations about Race
 authors:
-- lastName: Tatum
-  firstName: Beverly Daniel
+  - lastName: Tatum
+    firstName: Beverly Daniel
 isbn10: '1541616588'
 isbn13: '9781541616585'
 read: 2020-07-18

@@ -1,8 +1,8 @@
 ---
 title: The Communist Manifesto
 authors:
-- lastName: Marx
-  firstName: Karl
+  - lastName: Marx
+    firstName: Karl
 isbn10: '0140447571'
 isbn13: '9780140447576'
 read: 2018-12-21

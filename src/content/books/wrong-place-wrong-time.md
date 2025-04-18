@@ -1,8 +1,8 @@
 ---
 title: Wrong Place Wrong Time
 authors:
-- lastName: McAllister
-  firstName: Gillian
+  - lastName: McAllister
+    firstName: Gillian
 isbn10: '0063252341'
 isbn13: '9780063252349'
 read: 2022-09-24

@@ -5,8 +5,8 @@ series:
   name: Horowitz's Holmes
   volume: 1
 authors:
-- lastName: Horowitz
-  firstName: Anthony
+  - lastName: Horowitz
+    firstName: Anthony
 narrators:
 yearPublished: 2011
 isbn10: '0316196991'

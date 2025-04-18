@@ -1,8 +1,8 @@
 ---
 title: The Traitor Baru Cormorant
 authors:
-- lastName: Dickinson
-  firstName: Seth
+  - lastName: Dickinson
+    firstName: Seth
 isbn10: '6069000102'
 isbn13: '9786069000106'
 read: 2024-07-06

@@ -5,8 +5,8 @@ series:
   name: The Sparrow
   volume: 1
 authors:
-- lastName: Russell
-  firstName: Mary Doria
+  - lastName: Russell
+    firstName: Mary Doria
 narrators:
 yearPublished: 2008
 isbn10: '0449912558'

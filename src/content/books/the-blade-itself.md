@@ -1,8 +1,8 @@
 ---
 title: The Blade Itself Library Edition
 authors:
-- lastName: Abercrombie
-  firstName: Joe
+  - lastName: Abercrombie
+    firstName: Joe
 isbn10: '1478935782'
 isbn13: '9781478935780'
 read: 2024-08-06

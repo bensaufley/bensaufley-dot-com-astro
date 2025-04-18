@@ -5,8 +5,8 @@ series:
   name: The Nine Realms
   volume: 3
 authors:
-- lastName: Kozloff
-  firstName: Sarah
+  - lastName: Kozloff
+    firstName: Sarah
 narrators:
 yearPublished: 2020
 isbn10: 125016866X

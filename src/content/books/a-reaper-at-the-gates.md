@@ -5,8 +5,8 @@ series:
   name: An Ember in the Ashes
   volume: 3
 authors:
-- lastName: Tahir
-  firstName: Sabaa
+  - lastName: Tahir
+    firstName: Sabaa
 narrators:
 yearPublished: 2018
 isbn10: '0448494507'

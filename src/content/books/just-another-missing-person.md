@@ -1,8 +1,8 @@
 ---
 title: Just Another Missing Person
 authors:
-- lastName: McAllister
-  firstName: Gillian
+  - lastName: McAllister
+    firstName: Gillian
 isbn10:
 isbn13: '9780063252417'
 read: 2024-04-06

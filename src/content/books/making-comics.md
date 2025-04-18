@@ -2,8 +2,8 @@
 title: Making Comics
 subtitle: Storytelling Secrets of Comics, Manga and Graphic Novels
 authors:
-- lastName: McCloud
-  firstName: Scott
+  - lastName: McCloud
+    firstName: Scott
 isbn10: '0060780940'
 isbn13: '9780060780944'
 read: 2010-06-01

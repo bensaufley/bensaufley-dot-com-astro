@@ -5,11 +5,11 @@ series:
   name: Abhorsen
   volume: 1
 authors:
-- lastName: Nix
-  firstName: Garth
+  - lastName: Nix
+    firstName: Garth
 narrators:
-- lastName: Curry
-  firstName: Tim
+  - lastName: Curry
+    firstName: Tim
 yearPublished: 1996
 isbn10: '0064471837'
 isbn13: '9780064471831'

@@ -1,8 +1,8 @@
 ---
 title: The Golden Compass
 authors:
-- lastName: Pullman
-  firstName: Philip
+  - lastName: Pullman
+    firstName: Philip
 isbn10: '0679879242'
 isbn13: '9780679879244'
 read: 2019-07-24

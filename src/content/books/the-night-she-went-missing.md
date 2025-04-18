@@ -1,8 +1,8 @@
 ---
 title: The Night She Went Missing
 authors:
-- lastName: Bird
-  firstName: Kristen
+  - lastName: Bird
+    firstName: Kristen
 isbn10: '0778332101'
 isbn13: '9780778332107'
 read: 2022-06-26

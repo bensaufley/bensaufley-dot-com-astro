@@ -1,8 +1,8 @@
 ---
 title: The Dragon Republic
 authors:
-- lastName: Kuang
-  firstName: R. F.
+  - lastName: Kuang
+    firstName: R. F.
 isbn10:
 isbn13: '9780062662613'
 read: 2023-01-21

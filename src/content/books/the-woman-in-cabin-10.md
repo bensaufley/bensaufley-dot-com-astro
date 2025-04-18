@@ -5,8 +5,8 @@ series:
   name: Lo Blacklock
   volume: 1
 authors:
-- lastName: Ware
-  firstName: Ruth
+  - lastName: Ware
+    firstName: Ruth
 narrators:
 yearPublished: 2016
 isbn10: '1501132938'

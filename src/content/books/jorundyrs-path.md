@@ -5,8 +5,8 @@ series:
   name: Wolf of the North
   volume: 2
 authors:
-- lastName: Hamilton
-  firstName: Duncan M.
+  - lastName: Hamilton
+    firstName: Duncan M.
 narrators:
 yearPublished: 2017
 isbn10:

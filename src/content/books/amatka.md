@@ -1,8 +1,8 @@
 ---
 title: Amatka
 authors:
-- lastName: Tidbeck
-  firstName: Karin
+  - lastName: Tidbeck
+    firstName: Karin
 isbn10: '1101973951'
 isbn13: '9781101973950'
 read: 2022-03-24

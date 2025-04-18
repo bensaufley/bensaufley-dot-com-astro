@@ -5,8 +5,8 @@ series:
   name: Wayward Children
   volume: 5
 authors:
-- lastName: McGuire
-  firstName: Seanan
+  - lastName: McGuire
+    firstName: Seanan
 isbn10: '0765399318'
 isbn13: '9780765399311'
 read: 2020-04-30

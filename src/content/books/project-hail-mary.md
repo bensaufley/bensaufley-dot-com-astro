@@ -1,8 +1,8 @@
 ---
 title: Project Hail Mary
 authors:
-- lastName: Weir
-  firstName: Andy
+  - lastName: Weir
+    firstName: Andy
 isbn10: '0593135202'
 isbn13: '9780593135204'
 read: 2023-03-19

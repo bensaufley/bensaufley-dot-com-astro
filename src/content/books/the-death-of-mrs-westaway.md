@@ -1,8 +1,8 @@
 ---
 title: The Death of Mrs. Westaway
 authors:
-- lastName: Ware
-  firstName: Ruth
+  - lastName: Ware
+    firstName: Ruth
 isbn10: '1911215043'
 isbn13: '9781911215042'
 read: 2018-06-26

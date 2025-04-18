@@ -1,8 +1,8 @@
 ---
 title: The Violence
 authors:
-- lastName: Dawson
-  firstName: Delilah S.
+  - lastName: Dawson
+    firstName: Delilah S.
 isbn10: '0593156625'
 isbn13: '9780593156629'
 read: 2022-05-30

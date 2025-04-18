@@ -1,8 +1,8 @@
 ---
 title: A Slow Fire Burning
 authors:
-- lastName: Hawkins
-  firstName: Paula
+  - lastName: Hawkins
+    firstName: Paula
 isbn10:
 isbn13: '9780593453162'
 read: 2022-01-05

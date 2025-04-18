@@ -5,8 +5,8 @@ series:
   name: Amulet
   volume: 3
 authors:
-- lastName: Kibuishi
-  firstName: Kazu
+  - lastName: Kibuishi
+    firstName: Kazu
 narrators:
 yearPublished: 2013
 isbn10: '0545208858'

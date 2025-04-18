@@ -5,12 +5,12 @@ series:
   name: Chronicles of Narnia
   volume: 1
 authors:
-- lastName: Lewis
-  firstName: C.S.
-- lastName: Haugen
-  firstName: Tormod
-- lastName: Paulsen
-  firstName: Per Svein
+  - lastName: Lewis
+    firstName: C.S.
+  - lastName: Haugen
+    firstName: Tormod
+  - lastName: Paulsen
+    firstName: Per Svein
 narrators:
 yearPublished: 2005
 isbn10: '0060764899'

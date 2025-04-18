@@ -5,11 +5,11 @@ series:
   name: Lightbringer
   volume: 3
 authors:
-- lastName: Weeks
-  firstName: Brent
+  - lastName: Weeks
+    firstName: Brent
 narrators:
-- lastName: Vance
-  firstName: Simon
+  - lastName: Vance
+    firstName: Simon
 yearPublished: 2014
 isbn10: '0316235555'
 isbn13: '9780316235556'
@@ -20,4 +20,5 @@ read: 2017-08-30
 rating: 4
 reading: false
 ---
+
 The series for the most part gets better as it goes. Excited to start the next (but I'm trying not to just binge - there's still one book yet to be released and I try to break up the authors I read)

@@ -4,8 +4,8 @@ series:
   name: Hawthorne & Horowitz
   volume: 3
 authors:
-- lastName: Horowitz
-  firstName: Anthony
+  - lastName: Horowitz
+    firstName: Anthony
 isbn10: '0062938169'
 isbn13: '9780062938169'
 read: 2021-11-28

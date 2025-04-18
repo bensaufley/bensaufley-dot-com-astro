@@ -1,8 +1,8 @@
 ---
 title: Greenwich Park
 authors:
-- lastName: Faulkner
-  firstName: Katherine
+  - lastName: Faulkner
+    firstName: Katherine
 isbn10:
 isbn13: '9781797130262'
 read: 2022-05-18

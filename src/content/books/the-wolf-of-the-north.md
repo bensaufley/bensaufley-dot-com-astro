@@ -5,11 +5,11 @@ series:
   name: Wolf of the North
   volume: 1
 authors:
-- lastName: Hamilton
-  firstName: Duncan M.
+  - lastName: Hamilton
+    firstName: Duncan M.
 narrators:
-- lastName: Vance
-  firstName: Simon
+  - lastName: Vance
+    firstName: Simon
 yearPublished: 2017
 isbn10: '1539423441'
 isbn13: '9781539423447'

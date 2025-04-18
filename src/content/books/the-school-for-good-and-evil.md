@@ -1,8 +1,8 @@
 ---
 title: The School for Good and Evil
 authors:
-- lastName: Chainani
-  firstName: Soman
+  - lastName: Chainani
+    firstName: Soman
 isbn10:
 isbn13: '9780062272812'
 read: 2022-10-15

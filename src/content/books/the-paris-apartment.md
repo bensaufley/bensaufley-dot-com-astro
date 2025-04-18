@@ -1,8 +1,8 @@
 ---
 title: The Paris Apartment
 authors:
-- lastName: Foley
-  firstName: Lucy
+  - lastName: Foley
+    firstName: Lucy
 isbn10: '0063227924'
 isbn13: '9780063227927'
 read: 2022-03-14

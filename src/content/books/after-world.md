@@ -1,8 +1,8 @@
 ---
 title: After World
 authors:
-- lastName: Urbanski
-  firstName: Debbie
+  - lastName: Urbanski
+    firstName: Debbie
 isbn10:
 isbn13: '9781797170381'
 read: 2025-02-09

@@ -4,8 +4,8 @@ series:
   name: Susan Ryeland
   volume: 1
 authors:
-- lastName: Horowitz
-  firstName: Anthony
+  - lastName: Horowitz
+    firstName: Anthony
 isbn10: '0062645226'
 isbn13: '9780062645227'
 read: 2017-10-29

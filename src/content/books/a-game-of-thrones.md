@@ -4,8 +4,8 @@ series:
   name: A Song of Ice and Fire
   volume: 1
 authors:
-- lastName: Martin
-  firstName: George R.R.
+  - lastName: Martin
+    firstName: George R.R.
 isbn10: '0553588486'
 isbn13: '9780553588484'
 read: 2011-06-24

@@ -1,8 +1,8 @@
 ---
 title: The Vacation Rental
 authors:
-- lastName: Sise
-  firstName: Katie
+  - lastName: Sise
+    firstName: Katie
 isbn10: '1662507720'
 isbn13: '9781662507724'
 read: 2024-11-02

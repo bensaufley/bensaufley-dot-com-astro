@@ -5,8 +5,8 @@ series:
   name: Wanderers
   volume: 1
 authors:
-- lastName: Wendig
-  firstName: Chuck
+  - lastName: Wendig
+    firstName: Chuck
 narrators:
 yearPublished: 2019
 isbn10: '039918211X'
@@ -18,4 +18,5 @@ read: 2020-03-26
 rating: 4
 reading: false
 ---
+
 Pretty timely, obviously. Pandemic, white supremacist demagogue, etc. I enjoyed it.

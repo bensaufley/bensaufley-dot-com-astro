@@ -1,8 +1,8 @@
 ---
 title: The Girl Who Kicked The Hornet's Nest
 authors:
-- lastName: Larsson
-  firstName: Stieg
+  - lastName: Larsson
+    firstName: Stieg
 isbn10: '8535915206'
 isbn13: '9788535915204'
 read: 2024-05-24

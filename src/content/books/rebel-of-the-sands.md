@@ -5,8 +5,8 @@ series:
   name: Rebel of the Sands
   volume: 1
 authors:
-- lastName: Hamilton
-  firstName: Alwyn
+  - lastName: Hamilton
+    firstName: Alwyn
 narrators:
 yearPublished: 2016
 isbn10: '0451477537'

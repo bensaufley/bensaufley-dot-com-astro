@@ -1,8 +1,8 @@
 ---
 title: Harry Potter and the Chamber of Secrets
 authors:
-- lastName: Rowling
-  firstName: J. K.
+  - lastName: Rowling
+    firstName: J. K.
 isbn10: '1781100357'
 isbn13: '9781781100356'
 read: 2016-07-11

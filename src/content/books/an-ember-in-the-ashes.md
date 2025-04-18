@@ -5,8 +5,8 @@ series:
   name: An Ember in the Ashes
   volume: 1
 authors:
-- lastName: Tahir
-  firstName: Sabaa
+  - lastName: Tahir
+    firstName: Sabaa
 isbn10: '1595148035'
 isbn13: '9781595148032'
 read: 2015-06-04
@@ -18,6 +18,7 @@ narrators:
 coverImageUrl: https://assets.hardcover.app/edition/30506636/a927951df8ae0f58ae9c16ad81bd708168099e22.jpeg
 hardcoverUrl: https://hardcover.app/books/an-ember-in-the-ashes/editions/30402254
 ---
+
 Really enjoyable. I guess I wasn't entirely aware what the plan was for future books, so I was a little caught off guard by the very, very unresolved ending. But I get it – it feels less unresolved with the understanding that it's part of a series. It's just that I had certain expectations, certain theories about prophecies etc that I thought would be resolved at a certain point, but weren't.
 
 The universe is unique and exciting and the two character's voices are genuine and compelling. Good book. Will eagerly await the next.

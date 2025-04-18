@@ -5,8 +5,8 @@ series:
   name: The Magicians
   volume: 3
 authors:
-- lastName: Grossman
-  firstName: Lev
+  - lastName: Grossman
+    firstName: Lev
 narrators:
 yearPublished: 2014
 isbn10: '1101633530'

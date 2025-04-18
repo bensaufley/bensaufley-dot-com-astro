@@ -5,10 +5,10 @@ series:
   name: Children of Time
   volume: 2
 authors:
-- lastName: Tchaikovsky
-  firstName: Adrian
-- lastName: Hudson
-  firstName: Mel
+  - lastName: Tchaikovsky
+    firstName: Adrian
+  - lastName: Hudson
+    firstName: Mel
 isbn10:
 isbn13:
 read: 2020-04-20

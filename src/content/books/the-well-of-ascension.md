@@ -5,8 +5,8 @@ series:
   name: Mistborn
   volume: 2
 authors:
-- lastName: Sanderson
-  firstName: Brandon
+  - lastName: Sanderson
+    firstName: Brandon
 narrators:
 yearPublished: 2007
 isbn10: '0765316889'

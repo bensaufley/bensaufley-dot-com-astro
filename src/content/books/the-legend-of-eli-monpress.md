@@ -1,8 +1,8 @@
 ---
 title: The Legend of Eli Monpress
 authors:
-- lastName: Aaron
-  firstName: Rachel
+  - lastName: Aaron
+    firstName: Rachel
 isbn10: '0316193577'
 isbn13: '9780316193573'
 read: 2013-12-12

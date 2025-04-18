@@ -5,8 +5,8 @@ series:
   name: Jeremy Logan
   volume: 4
 authors:
-- lastName: Child
-  firstName: Lincoln
+  - lastName: Child
+    firstName: Lincoln
 narrators:
 yearPublished: 2015
 isbn10: '0385531419'

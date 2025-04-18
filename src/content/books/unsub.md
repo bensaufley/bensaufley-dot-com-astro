@@ -1,8 +1,8 @@
 ---
 title: UNSUB
 authors:
-- lastName: Gardiner
-  firstName: Meg
+  - lastName: Gardiner
+    firstName: Meg
 isbn10: '1101985526'
 isbn13: '9781524722807'
 read: 2022-03-09

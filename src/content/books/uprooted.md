@@ -1,8 +1,8 @@
 ---
 title: Uprooted
 authors:
-- lastName: Novik
-  firstName: Naomi
+  - lastName: Novik
+    firstName: Naomi
 isbn10: '0804179034'
 isbn13: '9780804179034'
 read: 2015-10-14
@@ -15,6 +15,7 @@ narrators:
 coverImageUrl: https://assets.hardcover.app/edition/30399522/17a809dbce6e6922d131fe75b357f75eef12392b.jpeg
 hardcoverUrl: https://hardcover.app/books/uprooted/editions/30399522
 ---
+
 I really enjoyed this book. I'd been looking, for a while, for the next book that would capture me, make me care about the characters and really look forward to picking it up again – which hadn't happened since I finished Lev Grossman's Magicians trilogy – and this was it.
 
 I don't know if this book is YA. It's hard to tell at a certain point. The vocabulary is good but probably not overly challenging. The subject matter borders on adult? But in a fantasy genre that appears to mark itself as “adult” by competing to show misery and depravity (“historical accuracy”), or at least requires massive tomes with hundreds of characters, a book like this feels out of place. Like Gaiman's Stardust, it's got more of a fairy tale than a strict “fantasy” feel. In the end I'd categorize this as YA-appropriate but probably not a YA book.

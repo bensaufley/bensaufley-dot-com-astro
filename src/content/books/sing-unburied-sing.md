@@ -1,8 +1,8 @@
 ---
 title: Sing, Unburied, Sing
 authors:
-- lastName: Ward
-  firstName: Jesmyn
+  - lastName: Ward
+    firstName: Jesmyn
 isbn10: '1501126067'
 isbn13: '9781501126062'
 read: 2020-02-09

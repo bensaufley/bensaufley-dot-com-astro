@@ -1,12 +1,12 @@
 ---
 title: Vita Nostra
 authors:
-- lastName: Dyachenko
-  firstName: Marina
-- lastName: Dyachenko
-  firstName: Sergey
-- lastName: Hersey
-  firstName: Julia Meitov
+  - lastName: Dyachenko
+    firstName: Marina
+  - lastName: Dyachenko
+    firstName: Sergey
+  - lastName: Hersey
+    firstName: Julia Meitov
 isbn10: '0062694596'
 isbn13: '9780062694591'
 read: 2019-01-17

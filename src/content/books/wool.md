@@ -1,8 +1,8 @@
 ---
 title: Wool
 authors:
-- lastName: Howey
-  firstName: Hugh
+  - lastName: Howey
+    firstName: Hugh
 isbn10: '1491512644'
 isbn13: '9781491512647'
 read: 2023-05-11

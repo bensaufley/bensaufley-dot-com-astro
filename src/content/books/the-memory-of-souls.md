@@ -5,8 +5,8 @@ series:
   name: A Chorus of Dragons
   volume: 3
 authors:
-- lastName: Lyons
-  firstName: Jenn
+  - lastName: Lyons
+    firstName: Jenn
 narrators:
 yearPublished: 2020
 isbn10: '1250175577'

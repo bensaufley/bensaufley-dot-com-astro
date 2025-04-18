@@ -5,8 +5,8 @@ series:
   name: Cerulean Chronicles
   volume: 1
 authors:
-- lastName: Klune
-  firstName: T.J.
+  - lastName: Klune
+    firstName: T.J.
 narrators:
 yearPublished: 2020
 isbn10: '1250217288'

@@ -1,8 +1,8 @@
 ---
 title: The Lying Game
 authors:
-- lastName: Ware
-  firstName: Ruth
+  - lastName: Ware
+    firstName: Ruth
 isbn10:
 isbn13: '9781501156007'
 read: 2017-12-18

@@ -5,10 +5,10 @@ series:
   name: Expeditionary Force
   volume: 1
 authors:
-- lastName: Alanson
-  firstName: Craig
-- lastName: Bray
-  firstName: R.C.
+  - lastName: Alanson
+    firstName: Craig
+  - lastName: Bray
+    firstName: R.C.
 isbn10:
 isbn13:
 read: 2018-05-01

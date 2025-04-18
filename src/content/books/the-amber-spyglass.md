@@ -5,8 +5,8 @@ series:
   name: His Dark Materials
   volume: 3
 authors:
-- lastName: Pullman
-  firstName: Philip
+  - lastName: Pullman
+    firstName: Philip
 narrators:
 yearPublished: 2003
 isbn10: '0440238153'
@@ -18,4 +18,5 @@ read: 2019-12-20
 rating: 4
 reading: false
 ---
+
 Ooh boy it gets very heavy-handed at the end. But I do appreciate how Pullman refuses to pigeonhole his characters and to wrap most things up with a tidy bow—characters who were antagonists early on show some goodness, perhaps even redeeming goodness, and not everybody gets what they want in the end. The wrap-up is full of messaging that I liked but which I suppose I wish were a bit more subtle.

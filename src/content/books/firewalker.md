@@ -5,8 +5,8 @@ series:
   name: Worldwalker
   volume: 2
 authors:
-- lastName: Angelini
-  firstName: Josephine
+  - lastName: Angelini
+    firstName: Josephine
 isbn10: '1250079381'
 isbn13: '9781250079381'
 read: 2018-08-04

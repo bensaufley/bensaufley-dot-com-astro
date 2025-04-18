@@ -2,8 +2,8 @@
 title: World War Z
 subtitle: An Oral History of the Zombie War
 authors:
-- lastName: Brooks
-  firstName: Max
+  - lastName: Brooks
+    firstName: Max
 isbn10: '0307346609'
 isbn13: '9780307346605'
 read: 2013-09-01

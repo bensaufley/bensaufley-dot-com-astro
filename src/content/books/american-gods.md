@@ -1,8 +1,8 @@
 ---
 title: American Gods
 authors:
-- lastName: Gaiman
-  firstName: Neil
+  - lastName: Gaiman
+    firstName: Neil
 isbn10:
 isbn13: '9780755379927'
 read: 2019-07-30

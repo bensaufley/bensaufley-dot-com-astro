@@ -5,8 +5,8 @@ series:
   name: Leo Demidov
   volume: 1
 authors:
-- lastName: Smith
-  firstName: Tom Rob
+  - lastName: Smith
+    firstName: Tom Rob
 isbn10: '0446402397'
 isbn13: '9780446402392'
 read: 2015-01-24

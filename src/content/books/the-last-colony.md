@@ -5,8 +5,8 @@ series:
   name: Old Man's War
   volume: 3
 authors:
-- lastName: Scalzi
-  firstName: John
+  - lastName: Scalzi
+    firstName: John
 narrators:
 yearPublished: 2007
 isbn10: '0765316978'

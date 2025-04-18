@@ -1,8 +1,8 @@
 ---
 title: Piranesi
 authors:
-- lastName: Clarke
-  firstName: Susanna
+  - lastName: Clarke
+    firstName: Susanna
 isbn10: '1635577802'
 isbn13: '9781635577808'
 read: 2024-07-09

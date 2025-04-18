@@ -5,10 +5,10 @@ series:
   name: Bobiverse
   volume: 2
 authors:
-- lastName: Taylor
-  firstName: Dennis E.
-- lastName: Porter
-  firstName: Ray
+  - lastName: Taylor
+    firstName: Dennis E.
+  - lastName: Porter
+    firstName: Ray
 isbn10:
 isbn13:
 read: 2019-03-18

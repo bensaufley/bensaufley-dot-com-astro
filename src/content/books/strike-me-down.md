@@ -1,8 +1,8 @@
 ---
 title: Strike Me Down
 authors:
-- lastName: Mejia
-  firstName: Mindy
+  - lastName: Mejia
+    firstName: Mindy
 isbn10:
 isbn13: '9781797100968'
 read: 2022-01-21

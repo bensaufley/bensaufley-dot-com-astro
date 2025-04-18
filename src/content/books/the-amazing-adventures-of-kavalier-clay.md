@@ -1,8 +1,8 @@
 ---
 title: The Amazing Adventures of Kavalier & Clay
 authors:
-- lastName: Chabon
-  firstName: Michael
+  - lastName: Chabon
+    firstName: Michael
 isbn10:
 isbn13: '9781469216423'
 read: 2010-08-29

@@ -1,8 +1,8 @@
 ---
 title: The Poppy War
 authors:
-- lastName: Kuang
-  firstName: R. F.
+  - lastName: Kuang
+    firstName: R. F.
 isbn10: '0062662597'
 isbn13: '9780062662590'
 read: 2022-07-28

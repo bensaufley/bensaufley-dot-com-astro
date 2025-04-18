@@ -2,8 +2,8 @@
 title: The Forgotten 500
 subtitle: 'The Untold Story of the Men Who Risked All For the Greatest Rescue Mission of World War II'
 authors:
-- lastName: Freeman
-  firstName: Gregory A
+  - lastName: Freeman
+    firstName: Gregory A
 isbn10: '0451222121'
 isbn13: '9780451222121'
 read: 2016-10-01

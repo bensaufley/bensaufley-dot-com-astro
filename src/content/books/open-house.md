@@ -1,8 +1,8 @@
 ---
 title: Open House
 authors:
-- lastName: Sise
-  firstName: Katie
+  - lastName: Sise
+    firstName: Katie
 isbn10: '1542092655'
 isbn13: '9781542092654'
 read: 2025-01-09

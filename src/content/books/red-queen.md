@@ -5,8 +5,8 @@ series:
   name: Red Queen
   volume: 1
 authors:
-- lastName: Aveyard
-  firstName: Victoria
+  - lastName: Aveyard
+    firstName: Victoria
 isbn10: '0062310631'
 isbn13: '9780062310637'
 read: 2017-08-22

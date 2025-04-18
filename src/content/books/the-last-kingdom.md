@@ -5,8 +5,8 @@ series:
   name: The Saxon Stories
   volume: 1
 authors:
-- lastName: Cornwell
-  firstName: Bernard
+  - lastName: Cornwell
+    firstName: Bernard
 narrators:
 yearPublished: 2006
 isbn10: '0060887184'

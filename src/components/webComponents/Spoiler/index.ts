@@ -12,7 +12,6 @@ export default class Spoiler extends HTMLElement {
   };
 
   public connectedCallback() {
-    console.log('connected', this);
     const isHidden = this.getAttribute('hide') !== 'false';
     this.setAttribute('hide', String(isHidden));
     this.classList.add(styles.spoiler!);

@@ -1,8 +1,8 @@
 ---
 title: The Twilight Wife
 authors:
-- lastName: Banner
-  firstName: A.J.
+  - lastName: Banner
+    firstName: A.J.
 isbn10:
 isbn13:
 read: 2018-08-25

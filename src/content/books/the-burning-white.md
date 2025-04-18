@@ -5,8 +5,8 @@ series:
   name: Lightbringer
   volume: 5
 authors:
-- lastName: Weeks
-  firstName: Brent
+  - lastName: Weeks
+    firstName: Brent
 narrators:
 yearPublished: 2019
 isbn10: '0316251305'

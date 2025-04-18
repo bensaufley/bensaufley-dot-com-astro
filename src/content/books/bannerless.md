@@ -1,8 +1,8 @@
 ---
 title: Bannerless
 authors:
-- lastName: Vaughn
-  firstName: Carrie
+  - lastName: Vaughn
+    firstName: Carrie
 isbn10: '0544947304'
 isbn13: '9780544947306'
 read: 2019-10-17

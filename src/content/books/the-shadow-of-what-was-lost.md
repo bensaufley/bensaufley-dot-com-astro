@@ -5,8 +5,8 @@ series:
   name: The Licanius Trilogy
   volume: 1
 authors:
-- lastName: Islington
-  firstName: James
+  - lastName: Islington
+    firstName: James
 narrators:
 yearPublished: 2014
 isbn10: '099258020X'

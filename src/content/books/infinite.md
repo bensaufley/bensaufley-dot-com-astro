@@ -1,8 +1,8 @@
 ---
 title: Infinite
 authors:
-- lastName: Freeman
-  firstName: Brian
+  - lastName: Freeman
+    firstName: Brian
 isbn10:
 isbn13: '9781799773740'
 read: 2022-06-16

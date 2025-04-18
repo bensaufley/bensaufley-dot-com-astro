@@ -1,8 +1,8 @@
 ---
 title: Legends & Lattes
 authors:
-- lastName: Baldree
-  firstName: Travis
+  - lastName: Baldree
+    firstName: Travis
 isbn10:
 isbn13:
 read: 2023-03-27
@@ -15,4 +15,5 @@ narrators:
 coverImageUrl: https://assets.hardcover.app/editions/30396420/4372639752917043.jpg
 hardcoverUrl: https://hardcover.app/books/legends-lattes/editions/30648259
 ---
+
 This came highly recommended from a few people but it didn't do much for me. It was fine. I listened to it on audiobook and like six of the nine recurring characters are pendry/hendry/tendry or something? Why do that?

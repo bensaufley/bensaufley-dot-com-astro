@@ -1,8 +1,8 @@
 ---
 title: Sharp Objects
 authors:
-- lastName: Flynn
-  firstName: Gillian
+  - lastName: Flynn
+    firstName: Gillian
 isbn10: '0753822210'
 isbn13: '9781683318118'
 read: 2018-05-17

@@ -5,8 +5,8 @@ series:
   name: The Hunger Games
   volume: 3
 authors:
-- lastName: Collins
-  firstName: Suzanne
+  - lastName: Collins
+    firstName: Suzanne
 narrators:
 yearPublished: 2010
 isbn10: '0439023513'
@@ -18,6 +18,7 @@ read: 2010-09-21
 rating: 5
 reading: false
 ---
+
 I guess there are no real spoilers in this but it certainly could give one expectations so I'm marking this as having spoilers.
 
 I was hesitant after the second book, which I enjoyed but which seemed to lean a bit heavily on the conventions of the first. Also, the second and the third books are far more dark and violent than the first. As I approached the ending of Mockingjay, I became more and more curious (not just as an invested reader, but as a creative person, someone who is interested in telling stories … wow, that all sounds silly) about how Collins was going to end the trilogy. With everything that had happened, it would take a lot to justify the whole thing.

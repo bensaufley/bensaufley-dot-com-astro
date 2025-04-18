@@ -2,8 +2,8 @@
 title: Runaway
 subtitle: Stories
 authors:
-- lastName: Munro
-  firstName: Alice
+  - lastName: Munro
+    firstName: Alice
 isbn10: '0792733673'
 isbn13: '9780792733676'
 read: 2018-12-15

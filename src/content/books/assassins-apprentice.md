@@ -1,8 +1,8 @@
 ---
 title: Assassin's Apprentice
 authors:
-- lastName: Hobb
-  firstName: Robin
+  - lastName: Hobb
+    firstName: Robin
 isbn10: 000756225X
 isbn13: '9780007562251'
 read: 2020-01-09

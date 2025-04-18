@@ -1,8 +1,8 @@
 ---
 title: The Titan's Curse
 authors:
-- lastName: Riordan
-  firstName: Rick
+  - lastName: Riordan
+    firstName: Rick
 isbn10: '0786297018'
 isbn13: '9780786297016'
 read: 2010-05-25

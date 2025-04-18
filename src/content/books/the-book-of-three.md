@@ -5,8 +5,8 @@ series:
   name: The Chronicles of Prydain
   volume: 1
 authors:
-- lastName: Alexander
-  firstName: Lloyd
+  - lastName: Alexander
+    firstName: Lloyd
 narrators:
 yearPublished: 2006
 isbn10: '0805080481'

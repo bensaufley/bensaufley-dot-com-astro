@@ -1,8 +1,8 @@
 ---
 title: Stay Awake
 authors:
-- lastName: Goldin
-  firstName: Megan
+  - lastName: Goldin
+    firstName: Megan
 isbn10:
 isbn13:
 read: 2025-04-05

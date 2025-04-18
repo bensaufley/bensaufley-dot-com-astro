@@ -1,8 +1,8 @@
 ---
 title: Nine Perfect Strangers
 authors:
-- lastName: Moriarty
-  firstName: Liane
+  - lastName: Moriarty
+    firstName: Liane
 isbn10: '1250069823'
 isbn13: '9781250069825'
 read: 2023-05-29

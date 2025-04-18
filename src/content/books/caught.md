@@ -1,8 +1,8 @@
 ---
 title: Caught
 authors:
-- lastName: Coben
-  firstName: Harlan
+  - lastName: Coben
+    firstName: Harlan
 isbn10:
 isbn13: '9780525951582'
 read: 2021-01-23

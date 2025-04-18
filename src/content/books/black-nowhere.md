@@ -1,8 +1,8 @@
 ---
 title: Black Nowhere
 authors:
-- lastName: Hirsch
-  firstName: Reece
+  - lastName: Hirsch
+    firstName: Reece
 isbn10:
 isbn13: '9781542042918'
 read: 2020-05-19
@@ -15,6 +15,7 @@ narrators:
 coverImageUrl: https://assets.hardcover.app/edition/30382170/f8cd1cdd376082580c47fa7ad9c261ecb2cd2ff3.jpeg
 hardcoverUrl: https://hardcover.app/books/black-nowhere/editions/30382170
 ---
+
 Honestly from a pure entertainment standpoint, I enjoyed this just fine. It's like average pop music—it hits a lot of familiar notes and wraps up quickly. And that's really a lot of what I look for in a book like this, so I was preparing to give this a three or a four.
 
 But it's apparently some kind of love letter to libertarianism by the end?

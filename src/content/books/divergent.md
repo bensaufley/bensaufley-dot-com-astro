@@ -5,8 +5,8 @@ series:
   name: Divergent
   volume: 1
 authors:
-- lastName: Roth
-  firstName: Veronica
+  - lastName: Roth
+    firstName: Veronica
 isbn10: '0062024035'
 isbn13: '9780062024039'
 read: 2013-12-23
@@ -18,13 +18,12 @@ narrators:
 coverImageUrl: https://assets.hardcover.app/edition/22182301/7276222-L.jpg
 hardcoverUrl: https://hardcover.app/books/divergent/editions/31468999
 ---
+
 I really enjoyed this. I spent a lot of the book trying to figure out where it was going, and what its political motivation is – dystopian futures rarely lack some political motivation. So far, the only messages I can tell are basic, moral, principles, not political ideologies. Which I like. I think there were hints dropped earlier on that in retrospect were intentional red herrings as far as the intent/plot of the book. I was trying to turn it into The Giver, or something along those lines, and trying to determine the moral lessons I should be learning from all of the factions, which ones were good and bad, etc, and while it shared some themes with overt allegories like The Giver and 1984, it's definitely its own thing and a lot more than it initially appears to be.
 
 I also found the love interest plotline seemed to be a much more convincing version of Twilight's. I only read the first Twilight, because it was a garbage book, but it seems to me (as a straight man, obviously not the main target here) that this book did a much better job of a similar thing: the characters are obviously drawn to each other. There's a lot of noticing of clavicles, and tensing of muscles, etc etc, but the characters are a lot more fleshed out and even the attraction feels a lot more convincing. I enjoyed it, and I also enjoyed that (like many other YA/children's series with love stories) it wasn't all about that. It played a part, and did a good job, but it didn't detract from (or attempt to distract from) the larger plot.
 
 I'm really looking forward to picking up the next one.
-
-
 
 == Spoilers ==
 <x-spoiler>

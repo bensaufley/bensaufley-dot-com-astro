@@ -1,8 +1,8 @@
 ---
 title: Educated
 authors:
-- lastName: Westover
-  firstName: Tara
+  - lastName: Westover
+    firstName: Tara
 isbn10: '0525510672'
 isbn13: '9780525510673'
 read: 2019-08-06

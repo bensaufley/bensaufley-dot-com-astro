@@ -1,8 +1,8 @@
 ---
 title: Ashes of the Sun
 authors:
-- lastName: Wexler
-  firstName: Django
+  - lastName: Wexler
+    firstName: Django
 isbn10: '1788543149'
 isbn13: '9781788543149'
 read: 2025-03-26

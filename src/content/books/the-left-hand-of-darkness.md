@@ -1,8 +1,8 @@
 ---
 title: The Left Hand of Darkness
 authors:
-- lastName: Guin
-  firstName: Ursula K. Le
+  - lastName: Guin
+    firstName: Ursula K. Le
 isbn10: '0441478077'
 isbn13: '9780441478071'
 read: 2022-04-30

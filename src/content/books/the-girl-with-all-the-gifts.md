@@ -5,8 +5,8 @@ series:
   name: The Girl With All the Gifts
   volume: 1
 authors:
-- lastName: Carey
-  firstName: M.R.
+  - lastName: Carey
+    firstName: M.R.
 narrators:
 yearPublished: 2014
 isbn10: '0356500152'

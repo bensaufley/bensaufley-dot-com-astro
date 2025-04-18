@@ -1,8 +1,8 @@
 ---
 title: House of Blades
 authors:
-- lastName: Wight
-  firstName: Will
+  - lastName: Wight
+    firstName: Will
 isbn10: '0989671704'
 isbn13: '9780989671705'
 read: 2019-05-09

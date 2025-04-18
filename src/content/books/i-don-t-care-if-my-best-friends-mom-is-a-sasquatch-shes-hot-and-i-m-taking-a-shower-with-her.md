@@ -1,8 +1,8 @@
 ---
 title: I Don't Care If My Best Friend's Mom is a Sasquatch, She's Hot and I'm Taking a Shower With Her
 authors:
-- lastName: Noonan
-  firstName: Lacey
+  - lastName: Noonan
+    firstName: Lacey
 isbn10:
 isbn13: '9781310830846'
 read: 2015-01-24

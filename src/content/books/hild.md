@@ -1,8 +1,8 @@
 ---
 title: Hild
 authors:
-- lastName: Griffith
-  firstName: Nicola
+  - lastName: Griffith
+    firstName: Nicola
 isbn10: '1427259232'
 isbn13: '9781427259233'
 read: 2023-12-18

@@ -1,8 +1,8 @@
 ---
 title: The Boy on the Bridge
 authors:
-- lastName: Carey
-  firstName: M.R.
+  - lastName: Carey
+    firstName: M.R.
 isbn10:
 isbn13: '9781478915515'
 read: 2023-01-06

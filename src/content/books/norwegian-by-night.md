@@ -5,8 +5,8 @@ series:
   name: Sheldon Horowitz
   volume: 2
 authors:
-- lastName: Miller
-  firstName: Derek B.
+  - lastName: Miller
+    firstName: Derek B.
 narrators:
 yearPublished: 2014
 isbn10: '0544292669'

@@ -1,8 +1,8 @@
 ---
 title: The Never Tilting World
 authors:
-- lastName: Chupeco
-  firstName: Rin
+  - lastName: Chupeco
+    firstName: Rin
 isbn10:
 isbn13: '9781094079288'
 read: 2022-08-01

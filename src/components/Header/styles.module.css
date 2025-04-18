@@ -282,7 +282,9 @@
       margin-left: 0;
 
       @media (prefers-reduced-motion: no-preference) {
-        transition: margin-left 300ms ease-in-out, font-size 300ms ease-in-out;
+        transition:
+          margin-left 300ms ease-in-out,
+          font-size 300ms ease-in-out;
       }
     }
   }
@@ -294,8 +296,8 @@
       font-size: 1rem;
 
       ul {
-      margin-left: 10rem;
+        margin-left: 10rem;
+      }
     }
-  }
   }
 }

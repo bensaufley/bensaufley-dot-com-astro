@@ -5,8 +5,8 @@ series:
   name: Hercule Poirot
   volume: 10
 authors:
-- lastName: Christie
-  firstName: Agatha
+  - lastName: Christie
+    firstName: Agatha
 isbn10: '0007119313'
 isbn13: '9780007119318'
 read: 2017-11-25

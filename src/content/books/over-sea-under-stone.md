@@ -5,8 +5,8 @@ series:
   name: The Dark Is Rising
   volume: 1
 authors:
-- lastName: Cooper
-  firstName: Susan
+  - lastName: Cooper
+    firstName: Susan
 narrators:
 yearPublished: 2007
 isbn10: 141694964X

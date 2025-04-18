@@ -5,8 +5,8 @@ series:
   name: Avalon
   volume: 1
 authors:
-- lastName: Bradley
-  firstName: Marion Zimmer
+  - lastName: Bradley
+    firstName: Marion Zimmer
 narrators:
 yearPublished: 1984
 isbn10: '0345350499'

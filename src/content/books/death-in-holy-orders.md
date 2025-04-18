@@ -5,8 +5,8 @@ series:
   name: Adam Dalgliesh
   volume: 11
 authors:
-- lastName: James
-  firstName: P.D.
+  - lastName: James
+    firstName: P.D.
 isbn10: '0345446666'
 isbn13: '9780345446664'
 read: 2015-05-04

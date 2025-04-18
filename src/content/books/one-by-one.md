@@ -1,8 +1,8 @@
 ---
 title: One by One
 authors:
-- lastName: Ware
-  firstName: Ruth
+  - lastName: Ware
+    firstName: Ruth
 isbn10: 150118881X
 isbn13: '9781501188817'
 read: 2020-10-24

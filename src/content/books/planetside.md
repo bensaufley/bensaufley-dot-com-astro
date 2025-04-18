@@ -5,11 +5,11 @@ series:
   name: Planetside
   volume: 1
 authors:
-- lastName: Mammay
-  firstName: Michael
+  - lastName: Mammay
+    firstName: Michael
 narrators:
-- lastName: Bray
-  firstName: R.C.
+  - lastName: Bray
+    firstName: R.C.
 yearPublished: 2018
 isbn10: '0062694677'
 isbn13: '9780062694676'

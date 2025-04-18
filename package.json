@@ -8,7 +8,7 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "format:es": "bslint --format",
+    "format": "bslint --format",
     "lint:astro": "astro check",
     "lint:es": "bslint",
     "typecheck": "tsc --noEmit",

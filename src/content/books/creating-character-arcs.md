@@ -2,8 +2,8 @@
 title: Creating Character Arcs
 subtitle: The Masterful Author's Guide to Uniting Story Structure, Plot, and Character Development
 authors:
-- lastName: Weiland
-  firstName: K.M.
+  - lastName: Weiland
+    firstName: K.M.
 isbn10:
 isbn13:
 read: 2017-11-05

@@ -1,8 +1,8 @@
 ---
 title: Infinity Gate
 authors:
-- lastName: Carey
-  firstName: M.R.
+  - lastName: Carey
+    firstName: M.R.
 isbn10:
 isbn13: '9781668622001'
 read: 2023-08-06

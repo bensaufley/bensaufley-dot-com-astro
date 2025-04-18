@@ -5,8 +5,8 @@ series:
   name: Wayfarers
   volume: 2
 authors:
-- lastName: Chambers
-  firstName: Becky
+  - lastName: Chambers
+    firstName: Becky
 narrators:
 yearPublished: 2016
 isbn10: '1473621445'

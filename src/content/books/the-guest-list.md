@@ -1,8 +1,8 @@
 ---
 title: The Guest List
 authors:
-- lastName: Foley
-  firstName: Lucy
+  - lastName: Foley
+    firstName: Lucy
 isbn10: '1094156442'
 isbn13: '9781094156446'
 read: 2022-12-04

@@ -1,8 +1,8 @@
 ---
 title: Shadow's Edge
 authors:
-- lastName: Weeks
-  firstName: Brent
+  - lastName: Weeks
+    firstName: Brent
 isbn10: '0316033650'
 isbn13: '9780316033657'
 read: 2024-04-04

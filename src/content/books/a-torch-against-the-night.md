@@ -5,8 +5,8 @@ series:
   name: An Ember in the Ashes
   volume: 2
 authors:
-- lastName: Tahir
-  firstName: Sabaa
+  - lastName: Tahir
+    firstName: Sabaa
 narrators:
 yearPublished: 2016
 isbn10:

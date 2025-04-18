@@ -1,8 +1,8 @@
 ---
 title: A Deadly Education
 authors:
-- lastName: Novik
-  firstName: Naomi
+  - lastName: Novik
+    firstName: Naomi
 isbn10: '0593128508'
 isbn13: '9780593128503'
 read: 2024-03-02

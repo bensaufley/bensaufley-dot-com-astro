@@ -1,8 +1,8 @@
 ---
 title: Snow Crash
 authors:
-- lastName: Stephenson
-  firstName: Neal
+  - lastName: Stephenson
+    firstName: Neal
 isbn10: '0553380958'
 isbn13: '9780553380958'
 read: 2015-04-13

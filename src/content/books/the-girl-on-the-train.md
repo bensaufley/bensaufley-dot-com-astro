@@ -1,8 +1,8 @@
 ---
 title: The Girl on the Train
 authors:
-- lastName: Hawkins
-  firstName: Paula
+  - lastName: Hawkins
+    firstName: Paula
 isbn10: '1594633665'
 isbn13: '9781594633669'
 read: 2015-04-18

@@ -5,8 +5,8 @@ series:
   name: The Hunger Games
   volume: 2
 authors:
-- lastName: Collins
-  firstName: Suzanne
+  - lastName: Collins
+    firstName: Suzanne
 isbn10: '0439023491'
 isbn13: '9780439023498'
 read: 2010-09-16

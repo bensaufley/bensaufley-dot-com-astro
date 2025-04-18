@@ -5,8 +5,8 @@ series:
   name: DI Robyn Carter
   volume: 1
 authors:
-- lastName: Wyer
-  firstName: Carol
+  - lastName: Wyer
+    firstName: Carol
 narrators:
 yearPublished: 2017
 isbn10: '1786811227'

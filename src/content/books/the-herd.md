@@ -1,8 +1,8 @@
 ---
 title: The Herd
 authors:
-- lastName: Bartz
-  firstName: Andrea
+  - lastName: Bartz
+    firstName: Andrea
 isbn10:
 isbn13:
 read: 2025-02-09

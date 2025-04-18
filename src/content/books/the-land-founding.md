@@ -5,8 +5,8 @@ series:
   name: Chaos Seeds
   volume: 1
 authors:
-- lastName: Kong
-  firstName: Aleron
+  - lastName: Kong
+    firstName: Aleron
 narrators:
 yearPublished: 2015
 isbn10: '1535020709'
@@ -18,6 +18,7 @@ read: 2020-09-21
 rating: 2
 reading: false
 ---
+
 I was really excited to check this series out. I enjoy the LitRPG genre as I understand it, and I was excited to see that the "founder" of the genre was from an underrepresented group, which I'm trying to make an effort to be mindful of in my reading.
 
 But only about two chapters in this book were particularly interesting or engaging.

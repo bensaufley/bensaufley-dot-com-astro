@@ -5,8 +5,8 @@ series:
   name: Magic 2.0
   volume: 2
 authors:
-- lastName: Meyer
-  firstName: Scott
+  - lastName: Meyer
+    firstName: Scott
 narrators:
 yearPublished: 2014
 isbn10: '1477873481'

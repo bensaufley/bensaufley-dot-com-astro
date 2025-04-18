@@ -5,8 +5,8 @@ series:
   name: Magic 2.0
   volume: 1
 authors:
-- lastName: Meyer
-  firstName: Scott
+  - lastName: Meyer
+    firstName: Scott
 narrators:
 yearPublished: 2014
 isbn10: '1612184715'
@@ -18,4 +18,5 @@ read: 2014-12-22
 rating: 4
 reading: false
 ---
+
 Quick and entertaining. A simple and interesting premise. Pretty funny. Picked it up on a whim. Mostly listened to the audiobook, which was well-done. Bought the sequel immediately. I'd recommend it, for something light.

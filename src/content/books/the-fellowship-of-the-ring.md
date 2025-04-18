@@ -1,8 +1,8 @@
 ---
 title: The Fellowship of the Ring
 authors:
-- lastName: Tolkien
-  firstName: J.R.R.
+  - lastName: Tolkien
+    firstName: J.R.R.
 isbn10: '0788789813'
 isbn13: '9780788789816'
 read: 2022-08-11

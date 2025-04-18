@@ -2,8 +2,8 @@
 title: On the Other Side of Freedom
 subtitle: The Case for Hope
 authors:
-- lastName: Mckesson
-  firstName: DeRay
+  - lastName: Mckesson
+    firstName: DeRay
 isbn10: '0525560327'
 isbn13: '9780525560326'
 read: 2019-07-09

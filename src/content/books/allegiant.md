@@ -5,8 +5,8 @@ series:
   name: Divergent
   volume: 3
 authors:
-- lastName: Roth
-  firstName: Veronica
+  - lastName: Roth
+    firstName: Veronica
 narrators:
 yearPublished: 2013
 isbn10: '0007524277'

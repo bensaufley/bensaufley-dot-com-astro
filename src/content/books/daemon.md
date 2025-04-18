@@ -5,8 +5,8 @@ series:
   name: Daemon
   volume: 1
 authors:
-- lastName: Suarez
-  firstName: Daniel
+  - lastName: Suarez
+    firstName: Daniel
 narrators:
 yearPublished: 2009
 isbn10: '0451228731'
@@ -18,6 +18,7 @@ read: 2017-04-10
 rating: 2
 reading: false
 ---
+
 First: it's one half of a book. Apparently book two vindicates a lot of book one, but I'm not sure I want to give Suarez the pleasure of making me read a whole second book after this one.
 
 <x-spoiler>

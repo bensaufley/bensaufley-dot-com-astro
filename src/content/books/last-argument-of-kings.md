@@ -1,8 +1,8 @@
 ---
 title: Last Argument of Kings
 authors:
-- lastName: Abercrombie
-  firstName: Joe
+  - lastName: Abercrombie
+    firstName: Joe
 isbn10: '8652114366'
 isbn13: '9870575084162'
 read: 2025-02-09

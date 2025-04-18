@@ -1,8 +1,8 @@
 ---
 title: Glass Sword
 authors:
-- lastName: Aveyard
-  firstName: Victoria
+  - lastName: Aveyard
+    firstName: Victoria
 isbn10:
 isbn13: '9780062310668'
 read: 2019-01-09

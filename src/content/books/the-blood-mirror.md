@@ -5,8 +5,8 @@ series:
   name: Lightbringer
   volume: 4
 authors:
-- lastName: Weeks
-  firstName: Brent
+  - lastName: Weeks
+    firstName: Brent
 narrators:
 yearPublished: 2016
 isbn10: 031625133X
@@ -18,6 +18,7 @@ read: 2017-09-07
 rating: 3
 reading: false
 ---
+
 I still really like the world Weeks has built, but I had several issues with this book:
 
 The most glaring is that there was no real overarching plot – it's just a book to, presumably, get you from book three to the final conflict in book five. A lot of stuff happened, but as a book on its own it had no real arc. I don't hate just spending some time in this world, but when it was all over, I was left feeling a bit disappointed.

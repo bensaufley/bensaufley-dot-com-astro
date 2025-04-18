@@ -1,8 +1,8 @@
 ---
 title: She's Not Sorry
 authors:
-- lastName: Kubica
-  firstName: Mary
+  - lastName: Kubica
+    firstName: Mary
 isbn10:
 isbn13:
 read: 2024-09-24

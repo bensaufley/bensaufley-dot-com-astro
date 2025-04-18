@@ -1,8 +1,8 @@
 ---
 title: The Flight Attendant
 authors:
-- lastName: Bohjalian
-  firstName: Chris
+  - lastName: Bohjalian
+    firstName: Chris
 isbn10: '0593081633'
 isbn13: '9780525496137'
 read: 2020-06-04

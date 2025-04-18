@@ -5,11 +5,11 @@ series:
   name: Threshold
   volume: 2
 authors:
-- lastName: Clines
-  firstName: Peter
+  - lastName: Clines
+    firstName: Peter
 narrators:
-- lastName: Porter
-  firstName: Ray
+  - lastName: Porter
+    firstName: Ray
 yearPublished: 2015
 isbn10: '0553418297'
 isbn13: '9780553418293'

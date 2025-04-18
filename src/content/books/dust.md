@@ -1,8 +1,8 @@
 ---
 title: Dust
 authors:
-- lastName: Howey
-  firstName: Hugh
+  - lastName: Howey
+    firstName: Hugh
 isbn10:
 isbn13: '9781490904382'
 read: 2023-05-28

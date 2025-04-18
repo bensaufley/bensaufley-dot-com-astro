@@ -5,13 +5,13 @@ series:
   name: The Dispatcher
   volume: 1
 authors:
-- lastName: Scalzi
-  firstName: John
-- lastName: Quinto
-  firstName: Zachary
+  - lastName: Scalzi
+    firstName: John
+  - lastName: Quinto
+    firstName: Zachary
 narrators:
-- lastName: Quinto
-  firstName: Zachary
+  - lastName: Quinto
+    firstName: Zachary
 yearPublished: 2016
 isbn10: 159606787X
 isbn13: '9781596067868'

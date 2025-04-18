@@ -1,10 +1,10 @@
 ---
 title: After the Ending
 authors:
-- lastName: Fairleigh
-  firstName: Lindsey
-- lastName: Pogue
-  firstName: Lindsey
+  - lastName: Fairleigh
+    firstName: Lindsey
+  - lastName: Pogue
+    firstName: Lindsey
 isbn10:
 isbn13:
 read: 2025-02-26

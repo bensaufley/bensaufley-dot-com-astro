@@ -1,8 +1,8 @@
 ---
 title: The Crying of Lot 49
 authors:
-- lastName: Pynchon
-  firstName: Thomas
+  - lastName: Pynchon
+    firstName: Thomas
 isbn10: '006091307X'
 isbn13: '9780060913076'
 read: 2009-01-01

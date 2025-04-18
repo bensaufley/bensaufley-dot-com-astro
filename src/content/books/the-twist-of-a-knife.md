@@ -1,8 +1,8 @@
 ---
 title: The Twist of a Knife
 authors:
-- lastName: Horowitz
-  firstName: Anthony
+  - lastName: Horowitz
+    firstName: Anthony
 isbn10: '1529124336'
 isbn13: '9781529124330'
 read: 2022-12-20

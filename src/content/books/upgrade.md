@@ -1,8 +1,8 @@
 ---
 title: Upgrade
 authors:
-- lastName: Crouch
-  firstName: Blake
+  - lastName: Crouch
+    firstName: Blake
 isbn10: '1529045363'
 isbn13: '9781529045369'
 read: 2024-12-30

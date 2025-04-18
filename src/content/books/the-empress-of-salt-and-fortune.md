@@ -5,8 +5,8 @@ series:
   name: The Singing Hills Cycle
   volume: 1
 authors:
-- lastName: Vo
-  firstName: Nghi
+  - lastName: Vo
+    firstName: Nghi
 narrators:
 yearPublished: 2020
 isbn10: 125075030X

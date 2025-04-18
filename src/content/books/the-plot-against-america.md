@@ -1,8 +1,8 @@
 ---
 title: The Plot Against America
 authors:
-- lastName: Roth
-  firstName: Philip
+  - lastName: Roth
+    firstName: Philip
 isbn10:
 isbn13: '9781400079490'
 read: 2019-01-23

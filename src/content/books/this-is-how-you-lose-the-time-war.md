@@ -1,10 +1,10 @@
 ---
 title: This Is How You Lose the Time War
 authors:
-- lastName: El-Mohtar
-  firstName: Amal
-- lastName: Gladstone
-  firstName: Max
+  - lastName: El-Mohtar
+    firstName: Amal
+  - lastName: Gladstone
+    firstName: Max
 isbn10: '1534431012'
 isbn13: '9781534431010'
 read: 2019-07-26

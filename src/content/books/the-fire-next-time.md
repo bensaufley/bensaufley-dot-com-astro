@@ -1,8 +1,8 @@
 ---
 title: The Fire Next Time
 authors:
-- lastName: Baldwin
-  firstName: James
+  - lastName: Baldwin
+    firstName: James
 isbn10: '067974472X'
 isbn13: '9780679744726'
 read: 2017-05-15
@@ -15,6 +15,7 @@ narrators:
 coverImageUrl: https://assets.hardcover.app/external_data/61110626/bd85c0fa96f493dd3a7ff5a3fd1bd2ace6006153.jpeg
 hardcoverUrl: https://hardcover.app/books/the-fire-next-time/editions/5491292
 ---
+
 I read Ta-Nehisi Coates's [b:Between the World and Me
 25489625
 Between the World and Me

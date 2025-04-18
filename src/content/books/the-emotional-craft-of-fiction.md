@@ -2,8 +2,8 @@
 title: The Emotional Craft of Fiction
 subtitle: How to Write the Story Beneath the Surface
 authors:
-- lastName: Maass
-  firstName: Donald
+  - lastName: Maass
+    firstName: Donald
 isbn10: '1440348375'
 isbn13: '9781440348372'
 read: 2021-12-19

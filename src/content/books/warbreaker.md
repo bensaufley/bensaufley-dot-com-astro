@@ -1,8 +1,8 @@
 ---
 title: Warbreaker
 authors:
-- lastName: Sanderson
-  firstName: Brandon
+  - lastName: Sanderson
+    firstName: Brandon
 isbn10: '0575097469'
 isbn13: '9780575097469'
 read: 2017-05-07

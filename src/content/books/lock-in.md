@@ -5,8 +5,8 @@ series:
   name: Lock In
   volume: 1
 authors:
-- lastName: Scalzi
-  firstName: John
+  - lastName: Scalzi
+    firstName: John
 narrators:
 yearPublished: 2014
 isbn10: '0765375869'

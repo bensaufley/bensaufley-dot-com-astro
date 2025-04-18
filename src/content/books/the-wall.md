@@ -1,8 +1,8 @@
 ---
 title: The Wall
 authors:
-- lastName: Lanchester
-  firstName: John
+  - lastName: Lanchester
+    firstName: John
 isbn10:
 isbn13: '9781684419395'
 read: 2022-03-02

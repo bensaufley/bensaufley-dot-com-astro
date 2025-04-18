@@ -5,10 +5,10 @@ series:
   name: Cormoran Strike
   volume: 4
 authors:
-- lastName: Galbraith
-  firstName: Robert
-- lastName: Glenister
-  firstName: Robert
+  - lastName: Galbraith
+    firstName: Robert
+  - lastName: Glenister
+    firstName: Robert
 narrators:
 yearPublished: 2018
 isbn10: '0316422738'
@@ -20,4 +20,5 @@ read: 2018-10-11
 rating: 3
 reading: false
 ---
+
 **Note:** please see my 2025 [blog post re: Rowling](/blog/2025/04/jk-rowling)

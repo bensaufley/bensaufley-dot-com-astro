@@ -1,8 +1,8 @@
 ---
 title: Close to Death
 authors:
-- lastName: Horowitz
-  firstName: Anthony
+  - lastName: Horowitz
+    firstName: Anthony
 isbn10:
 isbn13: '9780063305670'
 read: 2024-05-15

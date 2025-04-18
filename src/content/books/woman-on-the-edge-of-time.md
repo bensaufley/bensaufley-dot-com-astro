@@ -1,8 +1,8 @@
 ---
 title: Woman on the Edge of Time
 authors:
-- lastName: Piercy
-  firstName: Marge
+  - lastName: Piercy
+    firstName: Marge
 isbn10:
 isbn13: '9781515909736'
 read: 2022-06-23

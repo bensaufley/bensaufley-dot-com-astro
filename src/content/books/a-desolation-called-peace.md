@@ -5,8 +5,8 @@ series:
   name: Teixcalaan
   volume: 2
 authors:
-- lastName: Martine
-  firstName: Arkady
+  - lastName: Martine
+    firstName: Arkady
 narrators:
 yearPublished: 2021
 isbn10: '1250186463'

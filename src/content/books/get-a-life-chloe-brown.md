@@ -5,8 +5,8 @@ series:
   name: The Brown Sisters
   volume: 1
 authors:
-- lastName: Hibbert
-  firstName: Talia
+  - lastName: Hibbert
+    firstName: Talia
 isbn10:
 isbn13:
 read: 2022-03-06

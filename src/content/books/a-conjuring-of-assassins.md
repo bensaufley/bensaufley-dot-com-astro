@@ -1,8 +1,8 @@
 ---
 title: A Conjuring of Assassins
 authors:
-- lastName: Glass
-  firstName: Cate
+  - lastName: Glass
+    firstName: Cate
 isbn10: '1250311020'
 isbn13: '9781250311023'
 read: 2022-04-01

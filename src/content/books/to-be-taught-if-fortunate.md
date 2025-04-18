@@ -1,8 +1,8 @@
 ---
 title: To Be Taught, If Fortunate
 authors:
-- lastName: Chambers
-  firstName: Becky
+  - lastName: Chambers
+    firstName: Becky
 isbn10: '0062936018'
 isbn13: '9780062936011'
 read: 2020-09-27

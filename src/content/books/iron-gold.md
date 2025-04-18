@@ -1,8 +1,8 @@
 ---
 title: Iron Gold
 authors:
-- lastName: Brown
-  firstName: Pierce
+  - lastName: Brown
+    firstName: Pierce
 isbn10: '0425285928'
 isbn13: '9780425285923'
 read: 2024-08-17

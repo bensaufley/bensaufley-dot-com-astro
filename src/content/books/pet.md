@@ -5,8 +5,8 @@ series:
   name: Pet
   volume: 1
 authors:
-- lastName: Emezi
-  firstName: Akwaeke
+  - lastName: Emezi
+    firstName: Akwaeke
 narrators:
 yearPublished: 2019
 isbn10: '0525647074'

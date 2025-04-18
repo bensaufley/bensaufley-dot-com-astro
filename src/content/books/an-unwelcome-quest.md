@@ -5,11 +5,11 @@ series:
   name: Magic 2.0
   volume: 3
 authors:
-- lastName: Meyer
-  firstName: Scott
+  - lastName: Meyer
+    firstName: Scott
 narrators:
-- lastName: Daniels
-  firstName: Luke
+  - lastName: Daniels
+    firstName: Luke
 yearPublished: 2015
 isbn10: 147787139X
 isbn13: '9781477871393'

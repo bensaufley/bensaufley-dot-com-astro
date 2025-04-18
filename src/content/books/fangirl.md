@@ -1,8 +1,8 @@
 ---
 title: Fangirl
 authors:
-- lastName: Rowell
-  firstName: Rainbow
+  - lastName: Rowell
+    firstName: Rainbow
 isbn10: '1250030951'
 isbn13: '9781250030955'
 read: 2017-07-18

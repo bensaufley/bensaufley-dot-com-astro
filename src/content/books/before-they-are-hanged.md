@@ -1,8 +1,8 @@
 ---
 title: Before They Are Hanged
 authors:
-- lastName: Abercrombie
-  firstName: Joe
+  - lastName: Abercrombie
+    firstName: Joe
 isbn10:
 isbn13:
 read: 2024-08-27

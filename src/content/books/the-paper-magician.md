@@ -5,8 +5,8 @@ series:
   name: The Paper Magician
   volume: 1
 authors:
-- lastName: Holmberg
-  firstName: Charlie N.
+  - lastName: Holmberg
+    firstName: Charlie N.
 narrators:
 yearPublished: 2014
 isbn10: '1477823832'

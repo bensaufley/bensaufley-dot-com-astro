@@ -1,8 +1,8 @@
 ---
 title: Tales of H. P. Lovecraft
 authors:
-- lastName: Oates
-  firstName: Joyce Carol
+  - lastName: Oates
+    firstName: Joyce Carol
 isbn10: '0061374601'
 isbn13: '9780061374609'
 read: 2010-03-17

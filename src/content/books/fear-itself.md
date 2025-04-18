@@ -2,8 +2,8 @@
 title: Fear Itself
 subtitle: The New Deal and the Origins of Our Time
 authors:
-- lastName: Katznelson
-  firstName: Ira
+  - lastName: Katznelson
+    firstName: Ira
 isbn10: '0871404508'
 isbn13: '9780871404503'
 read: 2016-05-24

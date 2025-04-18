@@ -5,8 +5,8 @@ series:
   name: Cormoran Strike
   volume: 1
 authors:
-- lastName: Galbraith
-  firstName: Robert
+  - lastName: Galbraith
+    firstName: Robert
 isbn10: '0316206849'
 isbn13: '9780316206846'
 read: 2015-11-06
@@ -28,4 +28,5 @@ I'm not really a crime novel reader, or whatever this genre would be called. I'v
 I had no idea what to expect from Rowling in such a different genre, but she's a really good storyteller, and it showed here as it showed in the Potter books.
 
 It wasn't a perfect book. But I think it knew its strengths and went with it – it didn't spend very long establishing Deeby Macc as a rapper, or go into much detail about his music, and I think that was a good choice, because that pretty much never ends well. Strike is a kind of cartoon of a private eye, but I loved it. It was good pulp. I mean, basically that's it. It was a fun read. I'll read the next one.
+
 </details>

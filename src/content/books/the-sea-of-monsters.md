@@ -5,8 +5,8 @@ series:
   name: Percy Jackson and the Olympians
   volume: 2
 authors:
-- lastName: Riordan
-  firstName: Rick
+  - lastName: Riordan
+    firstName: Rick
 narrators:
 yearPublished: 2007
 isbn10: '1423103343'
@@ -18,4 +18,5 @@ read: 2010-02-23
 rating: 3
 reading: false
 ---
+
 Better than the first one, at least. We'll see if it continues to improve.

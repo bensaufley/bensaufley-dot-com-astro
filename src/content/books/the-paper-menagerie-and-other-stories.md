@@ -1,8 +1,8 @@
 ---
 title: The Paper Menagerie and Other Stories
 authors:
-- lastName: Liu
-  firstName: Ken
+  - lastName: Liu
+    firstName: Ken
 isbn10:
 isbn13: '9781481442541'
 read: 2018-03-08

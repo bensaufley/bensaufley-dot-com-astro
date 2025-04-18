@@ -5,8 +5,8 @@ series:
   name: The Broken Earth
   volume: 3
 authors:
-- lastName: Jemisin
-  firstName: N.K.
+  - lastName: Jemisin
+    firstName: N.K.
 narrators:
 yearPublished: 2017
 isbn10: '0316229245'

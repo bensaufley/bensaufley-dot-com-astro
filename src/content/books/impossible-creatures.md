@@ -1,8 +1,8 @@
 ---
 title: Impossible Creatures
 authors:
-- lastName: Rundell
-  firstName: Katherine
+  - lastName: Rundell
+    firstName: Katherine
 isbn10: '0593809866'
 isbn13: '9780593809860'
 read: 2025-02-14
@@ -15,4 +15,5 @@ narrators:
 coverImageUrl: https://assets.hardcover.app/edition/31043342/cce6b872f563bfba049f4cc05e3f88934a204404.jpeg
 hardcoverUrl: https://hardcover.app/books/impossible-creatures/editions/31589449
 ---
+
 This has been getting major marketing and though the cover had me interested right away I was a bit skeptical for that reason (that and it was presented in one store very closely connected to the now-poisoned HP franchise). But boy, I really enjoyed it. It's comfortable and built on a lot of tropes, but in a really nice way. The world felt distinct, and the characters were charming. The writing is smart and not at all cynical, and it's hard to write without cynicism and not come off as saccharine. Definitely recommend.

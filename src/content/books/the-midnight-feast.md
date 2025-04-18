@@ -1,8 +1,8 @@
 ---
 title: The Midnight Feast
 authors:
-- lastName: Foley
-  firstName: Lucy
+  - lastName: Foley
+    firstName: Lucy
 isbn10:
 isbn13: '9780063003132'
 read: 2024-06-28

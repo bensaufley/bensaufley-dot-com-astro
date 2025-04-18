@@ -1,8 +1,8 @@
 ---
 title: Scythe
 authors:
-- lastName: Shusterman
-  firstName: Neal
+  - lastName: Shusterman
+    firstName: Neal
 isbn10:
 isbn13:
 read: 2025-03-06

@@ -5,8 +5,8 @@ series:
   name: The Hate U Give
   volume: 1
 authors:
-- lastName: Thomas
-  firstName: Angie
+  - lastName: Thomas
+    firstName: Angie
 narrators:
 yearPublished: 2017
 isbn10: '0062498533'

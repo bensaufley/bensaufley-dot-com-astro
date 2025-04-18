@@ -5,8 +5,8 @@ series:
   name: The Burning
   volume: 1
 authors:
-- lastName: Winter
-  firstName: Evan
+  - lastName: Winter
+    firstName: Evan
 narrators:
 yearPublished: 2019
 isbn10: '031648976X'

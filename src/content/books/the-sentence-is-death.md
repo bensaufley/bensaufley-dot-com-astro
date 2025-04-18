@@ -5,8 +5,8 @@ series:
   name: Hawthorne & Horowitz
   volume: 2
 authors:
-- lastName: Horowitz
-  firstName: Anthony
+  - lastName: Horowitz
+    firstName: Anthony
 narrators:
 yearPublished: 2018
 isbn10: '1443455520'

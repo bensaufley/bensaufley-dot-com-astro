@@ -1,8 +1,8 @@
 ---
 title: Repeat
 authors:
-- lastName: Pollack
-  firstName: Neal
+  - lastName: Pollack
+    firstName: Neal
 isbn10:
 isbn13: '9781501217043'
 read: 2019-12-07

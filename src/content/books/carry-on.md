@@ -5,10 +5,10 @@ series:
   name: Simon Snow
   volume: 1
 authors:
-- lastName: Rowell
-  firstName: Rainbow
-- lastName: Tierney
-  firstName: Jim
+  - lastName: Rowell
+    firstName: Rainbow
+  - lastName: Tierney
+    firstName: Jim
 isbn10: '1250049555'
 isbn13: '9781250049551'
 read: 2016-01-06

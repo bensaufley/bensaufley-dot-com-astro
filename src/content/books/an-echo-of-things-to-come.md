@@ -1,8 +1,8 @@
 ---
 title: An Echo of Things to Come
 authors:
-- lastName: Islington
-  firstName: James
+  - lastName: Islington
+    firstName: James
 isbn10: '0316274119'
 isbn13: '9780316274111'
 read: 2020-03-02

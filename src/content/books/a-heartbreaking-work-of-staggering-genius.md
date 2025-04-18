@@ -1,8 +1,8 @@
 ---
 title: A Heartbreaking Work of Staggering Genius
 authors:
-- lastName: Eggers
-  firstName: Dave
+  - lastName: Eggers
+    firstName: Dave
 isbn10: '0375725784'
 isbn13: '9780375725784'
 read: 2006-01-01

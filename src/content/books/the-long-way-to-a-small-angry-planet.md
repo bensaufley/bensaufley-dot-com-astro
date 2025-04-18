@@ -4,8 +4,8 @@ series:
   name: Wayfarers
   volume: 1
 authors:
-- lastName: Chambers
-  firstName: Becky
+  - lastName: Chambers
+    firstName: Becky
 isbn10: '1500453307'
 isbn13: '9788594540508'
 read: 2019-07-03

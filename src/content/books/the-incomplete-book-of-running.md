@@ -1,8 +1,8 @@
 ---
 title: The Incomplete Book of Running
 authors:
-- lastName: Sagal
-  firstName: Peter
+  - lastName: Sagal
+    firstName: Peter
 isbn10: '1451696248'
 isbn13: '9781451696240'
 read: 2019-07-14

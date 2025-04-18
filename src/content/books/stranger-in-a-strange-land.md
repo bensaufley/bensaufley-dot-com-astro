@@ -1,8 +1,8 @@
 ---
 title: Stranger in a Strange Land
 authors:
-- lastName: Heinlein
-  firstName: Robert A.
+  - lastName: Heinlein
+    firstName: Robert A.
 isbn10:
 isbn13: '9781441710505'
 read: 2016-07-01

@@ -5,8 +5,8 @@ series:
   name: The Space Between Worlds
   volume: 1
 authors:
-- lastName: Johnson
-  firstName: Micaiah
+  - lastName: Johnson
+    firstName: Micaiah
 narrators:
 yearPublished: 2020
 isbn10: '0593135059'

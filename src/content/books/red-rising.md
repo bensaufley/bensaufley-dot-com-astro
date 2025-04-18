@@ -1,8 +1,8 @@
 ---
 title: Red Rising
 authors:
-- lastName: Brown
-  firstName: Pierce
+  - lastName: Brown
+    firstName: Pierce
 isbn10:
 isbn13: '9781470380281'
 read: 2023-06-17

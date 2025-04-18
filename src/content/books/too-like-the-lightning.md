@@ -5,8 +5,8 @@ series:
   name: Terra Ignota
   volume: 1
 authors:
-- lastName: Palmer
-  firstName: Ada
+  - lastName: Palmer
+    firstName: Ada
 narrators:
 yearPublished: 2016
 isbn10: '0765378000'

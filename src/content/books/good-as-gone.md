@@ -1,8 +1,8 @@
 ---
 title: Good as Gone
 authors:
-- lastName: Gentry
-  firstName: Amy
+  - lastName: Gentry
+    firstName: Amy
 isbn10: '0544920953'
 isbn13: '9780544920958'
 read: 2017-02-14

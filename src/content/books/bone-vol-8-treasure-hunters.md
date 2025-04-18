@@ -5,8 +5,8 @@ series:
   name: Bone
   volume: 8
 authors:
-- lastName: Smith
-  firstName: Jeff
+  - lastName: Smith
+    firstName: Jeff
 isbn10: '1888963131'
 isbn13: '9781888963137'
 read: 2011-12-28

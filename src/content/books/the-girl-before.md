@@ -1,8 +1,8 @@
 ---
 title: The Girl Before
 authors:
-- lastName: Delaney
-  firstName: J. P.
+  - lastName: Delaney
+    firstName: J. P.
 isbn10: '0425285049'
 isbn13: '9780425285046'
 read: 2019-10-10

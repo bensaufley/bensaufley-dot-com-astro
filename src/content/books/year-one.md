@@ -5,8 +5,8 @@ series:
   name: Chronicles of The One
   volume: 1
 authors:
-- lastName: Roberts
-  firstName: Nora
+  - lastName: Roberts
+    firstName: Nora
 isbn10: '1250122953'
 isbn13: '9781250122957'
 read: 2018-07-13

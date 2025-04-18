@@ -1,8 +1,8 @@
 ---
 title: The Shadow Rising
 authors:
-- lastName: Jordan
-  firstName: Robert
+  - lastName: Jordan
+    firstName: Robert
 isbn10:
 isbn13:
 read: 2024-12-22

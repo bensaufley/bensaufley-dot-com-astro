@@ -4,8 +4,8 @@ series:
   name: Dead Djinn Universe
   volume: 1
 authors:
-- lastName: Clark
-  firstName: P. Djèlí
+  - lastName: Clark
+    firstName: P. Djèlí
 isbn10:
 isbn13: '9780765389442'
 read: 2021-07-31
