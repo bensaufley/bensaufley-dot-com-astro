@@ -9,17 +9,17 @@ Obviously I'm a bit late to rebut this particular piece, but the same line of re
 
 <!--more-->
 
-Approaching the argument from a place of good faith, it's easy to agree with the premise: how is progress made, how do we grow, without being able to listen to ideas, even or especially ones we may disagree with at first? And it's hard to believe so many seemingly-reasonable people—including purported allies—would be operating in bad faith. Frankly, I don't think *all of them* are. But I think there's a pretty easy test to figure out who has, at least, *thought it through* and who is just using this argument as a shield to espouse or platform hateful ideas while attempting to avoid responsibility for their words or platform:
+Approaching the argument from a place of good faith, it's easy to agree with the premise: how is progress made, how do we grow, without being able to listen to ideas, even or especially ones we may disagree with at first? And it's hard to believe so many seemingly-reasonable people—including purported allies—would be operating in bad faith. Frankly, I don't think _all of them_ are. But I think there's a pretty easy test to figure out who has, at least, _thought it through_ and who is just using this argument as a shield to espouse or platform hateful ideas while attempting to avoid responsibility for their words or platform:
 
 <p style="text-align:center;font-weight:bold">Would this person tolerate or platform other ideas we as a society have agreed are truly heinous?</p>
 
-Would James Bennet have published an op-ed that he, himself, considered antisemitic? Before you say "Godwin's Law," that's kind of the point of this exercise: can you recognize that there *are ideas* that this person would not tolerate, would not publish? Even ones that are, to you, obviously evil?
+Would James Bennet have published an op-ed that he, himself, considered antisemitic? Before you say "Godwin's Law," that's kind of the point of this exercise: can you recognize that there _are ideas_ that this person would not tolerate, would not publish? Even ones that are, to you, obviously evil?
 
 Would Democratic congressmen like [Greg Landsman and Seth Moulton][xtra] suggest that maybe the party should be more open-minded about white nationalists in the party in order to swing more votes?
 
-To me, the answer is of course not—the _New York Times_ would not in this century intentionally publish an op-ed it considered antisemitic; and I'd like to think most Democrats would not go on record as being open to white nationalists in the party. And to be clear: neither *should* happen. But once you recognize that there is a line, you can see what does not cross that line, and examine why.
+To me, the answer is of course not—the _New York Times_ would not in this century intentionally publish an op-ed it considered antisemitic; and I'd like to think most Democrats would not go on record as being open to white nationalists in the party. And to be clear: neither _should_ happen. But once you recognize that there is a line, you can see what does not cross that line, and examine why.
 
-It becomes clear that for Bennet, the idea of almost literally “crossing the rubicon” to brutalize protesters for Black lives with the full might of the military is an acceptable one; perhaps not one he *agreed* with, or particularly *wanted*, but certainly one that was not inconceivable enough, morally offensive enough, for him to reject.[^2]
+It becomes clear that for Bennet, the idea of almost literally “crossing the rubicon” to brutalize protesters for Black lives with the full might of the military is an acceptable one; perhaps not one he _agreed_ with, or particularly _wanted_, but certainly one that was not inconceivable enough, morally offensive enough, for him to reject.[^2]
 
 And for Democratic politicians so ready to cave on trans rights, the appeal to open-mindedness of course rings hollow. What's open-minded about betraying an already-mistreated subsection of your constituency?[^3]
 
@@ -29,7 +29,7 @@ Personally, as a leftist, I'm happy to talk about economic policies, and the pro
 
 There may really be a “marketplace of ideas” today—it is even, arguably, a good thing. After all, I've learned so much about justice and about people outside of my bubble from _somewhere_, right? We have to be allowed to learn and grow, and that's the justification often given in these conversations. But few markets allow just anything to be sold. We don't have ebola on the shelf next to the oatmeal, and we don't need it there to know oatmeal is the better option. Hate doesn't have to be _sold_ to be _rejected_. And we can't let hateful people sell their hate in our stores.
 
-[^1]: For a real look at campus illiberalism, consider the current admin's extrajudicial disappearing of students like [Mahmoud Kahlil] and [Rumeysa Öztürk]. In the former case, there's even evidence that Columbia University, which has continued to appease or collaborate with a power-mad US executive, is at least partially responsible for the abduction. Don't look now, but they're calling the Right's 
+[^1]: For a real look at campus illiberalism, consider the current admin's extrajudicial disappearing of students like [Mahmoud Kahlil] and [Rumeysa Öztürk]. In the former case, there's even evidence that Columbia University, which has continued to appease or collaborate with a power-mad US executive, is at least partially responsible for the abduction.
 
 [^2]: His point that (paraphrasing) "this is what people are saying in the halls of power and people deserve to know" also rings hollow: Bennet, dude—you work at a newspaper. There are ways to get this news to the people without giving them a platform to make their case themselves.
 
