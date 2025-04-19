@@ -23,4 +23,4 @@ filename="src/content/posts/$date--$(echo "$title" | sed 's/[^[:alnum:]]/-/g' | 
 
 printf -- "---\ntitle: %s\ndate: %s\n---\n\n" "$title" "$date" > "$filename.md"
 
-echo "Created new post at $filename"
+echo "Created new post at $filename.md"
