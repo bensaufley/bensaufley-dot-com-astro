@@ -3,6 +3,6 @@ RewriteRule ^confused/??(.*)$ http://confused.bensaufley.com/$1?ref=old&%{QUERY_
 
 Options -Indexes
 
-ErrorDocument 404 /404/index.html
+ErrorDocument 404 /404.html
 
 RewriteRule ^/(20[0-9]{2}/.+)$ /blog/$1 [R=301,L,NC]
