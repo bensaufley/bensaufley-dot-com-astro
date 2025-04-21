@@ -43,3 +43,4 @@ I will leave my old reviews in place because I believe in being transparent abou
 [elon]: https://web.archive.org/web/https://www.them.us/story/elon-musk-pride-month-tweet-likes-anti-trans
 [uk]: https://web.archive.org/web/https://www.bbc.com/news/articles/cy8q55d27lgo
 [three-guesses]: https://web.archive.org/web/https://www.euronews.com/culture/2025/03/20/three-guesses-jk-rowling-appears-to-take-a-swipe-at-harry-potter-stars-amid-feud
+[hemingway]: https://web.archive.org/web/https://www.americamagazine.org/arts-culture/2021/04/09/ernest-hemingway-ken-burns-pbs-documentary-240420
