@@ -8,6 +8,7 @@ In the last decade or so, there's been a lot of talk about the "marketplace of i
 Obviously I'm a bit late to rebut this particular piece, but the same line of reasoning comes up again and again: from the people who enabled Trump's rise by constantly decrying "illiberal college campuses"[^1], to the Democrats acting as, at best, useful idiots for the right-wing campaign to eradicate trans people, by fretting to the media about "purity tests" within the party. The through-line in all this is: "we need to be willing to listen to ideas that we disagree with." And it seems like on its face, of course we do! After all, isn't liberalism (in the traditional sense) about tolerance and coexistence?
 
 [atlantic]: https://web.archive.org/web/https://www.economist.com/1843/2023/12/14/when-the-new-york-times-lost-its-way
+
 <!--more-->
 
 Approaching the argument from a place of good faith, it's easy to agree with the premise: how is progress made, how do we grow, without being able to listen to ideas, even or especially ones we may disagree with at first? And it's hard to believe so many seemingly-reasonable people—including purported allies—would be operating in bad faith. Frankly, I don't think _all of them_ are. But I think there's a pretty easy test to figure out who has, at least, _thought it through_ and who is just using this argument as a shield to espouse or platform hateful ideas while attempting to avoid responsibility for their words or platform:

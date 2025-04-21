@@ -99,6 +99,6 @@ export default defineConfig({
     '/blog/0': '/',
     '/reading/0': '/reading',
     '/blog/2025/01/2025-01-29--on-dei': '/blog/2025/01/on-dei',
-    '/blog/2025/04/2025-04-19-the-marketplace-of-ideas' '/blog/2025/04/the-marketplace-of-ideas',
+    '/blog/2025/04/2025-04-19-the-marketplace-of-ideas': '/blog/2025/04/the-marketplace-of-ideas',
   },
 });
