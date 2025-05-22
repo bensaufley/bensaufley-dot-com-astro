@@ -15,21 +15,25 @@ interface Props {
 
 const { currentPath } = Astro.props;
 
-const topLevelFms = Object.entries<Frontmatter>(import.meta.glob('../../pages/{*.astro,*.md,*.mdx,*/index.astro,*/index.md,*/index.mdx}', {
-  eager: true,
-  import: 'frontmatter',
-})).map(([filename, fm]) => {
-  const path = `/${relative(resolve('../../pages'), filename)}`;
-  const ext = extname(path);
-  const isIndex = basename(path, ext) === 'index';
-  return { path: path.slice(0, isIndex ? -(`index${ext}`).length : -ext.length).replace(/\/?$/, '/'), ...fm };
-}).toSorted((a, b) => {
-  if (a.order === undefined && b.order === undefined) return a.title.localeCompare(b.title);
-  if (a.order === undefined) return 1;
-  if (b.order === undefined) return -1;
-  return a.order - b.order;
-});
-
+const topLevelFms = Object.entries<Frontmatter>(
+  import.meta.glob('../../pages/{*.astro,*.md,*.mdx,*/index.astro,*/index.md,*/index.mdx}', {
+    eager: true,
+    import: 'frontmatter',
+  }),
+)
+  .filter(([filename]) => !/404/.test(filename))
+  .map(([filename, fm]) => {
+    const path = `/${relative(resolve('../../pages'), filename)}`;
+    const ext = extname(path);
+    const isIndex = basename(path, ext) === 'index';
+    return { path: path.slice(0, isIndex ? -`index${ext}`.length : -ext.length).replace(/\/?$/, '/'), ...fm };
+  })
+  .toSorted((a, b) => {
+    if (a.order === undefined && b.order === undefined) return a.title.localeCompare(b.title);
+    if (a.order === undefined) return 1;
+    if (b.order === undefined) return -1;
+    return a.order - b.order;
+  });
 ---
 
 <header class={clsx('sticky', styles.pageHeader)}>
@@ -39,13 +43,13 @@ const topLevelFms = Object.entries<Frontmatter>(import.meta.glob('../../pages/{*
   </h2>
   <h3 class={styles.position}>
     Software <br class={styles.desktopBreak} />
-     Engineering Leader
+    Engineering Leader
   </h3>
 </header>
 <nav class={clsx('sticky', styles.stickyNav)}>
   <a href="/" class={styles.name}> BS</a>
   <ul>
-    {topLevelFms.map((fm) => (<NavItem currentPath={currentPath} data={fm} />))}
+    {topLevelFms.map((fm) => <NavItem currentPath={currentPath} data={fm} />)}
   </ul>
   <ThemePicker context="header" client:only="preact" />
 </nav>
