@@ -1,5 +1,8 @@
 ---
-title: The Blade Itself Library Edition
+title: The Blade Itself
+series:
+  name: The First Law
+  volume: 1
 authors:
   - lastName: Abercrombie
     firstName: Joe
