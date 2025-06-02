@@ -29,7 +29,7 @@
     overflow-x: auto;
 
     object {
-      height: 4.5rem;
+      max-height: 4.5rem;
       width: 3rem;
     }
 

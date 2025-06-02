@@ -35,9 +35,10 @@ const books = defineCollection({
       series: z
         .object({
           name: z.string(),
-          volume: z.number(),
+          volume: z.number().nullable(),
         })
-        .optional(),
+        .optional()
+        .nullable(),
     });
 
     return z.union([
