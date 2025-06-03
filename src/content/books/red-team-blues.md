@@ -20,4 +20,5 @@ reading: false
 read: 2025-05-08T00:00:00.000Z
 rating: 2
 ---
+
 Starts off interestingly. Then the protagonist has sex with a few beautiful women and several men tell him how much they admire him, and then the intrigue fizzles to an "I guess that's it?" and then the book is apparently over.

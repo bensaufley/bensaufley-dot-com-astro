@@ -425,7 +425,11 @@
     gap: 0.5rem;
 
     &::before {
-      background-color: color-mix(in srgb, var(--accentColor), var(--secondaryAccentColor) calc((var(--ratingNo) - 1) / 8 * 100%));
+      background-color: color-mix(
+        in srgb,
+        var(--accentColor),
+        var(--secondaryAccentColor) calc((var(--ratingNo) - 1) / 8 * 100%)
+      );
       border: 2px solid transparent;
       border-bottom: 0;
       border-radius: 0 3px 3px 0;
