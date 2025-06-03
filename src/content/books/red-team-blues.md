@@ -1,6 +1,6 @@
 ---
 title: Red Team Blues
-subtitle: A Martin Hench Novel
+subtitle:
 authors:
   - firstName: Cory
     lastName: Doctorow

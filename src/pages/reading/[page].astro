@@ -9,7 +9,7 @@ export const getStaticPaths = async () => {
 
   return Array.from({
     length: Math.ceil(books.length / PER_PAGE),
-  }).map((_, i) => ({ params: { page: i }, props: { page: i } }));
+  }).map((_, i) => ({ params: { page: i + 1 }, props: { page: i + 1 } }));
 };
 
 export interface Props {
@@ -17,9 +17,9 @@ export interface Props {
   page?: number;
 }
 
-const { class: className, page = 0 } = Astro.props;
+const { class: className, page = 1 } = Astro.props;
 ---
 
-<BaseLayout class={className} frontmatter={{ title: "Reading", icon: 'books' }} url={page === 0 ? '/reading' : `/reading/${page}`}>
+<BaseLayout class={className} frontmatter={{ title: "Reading", icon: 'books' }} url={page === 0 ? '/reading/' : `/reading/${page}`}>
   <Read page={page} />
 </BaseLayout>

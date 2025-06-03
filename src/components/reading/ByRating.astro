@@ -6,20 +6,22 @@ import { basename, extname } from 'node:path';
 
 import Pagination from '~components/Pagination';
 
+import RatingsGraph from './RatingsGraph.astro';
 import ReadBook from './ReadBook.astro';
 
 import styles from './styles.module.css';
 
 export interface Props {
   page: number;
+  rating: number;
 }
 
 dayjs.extend(utc);
 
-const { page } = Astro.props;
+const { page, rating } = Astro.props;
 
 export const PER_PAGE = 15;
-const allBooks = (await getCollection('books', (book) => !!book.data.read)).toSorted((a, b) => dayjs.utc(b.data.read).diff(a.data.read, 'day'));
+const allBooks = (await getCollection('books', (book) => !!book.data.read && book.data.rating === rating)).toSorted((a, b) => dayjs.utc(b.data.read).diff(a.data.read, 'day'));
 
 const pages = Math.ceil(allBooks.length / PER_PAGE);
 const books = await Promise.all(
@@ -32,11 +34,15 @@ const books = await Promise.all(
 ---
 
 <div class={styles.read}>
-  <h3>Read</h3>
+  <h3>Books I've Rated {rating} / 5</h3>
+
+  <RatingsGraph />
 
   <ul class={styles.books}>
-    {books.map(({ Content, body, id: slug, data }) => (<ReadBook book={data} hasReview={!!body} slug={basename(slug, extname(slug))}><Content /></ReadBook>))}
+    {books.map(({ Content, body, id: slug, data }) => (
+      <ReadBook book={data} hasReview={!!body} slug={basename(slug, extname(slug))}><Content /></ReadBook>
+    ))}
   </ul>
 
-  <Pagination page={page} pages={pages} path="/reading/" />
+  <Pagination page={page} pages={pages} path={`/reading/by-rating/${rating}/`} />
 </div>

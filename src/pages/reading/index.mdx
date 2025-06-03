@@ -8,6 +8,7 @@ order: 1
 import styles from '~components/reading/styles.module.css';
 import NowReading from '~components/reading/NowReading.astro';
 import UpNext from '~components/reading/UpNext.astro';
+import RatingsGraph from '~components/reading/RatingsGraph.astro';
 import Read from '~components/reading/Read.astro';
 
 # Reading
@@ -21,6 +22,8 @@ what I've read, and what I'm looking to read next.
   <UpNext />
 </div>
 
-<Read page={0} />
+<RatingsGraph />
+
+<Read page={1} />
 
 [audiobook-catalog]: /projects#audiobook-catalog

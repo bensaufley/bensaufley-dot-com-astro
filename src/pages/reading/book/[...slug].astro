@@ -7,6 +7,8 @@ import { basename, extname } from 'path';
 
 import BaseLayout from '~layouts/BaseLayout.astro';
 
+import styles from '~components/reading/styles.module.css';
+
 export const getStaticPaths: GetStaticPaths = async () => {
 
   const posts = (await getCollection('books', (book) => !!book.data.read && !!book.body?.trim())).toSorted((a, b) => dayjs.utc(b.data.read).diff(a.data.read, 'day'));
@@ -31,7 +33,10 @@ const { params: { slug }, props: { Content, ...book} } = Astro;
 ---
 
 <BaseLayout url={`/reading/book/${slug}`} frontmatter={{ title: book.title, icon: "book" }}>
-  <h2>{book.title}</h2>
+  <div class={styles.bookReview}>
+    <h2>{book.title}</h2>
+    {book.subtitle && <h3>{book.subtitle}</h3>}
 
-  <Content />
+    <Content />
+  </div>
 </BaseLayout>

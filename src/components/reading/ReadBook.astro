@@ -1,6 +1,7 @@
 ---
 import Goodreads from '@phosphor-icons/core/regular/goodreads-logo.svg?react';
 import dayjs from 'dayjs';
+import utc from 'dayjs/plugin/utc';
 
 import type { BookFrontmatter } from '~content/config';
 
@@ -10,9 +11,10 @@ import Libro from '../../assets/images/brand-libro.svg?react';
 
 import CoverImage from './CoverImage';
 import Rating from './Rating';
-import { LEFT_GOODREADS_DATE } from './Read.astro';
 
 import styles from './styles.module.css';
+
+dayjs.extend(utc);
 
 export interface Props {
   book: BookFrontmatter;
@@ -21,6 +23,9 @@ export interface Props {
 }
 
 const { book, hasReview, slug } = Astro.props;
+
+// Not an exact date, but before this point everything is Goodreads
+export const LEFT_GOODREADS_DATE = dayjs.utc('2022-02-15');
 ---
 <li class={styles.book}>
   <CoverImage book={book} />
@@ -43,7 +48,9 @@ const { book, hasReview, slug } = Astro.props;
         </span>
       )}
     </div>
-    {hasReview ? <a href={`/reading/book/${slug}`}>{book.title}</a> : book.title}
+    {hasReview
+      ? <a href={`/reading/book/${slug}`}>{book.title}{book.subtitle && <small>{book.subtitle}</small>}</a>
+      : <span>{book.title}{book.subtitle && <small>{book.subtitle}</small>}</span>}
   </h3>
   <p class={styles.author}>
     by {book.authors.map(({ firstName, lastName }) => `${firstName} ${lastName}`).join(', ')}

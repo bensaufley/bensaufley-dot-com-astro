@@ -8,7 +8,7 @@ export const getStaticPaths = async () => {
 
   return Array.from({
     length: Math.ceil(posts.length / PER_PAGE),
-  }).map((_, i) => ({ params: { page: i }, props: { page: i } }));
+  }).map((_, i) => ({ params: { page: i + 1 }, props: { page: i + 1 } }));
 };
 
 export interface Props {
@@ -16,7 +16,7 @@ export interface Props {
   page?: number;
 }
 
-const { class: className, page = 0 } = Astro.props;
+const { class: className, page = 1 } = Astro.props;
 ---
 
 <PageComponent class={className} page={page} />

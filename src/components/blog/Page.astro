@@ -33,7 +33,7 @@ const parseMd = async (source: string, _id: string) => mdParser.render(source);
 const renderedPosts = await Promise.all(
   posts
     .toSorted(({ data: { date: a } }, { data: { date: b } }) => dayjs(b).diff(a))
-    .slice(page * PER_PAGE, (page + 1) * PER_PAGE)
+    .slice((page - 1) * PER_PAGE, page * PER_PAGE)
     .map(async (post) => {
       const slug = getSlug(post);
       let Content: AstroComponentFactory | ComponentType = () => null;
@@ -64,7 +64,7 @@ const renderedPosts = await Promise.all(
 const pages = Math.ceil(posts.length / PER_PAGE);
 ---
 
-<BaseLayout class={className} frontmatter={{ title: page === 0 ? 'Home' : 'Blog', icon: 'house' }} url={page === 0 ? '/' : `/blog/${page}`}>
+<BaseLayout class={className} frontmatter={{ title: page === 1 ? 'Home' : 'Blog', icon: 'house' }} url={page === 1 ? '/' : `/blog/${page}`}>
   {
     renderedPosts.map(({ data: { title, date, headerImage, headerImageAlt }, html, Content, slug }, i) => (
       <Fragment key={slug}>

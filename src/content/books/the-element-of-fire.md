@@ -1,6 +1,6 @@
 ---
 title: The Element of Fire
-subtitle: Classic Literature
+subtitle:
 authors:
   - firstName: Martha
     lastName: Wells

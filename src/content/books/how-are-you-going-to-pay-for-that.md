@@ -1,7 +1,6 @@
 ---
-title: "How Are You Going to Pay for That?: Smart Answers to the Dumbest
-  Question in Politics"
-subtitle: null
+title: How Are You Going to Pay for That?
+subtitle: Smart Answers to the Dumbest Question in Politics
 authors:
   - firstName: Ryan
     lastName: Cooper

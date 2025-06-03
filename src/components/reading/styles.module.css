@@ -1,3 +1,6 @@
+@import url('../../shared/variables.css');
+@import url('../../shared/mixins.css');
+
 .hud {
   display: grid;
   gap: 1rem;
@@ -97,6 +100,14 @@
       font-size: 1rem;
       color: color-mix(in srgb, var(--accentColor), var(--mainColor));
       grid-area: title;
+
+      a,
+      span {
+        small {
+          font-family: $sansStack;
+          margin-left: 0.5rem;
+        }
+      }
     }
 
     p {
@@ -133,11 +144,12 @@
   }
 
   .icons {
-    display: inline-flex;
-    gap: 0.5rem;
-    flex-flow: row wrap;
     align-items: center;
+    display: inline-flex;
+    flex-flow: row wrap;
     float: right;
+    gap: 0.5rem;
+    margin-left: 0.5rem;
     vertical-align: baseline;
 
     span {
@@ -312,6 +324,148 @@
         object {
           transform: rotate(-3deg) scale(1.1);
         }
+      }
+    }
+  }
+}
+
+.bookReview {
+  h3 {
+    font-family: $sansStack;
+  }
+}
+
+.ratings {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto repeat(9, 1fr);
+  column-gap: 0.5rem;
+  grid-auto-flow: column;
+  padding: 1rem;
+  border-radius: 3px;
+  background-color: rgba(from var(--navBg) r g b / calc(0.15));
+  margin: 1rem 0;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1) inset;
+
+  h3 {
+    grid-column: 1 / -1;
+    grid-row: 1 / span 1;
+    margin: 0;
+  }
+
+  .ratingLabel {
+    border: 2px solid transparent;
+    border-top: 0;
+    text-align: center;
+    transition: border-color 300ms;
+  }
+
+  .ratingValue {
+    display: grid;
+    font-size: 0.875rem;
+    grid-column: 1 / -1;
+    grid-template-columns: subgrid;
+
+    &::after {
+      display: none;
+    }
+
+    /** Waiting for sibling-index()
+     * https://nerdy.dev/sibling-index
+     * --ratingNo: sibling-index();
+     */
+    &:nth-child(1 of .ratingValue) {
+      --ratingNo: 1;
+    }
+
+    &:nth-child(2 of .ratingValue) {
+      --ratingNo: 2;
+    }
+
+    &:nth-child(3 of .ratingValue) {
+      --ratingNo: 3;
+    }
+
+    &:nth-child(4 of .ratingValue) {
+      --ratingNo: 4;
+    }
+
+    &:nth-child(5 of .ratingValue) {
+      --ratingNo: 5;
+    }
+
+    &:nth-child(6 of .ratingValue) {
+      --ratingNo: 6;
+    }
+
+    &:nth-child(7 of .ratingValue) {
+      --ratingNo: 7;
+    }
+
+    &:nth-child(8 of .ratingValue) {
+      --ratingNo: 8;
+    }
+
+    &:nth-child(9 of .ratingValue) {
+      --ratingNo: 9;
+    }
+
+    &:hover {
+      .ratingBar::before,
+      .ratingLabel {
+        border-color: rgb(from var(--mainColor) r g b / 0.5);
+      }
+    }
+  }
+
+  .ratingBar {
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0.5rem;
+
+    &::before {
+      background-color: color-mix(in srgb, var(--accentColor), var(--secondaryAccentColor) calc((var(--ratingNo) - 1) / 8 * 100%));
+      border: 2px solid transparent;
+      border-bottom: 0;
+      border-radius: 0 3px 3px 0;
+      content: '';
+      display: block;
+      height: 100%;
+      transition: border-color 300ms;
+      width: var(--ratingBookPct);
+    }
+  }
+
+  @mixin tablet {
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: auto 15vh 1fr;
+    grid-auto-flow: row;
+    column-gap: 1rem;
+
+    .ratingValue {
+      grid-column: auto / span 1;
+      grid-row: 2 / -1;
+      grid-template-rows: subgrid;
+      grid-template-columns: 1fr;
+    }
+
+    .ratingLabel {
+      background-color: rgba(from var(--navBg) r g b / calc(0.15));
+      border-radius: 0 0 3px 3px;
+      order: 2;
+      padding: 1rem 0.5rem;
+    }
+
+    .ratingBar {
+      order: 1;
+      flex-direction: column-reverse;
+      justify-content: flex-start;
+
+      &::before {
+        width: 100%;
+        height: var(--ratingBookPct);
+        border-radius: 3px 3px 0 0;
       }
     }
   }
