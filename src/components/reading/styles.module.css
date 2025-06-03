@@ -345,7 +345,6 @@
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-rows: auto repeat(9, 1fr);
-  column-gap: 0.5rem;
   grid-auto-flow: column;
   padding: 1rem;
   border-radius: 3px;
@@ -360,10 +359,12 @@
   }
 
   .ratingLabel {
-    border: 2px solid transparent;
-    border-top: 0;
+    border: solid transparent;
+    border-radius: 3px 0 0 3px;
+    border-width: 2px 0 2px 2px;
     text-align: center;
     transition: border-color 300ms;
+    padding: 0.25rem 0.5rem 0.25rem 0.25rem;
   }
 
   .ratingValue {
@@ -436,14 +437,14 @@
         var(--accentColor),
         var(--secondaryAccentColor) calc((var(--ratingNo) - 1) / 8 * 100%)
       );
-      border: 2px solid transparent;
-      border-bottom: 0;
+      border: solid transparent;
+      border-width: 2px 2px 2px 0;
       border-radius: 0 3px 3px 0;
       content: '';
       display: block;
       height: 100%;
       transition: border-color 300ms;
-      width: var(--ratingBookPct);
+      width: calc((100% - 5ch) * var(--ratingBookFraction));
     }
   }
 
@@ -454,6 +455,7 @@
     column-gap: 1rem;
 
     .ratingValue {
+      border-width: 0 2px 2px;
       grid-column: auto / span 1;
       grid-row: 2 / -1;
       grid-template-rows: subgrid;
@@ -463,19 +465,21 @@
     .ratingLabel {
       background-color: rgba(from var(--navBg) r g b / calc(0.15));
       border-radius: 0 0 3px 3px;
+      border-width: 0 2px 2px;
       order: 2;
-      padding: 1rem 0.5rem;
+      padding: 0.5rem;
     }
 
     .ratingBar {
-      order: 1;
       flex-direction: column-reverse;
       justify-content: flex-start;
+      order: 1;
 
       &::before {
-        width: 100%;
-        height: var(--ratingBookPct);
+        border-width: 2px 2px 0;
         border-radius: 3px 3px 0 0;
+        height: calc((100% - 2rem) * var(--ratingBookFraction));
+        width: 100%;
       }
     }
   }

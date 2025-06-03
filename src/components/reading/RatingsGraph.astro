@@ -23,7 +23,7 @@ const allPossibleRatings = ['1', '1.5', '2', '2.5', '3', '3.5', '4', '4.5', '5']
   {allPossibleRatings.map((rating) => (
     <a class={styles.ratingValue} href={`/reading/by-rating/${rating}/`} title={`Books rated ${rating} / 5`} aria-label={`Books rated ${rating} / 5`}>
       <h4 class={styles.ratingLabel}>{rating}</h4>
-      <div class={styles.ratingBar} style={{ '--ratingBookPct': `${(((sortedRatings[rating] ?? 0) + 1) / (maxCount + 1)) * 100}%` }}>
+      <div class={styles.ratingBar} style={{ '--ratingBookFraction': `${(((sortedRatings[rating] ?? 0) + 1) / (maxCount + 1))}` }}>
         <span class={styles.ratingCount}>{sortedRatings[rating] ?? 0}</span>
       </div>
     </a>
