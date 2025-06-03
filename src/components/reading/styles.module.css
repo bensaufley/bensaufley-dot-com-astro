@@ -52,6 +52,12 @@
 }
 
 .read {
+  .empty {
+    display: block;
+    font-style: italic;
+    grid-column: 1 / -1;
+  }
+
   .books {
     list-style: none;
     padding: 0;
