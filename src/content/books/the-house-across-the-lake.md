@@ -18,4 +18,3 @@ reading: true
 read: null
 rating: null
 ---
-
