@@ -1,6 +1,6 @@
 ---
-title: After on
-subtitle: null
+title: After On
+subtitle: A Novel of Silicon Valley
 authors:
   - lastName: Reid
     firstName: Rob
