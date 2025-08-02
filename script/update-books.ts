@@ -40,12 +40,12 @@ const defaultDate = await readdir(resolve(dirname, '../src/content/books'), { wi
   files.reduce<Dayjs>((maxRead, file) => {
     if (!file.isFile() && file.name.endsWith('.md')) return maxRead;
 
-    const readDate = readFileSync(resolve(dirname, `../src/content/books/${file.name}`), 'utf-8').match(
-      /^read: *(.+)$/im,
+    const finishedAt = readFileSync(resolve(dirname, `../src/content/books/${file.name}`), 'utf-8').match(
+      /^finishedAt: *(.+)$/im,
     );
-    if (!readDate) return maxRead;
+    if (!finishedAt) return maxRead;
 
-    const date = dayjs(readDate[1]);
+    const date = dayjs(finishedAt[1]);
     return date.isAfter(maxRead) ? date : maxRead;
   }, dayjs.utc('2020-01-01')),
 );
