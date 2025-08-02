@@ -5,10 +5,10 @@ authors:
     firstName: James Scott
 isbn10:
 isbn13:
-read: 2021-12-28
+finishedAt: 2021-12-28
 rating: 3
 yearPublished:
-reading: false
+startedAt: null
 asin: B07PVKHGQH
 subtitle:
 narrators:

@@ -5,10 +5,10 @@ authors:
     firstName: J.K.
 isbn10: '043965548X'
 isbn13: '9780439655484'
-read: 2016-07-15
+finishedAt: 2016-07-15
 rating: 5
 yearPublished: 2004
-reading: false
+startedAt: null
 asin:
 subtitle:
 series:

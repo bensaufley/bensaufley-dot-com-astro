@@ -14,7 +14,7 @@ isbn13: '9780345350497'
 asin:
 coverImageUrl: https://assets.hardcover.app/edition/30399625/40605251._SX98_.jpg
 hardcoverUrl: https://hardcover.app/books/the-mists-of-avalon/editions/5464072
-read: 2017-10-18
+finishedAt: 2017-10-18
 rating: 4
-reading: false
+startedAt: null
 ---

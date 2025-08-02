@@ -6,10 +6,10 @@ authors:
     firstName: Franklin
 isbn10: '0060731427'
 isbn13: '9780060731427'
-read: 2013-02-08
+finishedAt: 2013-02-08
 rating: 4
 yearPublished: 2004
-reading: false
+startedAt: null
 asin:
 narrators:
 hardcoverUrl: https://hardcover.app/books/how-soccer-explains-the-world/editions/23064696

@@ -14,7 +14,7 @@ asin: null
 coverImageUrl: https://assets.hardcover.app/books/1764193/f838bb0d-414c-4494-b25c-29986790716b.jpg
 hardcoverUrl: https://hardcover.app/books/she-didnt-see-it-coming/editions/32171844
 series: null
-reading: true
-read: null
+startedAt: 2025-08-01
+finishedAt: null
 rating: null
 ---

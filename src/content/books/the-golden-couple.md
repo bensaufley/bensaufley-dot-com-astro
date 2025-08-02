@@ -7,10 +7,10 @@ authors:
     firstName: Sarah
 isbn10: '1250273218'
 isbn13: '9781250273215'
-read: 2022-05-11
+finishedAt: 2022-05-11
 rating: 4
 yearPublished: 2022
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

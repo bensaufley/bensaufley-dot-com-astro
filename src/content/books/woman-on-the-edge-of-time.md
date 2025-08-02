@@ -5,10 +5,10 @@ authors:
     firstName: Marge
 isbn10:
 isbn13: '9781515909736'
-read: 2022-06-23
+finishedAt: 2022-06-23
 rating:
 yearPublished: 1976
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

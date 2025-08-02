@@ -5,10 +5,10 @@ authors:
     firstName: Lisa
 isbn10: '1501101676'
 isbn13: '9781501101670'
-read: 2020-04-24
+finishedAt: 2020-04-24
 rating: 4
 yearPublished: 2017
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

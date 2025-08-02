@@ -5,10 +5,10 @@ authors:
     firstName: Jay
 isbn10: '073935650X'
 isbn13: '9780739356500'
-read: 2017-04-15
+finishedAt: 2017-04-15
 rating: 3
 yearPublished: 2007
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

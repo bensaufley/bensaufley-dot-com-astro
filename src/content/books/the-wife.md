@@ -5,10 +5,10 @@ authors:
     firstName: Alafair
 isbn10:
 isbn13: '9781538480335'
-read: 2022-07-07
+finishedAt: 2022-07-07
 rating: 4
 yearPublished: 2018
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

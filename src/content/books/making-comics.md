@@ -6,10 +6,10 @@ authors:
     firstName: Scott
 isbn10: '0060780940'
 isbn13: '9780060780944'
-read: 2010-06-01
+finishedAt: 2010-06-01
 rating: 4
 yearPublished: 2006
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/external_data/59845442/259429c698055e42a0608fe4e373179c31536fc5.jpeg

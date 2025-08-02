@@ -5,10 +5,10 @@ authors:
     firstName: Matthew
 isbn10:
 isbn13:
-read: 2022-12-08
+finishedAt: 2022-12-08
 rating: 4.5
 yearPublished: 2021
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

@@ -5,10 +5,10 @@ authors:
     firstName: John
 isbn10: '1335998853'
 isbn13: '9781488204074'
-read: 2022-04-07
+finishedAt: 2022-04-07
 rating: 4
 yearPublished: 2016
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

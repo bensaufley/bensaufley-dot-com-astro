@@ -5,10 +5,10 @@ authors:
     firstName: Robert
 isbn10: '0812517725'
 isbn13: '9780812517729'
-read: 2023-02-22
+finishedAt: 2023-02-22
 rating: 4
 yearPublished: 1990
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

@@ -7,10 +7,10 @@ authors:
     firstName: Eric
 isbn10: '1594206279'
 isbn13: '9781594206276'
-read: 2015-12-14
+finishedAt: 2015-12-14
 rating: 4
 yearPublished: 2015
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

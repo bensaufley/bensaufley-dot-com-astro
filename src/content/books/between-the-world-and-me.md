@@ -5,10 +5,10 @@ authors:
     firstName: Ta-Nehisi
 isbn10: '0812983815'
 isbn13: '9780812983814'
-read: 2015-11-13
+finishedAt: 2015-11-13
 rating: 5
 yearPublished: 2015
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

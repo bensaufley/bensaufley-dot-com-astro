@@ -5,10 +5,10 @@ authors:
     firstName: Katie
 isbn10: '1542092655'
 isbn13: '9781542092654'
-read: 2025-01-09
+finishedAt: 2025-01-09
 rating:
 yearPublished: 2020
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

@@ -5,10 +5,10 @@ authors:
     firstName: Suzanne
 isbn10: '1338635182'
 isbn13: '9781338635201'
-read: 2024-06-22
+finishedAt: 2024-06-22
 rating: 3.5
 yearPublished: 2020
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

@@ -5,7 +5,7 @@ import Read, { PER_PAGE } from '~components/reading/Read.astro';
 import BaseLayout from '~layouts/BaseLayout.astro';
 
 export const getStaticPaths = async () => {
-  const books = await getCollection('books', (book) => !!book.data.read);
+  const books = await getCollection('books', (book) => !!book.data.finishedAt);
 
   return Array.from({
     length: Math.ceil(books.length / PER_PAGE),

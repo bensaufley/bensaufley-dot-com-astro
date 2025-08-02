@@ -14,9 +14,9 @@ isbn13: '9780316251334'
 asin:
 coverImageUrl: https://assets.hardcover.app/external_data/60260838/1855e84d8914957cf81fc5a3373d5b1d755a1d6c.jpeg
 hardcoverUrl: https://hardcover.app/books/the-blood-mirror/editions/30431967
-read: 2017-09-07
+finishedAt: 2017-09-07
 rating: 3
-reading: false
+startedAt: null
 ---
 
 I still really like the world Weeks has built, but I had several issues with this book:

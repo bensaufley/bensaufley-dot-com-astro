@@ -5,10 +5,10 @@ authors:
     firstName: Robert
 isbn10: '0316349933'
 isbn13: '9780316349932'
-read: 2016-06-07
+finishedAt: 2016-06-07
 rating: 5
 yearPublished: 2015
-reading: false
+startedAt: null
 asin:
 subtitle:
 series:

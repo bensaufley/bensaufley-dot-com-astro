@@ -8,10 +8,10 @@ authors:
     firstName: Arthur Conan
 isbn10: '3785757255'
 isbn13: '9783785757253'
-read: 2010-06-03
+finishedAt: 2010-06-03
 rating: 4
 yearPublished:
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

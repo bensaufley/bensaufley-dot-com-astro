@@ -21,7 +21,7 @@ dayjs.extend(utc);
 const { page, rating } = Astro.props;
 
 export const PER_PAGE = 15;
-const allBooks = (await getCollection('books', (book) => !!book.data.read && book.data.rating === rating)).toSorted((a, b) => dayjs.utc(b.data.read).diff(a.data.read, 'day'));
+const allBooks = (await getCollection('books', (book) => !!book.data.finishedAt && book.data.rating === rating)).toSorted((a, b) => dayjs.utc(b.data.finishedAt).diff(a.data.finishedAt, 'day'));
 
 const pages = Math.ceil(allBooks.length / PER_PAGE);
 const books = await Promise.all(

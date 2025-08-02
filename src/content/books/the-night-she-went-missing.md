@@ -5,10 +5,10 @@ authors:
     firstName: Kristen
 isbn10: '0778332101'
 isbn13: '9780778332107'
-read: 2022-06-26
+finishedAt: 2022-06-26
 rating: 4
 yearPublished: 2022
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

@@ -26,8 +26,8 @@ hardcoverUrl: https://hardcover.app/books/the-perfect-divorce/editions/32016104
 series:
   name: The Perfect Marriage
   volume: 2
-reading: false
-read: 2025-07-24T00:00:00.000Z
+startedAt: null
+finishedAt: 2025-07-24T00:00:00.000Z
 rating: 4
 ---
 

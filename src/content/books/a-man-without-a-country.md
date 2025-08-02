@@ -5,10 +5,10 @@ authors:
     firstName: Kurt
 isbn10:
 isbn13: '9781419364570'
-read: 2006-01-01
+finishedAt: 2006-01-01
 rating: 5
 yearPublished: 2005
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

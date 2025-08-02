@@ -14,9 +14,9 @@ isbn13: '9780452298019'
 asin:
 coverImageUrl: https://assets.hardcover.app/edition/30401081/dfe002db332d16f0b1cff9575436b7b232a399bb.jpeg
 hardcoverUrl: https://hardcover.app/books/the-magician-king/editions/26929882
-read: 2013-07-05
+finishedAt: 2013-07-05
 rating: 4
-reading: false
+startedAt: null
 ---
 
 Really enjoyed it. I think the claims of sexism were unfounded. But I am a man, so, who knows. The main female character, Julia, does go through a lot (a lot), but if anything that serves to highlight some of the worst of what women can experience in a male-dominated world. I think the same goes for some of Quentin's naïve misogyny – that's part of the story. Just because it's there doesn't mean it's being endorsed. Quentin is kind of a dick, we know this.

@@ -14,7 +14,7 @@ isbn13: '9780449912553'
 asin:
 coverImageUrl: https://assets.hardcover.app/book_mappings/7333094/3ecac6076e305cebd907d629e9d6d6e230ab0bbf.jpeg
 hardcoverUrl: https://hardcover.app/books/the-sparrow/editions/1114797
-read: 2014-08-11
+finishedAt: 2014-08-11
 rating: 5
-reading: false
+startedAt: null
 ---

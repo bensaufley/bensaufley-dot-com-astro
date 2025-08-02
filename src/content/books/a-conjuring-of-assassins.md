@@ -5,10 +5,10 @@ authors:
     firstName: Cate
 isbn10: '1250311020'
 isbn13: '9781250311023'
-read: 2022-04-01
+finishedAt: 2022-04-01
 rating:
 yearPublished: 2020
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

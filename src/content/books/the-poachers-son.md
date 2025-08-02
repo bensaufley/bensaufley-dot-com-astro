@@ -5,10 +5,10 @@ authors:
     firstName: Paul
 isbn10:
 isbn13:
-read: 2025-03-31
+finishedAt: 2025-03-31
 rating: 2.5
 yearPublished: 2010
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

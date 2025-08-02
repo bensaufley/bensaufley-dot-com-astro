@@ -5,10 +5,10 @@ authors:
     firstName: Harlan
 isbn10:
 isbn13: '9780525951582'
-read: 2021-01-23
+finishedAt: 2021-01-23
 rating: 3
 yearPublished: 2010
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

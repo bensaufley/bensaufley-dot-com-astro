@@ -5,10 +5,10 @@ authors:
     firstName: Susanna
 isbn10: '1635577802'
 isbn13: '9781635577808'
-read: 2024-07-09
+finishedAt: 2024-07-09
 rating: 5
 yearPublished: 2020
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

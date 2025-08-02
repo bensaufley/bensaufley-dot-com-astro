@@ -5,10 +5,10 @@ authors:
     firstName: Michael
 isbn10:
 isbn13: '9781501245312'
-read: 2022-07-14
+finishedAt: 2022-07-14
 rating: 2.5
 yearPublished: 1992
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

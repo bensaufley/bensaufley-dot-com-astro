@@ -5,10 +5,10 @@ authors:
     firstName: A.J.
 isbn10: '0062678426'
 isbn13: '9780062678423'
-read: 2018-03-13
+finishedAt: 2018-03-13
 rating: 3
 yearPublished: 2018
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

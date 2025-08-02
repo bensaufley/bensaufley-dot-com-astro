@@ -9,10 +9,10 @@ authors:
     firstName: Sabaa
 isbn10: '1595148035'
 isbn13: '9781595148032'
-read: 2015-06-04
+finishedAt: 2015-06-04
 rating: 4
 yearPublished: 2015
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/edition/30506636/a927951df8ae0f58ae9c16ad81bd708168099e22.jpeg

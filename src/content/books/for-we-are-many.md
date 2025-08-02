@@ -11,10 +11,10 @@ authors:
     firstName: Ray
 isbn10:
 isbn13:
-read: 2019-03-18
+finishedAt: 2019-03-18
 rating: 3
 yearPublished: 2017
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/edition/31488149/ef06ef458ae3ab9a347040ffe24592e1aa56062f.jpeg

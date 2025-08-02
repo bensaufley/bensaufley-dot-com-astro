@@ -14,7 +14,7 @@ isbn13: '9781101633533'
 asin:
 coverImageUrl: https://assets.hardcover.app/editions/30403843/1023313166311857.jpg
 hardcoverUrl: https://hardcover.app/books/the-magicians-land/editions/30737434
-read: 2014-11-15
+finishedAt: 2014-11-15
 rating: 4
-reading: false
+startedAt: null
 ---

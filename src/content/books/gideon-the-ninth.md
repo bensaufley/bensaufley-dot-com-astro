@@ -9,10 +9,10 @@ authors:
     firstName: Tamsyn
 isbn10: '1250313198'
 isbn13: '9781250313195'
-read: 2021-05-10
+finishedAt: 2021-05-10
 rating: 4
 yearPublished: 2019
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/book_mappings/7332376/5bf3c29956bfa33ff0829ae4a136dd7c1e006543.jpeg

@@ -5,10 +5,10 @@ authors:
     firstName: Seraphina Nova
 isbn10: '1525899759'
 isbn13: '9781525899751'
-read: 2022-09-28
+finishedAt: 2022-09-28
 rating: 4
 yearPublished: 2022
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

@@ -6,10 +6,10 @@ authors:
     firstName: Olga
 isbn10:
 isbn13: '9781771667913'
-read: 2022-04-16
+finishedAt: 2022-04-16
 rating: 3
 yearPublished: 2018
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/external_data/59514891/c84112ee3cffbbe6887be7d6aabe2d5f5299b109.jpeg

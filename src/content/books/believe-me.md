@@ -6,10 +6,10 @@ authors:
     firstName: Eddie
 isbn10: '1611764696'
 isbn13: '9781611764697'
-read: 2017-07-24
+finishedAt: 2017-07-24
 rating: 4
 yearPublished: 2017
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/edition/20416210/content.jpeg

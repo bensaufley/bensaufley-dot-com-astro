@@ -5,10 +5,10 @@ authors:
     firstName: R. F.
 isbn10: '1799945227'
 isbn13: '9781799945222'
-read: 2023-10-10
+finishedAt: 2023-10-10
 rating: 4.5
 yearPublished: 2020
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

@@ -5,10 +5,10 @@ authors:
     firstName: Tina
 isbn10: '0316056863'
 isbn13: '9780316056861'
-read: 2015-12-23
+finishedAt: 2015-12-23
 rating: 4
 yearPublished: 2011
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

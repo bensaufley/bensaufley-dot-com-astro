@@ -5,10 +5,10 @@ authors:
     firstName: Carla
 isbn10: '180019966X'
 isbn13: '9781800199668'
-read: 2023-11-29
+finishedAt: 2023-11-29
 rating: 3.5
 yearPublished: 2021
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

@@ -5,10 +5,10 @@ authors:
     firstName: Victor
 isbn10: '1519791585'
 isbn13: '9781519791580'
-read: 2017-01-26
+finishedAt: 2017-01-26
 rating: 2
 yearPublished: 2014
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

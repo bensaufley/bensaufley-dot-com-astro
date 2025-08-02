@@ -5,10 +5,10 @@ authors:
     firstName: Gillian
 isbn10:
 isbn13: '9780063252417'
-read: 2024-04-06
+finishedAt: 2024-04-06
 rating: 4
 yearPublished: 2023
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

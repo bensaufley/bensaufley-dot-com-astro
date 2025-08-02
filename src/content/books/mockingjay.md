@@ -14,9 +14,9 @@ isbn13: '9780439023511'
 asin:
 coverImageUrl: https://assets.hardcover.app/book_mappings/7332302/73342f741799f340cc0237284f304ed48b64d1cb.jpeg
 hardcoverUrl: https://hardcover.app/books/mockingjay/editions/27387551
-read: 2010-09-21
+finishedAt: 2010-09-21
 rating: 5
-reading: false
+startedAt: null
 ---
 
 I guess there are no real spoilers in this but it certainly could give one expectations so I'm marking this as having spoilers.

@@ -5,10 +5,10 @@ authors:
     firstName: Nikki
 isbn10: '0063204207'
 isbn13:
-read: 2024-07-26
+finishedAt: 2024-07-26
 rating: 3
 yearPublished: 2022
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

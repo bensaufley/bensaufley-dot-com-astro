@@ -5,10 +5,10 @@ authors:
     firstName: Helen
 isbn10:
 isbn13: '9780593348017'
-read: 2022-05-14
+finishedAt: 2022-05-14
 rating: 4
 yearPublished: 2021
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

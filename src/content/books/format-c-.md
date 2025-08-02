@@ -5,10 +5,10 @@ authors:
     firstName: Edwin
 isbn10: '1571290788'
 isbn13: '9781571290786'
-read: 1999-01-01
+finishedAt: 1999-01-01
 rating: 4
 yearPublished: 1999
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

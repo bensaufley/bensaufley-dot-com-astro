@@ -5,10 +5,10 @@ authors:
     firstName: M.R.
 isbn10:
 isbn13: '9781478915515'
-read: 2023-01-06
+finishedAt: 2023-01-06
 rating:
 yearPublished: 2013
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

@@ -5,10 +5,10 @@ authors:
     firstName: Lindsay
 isbn10: '1250256739'
 isbn13: '9781250256737'
-read: 2020-08-13
+finishedAt: 2020-08-13
 rating: 3
 yearPublished: 2020
-reading: false
+startedAt: null
 asin:
 subtitle:
 series:

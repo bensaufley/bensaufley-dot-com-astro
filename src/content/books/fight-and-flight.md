@@ -9,10 +9,10 @@ authors:
     firstName: Scott
 isbn10:
 isbn13:
-read: 2017-05-19
+finishedAt: 2017-05-19
 rating: 3
 yearPublished: 2017
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/external_data/59553370/a1b8ae3878a29d9c3969a48fa709f9381f8cc80a.jpeg

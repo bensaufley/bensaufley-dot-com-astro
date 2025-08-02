@@ -5,10 +5,10 @@ authors:
     firstName: R. F.
 isbn10:
 isbn13: '9780063250864'
-read: 2024-02-25
+finishedAt: 2024-02-25
 rating:
 yearPublished: 2023
-reading: false
+startedAt: null
 asin: B0BCBYC42P
 subtitle:
 narrators:

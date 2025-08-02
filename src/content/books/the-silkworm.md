@@ -11,10 +11,10 @@ authors:
     firstName: J.K.
 isbn10: '0316206873'
 isbn13: '9780316206877'
-read: 2016-01-01
+finishedAt: 2016-01-01
 rating: 4
 yearPublished: 2014
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/external_data/45063240/8c3e881e141378e952200074845786a62d6274c1.jpeg

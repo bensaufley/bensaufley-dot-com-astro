@@ -5,10 +5,10 @@ authors:
     firstName: Victoria
 isbn10:
 isbn13:
-read: 2024-09-01
+finishedAt: 2024-09-01
 rating: 2.5
 yearPublished: 2017
-reading: false
+startedAt: null
 asin: B01N2HB03T
 subtitle:
 narrators:

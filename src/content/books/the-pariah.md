@@ -16,7 +16,7 @@ hardcoverUrl: https://hardcover.app/books/the-pariah/editions/31983782
 series:
   name: Covenant of Steel
   volume: 1
-reading: false
-read: 2025-05-04T00:00:00.000Z
+startedAt: null
+finishedAt: 2025-05-04T00:00:00.000Z
 rating: null
 ---

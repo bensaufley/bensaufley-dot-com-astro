@@ -5,10 +5,10 @@ authors:
     firstName: Jesmyn
 isbn10: '1501126067'
 isbn13: '9781501126062'
-read: 2020-02-09
+finishedAt: 2020-02-09
 rating: 3
 yearPublished: 2017
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

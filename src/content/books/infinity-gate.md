@@ -5,10 +5,10 @@ authors:
     firstName: M.R.
 isbn10:
 isbn13: '9781668622001'
-read: 2023-08-06
+finishedAt: 2023-08-06
 rating: 4
 yearPublished: 2023
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

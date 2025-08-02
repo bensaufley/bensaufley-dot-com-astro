@@ -5,10 +5,10 @@ authors:
     firstName: Nina
 isbn10: '0224098349'
 isbn13: '9780224098342'
-read: 2015-06-11
+finishedAt: 2015-06-11
 rating: 4
 yearPublished: 2014
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

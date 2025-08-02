@@ -16,9 +16,9 @@ isbn13: '9780316079914'
 asin:
 coverImageUrl: https://assets.hardcover.app/edition/30414622/09bd5219a4bccb14d1d9d744031d13d2d7f73815.jpeg
 hardcoverUrl: https://hardcover.app/books/the-blinding-knife/editions/26322662
-read: 2017-07-16
+finishedAt: 2017-07-16
 rating: 4
-reading: false
+startedAt: null
 ---
 
 As I approached the end of the first book I was not convinced that I'd read the second. It was fun, its magic system relatively unique, but the overall story just hadn't pulled me in too much; I didn't get a sense of the world, or its inhabitants besides a small few. But the last chapter of the first book, the cliffhanger with the other prism (to avoid spoiling anything), intrigued me. I said, alright, I'll give it one more book. And I'm glad I did, because this one was a lot of fun. The world really filled itself out; the many interwoven plots were fun and constantly intriguing; and now I have to finish this whole long series. I've just gotta know. Sounds like I'll have to wait for the fifth book too.

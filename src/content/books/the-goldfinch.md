@@ -5,10 +5,10 @@ authors:
     firstName: Donna
 isbn10: '0316055433'
 isbn13: '9780316055437'
-read: 2019-04-01
+finishedAt: 2019-04-01
 rating: 4
 yearPublished: 2013
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

@@ -5,10 +5,10 @@ authors:
     firstName: Lucy
 isbn10: '0063227924'
 isbn13: '9780063227927'
-read: 2022-03-14
+finishedAt: 2022-03-14
 rating: 4
 yearPublished: 2022
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

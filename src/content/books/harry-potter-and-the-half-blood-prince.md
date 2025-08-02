@@ -5,10 +5,10 @@ authors:
     firstName: J. K.
 isbn10: '0747581088'
 isbn13: '9780747581086'
-read: 2016-08-09
+finishedAt: 2016-08-09
 rating: 5
 yearPublished: 2005
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

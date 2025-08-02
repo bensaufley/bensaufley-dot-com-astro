@@ -8,10 +8,10 @@ authors:
     firstName: Joe
 isbn10: '1478935782'
 isbn13: '9781478935780'
-read: 2024-08-06
+finishedAt: 2024-08-06
 rating: 4
 yearPublished: 2015
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

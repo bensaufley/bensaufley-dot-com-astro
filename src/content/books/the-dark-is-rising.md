@@ -14,9 +14,9 @@ isbn13: '9781416949657'
 asin:
 coverImageUrl: https://assets.hardcover.app/external_data/26692001/883017f2ec04c18996f618d0360b5a9bef2522f2.jpeg
 hardcoverUrl: https://hardcover.app/books/the-dark-is-rising-1973/editions/10516576
-read: 2015-02-01
+finishedAt: 2015-02-01
 rating: 2
-reading: false
+startedAt: null
 ---
 
 I remember liking [b:Over Sea, Under Stone|11312|Over Sea, Under Stone (The Dark is Rising, #1)|Susan Cooper|https://d.gr-assets.com/books/1166468889s/11312.jpg|742] a lot more than this one, but I finished that one years ago.

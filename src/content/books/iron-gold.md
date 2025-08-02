@@ -5,10 +5,10 @@ authors:
     firstName: Pierce
 isbn10: '0425285928'
 isbn13: '9780425285923'
-read: 2024-08-17
+finishedAt: 2024-08-17
 rating: 3.5
 yearPublished: 2018
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

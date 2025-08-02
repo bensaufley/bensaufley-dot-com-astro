@@ -9,10 +9,10 @@ authors:
     firstName: Veronica
 isbn10: '0062024035'
 isbn13: '9780062024039'
-read: 2013-12-23
+finishedAt: 2013-12-23
 rating: 4
 yearPublished: 2012
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/edition/22182301/7276222-L.jpg

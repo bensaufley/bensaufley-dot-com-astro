@@ -14,7 +14,7 @@ isbn13: '9781477873489'
 asin: '1477823484'
 coverImageUrl: https://assets.hardcover.app/editions/17454660/713177648480365.jpg
 hardcoverUrl: https://hardcover.app/books/spell-or-high-water/editions/17454660
-read: 2015-01-13
+finishedAt: 2015-01-13
 rating: 3
-reading: false
+startedAt: null
 ---

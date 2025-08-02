@@ -5,10 +5,10 @@ authors:
     firstName: Leo
 isbn10: 031652137X
 isbn13: '9780316521376'
-read: 2023-08-22
+finishedAt: 2023-08-22
 rating:
 yearPublished: 2018
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

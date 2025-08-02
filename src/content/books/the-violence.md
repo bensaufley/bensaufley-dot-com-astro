@@ -5,10 +5,10 @@ authors:
     firstName: Delilah S.
 isbn10: '0593156625'
 isbn13: '9780593156629'
-read: 2022-05-30
+finishedAt: 2022-05-30
 rating: 4.5
 yearPublished: 2022
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

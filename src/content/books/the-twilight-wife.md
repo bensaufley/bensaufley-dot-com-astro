@@ -5,10 +5,10 @@ authors:
     firstName: A.J.
 isbn10:
 isbn13:
-read: 2018-08-25
+finishedAt: 2018-08-25
 rating: 2
 yearPublished: 2016
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

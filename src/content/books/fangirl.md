@@ -5,10 +5,10 @@ authors:
     firstName: Rainbow
 isbn10: '1250030951'
 isbn13: '9781250030955'
-read: 2017-07-18
+finishedAt: 2017-07-18
 rating: 4
 yearPublished: 2013
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

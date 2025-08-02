@@ -6,10 +6,10 @@ authors:
     firstName: Andrew
 isbn10: '0062969757'
 isbn13: '9780062969750'
-read: 2022-01-09
+finishedAt: 2022-01-09
 rating:
 yearPublished:
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl:

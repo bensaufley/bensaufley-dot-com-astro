@@ -14,9 +14,9 @@ isbn13: '9780439846806'
 asin:
 coverImageUrl: https://assets.hardcover.app/external_data/36308339/643208c6e658ac3be4b284760aa768a877889957.jpeg
 hardcoverUrl: https://hardcover.app/books/the-stonekeeper/editions/3001785
-read: 2011-07-08
+finishedAt: 2011-07-08
 rating: 3
-reading: false
+startedAt: null
 ---
 
 Having looked through some of the other Amulet books, I feel like this series gets much better. I like this one, but it's clearly just a start, just getting its footing. It seems a little simple right now. It starts out beautifully (and tragically), but then moves to the pretty clichéd, "We have to move into this broken-down house in the middle of nowhere, kids," thing (à la Spiderwick, Coraline, um … lots of horror movies), and then just as it starts to pick up again, it ends.

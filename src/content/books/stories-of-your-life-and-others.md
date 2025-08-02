@@ -5,10 +5,10 @@ authors:
     firstName: Ted
 isbn10: '0330426648'
 isbn13: '9780330426640'
-read: 2021-09-25
+finishedAt: 2021-09-25
 rating: 5
 yearPublished: 2002
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

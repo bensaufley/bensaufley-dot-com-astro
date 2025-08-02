@@ -3,10 +3,10 @@ title: I'm Afraid of Men
 authors: []
 isbn10: '0735235937'
 isbn13: '9780735235939'
-read: 2018-10-07
+finishedAt: 2018-10-07
 rating: 5
 yearPublished: 2018
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

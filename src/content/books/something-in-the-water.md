@@ -5,10 +5,10 @@ authors:
     firstName: Catherine
 isbn10: '1524797189'
 isbn13: '9781524797188'
-read: 2019-12-01
+finishedAt: 2019-12-01
 rating: 3
 yearPublished: 2018
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

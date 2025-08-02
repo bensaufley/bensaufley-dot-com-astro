@@ -5,10 +5,10 @@ authors:
     firstName: Hugh
 isbn10: '1491512644'
 isbn13: '9781491512647'
-read: 2023-05-11
+finishedAt: 2023-05-11
 rating:
 yearPublished: 2012
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

@@ -8,10 +8,10 @@ authors:
     firstName: Stieg
 isbn10: '0307269752'
 isbn13: '9780307269751'
-read: 2011-11-20
+finishedAt: 2011-11-20
 rating: 3
 yearPublished: 2005
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

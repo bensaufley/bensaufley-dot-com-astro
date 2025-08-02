@@ -5,10 +5,10 @@ authors:
     firstName: Will
 isbn10: '0989671704'
 isbn13: '9780989671705'
-read: 2019-05-09
+finishedAt: 2019-05-09
 rating: 3
 yearPublished: 2013
-reading: false
+startedAt: null
 asin:
 subtitle:
 series:

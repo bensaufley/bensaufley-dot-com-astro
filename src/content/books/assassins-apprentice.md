@@ -5,10 +5,10 @@ authors:
     firstName: Robin
 isbn10: 000756225X
 isbn13: '9780007562251'
-read: 2020-01-09
+finishedAt: 2020-01-09
 rating: 3
 yearPublished: 2014
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

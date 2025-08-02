@@ -5,10 +5,10 @@ authors:
     firstName: Megan
 isbn10:
 isbn13:
-read: 2025-04-05
+finishedAt: 2025-04-05
 rating: 3.5
 yearPublished: 2022
-reading: false
+startedAt: null
 asin: B09GHG25WH
 subtitle:
 narrators:

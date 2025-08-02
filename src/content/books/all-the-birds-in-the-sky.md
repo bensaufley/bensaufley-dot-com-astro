@@ -5,10 +5,10 @@ authors:
     firstName: Charlie Jane
 isbn10: '0765386178'
 isbn13: '9788804747734'
-read: 2019-12-11
+finishedAt: 2019-12-11
 rating: 5
 yearPublished: 2016
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

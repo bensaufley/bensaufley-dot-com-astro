@@ -5,10 +5,10 @@ authors:
     firstName: Lauren
 isbn10: '0061726818'
 isbn13: '9780061726811'
-read: 2017-02-28
+finishedAt: 2017-02-28
 rating: 2
 yearPublished: 2010
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

@@ -5,10 +5,10 @@ authors:
     firstName: Philip
 isbn10: '0679879242'
 isbn13: '9780679879244'
-read: 2019-07-24
+finishedAt: 2019-07-24
 rating: 5
 yearPublished: 1995
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

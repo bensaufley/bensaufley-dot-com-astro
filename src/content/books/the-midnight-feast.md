@@ -5,10 +5,10 @@ authors:
     firstName: Lucy
 isbn10:
 isbn13: '9780063003132'
-read: 2024-06-28
+finishedAt: 2024-06-28
 rating: 3.5
 yearPublished: 2024
-reading: false
+startedAt: null
 asin: B0CLMHRSKW
 subtitle:
 narrators:

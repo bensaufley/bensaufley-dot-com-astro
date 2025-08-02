@@ -5,10 +5,10 @@ authors:
     firstName: Rick
 isbn10: '0786297018'
 isbn13: '9780786297016'
-read: 2010-05-25
+finishedAt: 2010-05-25
 rating: 3
 yearPublished: 2007
-reading: false
+startedAt: null
 asin: '0786297018'
 subtitle:
 narrators:

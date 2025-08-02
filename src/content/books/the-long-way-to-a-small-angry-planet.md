@@ -8,10 +8,10 @@ authors:
     firstName: Becky
 isbn10: '1500453307'
 isbn13: '9788594540508'
-read: 2019-07-03
+finishedAt: 2019-07-03
 rating: 4
 yearPublished: 2014
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

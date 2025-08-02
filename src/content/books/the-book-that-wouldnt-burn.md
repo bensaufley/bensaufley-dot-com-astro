@@ -5,10 +5,10 @@ authors:
     firstName: Mark
 isbn10: '0593437918'
 isbn13: '9780593437919'
-read: 2024-11-09
+finishedAt: 2024-11-09
 rating: 4.5
 yearPublished: 1994
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

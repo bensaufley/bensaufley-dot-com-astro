@@ -5,10 +5,10 @@ authors:
     firstName: Margaret
 isbn10: '1841957178'
 isbn13: '9781841957173'
-read: 2016-12-14
+finishedAt: 2016-12-14
 rating: 3
 yearPublished: 2005
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

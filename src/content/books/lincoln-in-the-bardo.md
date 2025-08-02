@@ -5,10 +5,10 @@ authors:
     firstName: George
 isbn10: '0812995341'
 isbn13: '9780812995343'
-read: 2018-08-02
+finishedAt: 2018-08-02
 rating: 3
 yearPublished: 2017
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

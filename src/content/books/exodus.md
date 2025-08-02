@@ -6,10 +6,10 @@ authors:
     firstName: Peter F.
 isbn10:
 isbn13:
-read: 2024-10-20
+finishedAt: 2024-10-20
 rating: 3
 yearPublished: 2024
-reading: false
+startedAt: null
 asin: B0CTKSG1VB
 narrators:
 hardcoverUrl: https://hardcover.app/books/exodus-the-archimedes-engine/editions/31549094

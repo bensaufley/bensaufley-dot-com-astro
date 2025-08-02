@@ -5,10 +5,10 @@ authors:
     firstName: Duncan M.
 isbn10:
 isbn13: '9798418234230'
-read: 2022-05-05
+finishedAt: 2022-05-05
 rating: 4
 yearPublished:
-reading: false
+startedAt: null
 asin: B09TV2G8CF
 subtitle:
 narrators:

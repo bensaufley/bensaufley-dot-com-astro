@@ -14,7 +14,7 @@ isbn13: '9781250175571'
 asin:
 coverImageUrl: https://assets.hardcover.app/external_data/24942175/fa83136e0e1749fda3dee90cf2f2b6ad31399690.jpeg
 hardcoverUrl: https://hardcover.app/books/the-memory-of-souls/editions/5515069
-read: 2021-07-30
+finishedAt: 2021-07-30
 rating: 3
-reading: false
+startedAt: null
 ---

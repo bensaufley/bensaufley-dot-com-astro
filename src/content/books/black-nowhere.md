@@ -5,10 +5,10 @@ authors:
     firstName: Reece
 isbn10:
 isbn13: '9781542042918'
-read: 2020-05-19
+finishedAt: 2020-05-19
 rating: 2
 yearPublished: 2019
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

@@ -5,10 +5,10 @@ authors:
     firstName: E.M.
 isbn10: 140990329X
 isbn13: '9781409903291'
-read: 2012-10-03
+finishedAt: 2012-10-03
 rating: 4
 yearPublished: 1909
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

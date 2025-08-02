@@ -5,10 +5,10 @@ authors:
     firstName: Stephen
 isbn10: '1511524537'
 isbn13: '9781511524537'
-read: 2017-06-21
+finishedAt: 2017-06-21
 rating: 4
 yearPublished: 2015
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

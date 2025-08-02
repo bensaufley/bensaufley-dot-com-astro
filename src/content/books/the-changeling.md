@@ -5,10 +5,10 @@ authors:
     firstName: Victor
 isbn10: '0812985877'
 isbn13: '9780812985870'
-read: 2019-12-20
+finishedAt: 2019-12-20
 rating: 4
 yearPublished: 2018
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

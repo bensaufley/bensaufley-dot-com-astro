@@ -5,10 +5,10 @@ authors:
     firstName: Naomi
 isbn10: '1549112848'
 isbn13: '9781549112843'
-read: 2018-12-23
+finishedAt: 2018-12-23
 rating: 5
 yearPublished: 2016
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

@@ -8,10 +8,10 @@ authors:
     firstName: George R.R.
 isbn10: '0553588486'
 isbn13: '9780553588484'
-read: 2011-06-24
+finishedAt: 2011-06-24
 rating: 3
 yearPublished: 1996
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

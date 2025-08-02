@@ -5,10 +5,10 @@ authors:
     firstName: Ruth
 isbn10:
 isbn13: '9781501156007'
-read: 2017-12-18
+finishedAt: 2017-12-18
 rating: 3
 yearPublished: 2017
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

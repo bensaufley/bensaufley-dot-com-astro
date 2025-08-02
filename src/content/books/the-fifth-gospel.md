@@ -5,10 +5,10 @@ authors:
     firstName: Ian
 isbn10: '1451694148'
 isbn13: '9781451694147'
-read: 2015-06-01
+finishedAt: 2015-06-01
 rating: 3
 yearPublished: 2014
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

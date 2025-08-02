@@ -12,8 +12,8 @@ asin: '1250873304'
 coverImageUrl: https://assets.hardcover.app/editions/30667846/6892764651081036-CleatCute.jpg
 hardcoverUrl: https://hardcover.app/books/cleat-cute-2023/editions/30667846
 series: null
-reading: false
-read: 2025-07-15T00:00:00.000Z
+startedAt: null
+finishedAt: 2025-07-15T00:00:00.000Z
 rating: 4
 ---
 

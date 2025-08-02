@@ -5,10 +5,10 @@ authors:
     firstName: J. K.
 isbn10: '0439139600'
 isbn13: '9780439139601'
-read: 2016-07-21
+finishedAt: 2016-07-21
 rating: 5
 yearPublished: 2000
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

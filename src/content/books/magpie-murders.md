@@ -8,10 +8,10 @@ authors:
     firstName: Anthony
 isbn10: '0062645226'
 isbn13: '9780062645227'
-read: 2017-10-29
+finishedAt: 2017-10-29
 rating: 4
 yearPublished: 2012
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

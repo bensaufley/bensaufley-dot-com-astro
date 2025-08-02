@@ -5,10 +5,10 @@ authors:
     firstName: Liane
 isbn10: '0399167064'
 isbn13: '9780399167065'
-read: 2017-05-09
+finishedAt: 2017-05-09
 rating: 4
 yearPublished: 2014
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

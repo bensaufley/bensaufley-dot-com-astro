@@ -5,10 +5,10 @@ authors:
     firstName: Brian
 isbn10:
 isbn13: '9781799773740'
-read: 2022-06-16
+finishedAt: 2022-06-16
 rating:
 yearPublished: 2021
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

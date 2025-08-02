@@ -5,10 +5,10 @@ authors:
     firstName: Suzanne
 isbn10:
 isbn13: '9781546171492'
-read: 2025-04-10
+finishedAt: 2025-04-10
 rating: 3.5
 yearPublished: 2025
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

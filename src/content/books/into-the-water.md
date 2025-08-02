@@ -5,10 +5,10 @@ authors:
     firstName: Paula
 isbn10: '0735211205'
 isbn13: '9780735211209'
-read: 2017-08-03
+finishedAt: 2017-08-03
 rating: 4
 yearPublished: 2017
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

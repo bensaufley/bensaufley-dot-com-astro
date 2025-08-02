@@ -5,10 +5,10 @@ authors:
     firstName: J.T.
 isbn10: '1501118471'
 isbn13: '9781501118470'
-read: 2016-06-21
+finishedAt: 2016-06-21
 rating: 2
 yearPublished: 2016
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

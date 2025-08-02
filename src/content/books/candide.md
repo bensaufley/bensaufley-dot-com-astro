@@ -13,10 +13,10 @@ authors:
     firstName: Sara Gioacchino
 isbn10: '0486266893'
 isbn13: '9780486266893'
-read: 2002-01-01
+finishedAt: 2002-01-01
 rating:
 yearPublished: 1991
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

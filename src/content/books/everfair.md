@@ -8,10 +8,10 @@ authors:
     firstName: Nisi
 isbn10: '1466837845'
 isbn13: '9781466837843'
-read: 2018-05-10
+finishedAt: 2018-05-10
 rating: 3
 yearPublished: 2016
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

@@ -16,8 +16,8 @@ asin: null
 coverImageUrl: https://assets.hardcover.app/external_data/603896/baf4aa37cb2acaec50440ae382b7901ff35a0aff.jpeg
 hardcoverUrl: https://hardcover.app/books/the-other-mrs-2020/editions/32079532
 series: null
-reading: false
-read: 2025-06-30T00:00:00.000Z
+startedAt: null
+finishedAt: 2025-06-30T00:00:00.000Z
 rating: 4
 ---
 

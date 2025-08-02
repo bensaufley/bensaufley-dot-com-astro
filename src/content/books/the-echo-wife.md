@@ -5,10 +5,10 @@ authors:
     firstName: Sarah
 isbn10: 125017466X
 isbn13: '9781250174666'
-read: 2021-04-04
+finishedAt: 2021-04-04
 rating: 5
 yearPublished: 2021
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

@@ -16,9 +16,9 @@ isbn13: '9780060766207'
 asin:
 coverImageUrl: https://assets.hardcover.app/edition/13943956/35370-L.jpg
 hardcoverUrl: https://hardcover.app/books/revenge-of-the-witch/editions/13943956
-read: 2015-01-15
+finishedAt: 2015-01-15
 rating: 3
-reading: false
+startedAt: null
 ---
 
 Picked it up because a movie's coming out and I figured I'd read it before I (potentially) watched it. Having read it, I'll say it looks like the movie won't even be vaguely similar to the book.

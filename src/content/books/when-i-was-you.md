@@ -5,10 +5,10 @@ authors:
     firstName: Amber
 isbn10:
 isbn13: '9781094105093'
-read: 2022-10-22
+finishedAt: 2022-10-22
 rating: 3
 yearPublished: 2020
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

@@ -5,10 +5,10 @@ authors:
     firstName: Anthony
 isbn10: '1529124336'
 isbn13: '9781529124330'
-read: 2022-12-20
+finishedAt: 2022-12-20
 rating:
 yearPublished: 2022
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

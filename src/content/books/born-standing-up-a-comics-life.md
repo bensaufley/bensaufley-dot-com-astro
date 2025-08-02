@@ -6,10 +6,10 @@ authors:
     firstName: Steve
 isbn10: '1416553649'
 isbn13: '9781416553649'
-read: 2012-09-30
+finishedAt: 2012-09-30
 rating: 3
 yearPublished: 2007
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/edition/14899780/6820382-L.jpg

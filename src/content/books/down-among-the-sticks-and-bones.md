@@ -9,10 +9,10 @@ authors:
     firstName: Seanan
 isbn10:
 isbn13:
-read: 2018-10-14
+finishedAt: 2018-10-14
 rating: 4
 yearPublished: 2017
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/external_data/23198528/ca0a0b60dfefbb2acdf9784d61790ae6684da090.jpeg

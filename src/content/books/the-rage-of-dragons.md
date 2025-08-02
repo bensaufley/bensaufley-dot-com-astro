@@ -14,7 +14,7 @@ isbn13: '9780316489768'
 asin:
 coverImageUrl: https://assets.hardcover.app/external_data/61053625/c97600c0614cdf8806ae48b508552384b600d297.jpeg
 hardcoverUrl: https://hardcover.app/books/the-rage-of-dragons/editions/31484659
-read: 2020-06-19
+finishedAt: 2020-06-19
 rating: 4
-reading: false
+startedAt: null
 ---

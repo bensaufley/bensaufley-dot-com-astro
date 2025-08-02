@@ -16,7 +16,7 @@ isbn13: '9780765354068'
 asin:
 coverImageUrl: https://assets.hardcover.app/editions/30405574/8178043582230921.jpg
 hardcoverUrl: https://hardcover.app/books/the-ghost-brigades/editions/20615261
-read: 2016-10-13
+finishedAt: 2016-10-13
 rating: 3
-reading: false
+startedAt: null
 ---

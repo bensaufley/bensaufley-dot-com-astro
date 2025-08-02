@@ -5,10 +5,10 @@ authors:
     firstName: Martha
 isbn10: '0765397528'
 isbn13: '9780765397522'
-read: 2023-03-28
+finishedAt: 2023-03-28
 rating:
 yearPublished: 2017
-reading: false
+startedAt: null
 asin: B01MYZ8X5C
 subtitle:
 narrators:

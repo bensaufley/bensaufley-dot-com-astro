@@ -14,9 +14,9 @@ isbn13: '9780786838653'
 asin:
 coverImageUrl: https://assets.hardcover.app/edition/775810/f8e87fe8cc17eb4ed4492a028108ff48925a25ec.jpeg
 hardcoverUrl: https://hardcover.app/books/the-lightning-thief/editions/30903112
-read: 2010-02-01
+finishedAt: 2010-02-01
 rating: 2
-reading: false
+startedAt: null
 ---
 
 An attempt to combine Harry Potter with Holden Caulfield that's interesting but not as compelling. It suffers a lot from "adult-trying-to-think-and-talk-like-a-kid" syndrome.

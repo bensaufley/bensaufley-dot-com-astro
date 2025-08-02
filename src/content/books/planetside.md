@@ -16,7 +16,7 @@ isbn13: '9780062694676'
 asin:
 coverImageUrl: https://assets.hardcover.app/edition/87667/10307301-L.jpg
 hardcoverUrl: https://hardcover.app/books/planetside/editions/87667
-read: 2020-02-09
+finishedAt: 2020-02-09
 rating: 2
-reading: false
+startedAt: null
 ---

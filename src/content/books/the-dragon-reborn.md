@@ -5,10 +5,10 @@ authors:
     firstName: Robert
 isbn10: '0765305119'
 isbn13: '9780765305114'
-read: 2023-07-23
+finishedAt: 2023-07-23
 rating: 3
 yearPublished: 1991
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

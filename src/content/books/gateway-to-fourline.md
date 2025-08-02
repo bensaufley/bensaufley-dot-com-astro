@@ -8,10 +8,10 @@ authors:
     firstName: Pam
 isbn10: '1503948358'
 isbn13: '9781503948358'
-read: 2016-09-23
+finishedAt: 2016-09-23
 rating: 2
 yearPublished: 2015
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

@@ -5,10 +5,10 @@ authors:
     firstName: Chana
 isbn10: '1641290862'
 isbn13: '9781641290869'
-read: 2022-06-17
+finishedAt: 2022-06-17
 rating:
 yearPublished: 2020
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

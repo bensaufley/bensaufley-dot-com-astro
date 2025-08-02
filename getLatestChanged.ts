@@ -110,7 +110,7 @@ export const getLastMods = async (): Promise<LastMods> => {
             id,
             await getLatestChanged(file)
               .catch(() => null)
-              .then((d) => d || dayjs.tz(frontmatter.read!, 'America/New_York')),
+              .then((d) => d || dayjs.tz(frontmatter.finishedAt!, 'America/New_York')),
           ] as const;
         }),
     ).then((arr) => arr.filter((v) => !!v)),

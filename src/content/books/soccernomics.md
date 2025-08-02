@@ -10,10 +10,10 @@ authors:
     firstName: Stefan
 isbn10: '1568584253'
 isbn13: '9781568584256'
-read: 2011-04-04
+finishedAt: 2011-04-04
 rating: 3
 yearPublished: 2009
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/edition/30433799/content.jpeg

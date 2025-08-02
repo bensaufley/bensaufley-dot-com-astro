@@ -7,10 +7,10 @@ authors:
     firstName: Lindsey
 isbn10:
 isbn13:
-read: 2025-02-26
+finishedAt: 2025-02-26
 rating: 3.5
 yearPublished: 2024
-reading: false
+startedAt: null
 asin: B0D5RQXCR4
 subtitle:
 narrators:

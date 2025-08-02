@@ -6,10 +6,10 @@ authors:
     firstName: John
 isbn10: '1592404944'
 isbn13: '9781592404940'
-read: 2019-09-13
+finishedAt: 2019-09-13
 rating: 4
 yearPublished: 2009
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/external_data/59936227/ac6514d5ae69c195daea6aebe83a1d8205fc706c.jpeg

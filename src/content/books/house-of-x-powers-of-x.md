@@ -5,10 +5,10 @@ authors:
     firstName: Jonathan
 isbn10:
 isbn13: '9781302915704'
-read: 2021-03-06
+finishedAt: 2021-03-06
 rating: 4
 yearPublished: 2019
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

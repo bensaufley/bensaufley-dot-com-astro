@@ -5,10 +5,10 @@ authors:
     firstName: Pierce
 isbn10:
 isbn13:
-read: 2023-07-03
+finishedAt: 2023-07-03
 rating: 4.5
 yearPublished: 2016
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

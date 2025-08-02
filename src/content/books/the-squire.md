@@ -5,10 +5,10 @@ authors:
     firstName: Duncan M.
 isbn10:
 isbn13: '9798731336253'
-read: 2022-04-27
+finishedAt: 2022-04-27
 rating: 4
 yearPublished: 2021
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

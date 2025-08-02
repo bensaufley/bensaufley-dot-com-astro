@@ -20,7 +20,7 @@ hardcoverUrl: https://hardcover.app/books/the-first-sister-2020/editions/3196541
 series:
   name: The First Sister Trilogy
   volume: 1
-reading: false
-read: 2025-07-21T00:00:00.000Z
+startedAt: null
+finishedAt: 2025-07-21T00:00:00.000Z
 rating: 4
 ---

@@ -5,10 +5,10 @@ authors:
     firstName: Robert
 isbn10:
 isbn13:
-read: 2024-12-22
+finishedAt: 2024-12-22
 rating:
 yearPublished: 1990
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

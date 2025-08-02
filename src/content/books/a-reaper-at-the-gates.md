@@ -14,7 +14,7 @@ isbn13: '9780448494500'
 asin:
 coverImageUrl: https://assets.hardcover.app/external_data/50292405/4d04a10e55a4fb7178d88ce71b437507763b02f6.jpeg
 hardcoverUrl: https://hardcover.app/books/a-reaper-at-the-gates/editions/9055640
-read: 2018-11-13
+finishedAt: 2018-11-13
 rating: 4
-reading: false
+startedAt: null
 ---

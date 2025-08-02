@@ -5,10 +5,10 @@ authors:
     firstName: Kimberly
 isbn10:
 isbn13: '9781094104416'
-read: 2022-08-04
+finishedAt: 2022-08-04
 rating:
 yearPublished: 2020
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

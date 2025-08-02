@@ -5,10 +5,10 @@ authors:
     firstName: Seth
 isbn10: '6069000102'
 isbn13: '9786069000106'
-read: 2024-07-06
+finishedAt: 2024-07-06
 rating:
 yearPublished: 2015
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

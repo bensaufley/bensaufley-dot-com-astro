@@ -5,10 +5,10 @@ authors:
     firstName: H. G.
 isbn10:
 isbn13: '9781607543978'
-read: 2010-06-07
+finishedAt: 2010-06-07
 rating: 4
 yearPublished: 1895
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

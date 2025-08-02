@@ -5,10 +5,10 @@ authors:
     firstName: Susan
 isbn10: '1416949666'
 isbn13: '9781416949664'
-read: 2017-08-09
+finishedAt: 2017-08-09
 rating: 2
 yearPublished: 1974
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

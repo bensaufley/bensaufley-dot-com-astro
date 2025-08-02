@@ -105,6 +105,7 @@ interface Response {
         user_book_status: {
           status: string;
         };
+        reading_journals: [{ started_at: string }] | never[];
       }[];
     },
   ];
@@ -165,6 +166,13 @@ const resp = await request<Response>(
           user_book_status {
             status
           }
+          reading_journals(
+            where: { event: { _eq: "user_book_read_started" } }
+            order_by: { created_at: asc_nulls_last }
+            limit: 1
+          ) {
+            started_at: metadata(path: "started_at")
+          }
         }
       }
     }
@@ -213,17 +221,9 @@ for (const book of books) {
           volume: bookData.book_series[0]!.position,
         }
       : null,
-    ...(book.last_read_date
-      ? {
-          reading: false,
-          read: dayjs.utc(book.last_read_date).toDate(),
-          rating: book.rating ?? null,
-        }
-      : {
-          reading: true,
-          read: null,
-          rating: null,
-        }),
+    startedAt: book.reading_journals[0]?.started_at ? dayjs.utc(book.reading_journals[0].started_at).toDate() : null,
+    finishedAt: book.last_read_date ? dayjs.utc(book.last_read_date).toDate() : null,
+    rating: book.last_read_date ? (book.rating ?? null) : null,
   };
 
   cli.info('How does this look?');
@@ -255,11 +255,9 @@ for (const book of books) {
     }
     const field = changeField as keyof BookFrontmatter | 'slug';
     switch (field) {
-      case 'read':
-        fm.read = newValue ? dayjs.utc(newValue).toDate() : null;
-        break;
-      case 'reading':
-        fm.reading = ['true', '1', 't', 'y'].includes(newValue?.toLowerCase() ?? 'f');
+      case 'finishedAt':
+      case 'startedAt':
+        fm[field] = newValue ? dayjs.utc(newValue).toDate() : null;
         break;
       case 'rating': {
         const rating = newValue ? parseFloat(newValue) : null;

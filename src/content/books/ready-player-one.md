@@ -9,10 +9,10 @@ authors:
     firstName: Ernest
 isbn10: '030788743X'
 isbn13: '9780307887436'
-read: 2015-02-13
+finishedAt: 2015-02-13
 rating: 3
 yearPublished: 2011
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/edition/30406910/65eeb4f6a207a3a4907739f7fea3d8622f7a5462.jpeg

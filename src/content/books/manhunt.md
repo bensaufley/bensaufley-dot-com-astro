@@ -5,10 +5,10 @@ authors:
     firstName: Gretchen
 isbn10: '1250794641'
 isbn13: '9781250794642'
-read: 2022-04-15
+finishedAt: 2022-04-15
 rating: 4.5
 yearPublished: 2022
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

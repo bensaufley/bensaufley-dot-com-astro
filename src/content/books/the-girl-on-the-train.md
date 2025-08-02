@@ -5,10 +5,10 @@ authors:
     firstName: Paula
 isbn10: '1594633665'
 isbn13: '9781594633669'
-read: 2015-04-18
+finishedAt: 2015-04-18
 rating: 4
 yearPublished: 2015
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

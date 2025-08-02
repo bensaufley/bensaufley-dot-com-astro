@@ -5,10 +5,10 @@ authors:
     firstName: Paula
 isbn10:
 isbn13:
-read: 2024-11-18
+finishedAt: 2024-11-18
 rating: 3
 yearPublished: 2024
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

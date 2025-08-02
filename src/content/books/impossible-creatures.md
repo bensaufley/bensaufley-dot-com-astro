@@ -5,10 +5,10 @@ authors:
     firstName: Katherine
 isbn10: '0593809866'
 isbn13: '9780593809860'
-read: 2025-02-14
+finishedAt: 2025-02-14
 rating: 4.5
 yearPublished: 2023
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

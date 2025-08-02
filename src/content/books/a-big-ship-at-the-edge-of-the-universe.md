@@ -13,9 +13,9 @@ isbn10: '0316412066'
 isbn13: '9780316412063'
 asin:
 hardcoverUrl: https://hardcover.app/books/the-salvagers/editions/30396686
-read: 2020-05-30
+finishedAt: 2020-05-30
 rating: 3
-reading: false
+startedAt: null
 ---
 
 I would expect that I'd have enjoyed this more than I did. It was fun enough and relatively novel, magic and sci-fi in an interesting blend, but I found myself regularly losing interest.

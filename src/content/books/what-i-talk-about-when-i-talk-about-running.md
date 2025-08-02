@@ -5,10 +5,10 @@ authors:
     firstName: Haruki
 isbn10: '0307389839'
 isbn13: '9780307389831'
-read: 2011-11-16
+finishedAt: 2011-11-16
 rating: 3
 yearPublished: 2009
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

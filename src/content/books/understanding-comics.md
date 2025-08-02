@@ -6,10 +6,10 @@ authors:
     firstName: Scott
 isbn10:
 isbn13: '9780878162437'
-read: 2010-03-16
+finishedAt: 2010-03-16
 rating: 4
 yearPublished: 1993
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/edition/29549403/42616-L.jpg

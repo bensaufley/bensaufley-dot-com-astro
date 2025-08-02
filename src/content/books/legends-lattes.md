@@ -5,10 +5,10 @@ authors:
     firstName: Travis
 isbn10:
 isbn13:
-read: 2023-03-27
+finishedAt: 2023-03-27
 rating: 3.5
 yearPublished: 2022
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

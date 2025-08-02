@@ -5,10 +5,10 @@ authors:
     firstName: Thomas
 isbn10: '006091307X'
 isbn13: '9780060913076'
-read: 2009-01-01
+finishedAt: 2009-01-01
 rating: 3
 yearPublished: 1966
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

@@ -5,10 +5,10 @@ authors:
     firstName: Lucy
 isbn10: '1094156442'
 isbn13: '9781094156446'
-read: 2022-12-04
+finishedAt: 2022-12-04
 rating:
 yearPublished: 2020
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

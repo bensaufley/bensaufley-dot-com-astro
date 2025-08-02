@@ -14,8 +14,8 @@ asin: null
 coverImageUrl: https://assets.hardcover.app/external_data/61661257/2ab89fb1313a5a46591100eb9ac40ec4b581fd9b.jpeg
 hardcoverUrl: https://hardcover.app/books/the-most-2024/editions/31657845
 series: null
-reading: false
-read: 2025-07-09T00:00:00.000Z
+startedAt: null
+finishedAt: 2025-07-09T00:00:00.000Z
 rating: 3
 ---
 

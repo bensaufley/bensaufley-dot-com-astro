@@ -5,10 +5,10 @@ authors:
     firstName: Annalee
 isbn10: '0765392070'
 isbn13: '9780765392077'
-read: 2018-01-11
+finishedAt: 2018-01-11
 rating: 3
 yearPublished: 2017
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

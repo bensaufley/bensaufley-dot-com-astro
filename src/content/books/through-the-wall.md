@@ -5,10 +5,10 @@ authors:
     firstName: Caroline
 isbn10: '0008335095'
 isbn13: '9780008335090'
-read: 2020-08-31
+finishedAt: 2020-08-31
 rating: 4
 yearPublished: 2019
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

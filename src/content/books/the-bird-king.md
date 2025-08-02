@@ -5,10 +5,10 @@ authors:
     firstName: G. Willow
 isbn10: '080212903X'
 isbn13: '9780802129031'
-read: 2019-04-15
+finishedAt: 2019-04-15
 rating: 4
 yearPublished: 2019
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

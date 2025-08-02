@@ -5,10 +5,10 @@ authors:
     firstName: Renée
 isbn10: '0857522817'
 isbn13: '9780857522818'
-read: 2016-05-11
+finishedAt: 2016-05-11
 rating: 4
 yearPublished: 2015
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

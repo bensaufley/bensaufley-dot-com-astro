@@ -5,10 +5,10 @@ authors:
     firstName: Chuck
 isbn10:
 isbn13: '9780062471628'
-read: 2016-12-20
+finishedAt: 2016-12-20
 rating: 2
 yearPublished: 2016
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

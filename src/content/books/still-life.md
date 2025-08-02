@@ -5,10 +5,10 @@ authors:
     firstName: Louise
 isbn10: '0748129618'
 isbn13: '9780748129614'
-read: 2023-04-23
+finishedAt: 2023-04-23
 rating: 4
 yearPublished: 2011
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

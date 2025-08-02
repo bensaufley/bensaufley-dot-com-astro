@@ -6,10 +6,10 @@ authors:
     firstName: Michio
 isbn10:
 isbn13: '9780804148818'
-read: 2023-03-27
+finishedAt: 2023-03-27
 rating: 3.5
 yearPublished: 2014
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/external_data/59336629/a940f4c91be049bb9e80695d1864d763c689e877.jpeg

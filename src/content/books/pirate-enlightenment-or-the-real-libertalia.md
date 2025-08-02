@@ -5,10 +5,10 @@ authors:
     firstName: David
 isbn10:
 isbn13: '9781250883544'
-read: 2023-12-27
+finishedAt: 2023-12-27
 rating:
 yearPublished: 2023
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

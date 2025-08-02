@@ -5,10 +5,10 @@ authors:
     firstName: Liv
 isbn10: '0062876686'
 isbn13: '9780062876683'
-read: 2022-02-05
+finishedAt: 2022-02-05
 rating: 4
 yearPublished: 2017
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

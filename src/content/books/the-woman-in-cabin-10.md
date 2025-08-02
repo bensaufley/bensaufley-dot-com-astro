@@ -14,7 +14,7 @@ isbn13: '9781501132933'
 asin:
 coverImageUrl: https://assets.hardcover.app/edition/29752865/10439789-L.jpg
 hardcoverUrl: https://hardcover.app/books/the-woman-in-cabin-10-e4ef8ad9-7e58-4218-9571-95e1a582fa05/editions/29752865
-read: 2016-10-06
+finishedAt: 2016-10-06
 rating: 4
-reading: false
+startedAt: null
 ---

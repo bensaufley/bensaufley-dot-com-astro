@@ -5,10 +5,10 @@ authors:
     firstName: Hugh
 isbn10: '1780891229'
 isbn13: '9781780891224'
-read: 2023-05-24
+finishedAt: 2023-05-24
 rating:
 yearPublished: 2013
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

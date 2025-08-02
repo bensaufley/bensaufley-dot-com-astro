@@ -5,10 +5,10 @@ authors:
     firstName: Victoria
 isbn10:
 isbn13: '9780062310668'
-read: 2019-01-09
+finishedAt: 2019-01-09
 rating: 3
 yearPublished: 2016
-reading: false
+startedAt: null
 asin:
 subtitle:
 series:

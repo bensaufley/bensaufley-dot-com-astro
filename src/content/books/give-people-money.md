@@ -6,10 +6,10 @@ authors:
     firstName: Annie
 isbn10: '1524758760'
 isbn13: '9781524758769'
-read: 2018-09-13
+finishedAt: 2018-09-13
 rating: 4
 yearPublished: 2018
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/external_data/60036513/6ed5704ec6017ad8d4b6d9c14306e5eb96761c9e.jpeg

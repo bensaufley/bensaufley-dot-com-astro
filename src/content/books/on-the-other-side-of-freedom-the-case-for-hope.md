@@ -6,10 +6,10 @@ authors:
     firstName: DeRay
 isbn10: '0525560327'
 isbn13: '9780525560326'
-read: 2019-07-09
+finishedAt: 2019-07-09
 rating: 4
 yearPublished: 2018
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/edition/2907525/38562634._SX98_.jpg

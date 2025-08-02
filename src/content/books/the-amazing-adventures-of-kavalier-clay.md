@@ -5,10 +5,10 @@ authors:
     firstName: Michael
 isbn10:
 isbn13: '9781469216423'
-read: 2010-08-29
+finishedAt: 2010-08-29
 rating: 4
 yearPublished: 2000
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

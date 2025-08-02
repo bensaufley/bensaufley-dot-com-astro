@@ -5,10 +5,10 @@ authors:
     firstName: Pierce
 isbn10:
 isbn13: '9781470380281'
-read: 2023-06-17
+finishedAt: 2023-06-17
 rating:
 yearPublished: 2014
-reading: false
+startedAt: null
 asin: B00I2VWW5U
 subtitle:
 narrators:

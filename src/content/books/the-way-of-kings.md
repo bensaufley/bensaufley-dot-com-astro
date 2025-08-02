@@ -5,10 +5,10 @@ authors:
     firstName: Brandon
 isbn10: '0765326353'
 isbn13: '9780765326355'
-read: 2022-09-19
+finishedAt: 2022-09-19
 rating: 4
 yearPublished: 2010
-reading: false
+startedAt: null
 asin: '0765326353'
 subtitle:
 narrators:

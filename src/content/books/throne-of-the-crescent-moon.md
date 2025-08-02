@@ -14,9 +14,9 @@ isbn13: '9781101572405'
 asin:
 coverImageUrl: https://assets.hardcover.app/edition/30404943/026d1a4d93e21f92f793fa3af1d674f383912570.jpeg
 hardcoverUrl: https://hardcover.app/books/throne-of-the-crescent-moon/editions/30404943
-read: 2015-12-07
+finishedAt: 2015-12-07
 rating: 4
-reading: false
+startedAt: null
 ---
 
 I picked this book up a while back and put it down pretty quickly because I just _couldn't_ get past the constant and verbose references to God and God's will. That's not to say I was offended or upset in any way, I just found it really distracting. I'm not a religious person, so that may be part of it, and though English has its own set of curses and invocations – "oh my God," "God willing," etc, these were long sentences, sometimes paragraphs, with very little to do with the actual conversation. I wondered if they were translations of common Muslim utterances? This is of course a fictional world, but it appears to be built around something like Islam the same way much Anglo/Western fantasy is built around Arthurian and therefore Christian myth.

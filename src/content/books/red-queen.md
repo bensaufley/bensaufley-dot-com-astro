@@ -9,10 +9,10 @@ authors:
     firstName: Victoria
 isbn10: '0062310631'
 isbn13: '9780062310637'
-read: 2017-08-22
+finishedAt: 2017-08-22
 rating: 2
 yearPublished: 2015
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/edition/30399645/4df4773e4e3e1609686b859bd1d4bae90a890ee7.jpeg

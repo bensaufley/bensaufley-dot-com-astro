@@ -11,10 +11,10 @@ authors:
     firstName: R.C.
 isbn10:
 isbn13:
-read: 2018-05-01
+finishedAt: 2018-05-01
 rating: 3
 yearPublished: 2016
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/editions/25282254/714549825438253.jpg

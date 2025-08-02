@@ -5,10 +5,10 @@ authors:
     firstName: Michelle
 isbn10: '0571345166'
 isbn13: '9780571345168'
-read: 2019-09-28
+finishedAt: 2019-09-28
 rating: 4
 yearPublished: 2018
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

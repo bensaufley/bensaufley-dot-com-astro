@@ -9,10 +9,10 @@ authors:
     firstName: Jeff
 isbn10: '1888963093'
 isbn13: '9781888963090'
-read: 2011-12-01
+finishedAt: 2011-12-01
 rating: 3
 yearPublished: 2008
-reading: false
+startedAt: null
 asin:
 narrators:
 ---

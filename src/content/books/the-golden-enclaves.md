@@ -5,10 +5,10 @@ authors:
     firstName: Naomi
 isbn10: '1529100925'
 isbn13: '9781529157994'
-read: 2024-03-20
+finishedAt: 2024-03-20
 rating: 4.5
 yearPublished: 2022
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

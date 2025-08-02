@@ -16,9 +16,9 @@ isbn13: '9780316422734'
 asin:
 coverImageUrl: https://assets.hardcover.app/edition/18994277/81408d6d871dd64fb75d5b24988a4d665c6cf8d9.jpeg
 hardcoverUrl: https://hardcover.app/books/lethal-white/editions/18994277
-read: 2018-10-11
+finishedAt: 2018-10-11
 rating: 3
-reading: false
+startedAt: null
 ---
 
 **Note:** please see my 2025 [blog post re: Rowling](/blog/2025/04/jk-rowling)

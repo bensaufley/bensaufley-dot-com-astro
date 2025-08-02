@@ -5,10 +5,10 @@ authors:
     firstName: Naomi
 isbn10: '0804179034'
 isbn13: '9780804179034'
-read: 2015-10-14
+finishedAt: 2015-10-14
 rating: 5
 yearPublished: 2015
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

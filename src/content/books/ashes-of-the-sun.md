@@ -5,10 +5,10 @@ authors:
     firstName: Django
 isbn10: '1788543149'
 isbn13: '9781788543149'
-read: 2025-03-26
+finishedAt: 2025-03-26
 rating: 4
 yearPublished: 2020
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

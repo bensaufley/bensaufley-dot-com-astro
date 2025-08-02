@@ -8,10 +8,10 @@ authors:
     firstName: Tom
 isbn10:
 isbn13: '9781627790369'
-read: 2018-01-22
+finishedAt: 2018-01-22
 rating: 3
 yearPublished: 2016
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/book_mappings/7333240/6f77a87d2b875dbe7b07ca4bcf8201cb4007e89d.jpeg

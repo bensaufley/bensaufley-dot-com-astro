@@ -5,10 +5,10 @@ authors:
     firstName: Alex S.
 isbn10: '1784782912'
 isbn13: '9781784782917'
-read: 2020-07-03
+finishedAt: 2020-07-03
 rating: 4
 yearPublished: 2017
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

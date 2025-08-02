@@ -6,10 +6,10 @@ authors:
     firstName: Emily
 isbn10:
 isbn13:
-read: 2023-07-22
+finishedAt: 2023-07-22
 rating: 4.5
 yearPublished:
-reading: false
+startedAt: null
 asin:
 narrators:
 hardcoverUrl: https://hardcover.app/books/cribsheet-a-data-driven-guide-to-better-more-relaxed-parenting-from-birth-to-preschool/editions/31275055

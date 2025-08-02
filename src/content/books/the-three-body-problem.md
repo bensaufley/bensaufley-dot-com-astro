@@ -16,9 +16,9 @@ isbn13: '9781800249172'
 asin:
 coverImageUrl: https://assets.hardcover.app/editions/30394943/198246c4-1961-4f80-8acd-cb922cc9860e-three.jpg
 hardcoverUrl: https://hardcover.app/books/the-three-body-problem/editions/30394943
-read: 2017-01-12
+finishedAt: 2017-01-12
 rating: 2
-reading: false
+startedAt: null
 ---
 
 I was really looking forward to this book and I think I just … don't get it.

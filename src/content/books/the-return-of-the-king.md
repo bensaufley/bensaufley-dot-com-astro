@@ -5,10 +5,10 @@ authors:
     firstName: J.R.R.
 isbn10: '0007171994'
 isbn13: '9780007171996'
-read: 2022-08-27
+finishedAt: 2022-08-27
 rating:
 yearPublished: 1955
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

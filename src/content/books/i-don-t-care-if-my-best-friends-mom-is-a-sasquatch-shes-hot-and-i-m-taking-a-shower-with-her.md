@@ -5,10 +5,10 @@ authors:
     firstName: Lacey
 isbn10:
 isbn13: '9781310830846'
-read: 2015-01-24
+finishedAt: 2015-01-24
 rating:
 yearPublished: 2014
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

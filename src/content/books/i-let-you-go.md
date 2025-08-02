@@ -5,10 +5,10 @@ authors:
     firstName: Clare
 isbn10: '0751554154'
 isbn13: '9780751554151'
-read: 2019-12-30
+finishedAt: 2019-12-30
 rating: 4
 yearPublished: 2014
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

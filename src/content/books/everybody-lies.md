@@ -6,10 +6,10 @@ authors:
     firstName: Seth
 isbn10: '0062390856'
 isbn13: '9780062390851'
-read: 2017-08-16
+finishedAt: 2017-08-16
 rating: 3
 yearPublished: 2017
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/edition/30405440/content.jpeg

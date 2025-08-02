@@ -5,10 +5,10 @@ authors:
     firstName: Rebecca
 isbn10:
 isbn13:
-read: 2023-09-22
+finishedAt: 2023-09-22
 rating: 2
 yearPublished: 2023
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

@@ -5,10 +5,10 @@ authors:
     firstName: Ursula K. Le
 isbn10: '0060512741'
 isbn13: '9780060512743'
-read: 2016-12-01
+finishedAt: 2016-12-01
 rating: 4
 yearPublished: 1971
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

@@ -5,10 +5,10 @@ authors:
     firstName: V. E.
 isbn10:
 isbn13: '9781427288509'
-read: 2024-01-11
+finishedAt: 2024-01-11
 rating:
 yearPublished: 2017
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

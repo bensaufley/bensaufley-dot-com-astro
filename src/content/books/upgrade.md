@@ -5,10 +5,10 @@ authors:
     firstName: Blake
 isbn10: '1529045363'
 isbn13: '9781529045369'
-read: 2024-12-30
+finishedAt: 2024-12-30
 rating: 3
 yearPublished: 2022
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

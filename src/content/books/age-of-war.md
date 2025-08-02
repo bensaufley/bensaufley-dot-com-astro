@@ -5,10 +5,10 @@ authors:
     firstName: Michael J.
 isbn10:
 isbn13:
-read: 2024-07-19
+finishedAt: 2024-07-19
 rating: 3.5
 yearPublished: 2018
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

@@ -5,10 +5,10 @@ authors:
     firstName: Gillian
 isbn10: '0753822210'
 isbn13: '9781683318118'
-read: 2018-05-17
+finishedAt: 2018-05-17
 rating: 3
 yearPublished: 2006
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

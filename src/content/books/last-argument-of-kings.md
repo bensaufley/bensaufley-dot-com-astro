@@ -5,10 +5,10 @@ authors:
     firstName: Joe
 isbn10: '8652114366'
 isbn13: '9870575084162'
-read: 2025-02-09
+finishedAt: 2025-02-09
 rating:
 yearPublished: 2008
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

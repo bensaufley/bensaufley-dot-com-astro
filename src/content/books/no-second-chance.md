@@ -5,10 +5,10 @@ authors:
     firstName: Harlan
 isbn10: '0451210557'
 isbn13: '9780451210555'
-read: 2018-07-22
+finishedAt: 2018-07-22
 rating: 3
 yearPublished: 2003
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

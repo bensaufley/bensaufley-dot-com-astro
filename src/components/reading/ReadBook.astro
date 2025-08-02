@@ -42,7 +42,7 @@ export const LEFT_GOODREADS_DATE = dayjs.utc('2022-02-15');
         </a>
       )}
       {book.hardcoverUrl && <a href={book.hardcoverUrl} target="_blank" rel="noopener" title="View in Hardcover"><Hardcover /></a>}
-      {LEFT_GOODREADS_DATE.isAfter(book.read, 'day') && (
+      {LEFT_GOODREADS_DATE.isAfter(book.finishedAt, 'day') && (
         <span title="Imported from Goodreads">
           <Goodreads />
         </span>
@@ -58,7 +58,7 @@ export const LEFT_GOODREADS_DATE = dayjs.utc('2022-02-15');
   <Rating client:load rating={book.rating} />
   <p class={styles.finished}>
     Finished{' '}
-    <time datetime={dayjs.utc(book.read!).toISOString()}>{dayjs.utc(book.read!).format('YYYY-MM-DD')}</time>
+    <time datetime={dayjs.utc(book.finishedAt!).toISOString()}>{dayjs.utc(book.finishedAt!).format('YYYY-MM-DD')}</time>
   </p>
   <div class={styles.review}><slot /></div>
 </li>

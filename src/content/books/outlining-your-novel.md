@@ -6,10 +6,10 @@ authors:
     firstName: K.M.
 isbn10: '0978924622'
 isbn13: '9780978924621'
-read: 2016-03-04
+finishedAt: 2016-03-04
 rating: 3
 yearPublished: 2011
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/edition/30518790/cb714cf45dc396ac52562742fbab6553de19bf56.jpeg

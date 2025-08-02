@@ -9,10 +9,10 @@ authors:
     firstName: Stephen
 isbn10:
 isbn13:
-read: 2017-04-21
+finishedAt: 2017-04-21
 rating: 4
 yearPublished: 2014
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl:

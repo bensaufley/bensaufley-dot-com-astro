@@ -9,10 +9,10 @@ authors:
     firstName: Josephine
 isbn10: '1250079381'
 isbn13: '9781250079381'
-read: 2018-08-04
+finishedAt: 2018-08-04
 rating: 4
 yearPublished: 2015
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/editions/30489768/4962268420957883.jpg

@@ -5,10 +5,10 @@ authors:
     firstName: John
 isbn10:
 isbn13: '9780765388919'
-read: 2018-06-20
+finishedAt: 2018-06-20
 rating: 4
 yearPublished: 2018
-reading: false
+startedAt: null
 asin:
 subtitle:
 series:

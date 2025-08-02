@@ -9,8 +9,8 @@ narrators:
     firstName: Sarah
 coverImageUrl: https://assets.hardcover.app/external_data/61669772/473727843a1da99d44e58fb77e705742529f4a7f.jpeg
 hardcoverUrl: https://hardcover.app/books/careless-people-a-cautionary-tale-of-power-greed-and-lost-idealism/editions/31933850
-read: 2025-04-20
-reading: false
+finishedAt: 2025-04-20
+startedAt: null
 asin:
 isbn10: '1250391237'
 isbn13: '9781250391230'

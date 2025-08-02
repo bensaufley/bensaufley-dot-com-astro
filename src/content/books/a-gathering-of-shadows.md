@@ -5,10 +5,10 @@ authors:
     firstName: V.E.
 isbn10:
 isbn13: '9781427277039'
-read: 2023-03-08
+finishedAt: 2023-03-08
 rating: 4
 yearPublished: 2016
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

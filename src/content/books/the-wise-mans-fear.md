@@ -14,9 +14,9 @@ isbn13: '9780756404734'
 asin:
 coverImageUrl: https://assets.hardcover.app/edition/12129615/d30f47b6cccbb010d2fe11e78ee6ecfa10f86740.jpeg
 hardcoverUrl: https://hardcover.app/books/the-wise-mans-fear/editions/31488150
-read: 2012-10-18
+finishedAt: 2012-10-18
 rating: 4
-reading: false
+startedAt: null
 ---
 
 Enjoyed the hell out of this one, like the last. Ate it right up. That said, a few concerns:

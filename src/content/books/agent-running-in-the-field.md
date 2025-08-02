@@ -5,10 +5,10 @@ authors:
     firstName: John Le
 isbn10: '1984878875'
 isbn13: '9781984878878'
-read: 2020-04-09
+finishedAt: 2020-04-09
 rating: 3
 yearPublished: 2019
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

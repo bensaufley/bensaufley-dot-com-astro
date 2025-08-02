@@ -6,10 +6,10 @@ authors:
     firstName: Michael
 isbn10: '1594201455'
 isbn13: '9781594201455'
-read: 2010-02-05
+finishedAt: 2010-02-05
 rating: 4
 yearPublished: 2008
-reading: false
+startedAt: null
 asin:
 narrators:
 hardcoverUrl: https://hardcover.app/books/in-defense-of-food-an-eaters-manifesto/editions/6537300

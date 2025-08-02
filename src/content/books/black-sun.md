@@ -5,10 +5,10 @@ authors:
     firstName: Rebecca
 isbn10:
 isbn13: '9781534437678'
-read: 2020-12-03
+finishedAt: 2020-12-03
 rating: 5
 yearPublished: 2020
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

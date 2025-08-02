@@ -9,10 +9,10 @@ authors:
     firstName: Seanan
 isbn10: '0765393581'
 isbn13: '9780765393586'
-read: 2019-01-23
+finishedAt: 2019-01-23
 rating: 4
 yearPublished: 2018
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/external_data/50275619/b94dcb5543efa40837a6e815ca458b63602df254.jpeg

@@ -5,10 +5,10 @@ authors:
     firstName: J. K.
 isbn10: '0545010225'
 isbn13: '9780545010221'
-read: 2016-08-17
+finishedAt: 2016-08-17
 rating: 5
 yearPublished: 2007
-reading: false
+startedAt: null
 asin:
 subtitle:
 series:

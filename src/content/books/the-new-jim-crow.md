@@ -6,10 +6,10 @@ authors:
     firstName: Michelle
 isbn10: '1620971933'
 isbn13: '9781620971932'
-read: 2019-05-25
+finishedAt: 2019-05-25
 rating: 5
 yearPublished: 2010
-reading: false
+startedAt: null
 asin:
 narrators:
   - lastName: Chilton

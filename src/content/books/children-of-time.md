@@ -9,10 +9,10 @@ authors:
     firstName: Adrian
 isbn10: '1447273281'
 isbn13: '9781447273288'
-read: 2019-06-17
+finishedAt: 2019-06-17
 rating: 5
 yearPublished: 2015
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/editions/30400632/1512151722488735-25563522.jpg

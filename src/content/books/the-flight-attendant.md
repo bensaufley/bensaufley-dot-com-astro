@@ -5,10 +5,10 @@ authors:
     firstName: Chris
 isbn10: '0593081633'
 isbn13: '9780525496137'
-read: 2020-06-04
+finishedAt: 2020-06-04
 rating: 3
 yearPublished: 2020
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

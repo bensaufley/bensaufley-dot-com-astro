@@ -6,10 +6,10 @@ authors:
     firstName: Yvon
 isbn10: '0143037838'
 isbn13: '9780143037835'
-read: 2017-06-09
+finishedAt: 2017-06-09
 rating: 2
 yearPublished: 2005
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/external_data/59364474/f2a715b0911fa8d3544dbd7ec6c495ba5dfe15ef.jpeg

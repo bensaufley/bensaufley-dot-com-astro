@@ -16,8 +16,8 @@ hardcoverUrl: https://hardcover.app/books/red-team-blues/editions/32011716
 series:
   name: Martin Hench
   volume: 1
-reading: false
-read: 2025-05-08T00:00:00.000Z
+startedAt: null
+finishedAt: 2025-05-08T00:00:00.000Z
 rating: 2
 ---
 

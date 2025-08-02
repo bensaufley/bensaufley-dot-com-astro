@@ -9,10 +9,10 @@ authors:
     firstName: Lisa
 isbn10: '0525954570'
 isbn13: '9780525954576'
-read: 2017-03-12
+finishedAt: 2017-03-12
 rating: 3
 yearPublished: 2016
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/edition/12962467/content.jpeg

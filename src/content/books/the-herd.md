@@ -5,10 +5,10 @@ authors:
     firstName: Andrea
 isbn10:
 isbn13:
-read: 2025-02-09
+finishedAt: 2025-02-09
 rating:
 yearPublished: 2020
-reading: false
+startedAt: null
 asin: '0593167244'
 subtitle:
 narrators:

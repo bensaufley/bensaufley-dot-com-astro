@@ -18,7 +18,7 @@ hardcoverUrl: https://hardcover.app/books/marble-hall-murders/editions/32046553
 series:
   name: Susan Ryeland
   volume: 3
-reading: false
-read: 2025-05-26T00:00:00.000Z
+startedAt: null
+finishedAt: 2025-05-26T00:00:00.000Z
 rating: 3.5
 ---

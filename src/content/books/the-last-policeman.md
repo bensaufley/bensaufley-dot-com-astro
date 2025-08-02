@@ -5,10 +5,10 @@ authors:
     firstName: Ben H.
 isbn10: '1594745765'
 isbn13: '9781594745768'
-read: 2022-06-30
+finishedAt: 2022-06-30
 rating: 4
 yearPublished: 2012
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

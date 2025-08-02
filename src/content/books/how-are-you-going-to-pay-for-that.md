@@ -14,8 +14,8 @@ asin: '1250272343'
 coverImageUrl: https://assets.hardcover.app/books/571095/6226124271107047.jpeg
 hardcoverUrl: https://hardcover.app/books/how-are-you-going-to-pay-for-that/editions/31579127
 series: null
-reading: false
-read: 2025-05-10T00:00:00.000Z
+startedAt: null
+finishedAt: 2025-05-10T00:00:00.000Z
 rating: 4
 ---
 

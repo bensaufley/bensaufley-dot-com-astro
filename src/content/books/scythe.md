@@ -5,10 +5,10 @@ authors:
     firstName: Neal
 isbn10:
 isbn13:
-read: 2025-03-06
+finishedAt: 2025-03-06
 rating: 4
 yearPublished: 2016
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

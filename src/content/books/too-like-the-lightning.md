@@ -14,7 +14,7 @@ isbn13: '9780765378002'
 asin:
 coverImageUrl: https://assets.hardcover.app/edition/30401516/8600692-L.jpg
 hardcoverUrl: https://hardcover.app/books/too-like-the-lightning/editions/30401516
-read: 2021-10-28
+finishedAt: 2021-10-28
 rating: 3
-reading: false
+startedAt: null
 ---

@@ -8,10 +8,10 @@ authors:
     firstName: A.G.
 isbn10: '1940026121'
 isbn13: '9781940026121'
-read: 2019-03-01
+finishedAt: 2019-03-01
 rating: 3
 yearPublished: 2017
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

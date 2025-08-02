@@ -6,10 +6,10 @@ authors:
     firstName: Donald
 isbn10: '1440348375'
 isbn13: '9781440348372'
-read: 2021-12-19
+finishedAt: 2021-12-19
 rating: 3
 yearPublished: 2016
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/edition/30622234/c1ee5d1281a668a4f4c4f0b6fde32baf790cea4c.jpeg

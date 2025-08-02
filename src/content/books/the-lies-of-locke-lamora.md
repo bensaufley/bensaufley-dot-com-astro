@@ -5,10 +5,10 @@ authors:
     firstName: Scott
 isbn10: '055358894X'
 isbn13: '9780553588941'
-read: 2024-02-16
+finishedAt: 2024-02-16
 rating: 4.5
 yearPublished: 2006
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

@@ -5,10 +5,10 @@ authors:
     firstName: Seanan
 isbn10:
 isbn13: '9781250790101'
-read: 2023-03-17
+finishedAt: 2023-03-17
 rating:
 yearPublished:
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

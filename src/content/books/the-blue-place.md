@@ -14,7 +14,7 @@ hardcoverUrl: https://hardcover.app/books/the-blue-place-a-novel/editions/321179
 series:
   name: Aud Torvingen
   volume: 1
-reading: true
-read: null
+startedAt: 2025-07-16
+finishedAt: null
 rating: null
 ---

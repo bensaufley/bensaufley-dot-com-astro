@@ -14,9 +14,9 @@ isbn13: '9780812511819'
 asin:
 coverImageUrl: https://assets.hardcover.app/book_mappings/7332323/437a620631d0c64a358d4a53c9c19addb3440e26.jpeg
 hardcoverUrl: https://hardcover.app/books/the-eye-of-the-world/editions/30789251
-read: 2017-03-18
+finishedAt: 2017-03-18
 rating: 2
-reading: false
+startedAt: null
 ---
 
 Everybody loves this series but this first book, at least, I found it immensely boring. The characters were largely interchangeable - if I didn't know from elsewhere that Rand was the protagonist, I'd have confused him with Mat and Perrin, whom I definitely confused for each other. The arc of the story had little real momentum, with a lot of wandering, occasionally interrupted by portentous language that I assume was meant to heighten tension but meant nothing to me, and culminating in a conflict that felt a little out of nowhere and anticlimactic, even with its grandiose themes.

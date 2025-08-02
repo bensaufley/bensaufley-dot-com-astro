@@ -6,10 +6,10 @@ authors:
     firstName: James
 isbn10:
 isbn13:
-read: 2023-04-16
+finishedAt: 2023-04-16
 rating: 4
 yearPublished:
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl:

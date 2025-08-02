@@ -5,10 +5,10 @@ authors:
     firstName: Jenn
 isbn10: '1250175666'
 isbn13: '9781250175663'
-read: 2024-09-21
+finishedAt: 2024-09-21
 rating: 3
 yearPublished: 2021
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

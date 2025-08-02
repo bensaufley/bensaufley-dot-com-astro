@@ -14,7 +14,7 @@ isbn13: '9780812523560'
 asin:
 coverImageUrl: https://assets.hardcover.app/edition/10759339/3394083._SY160_.jpg
 hardcoverUrl: https://hardcover.app/books/the-first-book-of-swords/editions/11469538
-read: 2018-10-18
+finishedAt: 2018-10-18
 rating: 3
-reading: false
+startedAt: null
 ---

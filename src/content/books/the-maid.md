@@ -5,10 +5,10 @@ authors:
     firstName: Nita
 isbn10: '000843574X'
 isbn13: '9780008435769'
-read: 2022-12-17
+finishedAt: 2022-12-17
 rating: 4
 yearPublished: 2022
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

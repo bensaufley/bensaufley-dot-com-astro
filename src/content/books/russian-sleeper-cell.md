@@ -5,10 +5,10 @@ authors:
     firstName: Nathan
 isbn10:
 isbn13: '9798218079451'
-read: 2024-04-26
+finishedAt: 2024-04-26
 rating: 4
 yearPublished:
-reading: false
+startedAt: null
 asin: B0BGZ1PRJT
 subtitle:
 narrators:

@@ -5,10 +5,10 @@ authors:
     firstName: John
 isbn10:
 isbn13: '9781441858146'
-read: 2014-09-30
+finishedAt: 2014-09-30
 rating: 3
 yearPublished: 2010
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

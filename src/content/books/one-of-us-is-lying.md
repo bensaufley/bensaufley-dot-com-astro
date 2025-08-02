@@ -14,9 +14,9 @@ isbn13: '9781524714680'
 asin:
 coverImageUrl: https://assets.hardcover.app/external_data/24923214/78aac0886653043e61f0aaf6d881200e08bd3ba3.jpeg
 hardcoverUrl: https://hardcover.app/books/one-of-us-is-lying/editions/8110587
-read: 2017-10-02
+finishedAt: 2017-10-02
 rating: 3
-reading: false
+startedAt: null
 ---
 
 Entertaining. Just about everything I expected from it. My wife and I had the mystery roughly figured out from maybe the midway point, maybe a bit before that, but I can say we were never _confident_ that we were correct, which is just about all you can ask of this type of thing.

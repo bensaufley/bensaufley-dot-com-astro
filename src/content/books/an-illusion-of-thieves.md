@@ -5,10 +5,10 @@ authors:
     firstName: Cate
 isbn10: '1250311004'
 isbn13: '9781250311009'
-read: 2021-11-18
+finishedAt: 2021-11-18
 rating: 4
 yearPublished: 2019
-reading: false
+startedAt: null
 asin:
 subtitle:
 series:

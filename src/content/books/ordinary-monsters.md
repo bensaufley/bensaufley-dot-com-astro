@@ -5,10 +5,10 @@ authors:
     firstName: J.M.
 isbn10: '0771000022'
 isbn13: '9780771000058'
-read: 2024-06-13
+finishedAt: 2024-06-13
 rating: 4
 yearPublished: 2022
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

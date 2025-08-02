@@ -5,10 +5,10 @@ authors:
     firstName: Ayn
 isbn10: '0451158237'
 isbn13: '9780451158239'
-read: 2019-12-22
+finishedAt: 2019-12-22
 rating:
 yearPublished: 1943
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

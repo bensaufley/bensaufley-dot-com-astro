@@ -16,8 +16,8 @@ asin: null
 coverImageUrl: https://assets.hardcover.app/books/465142/6633668781037143.jpg
 hardcoverUrl: https://hardcover.app/books/when-women-were-dragons/editions/31816794
 series: null
-reading: false
-read: 2025-07-29T00:00:00.000Z
+startedAt: null
+finishedAt: 2025-07-29T00:00:00.000Z
 rating: 3.75
 ---
 

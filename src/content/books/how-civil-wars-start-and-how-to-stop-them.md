@@ -6,10 +6,10 @@ authors:
     firstName: Barbara F.
 isbn10:
 isbn13: '9780593506080'
-read: 2025-01-23
+finishedAt: 2025-01-23
 rating: 4.5
 yearPublished: 2022
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/edition/30533464/040bd3e1279023de2e605a16e860ce2d5463fefc.jpeg

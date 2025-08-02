@@ -5,10 +5,10 @@ authors:
     firstName: Haruki
 isbn10: '1400079276'
 isbn13: '9781400079278'
-read: 2018-04-11
+finishedAt: 2018-04-11
 rating: 3
 yearPublished: 2006
-reading: false
+startedAt: null
 asin: '1400079276'
 subtitle:
 narrators:

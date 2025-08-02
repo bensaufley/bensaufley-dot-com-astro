@@ -14,7 +14,7 @@ isbn13: '9780316251303'
 asin:
 coverImageUrl: https://assets.hardcover.app/edition/3389994/1dcf6b59c75acdd14821152741bba2d3158c71d9.jpeg
 hardcoverUrl: https://hardcover.app/books/the-burning-white/editions/3389994
-read: 2019-11-08
+finishedAt: 2019-11-08
 rating: 4
-reading: false
+startedAt: null
 ---

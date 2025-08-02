@@ -14,7 +14,7 @@ isbn13: '9780593135051'
 asin:
 coverImageUrl: https://assets.hardcover.app/edition/30402919/content.jpeg
 hardcoverUrl: https://hardcover.app/books/the-space-between-worlds/editions/21131565
-read: 2021-08-27
+finishedAt: 2021-08-27
 rating: 5
-reading: false
+startedAt: null
 ---

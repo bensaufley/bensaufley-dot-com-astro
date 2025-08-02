@@ -5,10 +5,10 @@ authors:
     firstName: Dave
 isbn10: '0375725784'
 isbn13: '9780375725784'
-read: 2006-01-01
+finishedAt: 2006-01-01
 rating: 5
 yearPublished: 2000
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

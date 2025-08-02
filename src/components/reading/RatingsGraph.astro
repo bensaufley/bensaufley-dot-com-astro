@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 
 import styles from './styles.module.css';
 
-const books = await getCollection('books', (book) => !!book.data.read);
+const books = await getCollection('books', (book) => !!book.data.finishedAt);
 
 const ratings = books.reduce((acc, { data: { rating }}) => {
   if (rating) {

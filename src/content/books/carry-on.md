@@ -11,10 +11,10 @@ authors:
     firstName: Jim
 isbn10: '1250049555'
 isbn13: '9781250049551'
-read: 2016-01-06
+finishedAt: 2016-01-06
 rating: 4
 yearPublished: 2015
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/external_data/24049193/ab1cfc7105b8a8ee3f200d523becc911559cd41c.jpeg

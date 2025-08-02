@@ -5,10 +5,10 @@ authors:
     firstName: Gillian
 isbn10: '0063252341'
 isbn13: '9780063252349'
-read: 2022-09-24
+finishedAt: 2022-09-24
 rating:
 yearPublished: 2023
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

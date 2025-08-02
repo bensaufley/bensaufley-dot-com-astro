@@ -8,10 +8,10 @@ authors:
     firstName: Scott
 isbn10: '1950056023'
 isbn13: '9781950056026'
-read: 2019-06-27
+finishedAt: 2019-06-27
 rating: 3
 yearPublished: 2019
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

@@ -8,10 +8,10 @@ authors:
     firstName: P. Djèlí
 isbn10:
 isbn13: '9780765389442'
-read: 2021-07-31
+finishedAt: 2021-07-31
 rating: 4
 yearPublished: 2016
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

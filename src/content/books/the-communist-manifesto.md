@@ -5,10 +5,10 @@ authors:
     firstName: Karl
 isbn10: '0140447571'
 isbn13: '9780140447576'
-read: 2018-12-21
+finishedAt: 2018-12-21
 rating: 4
 yearPublished: 1848
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

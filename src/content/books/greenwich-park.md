@@ -5,10 +5,10 @@ authors:
     firstName: Katherine
 isbn10:
 isbn13: '9781797130262'
-read: 2022-05-18
+finishedAt: 2022-05-18
 rating:
 yearPublished: 2021
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

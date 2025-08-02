@@ -8,10 +8,10 @@ authors:
     firstName: Duncan M.
 isbn10:
 isbn13:
-read: 2018-02-22
+finishedAt: 2018-02-22
 rating: 4
 yearPublished: 2017
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

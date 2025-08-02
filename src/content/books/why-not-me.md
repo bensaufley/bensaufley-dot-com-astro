@@ -5,10 +5,10 @@ authors:
     firstName: Mindy
 isbn10: '0804138141'
 isbn13: '9780804138147'
-read: 2015-12-20
+finishedAt: 2015-12-20
 rating: 3
 yearPublished: 2015
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

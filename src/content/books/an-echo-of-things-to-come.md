@@ -5,10 +5,10 @@ authors:
     firstName: James
 isbn10: '0316274119'
 isbn13: '9780316274111'
-read: 2020-03-02
+finishedAt: 2020-03-02
 rating: 3
 yearPublished: 2017
-reading: false
+startedAt: null
 asin:
 subtitle:
 series:

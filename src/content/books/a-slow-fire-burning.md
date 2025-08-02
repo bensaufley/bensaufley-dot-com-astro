@@ -5,10 +5,10 @@ authors:
     firstName: Paula
 isbn10:
 isbn13: '9780593453162'
-read: 2022-01-05
+finishedAt: 2022-01-05
 rating:
 yearPublished: 2021
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

@@ -5,10 +5,10 @@ authors:
     firstName: Shari
 isbn10: '0525557628'
 isbn13: '9780525557623'
-read: 2020-04-01
+finishedAt: 2020-04-01
 rating: 3
 yearPublished: 2018
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

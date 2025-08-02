@@ -14,7 +14,7 @@ isbn13: '9780765316882'
 asin:
 coverImageUrl: https://assets.hardcover.app/editions/30432880/4976353406733212.jpg
 hardcoverUrl: https://hardcover.app/books/the-well-of-ascension/editions/30405372
-read: 2019-04-30
+finishedAt: 2019-04-30
 rating: 3
-reading: false
+startedAt: null
 ---

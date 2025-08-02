@@ -14,7 +14,7 @@ isbn13: '9781250217288'
 asin:
 coverImageUrl: https://assets.hardcover.app/edition/29272503/10207033-L.jpg
 hardcoverUrl: https://hardcover.app/books/the-house-in-the-cerulean-sea/editions/12846449
-read: 2021-06-18
+finishedAt: 2021-06-18
 rating: 4
-reading: false
+startedAt: null
 ---

@@ -20,8 +20,8 @@ const personSchema = z.object({
 
 const books = defineCollection({
   type: 'content',
-  schema: () => {
-    const bookBaseSchema = z.object({
+  schema: () =>
+    z.object({
       title: z.string(),
       subtitle: z.string().nullable(),
       authors: z.array(personSchema),
@@ -39,21 +39,10 @@ const books = defineCollection({
         })
         .optional()
         .nullable(),
-    });
-
-    return z.union([
-      bookBaseSchema.extend({
-        read: z.coerce.date(),
-        rating: z.number().min(0).max(5).nullable(),
-        reading: z.literal(false),
-      }),
-      bookBaseSchema.extend({
-        read: z.null(),
-        reading: z.boolean(),
-        rating: z.null(),
-      }),
-    ]);
-  },
+      finishedAt: z.coerce.date().nullable(),
+      startedAt: z.coerce.date().nullable(),
+      rating: z.number().min(0).max(5).nullable(),
+    }),
 });
 
 type InferCollectionSchema<T extends CollectionConfig<any>> = T extends CollectionConfig<infer U> ? z.infer<U> : never;

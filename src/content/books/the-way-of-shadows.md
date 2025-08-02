@@ -5,10 +5,10 @@ authors:
     firstName: Brent
 isbn10: '0316033677'
 isbn13: '9780316033671'
-read: 2023-04-08
+finishedAt: 2023-04-08
 rating: 4
 yearPublished: 2008
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

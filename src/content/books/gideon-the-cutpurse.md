@@ -9,10 +9,10 @@ authors:
     firstName: Linda
 isbn10: '1416915257'
 isbn13: '9781416915256'
-read: 2015-08-28
+finishedAt: 2015-08-28
 rating: 4
 yearPublished: 2006
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/external_data/59560440/810b9709e8330da5fc1e29d4454a82666c8c7cc7.jpeg

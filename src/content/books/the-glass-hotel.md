@@ -5,10 +5,10 @@ authors:
     firstName: Emily St. John
 isbn10: '0525521143'
 isbn13: '9780525521143'
-read: 2021-09-12
+finishedAt: 2021-09-12
 rating: 3
 yearPublished: 2020
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

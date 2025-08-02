@@ -5,10 +5,10 @@ authors:
     firstName: Joe
 isbn10:
 isbn13:
-read: 2024-08-27
+finishedAt: 2024-08-27
 rating: 4
 yearPublished: 2015
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

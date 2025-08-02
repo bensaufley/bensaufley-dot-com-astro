@@ -6,10 +6,10 @@ authors:
     firstName: Monica
 isbn10: '1635660041'
 isbn13: '9781635660043'
-read: 2016-02-25
+finishedAt: 2016-02-25
 rating: 3
 yearPublished:
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/external_data/60354793/d831ee318ff648646fea6771c6aa05df185c3b1d.jpeg

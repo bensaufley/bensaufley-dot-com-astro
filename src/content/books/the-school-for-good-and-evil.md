@@ -5,10 +5,10 @@ authors:
     firstName: Soman
 isbn10:
 isbn13: '9780062272812'
-read: 2022-10-15
+finishedAt: 2022-10-15
 rating: 4.5
 yearPublished: 2013
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

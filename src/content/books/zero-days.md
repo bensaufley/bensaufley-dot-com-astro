@@ -5,10 +5,10 @@ authors:
     firstName: Ruth
 isbn10: '1668023768'
 isbn13: '9781668023761'
-read: 2023-07-11
+finishedAt: 2023-07-11
 rating: 3.5
 yearPublished: 2023
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

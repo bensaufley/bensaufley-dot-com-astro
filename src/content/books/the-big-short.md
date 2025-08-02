@@ -6,10 +6,10 @@ authors:
     firstName: Michael
 isbn10: '039335315X'
 isbn13: '9780393353150'
-read: 2016-01-14
+finishedAt: 2016-01-14
 rating: 3
 yearPublished: 2010
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/edition/544009/26889576._SX98_.jpg

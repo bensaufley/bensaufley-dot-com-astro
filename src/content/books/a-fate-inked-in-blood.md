@@ -16,8 +16,8 @@ hardcoverUrl: https://hardcover.app/books/a-fate-inked-in-blood/editions/3154841
 series:
   name: Saga of the Unfated
   volume: 1
-reading: false
-read: 2025-07-07T00:00:00.000Z
+startedAt: null
+finishedAt: 2025-07-07T00:00:00.000Z
 rating: 4
 ---
 

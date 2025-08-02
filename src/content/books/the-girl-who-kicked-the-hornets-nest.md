@@ -5,10 +5,10 @@ authors:
     firstName: Stieg
 isbn10: '8535915206'
 isbn13: '9788535915204'
-read: 2024-05-24
+finishedAt: 2024-05-24
 rating: 3.5
 yearPublished: 2007
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

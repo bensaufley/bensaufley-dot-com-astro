@@ -5,10 +5,10 @@ authors:
     firstName: Christina
 isbn10:
 isbn13: '9780008300654'
-read: 2018-12-02
+finishedAt: 2018-12-02
 rating: 3
 yearPublished: 2018
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

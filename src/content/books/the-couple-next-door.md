@@ -5,10 +5,10 @@ authors:
     firstName: Shari
 isbn10: '0735221081'
 isbn13: '9780735221086'
-read: 2019-08-31
+finishedAt: 2019-08-31
 rating: 4
 yearPublished: 2016
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

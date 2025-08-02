@@ -7,10 +7,10 @@ authors:
     firstName: Sarah
 isbn10:
 isbn13: '9781250259882'
-read: 2023-05-07
+finishedAt: 2023-05-07
 rating: 4
 yearPublished: 2020
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

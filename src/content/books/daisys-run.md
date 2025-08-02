@@ -5,10 +5,10 @@ authors:
     firstName: Scott
 isbn10:
 isbn13:
-read: 2020-10-15
+finishedAt: 2020-10-15
 rating: 3
 yearPublished: 2019
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

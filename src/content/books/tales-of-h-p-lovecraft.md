@@ -5,10 +5,10 @@ authors:
     firstName: Joyce Carol
 isbn10: '0061374601'
 isbn13: '9780061374609'
-read: 2010-03-17
+finishedAt: 2010-03-17
 rating: 3
 yearPublished: 2007
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

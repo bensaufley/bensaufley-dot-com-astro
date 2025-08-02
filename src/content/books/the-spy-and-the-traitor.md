@@ -6,10 +6,10 @@ authors:
     firstName: Ben
 isbn10: '0771060335'
 isbn13: '9780771060335'
-read: 2018-11-20
+finishedAt: 2018-11-20
 rating: 4
 yearPublished: 2018
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/edition/22902350/8843408-L.jpg

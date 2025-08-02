@@ -14,7 +14,7 @@ isbn13: '9781473621442'
 asin: B01CNLOZ3G
 coverImageUrl: https://assets.hardcover.app/editions/30402676/8224997564885397.jpg
 hardcoverUrl: https://hardcover.app/books/a-closed-and-common-orbit/editions/30402676
-read: 2020-02-14
+finishedAt: 2020-02-14
 rating: 4
-reading: false
+startedAt: null
 ---

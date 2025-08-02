@@ -9,10 +9,10 @@ authors:
     firstName: Jeff
 isbn10: '1888963131'
 isbn13: '9781888963137'
-read: 2011-12-28
+finishedAt: 2011-12-28
 rating: 4
 yearPublished: 2002
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/edition/27259487/8f7f75e90d5902e1b350675310158f4beb43f134.jpeg

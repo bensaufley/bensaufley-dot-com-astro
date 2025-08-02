@@ -5,10 +5,10 @@ authors:
     firstName: Tara
 isbn10: '0525510672'
 isbn13: '9780525510673'
-read: 2019-08-06
+finishedAt: 2019-08-06
 rating: 5
 yearPublished: 2018
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

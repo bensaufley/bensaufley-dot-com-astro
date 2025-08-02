@@ -18,7 +18,7 @@ isbn13: '9781250243546'
 asin:
 coverImageUrl: https://assets.hardcover.app/edition/14974612/9258944-L.jpg
 hardcoverUrl: https://hardcover.app/books/a-queen-in-hiding/editions/31497110
-read: 2020-07-29
+finishedAt: 2020-07-29
 rating: 4
-reading: false
+startedAt: null
 ---

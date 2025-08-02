@@ -16,7 +16,7 @@ hardcoverUrl: https://hardcover.app/books/the-element-of-fire/editions/31912430
 series:
   name: Ile-Rien
   volume: 1
-reading: false
-read: 2025-05-23T00:00:00.000Z
+startedAt: null
+finishedAt: 2025-05-23T00:00:00.000Z
 rating: 3.5
 ---

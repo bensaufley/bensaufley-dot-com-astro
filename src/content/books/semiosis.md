@@ -5,10 +5,10 @@ authors:
     firstName: Sue
 isbn10:
 isbn13:
-read: 2025-03-16
+finishedAt: 2025-03-16
 rating: 4.5
 yearPublished: 2018
-reading: false
+startedAt: null
 asin: B078SGTKS6
 subtitle: A novel of first contact
 narrators:

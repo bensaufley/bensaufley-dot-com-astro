@@ -5,10 +5,10 @@ authors:
     firstName: J. K.
 isbn10:
 isbn13:
-read: 2016-07-07
+finishedAt: 2016-07-07
 rating: 4
 yearPublished: 1997
-reading: false
+startedAt: null
 asin:
 subtitle:
 series:

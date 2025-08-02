@@ -5,10 +5,10 @@ authors:
     firstName: Philip
 isbn10:
 isbn13: '9781400079490'
-read: 2019-01-23
+finishedAt: 2019-01-23
 rating: 3
 yearPublished: 2004
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

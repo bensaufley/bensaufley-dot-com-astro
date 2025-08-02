@@ -5,10 +5,10 @@ authors:
     firstName: Ken
 isbn10: '1797102222'
 isbn13: '9781797102221'
-read: 2022-11-26
+finishedAt: 2022-11-26
 rating: 4
 yearPublished: 2020
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

@@ -5,10 +5,10 @@ authors:
     firstName: J. K.
 isbn10: '1781100357'
 isbn13: '9781781100356'
-read: 2016-07-11
+finishedAt: 2016-07-11
 rating: 5
 yearPublished: 1998
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

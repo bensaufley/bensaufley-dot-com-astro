@@ -5,10 +5,10 @@ authors:
     firstName: Ken
 isbn10:
 isbn13: '9781481442541'
-read: 2018-03-08
+finishedAt: 2018-03-08
 rating: 5
 yearPublished: 2016
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

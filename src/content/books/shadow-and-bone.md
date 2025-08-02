@@ -14,9 +14,9 @@ isbn13: '9781250048110'
 asin:
 coverImageUrl: https://assets.hardcover.app/editions/30399210/4f1a904f-177b-4da0-8ac9-b6c7c9cb1b34-shadow_and_bone.jpg
 hardcoverUrl: https://hardcover.app/books/shadow-and-bone/editions/30399210
-read: 2015-09-03
+finishedAt: 2015-09-03
 rating: 4
-reading: false
+startedAt: null
 ---
 
 I'm not sure it's particularly better than a bunch of the YA competing in the space right now, as far as writing or ingenuity, but I found the slavic/Russian slant an interesting complication, with so much of the genre leaning toward Anglo fantasy. The main character clearly has some body dysmorphia but otherwise strong and interesting, and the plot didn't really do what I expected to, which I always appreciate. Will probably take a stab at the next one.

@@ -6,10 +6,10 @@ authors:
     firstName: Gregory A
 isbn10: '0451222121'
 isbn13: '9780451222121'
-read: 2016-10-01
+finishedAt: 2016-10-01
 rating: 3
 yearPublished:
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/books/139686/1726724-L.jpg

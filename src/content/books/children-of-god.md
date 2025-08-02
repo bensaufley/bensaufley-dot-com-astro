@@ -9,10 +9,10 @@ authors:
     firstName: Mary Doria
 isbn10:
 isbn13:
-read: 2015-11-10
+finishedAt: 2015-11-10
 rating: 4
 yearPublished: 2007
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/external_data/59391135/54ff9c115fea149483d9d55e9205c6813da79699.jpeg

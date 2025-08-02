@@ -5,10 +5,10 @@ authors:
     firstName: Rebecca
 isbn10: '1508283125'
 isbn13: '9781508283126'
-read: 2022-06-09
+finishedAt: 2022-06-09
 rating: 4
 yearPublished: 2022
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

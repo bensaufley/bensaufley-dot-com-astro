@@ -6,10 +6,10 @@ authors:
     firstName: Alex N.
 isbn10: '0156806630'
 isbn13: '9780156806633'
-read: 2010-08-23
+finishedAt: 2010-08-23
 rating: 3
 yearPublished: 1993
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/edition/31497067/e0b29fa20d6aa45d1d5d496a02a5c027e3ac9c19.jpeg

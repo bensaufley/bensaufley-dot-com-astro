@@ -5,10 +5,10 @@ authors:
     firstName: Dan
 isbn10:
 isbn13: '9781455802593'
-read: 2024-01-29
+finishedAt: 2024-01-29
 rating: 4
 yearPublished: 1989
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

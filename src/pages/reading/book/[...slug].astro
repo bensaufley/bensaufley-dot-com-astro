@@ -11,7 +11,8 @@ import styles from '~components/reading/styles.module.css';
 
 export const getStaticPaths: GetStaticPaths = async () => {
 
-  const posts = (await getCollection('books', (book) => !!book.data.read && !!book.body?.trim())).toSorted((a, b) => dayjs.utc(b.data.read).diff(a.data.read, 'day'));
+  const posts = (await getCollection('books', (book) => !!book.data.finishedAt && !!book.body?.trim()))
+    .toSorted((a, b) => dayjs.utc(b.data.finishedAt).diff(a.data.finishedAt, 'day'));
 
   return Promise.all(posts.map(async (post) => {
     const { Content } = await post.render();

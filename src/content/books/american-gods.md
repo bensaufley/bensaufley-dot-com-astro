@@ -5,10 +5,10 @@ authors:
     firstName: Neil
 isbn10:
 isbn13: '9780755379927'
-read: 2019-07-30
+finishedAt: 2019-07-30
 rating: 3
 yearPublished: 2005
-reading: false
+startedAt: null
 asin:
 subtitle:
 series:

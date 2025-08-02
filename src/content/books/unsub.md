@@ -5,10 +5,10 @@ authors:
     firstName: Meg
 isbn10: '1101985526'
 isbn13: '9781524722807'
-read: 2022-03-09
+finishedAt: 2022-03-09
 rating: 4
 yearPublished: 2017
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

@@ -5,10 +5,10 @@ authors:
     firstName: Megan
 isbn10: '1797122150'
 isbn13: '9781797122151'
-read: 2022-10-04
+finishedAt: 2022-10-04
 rating: 3.5
 yearPublished: 2021
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

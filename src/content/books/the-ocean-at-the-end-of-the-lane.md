@@ -5,10 +5,10 @@ authors:
     firstName: Neil
 isbn10:
 isbn13: '9780062255655'
-read: 2013-11-19
+finishedAt: 2013-11-19
 rating: 4
 yearPublished: 2013
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

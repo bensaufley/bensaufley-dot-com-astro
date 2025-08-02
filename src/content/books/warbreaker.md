@@ -5,10 +5,10 @@ authors:
     firstName: Brandon
 isbn10: '0575097469'
 isbn13: '9780575097469'
-read: 2017-05-07
+finishedAt: 2017-05-07
 rating: 4
 yearPublished: 2009
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

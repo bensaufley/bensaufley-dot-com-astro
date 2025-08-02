@@ -14,9 +14,9 @@ isbn13: '9780670020553'
 asin:
 coverImageUrl: https://assets.hardcover.app/editions/30403680/4498979208093110.jpg
 hardcoverUrl: https://hardcover.app/books/the-magicians/editions/29845101
-read: 2012-05-08
+finishedAt: 2012-05-08
 rating: 5
-reading: false
+startedAt: null
 ---
 
 I don't have much to say about this other than that I really enjoyed it. At times Grossman's style of writing and especially the way he discusses magic, its effects, and the various denizens of the magical world reminded me of Jonathan Strange & Mr Norrell, which is (in my eyes) a very positive comparison.

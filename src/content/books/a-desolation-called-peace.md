@@ -14,7 +14,7 @@ isbn13: '9781250186461'
 asin:
 coverImageUrl: https://assets.hardcover.app/external_data/49448457/409f1b4894ba7245196820c9dd898f39af25ce50.jpeg
 hardcoverUrl: https://hardcover.app/books/a-desolation-called-peace-2021/editions/21249503
-read: 2021-12-30
+finishedAt: 2021-12-30
 rating: 3
-reading: false
+startedAt: null
 ---

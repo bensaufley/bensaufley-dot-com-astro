@@ -7,10 +7,10 @@ authors:
     firstName: Jerry
 isbn10: 156865054X
 isbn13: '9781568650548'
-read: 2016-09-20
+finishedAt: 2016-09-20
 rating: 3
 yearPublished: 1974
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

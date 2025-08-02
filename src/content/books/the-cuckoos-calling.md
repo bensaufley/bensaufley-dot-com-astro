@@ -9,10 +9,10 @@ authors:
     firstName: Robert
 isbn10: '0316206849'
 isbn13: '9780316206846'
-read: 2015-11-06
+finishedAt: 2015-11-06
 rating: 4
 yearPublished: 2013
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/editions/30503336/2516242451446449.jpg

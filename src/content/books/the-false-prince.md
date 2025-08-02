@@ -14,9 +14,9 @@ isbn13: '9780545284134'
 asin:
 coverImageUrl: https://assets.hardcover.app/external_data/60165153/b7d6f08171155c0e251687c766f4af0a91b6ff15.jpeg
 hardcoverUrl: https://hardcover.app/books/the-false-prince/editions/25728673
-read: 2016-03-08
+finishedAt: 2016-03-08
 rating: 3
-reading: false
+startedAt: null
 ---
 
 Fun. I think this one was ruined a bit by listening to it rather than reading it – the reader wasn't bad, but was very much present in my mind, meaning I couldn't entirely lose myself in the story. It took a weird turn in the middle, not so much plot-wise but storytelling-wise. But it's interesting enough that I may try to pick up the next at some point.

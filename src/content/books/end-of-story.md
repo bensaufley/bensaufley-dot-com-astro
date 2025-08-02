@@ -5,10 +5,10 @@ authors:
     firstName: A.J.
 isbn10:
 isbn13: '9780062678485'
-read: 2024-03-26
+finishedAt: 2024-03-26
 rating: 4.5
 yearPublished: 2024
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

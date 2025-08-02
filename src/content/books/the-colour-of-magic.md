@@ -20,7 +20,7 @@ hardcoverUrl: https://hardcover.app/books/the-colour-of-magic/editions/31821816
 series:
   name: Discworld
   volume: 1
-reading: false
-read: 2025-05-15T00:00:00.000Z
+startedAt: null
+finishedAt: 2025-05-15T00:00:00.000Z
 rating: 3
 ---

@@ -9,10 +9,10 @@ authors:
     firstName: Lincoln
 isbn10: '0385515502'
 isbn13: '9780385515504'
-read: 2015-09-12
+finishedAt: 2015-09-12
 rating: 4
 yearPublished: 2007
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/edition/30455103/468595-L.jpg

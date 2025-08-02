@@ -6,10 +6,10 @@ authors:
     firstName: Lisa
 isbn10: '1541417208'
 isbn13: '9781541467200'
-read: 2022-01-31
+finishedAt: 2022-01-31
 rating:
 yearPublished: 2012
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/external_data/61241462/758509323afff8121c72ce33dbd925aa4dcacd79.jpeg

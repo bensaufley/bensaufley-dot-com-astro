@@ -30,8 +30,8 @@ hardcoverUrl: https://hardcover.app/books/the-atlas-six/editions/32057523
 series:
   name: The Atlas
   volume: 1
-reading: false
-read: 2025-06-25T00:00:00.000Z
+startedAt: null
+finishedAt: 2025-06-25T00:00:00.000Z
 rating: 4
 ---
 

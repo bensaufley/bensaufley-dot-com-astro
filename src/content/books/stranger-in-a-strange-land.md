@@ -5,10 +5,10 @@ authors:
     firstName: Robert A.
 isbn10:
 isbn13: '9781441710505'
-read: 2016-07-01
+finishedAt: 2016-07-01
 rating: 3
 yearPublished: 1961
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

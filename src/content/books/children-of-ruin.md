@@ -11,10 +11,10 @@ authors:
     firstName: Mel
 isbn10:
 isbn13:
-read: 2020-04-20
+finishedAt: 2020-04-20
 rating: 3
 yearPublished: 2019
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/external_data/59519642/fd58417e6a12c823a6a733d7f285a998e05aafff.jpeg

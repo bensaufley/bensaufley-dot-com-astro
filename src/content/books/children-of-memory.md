@@ -5,10 +5,10 @@ authors:
     firstName: Adrian
 isbn10: '1529087201'
 isbn13: '9781529087208'
-read: 2024-09-06
+finishedAt: 2024-09-06
 rating: 4.5
 yearPublished: 2022
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

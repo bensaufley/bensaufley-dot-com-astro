@@ -14,9 +14,9 @@ isbn13: '9780451228734'
 asin:
 coverImageUrl: https://assets.hardcover.app/external_data/47289868/d407165dc9cc434362af727adc8601a94ea03500.jpeg
 hardcoverUrl: https://hardcover.app/books/daemon/editions/31497138
-read: 2017-04-10
+finishedAt: 2017-04-10
 rating: 2
-reading: false
+startedAt: null
 ---
 
 First: it's one half of a book. Apparently book two vindicates a lot of book one, but I'm not sure I want to give Suarez the pleasure of making me read a whole second book after this one.

@@ -5,10 +5,10 @@ authors:
     firstName: William
 isbn10: '1611763355'
 isbn13: '9781611763355'
-read: 2022-11-19
+finishedAt: 2022-11-19
 rating:
 yearPublished: 2014
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

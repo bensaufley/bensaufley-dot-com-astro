@@ -7,10 +7,10 @@ authors:
     firstName: Max
 isbn10: '1534431012'
 isbn13: '9781534431010'
-read: 2019-07-26
+finishedAt: 2019-07-26
 rating: 3
 yearPublished: 2019
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

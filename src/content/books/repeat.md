@@ -5,10 +5,10 @@ authors:
     firstName: Neal
 isbn10:
 isbn13: '9781501217043'
-read: 2019-12-07
+finishedAt: 2019-12-07
 rating: 3
 yearPublished: 2015
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

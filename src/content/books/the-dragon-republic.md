@@ -5,10 +5,10 @@ authors:
     firstName: R. F.
 isbn10:
 isbn13: '9780062662613'
-read: 2023-01-21
+finishedAt: 2023-01-21
 rating: 4.5
 yearPublished: 2019
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

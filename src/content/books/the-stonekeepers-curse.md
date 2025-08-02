@@ -14,7 +14,7 @@ isbn13: '9780439846837'
 asin:
 coverImageUrl: https://assets.hardcover.app/edition/4554328/6374832-L.jpg
 hardcoverUrl: https://hardcover.app/books/the-stonekeepers-curse/editions/4554328
-read: 2011-01-01
+finishedAt: 2011-01-01
 rating: 3
-reading: false
+startedAt: null
 ---

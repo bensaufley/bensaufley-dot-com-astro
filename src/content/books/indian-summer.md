@@ -6,10 +6,10 @@ authors:
     firstName: Alex von
 isbn10: '0312428111'
 isbn13: '9780312428112'
-read: 2018-08-24
+finishedAt: 2018-08-24
 rating: 4
 yearPublished: 2007
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/edition/30700884/5267151._SX98_.jpg

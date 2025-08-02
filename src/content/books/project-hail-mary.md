@@ -5,10 +5,10 @@ authors:
     firstName: Andy
 isbn10: '0593135202'
 isbn13: '9780593135204'
-read: 2023-03-19
+finishedAt: 2023-03-19
 rating:
 yearPublished: 2021
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

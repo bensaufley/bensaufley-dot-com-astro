@@ -8,10 +8,10 @@ authors:
     firstName: David M.
 isbn10: '0062980890'
 isbn13: '9780062980892'
-read: 2021-12-31
+finishedAt: 2021-12-31
 rating: 3
 yearPublished: 2021
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/edition/30610778/11581256-L.jpg

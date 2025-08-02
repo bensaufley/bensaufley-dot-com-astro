@@ -16,8 +16,8 @@ hardcoverUrl: https://hardcover.app/books/the-woman-in-suite-11/editions/3210398
 series:
   name: Lo Blacklock
   volume: 2
-reading: false
-read: 2025-07-13T00:00:00.000Z
+startedAt: null
+finishedAt: 2025-07-13T00:00:00.000Z
 rating: 4.5
 ---
 

@@ -5,10 +5,10 @@ authors:
     firstName: Kristen
 isbn10: '0886778581'
 isbn13: '9780886778583'
-read: 2022-01-13
+finishedAt: 2022-01-13
 rating: 2
 yearPublished: 1998
-reading: false
+startedAt: null
 asin:
 subtitle:
 series:

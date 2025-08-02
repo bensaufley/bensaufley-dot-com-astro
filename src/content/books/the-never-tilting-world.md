@@ -5,10 +5,10 @@ authors:
     firstName: Rin
 isbn10:
 isbn13: '9781094079288'
-read: 2022-08-01
+finishedAt: 2022-08-01
 rating:
 yearPublished: 2019
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

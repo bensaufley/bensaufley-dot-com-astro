@@ -5,10 +5,10 @@ authors:
     firstName: Karen
 isbn10: '1524797022'
 isbn13: '9781524797027'
-read: 2018-03-25
+finishedAt: 2018-03-25
 rating: 1
 yearPublished: 2018
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

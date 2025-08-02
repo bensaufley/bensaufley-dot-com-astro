@@ -5,10 +5,10 @@ authors:
     firstName: Mindy
 isbn10:
 isbn13: '9781797100968'
-read: 2022-01-21
+finishedAt: 2022-01-21
 rating:
 yearPublished: 2020
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

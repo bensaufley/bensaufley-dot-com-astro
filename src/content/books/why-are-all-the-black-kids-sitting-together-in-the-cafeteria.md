@@ -6,10 +6,10 @@ authors:
     firstName: Beverly Daniel
 isbn10: '1541616588'
 isbn13: '9781541616585'
-read: 2020-07-18
+finishedAt: 2020-07-18
 rating: 5
 yearPublished: 2017
-reading: false
+startedAt: null
 asin:
 narrators:
 coverImageUrl: https://assets.hardcover.app/external_data/61879804/c677ae656cabca6188812784e5c73bbad15e9211.jpeg

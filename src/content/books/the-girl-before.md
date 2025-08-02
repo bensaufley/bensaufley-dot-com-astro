@@ -5,10 +5,10 @@ authors:
     firstName: J. P.
 isbn10: '0425285049'
 isbn13: '9780425285046'
-read: 2019-10-10
+finishedAt: 2019-10-10
 rating: 2
 yearPublished: 2017
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

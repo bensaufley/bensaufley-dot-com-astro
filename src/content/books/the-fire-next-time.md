@@ -5,10 +5,10 @@ authors:
     firstName: James
 isbn10: '067974472X'
 isbn13: '9780679744726'
-read: 2017-05-15
+finishedAt: 2017-05-15
 rating: 5
 yearPublished: 1963
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

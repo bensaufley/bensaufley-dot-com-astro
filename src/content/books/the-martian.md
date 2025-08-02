@@ -5,10 +5,10 @@ authors:
     firstName: Andy
 isbn10: '0804139024'
 isbn13: '9780804139021'
-read: 2014-11-12
+finishedAt: 2014-11-12
 rating: 3
 yearPublished: 2011
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:

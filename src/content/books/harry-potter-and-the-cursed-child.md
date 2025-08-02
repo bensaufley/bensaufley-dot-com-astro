@@ -8,10 +8,10 @@ authors:
     firstName: J.K.
 isbn10:
 isbn13: '9781781105528'
-read: 2016-08-01
+finishedAt: 2016-08-01
 rating: 3
 yearPublished: 2016
-reading: false
+startedAt: null
 asin:
 series:
   name: Harry Potter

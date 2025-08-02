@@ -5,10 +5,10 @@ authors:
     firstName: Anthony
 isbn10:
 isbn13: '9780063305670'
-read: 2024-05-15
+finishedAt: 2024-05-15
 rating: 3.5
 yearPublished: 2024
-reading: false
+startedAt: null
 asin:
 subtitle:
 narrators:
