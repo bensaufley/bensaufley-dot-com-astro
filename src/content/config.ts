@@ -1,4 +1,5 @@
-import { type CollectionConfig, defineCollection, z } from 'astro:content';
+import type { CollectionConfig } from 'astro/content/config';
+import { defineCollection, z } from 'astro:content';
 
 const posts = defineCollection({
   type: 'content',
