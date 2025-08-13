@@ -19,4 +19,6 @@ finishedAt: 2025-08-04T00:00:00.000Z
 rating: 2.5
 ---
 
-I enjoyed most of this book but the resolution was pretty deeply unsatisfying and left a lot of loose ends—any thriller/mystery that's any good will employ red herrings, but most of the red herrings at play here seem very forced in retrospect. Beyond that, the over-explanation at the end was at a certain point kind of silly. I'm all for making it clear what happened but it was made clear a few times over and then the characters internal-monologued their justifications on top of that.I'm trying not to just give everything a 3 simply because I still mostly enjoyed it. So, this gets 2.5.
+I enjoyed most of this book but the resolution was pretty deeply unsatisfying and left a lot of loose ends—any thriller/mystery that's any good will employ red herrings, but most of the red herrings at play here seem very forced in retrospect. Beyond that, the over-explanation at the end was at a certain point kind of silly. I'm all for making it clear what happened but it was made clear a few times over and then the characters internal-monologued their justifications on top of that.
+
+I'm trying not to just give everything a 3 simply because I still mostly enjoyed it. So, this gets 2.5.
