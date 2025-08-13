@@ -1,0 +1,39 @@
+---
+import { Fragment } from 'preact';
+
+import type { getFeed } from '~lib/feed';
+
+import Post from './Post';
+
+import styles from './Page.module.css';
+
+type PromiseResult<T> = T extends Promise<infer R> ? R : never;
+type ArrayElement<T> = T extends readonly (infer U)[] ? U : never;
+
+export interface Props {
+  entry: ArrayElement<PromiseResult<ReturnType<typeof getFeed>>[0]> & { collection: 'posts' };
+}
+
+const {
+  entry: { data: { title, date, headerImage, headerImageAlt }, html, Content, slug },
+} = Astro.props
+---
+
+<Post
+  title={title}
+  titleElement="h2"
+  posted={date}
+  href={`/blog/${slug}`}
+  headerImage={headerImage ? { url: headerImage.src, alt: headerImageAlt! } : undefined}
+>
+  {html ? (
+    <>
+      <Fragment set:html={html} />
+      <a class={styles.readMore} href={`/blog/${slug}`}>
+        Read more&hellip;
+      </a>
+    </>
+  ) : (
+    <Content />
+  )}
+</Post>

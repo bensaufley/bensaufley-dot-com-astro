@@ -1,8 +1,26 @@
+import clsx, { type ClassValue } from 'clsx';
+
 import type { BookFrontmatter } from '~content/config';
 
 import styles from './styles.module.css';
 
-const CoverImage = ({ book }: { book: BookFrontmatter }) => {
+export enum CoverSize {
+  XSmall = 'xSmall',
+  Small = 'small',
+  Medium = 'medium',
+  Large = 'large',
+  XLarge = 'xLarge',
+}
+
+const CoverImage = ({
+  book,
+  class: className,
+  size,
+}: {
+  book: BookFrontmatter;
+  class?: ClassValue;
+  size?: CoverSize | undefined;
+}) => {
   const CoverWrap = book.hardcoverUrl ? 'a' : 'div';
   const coverProps = book.hardcoverUrl
     ? {
@@ -15,7 +33,7 @@ const CoverImage = ({ book }: { book: BookFrontmatter }) => {
   if (!book.coverImageUrl) return null;
 
   return (
-    <CoverWrap class={styles.cover} {...coverProps}>
+    <CoverWrap class={clsx(styles.cover, className, size && styles[size])} {...coverProps}>
       <img src={book.coverImageUrl} alt={`Cover of ${book.title}`} loading="lazy" />
     </CoverWrap>
   );

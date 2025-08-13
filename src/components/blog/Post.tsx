@@ -19,7 +19,7 @@ interface Props {
 }
 
 const Post = ({ title, titleElement: Title = 'h1', posted, href, headerImage, children }: RenderableProps<Props>) => (
-  <section class={styles.blogPost}>
+  <section class={styles.entry}>
     <header>
       <Title>{href ? <a href={href}>{title}</a> : title}</Title>
       <Timestamp value={posted} />

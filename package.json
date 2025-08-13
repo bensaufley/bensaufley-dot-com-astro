@@ -12,7 +12,8 @@
     "lint:astro": "astro check",
     "lint:es": "bslint",
     "typecheck": "tsc --noEmit",
-    "check": "npm-run-all --parallel --continue-on-error typecheck lint:astro lint:es"
+    "check": "npm-run-all --parallel --continue-on-error typecheck lint:astro lint:es",
+    "update-books": "tsx script/update-books.ts"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",

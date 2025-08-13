@@ -57,7 +57,7 @@ export const LEFT_GOODREADS_DATE = dayjs.utc('2022-02-15');
   </p>
   <Rating client:load rating={book.rating} />
   <p class={styles.finished}>
-    Finished{' '}
+    {book.startedAt ? <><time datetime={dayjs.utc(book.startedAt).toISOString()}>{dayjs.utc(book.startedAt).format(dayjs.utc(book.startedAt).isSame(book.finishedAt!, 'year') ? 'MM-DD' : 'YYYY-MM-DD')}</time> – </> : <>Finished </>}
     <time datetime={dayjs.utc(book.finishedAt!).toISOString()}>{dayjs.utc(book.finishedAt!).format('YYYY-MM-DD')}</time>
   </p>
   <div class={styles.review}><slot /></div>

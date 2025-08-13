@@ -81,22 +81,6 @@
     margin-bottom: 1rem;
     position: relative;
 
-    .cover {
-      align-items: center;
-      container-type: inline-size;
-      display: flex;
-      flex-flow: row nowrap;
-      grid-area: cover;
-      justify-content: center;
-      margin-right: 0.5rem;
-
-      img {
-        height: auto;
-        max-height: 100cqw;
-        max-width: 100%;
-      }
-    }
-
     h3,
     p {
       margin: 0;
@@ -128,10 +112,6 @@
     p.finished {
       grid-area: finished;
       justify-self: flex-end;
-    }
-
-    .rating {
-      grid-area: rating;
     }
 
     .review {
@@ -183,106 +163,107 @@
       }
     }
   }
+}
 
-  .rating {
-    --circleSize: 1rem;
+.rating {
+  --circleSize: 1rem;
+  grid-area: rating;
 
-    background-image: linear-gradient(
-      to right,
-      var(--secondaryAccentColor) 20%,
-      color-mix(in srgb, var(--secondaryAccentColor), var(--accentColor) 25%) 20%,
-      color-mix(in srgb, var(--secondaryAccentColor), var(--accentColor) 25%) 40%,
-      color-mix(in srgb, var(--secondaryAccentColor), var(--accentColor) 50%) 40%,
-      color-mix(in srgb, var(--secondaryAccentColor), var(--accentColor) 50%) 60%,
-      color-mix(in srgb, var(--secondaryAccentColor), var(--accentColor) 80%) 60%,
-      color-mix(in srgb, var(--secondaryAccentColor), var(--accentColor) 80%) 80%,
-      var(--accentColor) 80%
+  background-image: linear-gradient(
+    to right,
+    var(--secondaryAccentColor) 20%,
+    color-mix(in srgb, var(--secondaryAccentColor), var(--accentColor) 25%) 20%,
+    color-mix(in srgb, var(--secondaryAccentColor), var(--accentColor) 25%) 40%,
+    color-mix(in srgb, var(--secondaryAccentColor), var(--accentColor) 50%) 40%,
+    color-mix(in srgb, var(--secondaryAccentColor), var(--accentColor) 50%) 60%,
+    color-mix(in srgb, var(--secondaryAccentColor), var(--accentColor) 80%) 60%,
+    color-mix(in srgb, var(--secondaryAccentColor), var(--accentColor) 80%) 80%,
+    var(--accentColor) 80%
+  );
+  mask:
+    radial-gradient(
+      circle at 10% calc(var(--circleSize) * 1.1 / 2),
+      transparent calc(var(--ratingAnimation) * var(--circleSize) * 0.45),
+      #999 calc(var(--ratingAnimation) * var(--circleSize) * 0.45),
+      #999 calc(var(--ratingAnimation) * var(--circleSize) / 2),
+      transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)
+    ),
+    radial-gradient(
+      circle at 30% calc(var(--circleSize) * 1.1 / 2),
+      transparent calc(var(--ratingAnimation) * var(--circleSize) * 0.45),
+      #999 calc(var(--ratingAnimation) * var(--circleSize) * 0.45),
+      #999 calc(var(--ratingAnimation) * var(--circleSize) / 2),
+      transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)
+    ),
+    radial-gradient(
+      circle at 50% calc(var(--circleSize) * 1.1 / 2),
+      transparent calc(var(--ratingAnimation) * var(--circleSize) * 0.45),
+      #999 calc(var(--ratingAnimation) * var(--circleSize) * 0.45),
+      #999 calc(var(--ratingAnimation) * var(--circleSize) / 2),
+      transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)
+    ),
+    radial-gradient(
+      circle at 70% calc(var(--circleSize) * 1.1 / 2),
+      transparent calc(var(--ratingAnimation) * var(--circleSize) * 0.45),
+      #999 calc(var(--ratingAnimation) * var(--circleSize) * 0.45),
+      #999 calc(var(--ratingAnimation) * var(--circleSize) / 2),
+      transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)
+    ),
+    radial-gradient(
+      circle at 90% calc(var(--circleSize) * 1.1 / 2),
+      transparent calc(var(--ratingAnimation) * var(--circleSize) * 0.45),
+      #999 calc(var(--ratingAnimation) * var(--circleSize) * 0.45),
+      #999 calc(var(--ratingAnimation) * var(--circleSize) / 2),
+      transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)
+    ),
+    linear-gradient(
+        to left,
+        #fff,
+        #fff calc(var(--rating) / 5 * 100% * var(--ratingAnimation)),
+        transparent calc(var(--rating) / 5 * 100% * var(--ratingAnimation))
+      )
+      intersect,
+    radial-gradient(
+      circle at 10% calc(var(--circleSize) * 1.1 / 2),
+      #fff,
+      #fff calc(var(--ratingAnimation) * var(--circleSize) / 2),
+      transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)
+    ),
+    radial-gradient(
+      circle at 30% calc(var(--circleSize) * 1.1 / 2),
+      #fff,
+      #fff calc(var(--ratingAnimation) * var(--circleSize) / 2),
+      transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)
+    ),
+    radial-gradient(
+      circle at 50% calc(var(--circleSize) * 1.1 / 2),
+      #fff,
+      #fff calc(var(--ratingAnimation) * var(--circleSize) / 2),
+      transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)
+    ),
+    radial-gradient(
+      circle at 70% calc(var(--circleSize) * 1.1 / 2),
+      #fff,
+      #fff calc(var(--ratingAnimation) * var(--circleSize) / 2),
+      transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)
+    ),
+    radial-gradient(
+      circle at 90% calc(var(--circleSize) * 1.1 / 2),
+      #fff,
+      #fff calc(var(--ratingAnimation) * var(--circleSize) / 2),
+      transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)
     );
-    mask:
-      radial-gradient(
-        circle at 10% calc(var(--circleSize) * 1.1 / 2),
-        transparent calc(var(--ratingAnimation) * var(--circleSize) * 0.45),
-        #999 calc(var(--ratingAnimation) * var(--circleSize) * 0.45),
-        #999 calc(var(--ratingAnimation) * var(--circleSize) / 2),
-        transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)
-      ),
-      radial-gradient(
-        circle at 30% calc(var(--circleSize) * 1.1 / 2),
-        transparent calc(var(--ratingAnimation) * var(--circleSize) * 0.45),
-        #999 calc(var(--ratingAnimation) * var(--circleSize) * 0.45),
-        #999 calc(var(--ratingAnimation) * var(--circleSize) / 2),
-        transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)
-      ),
-      radial-gradient(
-        circle at 50% calc(var(--circleSize) * 1.1 / 2),
-        transparent calc(var(--ratingAnimation) * var(--circleSize) * 0.45),
-        #999 calc(var(--ratingAnimation) * var(--circleSize) * 0.45),
-        #999 calc(var(--ratingAnimation) * var(--circleSize) / 2),
-        transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)
-      ),
-      radial-gradient(
-        circle at 70% calc(var(--circleSize) * 1.1 / 2),
-        transparent calc(var(--ratingAnimation) * var(--circleSize) * 0.45),
-        #999 calc(var(--ratingAnimation) * var(--circleSize) * 0.45),
-        #999 calc(var(--ratingAnimation) * var(--circleSize) / 2),
-        transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)
-      ),
-      radial-gradient(
-        circle at 90% calc(var(--circleSize) * 1.1 / 2),
-        transparent calc(var(--ratingAnimation) * var(--circleSize) * 0.45),
-        #999 calc(var(--ratingAnimation) * var(--circleSize) * 0.45),
-        #999 calc(var(--ratingAnimation) * var(--circleSize) / 2),
-        transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)
-      ),
-      linear-gradient(
-          to left,
-          #fff,
-          #fff calc(var(--rating) / 5 * 100% * var(--ratingAnimation)),
-          transparent calc(var(--rating) / 5 * 100% * var(--ratingAnimation))
-        )
-        intersect,
-      radial-gradient(
-        circle at 10% calc(var(--circleSize) * 1.1 / 2),
-        #fff,
-        #fff calc(var(--ratingAnimation) * var(--circleSize) / 2),
-        transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)
-      ),
-      radial-gradient(
-        circle at 30% calc(var(--circleSize) * 1.1 / 2),
-        #fff,
-        #fff calc(var(--ratingAnimation) * var(--circleSize) / 2),
-        transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)
-      ),
-      radial-gradient(
-        circle at 50% calc(var(--circleSize) * 1.1 / 2),
-        #fff,
-        #fff calc(var(--ratingAnimation) * var(--circleSize) / 2),
-        transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)
-      ),
-      radial-gradient(
-        circle at 70% calc(var(--circleSize) * 1.1 / 2),
-        #fff,
-        #fff calc(var(--ratingAnimation) * var(--circleSize) / 2),
-        transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)
-      ),
-      radial-gradient(
-        circle at 90% calc(var(--circleSize) * 1.1 / 2),
-        #fff,
-        #fff calc(var(--ratingAnimation) * var(--circleSize) / 2),
-        transparent calc(var(--ratingAnimation) * var(--circleSize) / 2)
-      );
-    mask-mode: luminance;
-    height: calc(var(--circleSize) * 1.1);
-    width: calc(var(--circleSize) * 5 + var(--circleSize) * 4 * 0.25);
-    justify-self: flex-end;
+  mask-mode: luminance;
+  height: calc(var(--circleSize) * 1.1);
+  width: calc(var(--circleSize) * 5 + var(--circleSize) * 4 * 0.25);
+  justify-self: flex-end;
 
-    &.visible {
-      @media (prefers-reduced-motion: no-preference) {
-        animation: showRating 500ms 100ms ease-in-out forwards;
-      }
-      @media (prefers-reduced-motion: reduce) {
-        --ratingAnimation: 1;
-      }
+  &.visible {
+    @media (prefers-reduced-motion: no-preference) {
+      animation: showRating 500ms 100ms ease-in-out forwards;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      --ratingAnimation: 1;
     }
   }
 }
@@ -300,9 +281,50 @@
 }
 
 .cover {
-  img,
-  object {
-    border-radius: 3px;
+  align-items: center;
+  container-type: inline-size;
+  display: flex;
+  flex-flow: row nowrap;
+  grid-area: cover;
+  justify-content: center;
+  margin-right: 0.5rem;
+  width: var(--coverSize);
+
+  img {
+    height: auto;
+    max-height: 100cqw;
+    max-width: 100%;
+  }
+
+  &&:link,
+  &&:visited {
+    img {
+      border: 0;
+    }
+  }
+
+  &.xSmall {
+    --coverSize: 1em;
+  }
+
+  &.small {
+    --coverSize: 1.5em;
+  }
+
+  &.medium {
+    --coverSize: 2.5em;
+  }
+
+  &.large {
+    --coverSize: 4em;
+  }
+
+  &.xLarge {
+    --coverSize: 5em;
+  }
+
+  img {
+    border-radius: 0.25rem;
   }
 
   a&:link,

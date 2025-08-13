@@ -1,0 +1,49 @@
+---
+import clsx from 'clsx';
+import { type ComponentChildren, h } from 'preact';
+
+import CoverImage from '~components/reading/CoverImage';
+import Rating from '~components/reading/Rating';
+import type { BookPost } from '~lib/feed';
+
+import Timestamp from '../Timestamp';
+
+import styles from './Post.module.css';
+
+export interface Props {
+  entry: BookPost;
+}
+
+const {
+  entry: {
+    data: { title, date, eventType },
+    slug,
+    body,
+  },
+} = Astro.props;
+
+const Content =
+  eventType === 'finished' && !!body ? await Astro.props.entry.render().then(({ Content: C }) => C) : null;
+
+const Title =
+  eventType === 'started'
+    ? 'h3'
+    : ({ children }: { children: ComponentChildren }) =>
+        h('h2', null, [h('a', { href: `/reading/book/${slug}` }, children)]);
+---
+
+<section class={clsx(styles.entry, styles.book, eventType === 'started' && styles.started)}>
+  <header>
+    <div class={styles.cover}><CoverImage class={styles.coverImage} book={Astro.props.entry.data} /></div>
+    <Title>{eventType === 'started' ? 'Started' : 'Finished'}: {title}</Title>
+    {eventType === 'finished' && <Rating client:load class={styles.rating} rating={Astro.props.entry.data.rating} />}
+    <Timestamp value={date} />
+  </header>
+  {
+    eventType === 'finished' && Content && (
+      <main>
+        <Content />
+      </main>
+    )
+  }
+</section>

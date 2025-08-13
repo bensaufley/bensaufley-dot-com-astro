@@ -1,4 +1,4 @@
-import clsx from 'clsx';
+import clsx, { type ClassValue } from 'clsx';
 import { useEffect, useRef, useState } from 'preact/hooks';
 
 import styles from './styles.module.css';
@@ -9,7 +9,7 @@ const formatter = Intl.NumberFormat('en-US', {
   maximumFractionDigits: 2,
 });
 
-const Rating = ({ rating }: { rating: number | null }) => {
+const Rating = ({ class: className, rating }: { class?: ClassValue; rating: number | null }) => {
   const [shown, setShown] = useState(false);
 
   const ref = useRef<HTMLDivElement>(null);
@@ -34,7 +34,7 @@ const Rating = ({ rating }: { rating: number | null }) => {
   return (
     <div
       ref={ref}
-      class={clsx(styles.rating, shown && styles.visible)}
+      class={clsx(styles.rating, className, shown && styles.visible)}
       style={`--rating: ${rating}`}
       title={`Rating: ${formatter.format(rating)} / 5`}
     />

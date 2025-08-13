@@ -1,13 +1,13 @@
 ---
-import { getCollection } from 'astro:content';
+import { getFeed } from '~lib/feed';
 
 import PageComponent, { PER_PAGE } from '../../components/blog/Page.astro';
 
 export const getStaticPaths = async () => {
-  const posts = await getCollection('posts');
+  const [, entries] = await getFeed();
 
   return Array.from({
-    length: Math.ceil(posts.length / PER_PAGE),
+    length: Math.ceil(entries / PER_PAGE),
   }).map((_, i) => ({ params: { page: i + 1 }, props: { page: i + 1 } }));
 };
 

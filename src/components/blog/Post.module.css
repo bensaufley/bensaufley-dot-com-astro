@@ -1,6 +1,6 @@
 @import url('../../shared/mixins.css');
 
-.blogPost {
+.entry {
   + & {
     margin-top: 2rem;
   }
@@ -74,6 +74,55 @@
 
     ol {
       padding-left: 1rem;
+    }
+  }
+
+  &.book {
+    header {
+      display: grid;
+      gap: 0 1rem;
+      grid-template:
+        'cover title title' auto
+        'cover date rating' auto / 3rem 1fr;
+
+      > * {
+        margin: 0;
+      }
+    }
+
+    h2,
+    h3 {
+      grid-area: title;
+    }
+
+    time {
+      grid-area: date;
+      justify-self: flex-start;
+    }
+
+    .cover {
+      align-content: center;
+      grid-area: cover;
+
+      .coverImage {
+        margin: 0;
+        img {
+          margin: 0 auto;
+        }
+      }
+    }
+
+    &.started {
+      header {
+        align-items: center;
+        grid-template:
+          'cover title' auto
+          'cover date' auto / 3rem 1fr auto;
+      }
+
+      h3 {
+        font-size: 1em;
+      }
     }
   }
 }
