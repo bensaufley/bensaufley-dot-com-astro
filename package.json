@@ -12,12 +12,12 @@
     "lint:astro": "astro check",
     "lint:es": "bslint",
     "typecheck": "tsc --noEmit",
-    "check": "npm-run-all --parallel --continue-on-error typecheck lint:astro lint:es"
+    "check": "npm-run-all --aggregate-output --parallel --continue-on-error typecheck lint:astro lint:es"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/markdown-remark": "^6.3.3",
-    "@astrojs/mdx": "^4.3.0",
+    "@astrojs/mdx": "^4.3.3",
     "@astrojs/partytown": "^2.1.4",
     "@astrojs/preact": "^4.0.9",
     "@astrojs/sitemap": "^3.4.1",
@@ -27,7 +27,7 @@
     "browserslist": "^4.25.0",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.13",
-    "postcss-mixins": "^11.0.3",
+    "postcss-mixins": "^12.1.2",
     "postcss-preset-env": "^10.2.0",
     "postcss-simple-vars": "^7.0.1",
     "preact": "^10.26.9",
@@ -46,7 +46,7 @@
     "@types/postcss-mixins": "^9.0.6",
     "@types/postcss-preset-env": "^7.7.0",
     "@typescript-eslint/eslint-plugin": "^8.17.0",
-    "@typescript-eslint/parser": "^8.32.1",
+    "@typescript-eslint/parser": "^8.38.0",
     "cli": "^1.0.1",
     "dependency-cruiser": "^16.10.2",
     "enquirer": "^2.4.1",
