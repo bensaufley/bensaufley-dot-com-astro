@@ -23,7 +23,7 @@
     "@astrojs/sitemap": "^3.4.1",
     "@phosphor-icons/core": "^2.1.1",
     "@preact/signals": "^2.0.1",
-    "astro": "^5.6.1",
+    "astro": "^5.13.2",
     "browserslist": "^4.25.0",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.13",
