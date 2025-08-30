@@ -17,6 +17,6 @@ series:
   name: Raisa Susanto
   volume: 1
 startedAt: 2025-08-12T00:00:00.000Z
-finishedAt: null
+finishedAt: 2025-08-10T00:00:00.000Z
 rating: null
 ---
