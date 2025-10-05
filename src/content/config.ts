@@ -52,5 +52,4 @@ export type BookFrontmatter = InferCollectionSchema<typeof books>;
 export type PostFrontmatter = InferCollectionSchema<typeof posts>;
 export type Person = z.infer<typeof personSchema>;
 
-// eslint-disable-next-line import/prefer-default-export
 export const collections = { books, posts };

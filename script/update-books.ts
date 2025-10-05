@@ -188,14 +188,13 @@ cli.info(`Found ${resp.me[0].user_books.length} books since ${since.format('YYYY
 const { user_books: books } = resp.me[0];
 // eslint-disable-next-line no-restricted-syntax
 for (const book of books) {
-  // eslint-disable-next-line no-await-in-loop
   const shouldAddResp = await enquirer.prompt({
     type: 'confirm',
     name: 'shouldAdd',
     message: `Do you want to add the book titled "${book.book.title}"?`,
     initial: true,
   });
-  // eslint-disable-next-line no-continue
+
   if (!shouldAddResp.shouldAdd) continue;
 
   const { book: bookData, edition } = book;
@@ -228,6 +227,7 @@ for (const book of books) {
 
   cli.info('How does this look?');
   cli.info(stringify(fm, null, 2));
+
   // eslint-disable-next-line no-constant-condition
   while (true) {
     const { editBook } = await enquirer.prompt({

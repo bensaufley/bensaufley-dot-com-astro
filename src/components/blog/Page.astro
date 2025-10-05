@@ -77,12 +77,9 @@ const pages = Math.ceil(posts.length / PER_PAGE);
           headerImage={headerImage ? { url: headerImage.src, alt: headerImageAlt! } : undefined}
         >
           {html ? (
-            <>
-              <Fragment set:html={html} />
-              <a class={styles.readMore} href={`/blog/${slug}`}>
+            <a class={styles.readMore} href={`/blog/${slug}`}>
                 Read more&hellip;
               </a>
-            </>
           ) : (
             <Content />
           )}

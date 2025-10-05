@@ -32,16 +32,16 @@ export const LEFT_GOODREADS_DATE = dayjs.utc('2022-02-15');
   <h3>
     <div class={styles.icons}>
       {book.isbn13 && (
-        <a href={`https://bookshop.org/book/${book.isbn13}`} target="_blank" rel="noopener">
+        <a href={`https://bookshop.org/book/${book.isbn13}`} target="_blank" rel="noopener noreferrer">
           <Bookshop />
         </a>
       )}
       {book.isbn13 && (
-        <a href={`https://libro.fm/audiobooks/${book.isbn13}`} target="_blank" rel="noopener">
+        <a href={`https://libro.fm/audiobooks/${book.isbn13}`} target="_blank" rel="noopener noreferrer">
           <Libro />
         </a>
       )}
-      {book.hardcoverUrl && <a href={book.hardcoverUrl} target="_blank" rel="noopener" title="View in Hardcover"><Hardcover /></a>}
+      {book.hardcoverUrl && <a href={book.hardcoverUrl} target="_blank" rel="noopener noreferrer" title="View in Hardcover"><Hardcover /></a>}
       {LEFT_GOODREADS_DATE.isAfter(book.finishedAt, 'day') && (
         <span title="Imported from Goodreads">
           <Goodreads />

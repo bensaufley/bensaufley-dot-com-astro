@@ -1,4 +1,3 @@
-/* eslint-disable no-console, import/no-extraneous-dependencies */
 import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
 import preact from '@astrojs/preact';
