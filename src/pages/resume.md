@@ -14,7 +14,7 @@ order: 4
 
 Previously:
 
-- **Director, Front-End Engineering** _Sep 2022 – Sep 2025_
+- **Director, Front-End Engineering <small>(Momentum Commerce)</small>** _Sep 2022 – Sep 2025_
 
 Principal engineer and manager of frontend team for internal and consumer-facing applications for analysis of online retail and marketing data, now the primary web application for PMG Commerce. Consult on broader tech team architectural and DX efforts. Building in TypeScript Preact backed by PHP with Laravel and Python with FastAPI.
 
