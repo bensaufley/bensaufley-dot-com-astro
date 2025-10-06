@@ -1,6 +1,6 @@
 ---
 title: The Tainted Cup
-subtitle: An Exceptional Fantasy Mystery with a Classic Detective Duo
+subtitle: null
 authors:
   - lastName: Bennett
     firstName: Robert Jackson

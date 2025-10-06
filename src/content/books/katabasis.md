@@ -17,6 +17,6 @@ coverImageUrl: https://assets.hardcover.app/edition/32225923/0b2d78d7-f39a-4f06-
 hardcoverUrl: https://hardcover.app/books/katabasis-2025/editions/32225923
 series: null
 startedAt: 2025-08-29T00:00:00.000Z
-finishedAt: null
-rating: null
+finishedAt: 2025-09-05T00:00:00.000Z
+rating: 4.5
 ---
