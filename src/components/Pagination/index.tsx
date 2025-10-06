@@ -18,7 +18,7 @@ const Pagination = ({ page, pages, path }: Props) => {
   const length = Math.min(pages - 1, 6);
   const first = Math.max(page - 3, 1);
   const last = Math.min(first + length, pages - 1);
-  const numberedPages = Array.from({ length }, (_, i) => last - (length - i));
+  const numberedPages = Array.from({ length }, (_, i) => last - (length - i) + 1);
 
   return (
     <div class={styles.pageNav}>

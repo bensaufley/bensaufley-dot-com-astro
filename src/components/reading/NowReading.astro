@@ -15,7 +15,7 @@ const allBooks = (await getCollection('books', (book) => !book.data.finishedAt &
   <ul>
     {allBooks.map((book) => (
       <li class={styles.book}>
-        <a href={book.data.hardcoverUrl!} class={styles.cover} target="_blank" rel="noopener noreferrer">
+        <a href={book.data.hardcoverUrl!} class={styles.cover} target="_blank" rel="noopener">
           <object data={book.data.coverImageUrl} class={styles.coverImage}>
             {book.data.title}
           </object>
