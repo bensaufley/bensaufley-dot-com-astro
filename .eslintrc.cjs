@@ -14,10 +14,6 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['*.tsx', '*.jsx'],
-      extends: [require.resolve('@bensaufley/eslint-config/preact.cjs')],
-    },
-    {
       files: ['*.astro'],
       parser: 'astro-eslint-parser',
       parserOptions: {

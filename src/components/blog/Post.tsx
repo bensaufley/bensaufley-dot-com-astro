@@ -1,5 +1,6 @@
 import type { Dayjs } from 'dayjs';
-import type { JSX, RenderableProps } from 'preact';
+import { type JSX, type ParentProps, Show } from 'solid-js';
+import { Dynamic } from 'solid-js/web';
 
 import Timestamp from '../Timestamp';
 
@@ -18,12 +19,18 @@ interface Props {
     | undefined;
 }
 
-const Post = ({ title, titleElement: Title = 'h1', posted, href, headerImage, children }: RenderableProps<Props>) => (
+const Post = ({ title, titleElement: Title = 'h1', posted, href, headerImage, children }: ParentProps<Props>) => (
   <section class={styles.blogPost}>
     <header>
-      <Title>{href ? <a href={href}>{title}</a> : title}</Title>
+      <Dynamic component={Title}>
+        <Show when={href} fallback={title}>
+          <a href={href}>{title}</a>
+        </Show>
+      </Dynamic>
       <Timestamp value={posted} />
-      {headerImage && <img src={headerImage.url} alt={headerImage.alt} class={styles.headerImage} />}
+      <Show when={!!headerImage}>
+        <img src={headerImage!.url} alt={headerImage!.alt} class={styles.headerImage} />
+      </Show>
     </header>
     <main>{children}</main>
   </section>

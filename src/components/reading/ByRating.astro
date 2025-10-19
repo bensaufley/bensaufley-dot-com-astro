@@ -21,16 +21,17 @@ dayjs.extend(utc);
 const { page, rating } = Astro.props;
 
 export const PER_PAGE = 15;
-const allBooks = (await getCollection('books', (book) => !!book.data.finishedAt && book.data.rating === rating)).toSorted((a, b) => dayjs.utc(b.data.finishedAt).diff(a.data.finishedAt, 'day'));
+const allBooks = (
+  await getCollection('books', (book) => !!book.data.finishedAt && book.data.rating === rating)
+).toSorted((a, b) => dayjs.utc(b.data.finishedAt).diff(a.data.finishedAt, 'day'));
 
 const pages = Math.ceil(allBooks.length / PER_PAGE);
 const books = await Promise.all(
-  allBooks.slice((page - 1) * PER_PAGE, (page) * PER_PAGE)
-    .map(async (book) => {
-      const { Content} = await book.render();
-      return {...book, Content };
-    }),
-  );
+  allBooks.slice((page - 1) * PER_PAGE, page * PER_PAGE).map(async (book) => {
+    const { Content } = await book.render();
+    return { ...book, Content };
+  }),
+);
 ---
 
 <div class={styles.read}>
@@ -40,9 +41,13 @@ const books = await Promise.all(
 
   <ul class={styles.books}>
     {!books.length && <p class={styles.empty}>No books rated {rating} / 5. Now, isn't that interesting?</p>}
-    {books.map(({ Content, body, id: slug, data }) => (
-      <ReadBook book={data} hasReview={!!body} slug={basename(slug, extname(slug))}><Content /></ReadBook>
-    ))}
+    {
+      books.map(({ Content, body, id: slug, data }) => (
+        <ReadBook book={data} hasReview={!!body} slug={basename(slug, extname(slug))}>
+          <Content />
+        </ReadBook>
+      ))
+    }
   </ul>
 
   <Pagination page={page} pages={pages} path={`/reading/by-rating/${rating}/`} />

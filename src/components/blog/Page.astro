@@ -4,7 +4,6 @@ import type { AstroComponentFactory } from 'astro/runtime/server/index.js';
 import { getCollection } from 'astro:content';
 import dayjs from 'dayjs';
 import utc from 'dayjs/plugin/utc';
-import { type ComponentType, Fragment } from 'preact';
 
 import Pagination from '~components/Pagination';
 import BaseLayout from '~layouts/BaseLayout.astro';
@@ -36,7 +35,7 @@ const renderedPosts = await Promise.all(
     .slice((page - 1) * PER_PAGE, page * PER_PAGE)
     .map(async (post) => {
       const slug = getSlug(post);
-      let Content: AstroComponentFactory | ComponentType = () => null;
+      let Content: AstroComponentFactory | (() => null) = () => null;
       let html: string | null = null;
       if (post.data.preview) {
         html = post.data.preview;

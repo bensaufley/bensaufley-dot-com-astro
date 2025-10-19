@@ -1,6 +1,6 @@
 ---
+import type { SvgComponent } from 'astro/types';
 import clsx from 'clsx';
-import type { ComponentType, JSX } from 'preact';
 
 import type { Frontmatter } from '~layouts/BaseLayout.astro';
 
@@ -13,7 +13,10 @@ export interface Props {
 
 const { data, currentPath } = Astro.props;
 // It's annoying that we have to eager-load all of these :(
-const icons: Record<string, ComponentType<JSX.IntrinsicElements['svg']>> = import.meta.glob('../../../node_modules/@phosphor-icons/core/assets/regular/*.svg', { query: 'react', eager: true, import: 'default' });
+const icons: Record<string, SvgComponent> = import.meta.glob(
+  '../../../node_modules/@phosphor-icons/core/assets/regular/*.svg',
+  { eager: true, import: 'default' },
+);
 const filename = `node_modules/@phosphor-icons/core/assets/regular/${data.icon}.svg`;
 
 const Icon = icons[`../../../${filename}`]!;

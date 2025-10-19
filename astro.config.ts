@@ -1,12 +1,16 @@
+/// <reference types="vite/client" />
+/// <reference types="vite-plugin-solid-svg/types" />
+
+/* eslint-disable import/no-extraneous-dependencies */
 import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
-import preact from '@astrojs/preact';
 import sitemap from '@astrojs/sitemap';
+import solid from '@astrojs/solid-js';
 import { defineConfig } from 'astro/config';
 import dayjs from 'dayjs';
 import minMax from 'dayjs/plugin/minMax';
 import { resolve } from 'node:path';
-import svgr from 'vite-plugin-svgr';
+import solidSvg from 'vite-plugin-solid-svg';
 
 import { getLastMods, type LastMods } from './getLatestChanged.js';
 
@@ -16,7 +20,7 @@ let lastMods: LastMods;
 
 export default defineConfig({
   integrations: [
-    preact(),
+    solid(),
     mdx(),
     sitemap({
       serialize: async (entry) => {
@@ -76,20 +80,9 @@ export default defineConfig({
       },
     },
     plugins: [
-      // TS doesn't like Plugin<any> in PluginOptions but it works and
-      // this isn't even TypeScript where I could maybe coerce better.
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-      // @ts-ignore
-      svgr({
-        svgrOptions: {
-          jsxRuntime: 'classic-preact',
-        },
-        esbuildOptions: {
-          jsxFactory: 'h',
-          jsxImportSource: 'preact',
-          jsxFragment: 'Fragment',
-        },
-      }),
+      solidSvg({
+        defaultAsComponent: false,
+      }) as any,
     ],
   },
   output: 'static',

@@ -5,27 +5,39 @@ import styles from './styles.module.css';
 
 const books = await getCollection('books', (book) => !!book.data.finishedAt);
 
-const ratings = books.reduce((acc, { data: { rating }}) => {
-  if (rating) {
-    const normalized = (Math.round(rating * 2) / 2).toString();
-    acc[normalized] = (acc[normalized] || 0) + 1;
-  }
-  return acc;
-}, {} as Record<string, number>);
+const ratings = books.reduce(
+  (acc, { data: { rating } }) => {
+    if (rating) {
+      const normalized = (Math.round(rating * 2) / 2).toString();
+      acc[normalized] = (acc[normalized] || 0) + 1;
+    }
+    return acc;
+  },
+  {} as Record<string, number>,
+);
 const sortedRatings = Object.fromEntries(Object.entries(ratings).sort(([a], [b]) => Number(a) - Number(b)));
 const maxCount = Math.max(...Object.values(sortedRatings));
 const allPossibleRatings = ['1', '1.5', '2', '2.5', '3', '3.5', '4', '4.5', '5'];
-
 ---
 
 <div class={styles.ratings}>
   <h3>Ratings Breakdown</h3>
-  {allPossibleRatings.map((rating) => (
-    <a class={styles.ratingValue} href={`/reading/by-rating/${rating}/`} title={`Books rated ${rating} / 5`} aria-label={`Books rated ${rating} / 5`}>
-      <h4 class={styles.ratingLabel}>{rating}</h4>
-      <div class={styles.ratingBar} style={{ '--ratingBookFraction': `${(((sortedRatings[rating] ?? 0) + 1) / (maxCount + 1))}` }}>
-        <span class={styles.ratingCount}>{sortedRatings[rating] ?? 0}</span>
-      </div>
-    </a>
-  ))}
+  {
+    allPossibleRatings.map((rating) => (
+      <a
+        class={styles.ratingValue}
+        href={`/reading/by-rating/${rating}/`}
+        title={`Books rated ${rating} / 5`}
+        aria-label={`Books rated ${rating} / 5`}
+      >
+        <h4 class={styles.ratingLabel}>{rating}</h4>
+        <div
+          class={styles.ratingBar}
+          style={{ '--ratingBookFraction': `${((sortedRatings[rating] ?? 0) + 1) / (maxCount + 1)}` }}
+        >
+          <span class={styles.ratingCount}>{sortedRatings[rating] ?? 0}</span>
+        </div>
+      </a>
+    ))
+  }
 </div>

@@ -51,5 +51,5 @@ const topLevelFms = Object.entries<Frontmatter>(
   <ul>
     {topLevelFms.map((fm) => <NavItem currentPath={currentPath} data={fm} />)}
   </ul>
-  <ThemePicker context="header" client:only="preact" />
+  <ThemePicker context="header" client:only="solid-js" />
 </nav>

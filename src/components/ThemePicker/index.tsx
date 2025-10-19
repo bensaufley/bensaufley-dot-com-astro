@@ -1,8 +1,8 @@
-import CircleFill from '@phosphor-icons/core/fill/circle-fill.svg?react';
-import Circle from '@phosphor-icons/core/regular/circle.svg?react';
-import CircleHalf from '@phosphor-icons/core/regular/circle-half.svg?react';
-import { effect, signal } from '@preact/signals';
+import CircleFill from '@phosphor-icons/core/fill/circle-fill.svg?component-solid';
+import Circle from '@phosphor-icons/core/regular/circle.svg?component-solid';
+import CircleHalf from '@phosphor-icons/core/regular/circle-half.svg?component-solid';
 import clsx from 'clsx';
+import { createEffect, createSignal } from 'solid-js';
 
 import styles from './styles.module.css';
 
@@ -10,15 +10,19 @@ interface Props {
   context: 'header' | 'footer';
 }
 
-const theme = signal<'light' | 'dark' | null>(window.localStorage.getItem('theme') as 'light' | 'dark' | null);
+const [theme, setTheme] = createSignal<'light' | 'dark' | null>(
+  window.localStorage.getItem('theme') as 'light' | 'dark' | null,
+);
 
-effect(() => {
+createEffect(() => {
   document.body.classList.remove('light', 'dark');
-  if (theme.value) document.body.classList.add(theme.value);
+
+  const t = theme();
+  if (t) document.body.classList.add(t);
 });
 
 const updateTheme = (newTheme: 'light' | 'dark' | null) => {
-  theme.value = newTheme;
+  setTheme(newTheme);
 
   if (!newTheme) window.localStorage.removeItem('theme');
   else window.localStorage.setItem('theme', newTheme);

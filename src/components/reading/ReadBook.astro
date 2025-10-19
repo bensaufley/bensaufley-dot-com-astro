@@ -1,13 +1,13 @@
 ---
-import Goodreads from '@phosphor-icons/core/regular/goodreads-logo.svg?react';
+import Goodreads from '@phosphor-icons/core/regular/goodreads-logo.svg';
 import dayjs from 'dayjs';
 import utc from 'dayjs/plugin/utc';
 
 import type { BookFrontmatter } from '~content/config';
 
-import Bookshop from '../../assets/images/brand-bookshop.svg?react';
-import Hardcover from '../../assets/images/brand-hardcover-tinted.svg?react';
-import Libro from '../../assets/images/brand-libro.svg?react';
+import Bookshop from '../../assets/images/brand-bookshop.svg';
+import Hardcover from '../../assets/images/brand-hardcover-tinted.svg';
+import Libro from '../../assets/images/brand-libro.svg';
 
 import CoverImage from './CoverImage';
 import Rating from './Rating';
@@ -27,30 +27,53 @@ const { book, hasReview, slug } = Astro.props;
 // Not an exact date, but before this point everything is Goodreads
 export const LEFT_GOODREADS_DATE = dayjs.utc('2022-02-15');
 ---
+
 <li class={styles.book}>
   <CoverImage book={book} />
   <h3>
     <div class={styles.icons}>
-      {book.isbn13 && (
-        <a href={`https://bookshop.org/book/${book.isbn13}`} target="_blank" rel="noopener">
-          <Bookshop />
-        </a>
-      )}
-      {book.isbn13 && (
-        <a href={`https://libro.fm/audiobooks/${book.isbn13}`} target="_blank" rel="noopener">
-          <Libro />
-        </a>
-      )}
-      {book.hardcoverUrl && <a href={book.hardcoverUrl} target="_blank" rel="noopener" title="View in Hardcover"><Hardcover /></a>}
-      {LEFT_GOODREADS_DATE.isAfter(book.finishedAt, 'day') && (
-        <span title="Imported from Goodreads">
-          <Goodreads />
-        </span>
-      )}
+      {
+        book.isbn13 && (
+          <a href={`https://bookshop.org/book/${book.isbn13}`} target="_blank" rel="noopener">
+            <Bookshop />
+          </a>
+        )
+      }
+      {
+        book.isbn13 && (
+          <a href={`https://libro.fm/audiobooks/${book.isbn13}`} target="_blank" rel="noopener">
+            <Libro />
+          </a>
+        )
+      }
+      {
+        book.hardcoverUrl && (
+          <a href={book.hardcoverUrl} target="_blank" rel="noopener" title="View in Hardcover">
+            <Hardcover />
+          </a>
+        )
+      }
+      {
+        LEFT_GOODREADS_DATE.isAfter(book.finishedAt, 'day') && (
+          <span title="Imported from Goodreads">
+            <Goodreads />
+          </span>
+        )
+      }
     </div>
-    {hasReview
-      ? <a href={`/reading/book/${slug}`}>{book.title}{book.subtitle && <small>{book.subtitle}</small>}</a>
-      : <span>{book.title}{book.subtitle && <small>{book.subtitle}</small>}</span>}
+    {
+      hasReview ? (
+        <a href={`/reading/book/${slug}`}>
+          {book.title}
+          {book.subtitle && <small>{book.subtitle}</small>}
+        </a>
+      ) : (
+        <span>
+          {book.title}
+          {book.subtitle && <small>{book.subtitle}</small>}
+        </span>
+      )
+    }
   </h3>
   <p class={styles.author}>
     by {book.authors.map(({ firstName, lastName }) => `${firstName} ${lastName}`).join(', ')}

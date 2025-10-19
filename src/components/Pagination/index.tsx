@@ -1,4 +1,5 @@
 import clsx from 'clsx';
+import { For, Show } from 'solid-js';
 
 import styles from './styles.module.css';
 
@@ -22,15 +23,25 @@ const Pagination = ({ page, pages, path }: Props) => {
 
   return (
     <div class={styles.pageNav}>
-      {showFirst && <a href={path}>&#9666;&#9666;</a>}
-      {showPrev && <a href={page - 1 === 1 ? path : `${path}${page - 1}`}>&#9666; Previous</a>}
-      {numberedPages.map((n) => (
-        <a key={n} href={`${path}${n === 1 ? '' : n}`} class={clsx(n === page && styles.active)}>
-          {n}
-        </a>
-      ))}
-      {showNext && <a href={`${path}${page + 1}`}>Next &#9656;</a>}
-      {showLast && <a href={`${path}${pages - 1}`}>&#9656;&#9656;</a>}
+      <Show when={showFirst}>
+        <a href={path}>&#9666;&#9666;</a>
+      </Show>
+      <Show when={showPrev}>
+        <a href={page - 1 === 1 ? path : `${path}${page - 1}`}>&#9666; Previous</a>
+      </Show>
+      <For each={numberedPages}>
+        {(n) => (
+          <a href={`${path}${n === 1 ? '' : n}`} class={clsx(n === page && styles.active)}>
+            {n}
+          </a>
+        )}
+      </For>
+      <Show when={showNext}>
+        <a href={`${path}${page + 1}`}>Next &#9656;</a>
+      </Show>
+      <Show when={showLast}>
+        <a href={`${path}${pages - 1}`}>&#9656;&#9656;</a>
+      </Show>
     </div>
   );
 };

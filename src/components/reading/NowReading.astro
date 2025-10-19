@@ -7,20 +7,24 @@ import styles from './styles.module.css';
 
 dayjs.extend(utc);
 
-const allBooks = (await getCollection('books', (book) => !book.data.finishedAt && !!book.data.startedAt))
-  .toSorted((a, b) => dayjs.utc(b.data.finishedAt).diff(a.data.finishedAt, 'day'));
+const allBooks = (await getCollection('books', (book) => !book.data.finishedAt && !!book.data.startedAt)).toSorted(
+  (a, b) => dayjs.utc(b.data.finishedAt).diff(a.data.finishedAt, 'day'),
+);
 ---
+
 <div class={styles.nowReading}>
   <h3>Now Reading</h3>
   <ul>
-    {allBooks.map((book) => (
-      <li class={styles.book}>
-        <a href={book.data.hardcoverUrl!} class={styles.cover} target="_blank" rel="noopener">
-          <object data={book.data.coverImageUrl} class={styles.coverImage}>
-            {book.data.title}
-          </object>
-        </a>
-      </li>
-    ))}
+    {
+      allBooks.map((book) => (
+        <li class={styles.book}>
+          <a href={book.data.hardcoverUrl!} class={styles.cover} target="_blank" rel="noopener">
+            <object data={book.data.coverImageUrl} class={styles.coverImage}>
+              {book.data.title}
+            </object>
+          </a>
+        </li>
+      ))
+    }
   </ul>
 </div>

@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import { useEffect, useRef, useState } from 'preact/hooks';
+import { createSignal, onCleanup, onMount } from 'solid-js';
 
 import styles from './styles.module.css';
 
@@ -10,12 +10,13 @@ const formatter = Intl.NumberFormat('en-US', {
 });
 
 const Rating = ({ rating }: { rating: number | null }) => {
-  const [shown, setShown] = useState(false);
+  const [shown, setShown] = createSignal(false);
 
-  const ref = useRef<HTMLDivElement>(null);
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return undefined;
+  let ref: HTMLDivElement | undefined;
+  let observer: IntersectionObserver | undefined;
+
+  onMount(() => {
+    if (!ref) return;
 
     const observer = new IntersectionObserver(
       (entries) => {
@@ -23,18 +24,19 @@ const Rating = ({ rating }: { rating: number | null }) => {
       },
       { threshold: 0.1 },
     );
-    observer.observe(el);
-    return () => {
-      observer.unobserve(el);
-    };
-  }, []);
+    observer.observe(ref);
+  });
+
+  onCleanup(() => {
+    if (ref) observer?.unobserve(ref);
+  });
 
   if (!rating) return null;
 
   return (
     <div
       ref={ref}
-      class={clsx(styles.rating, shown && styles.visible)}
+      class={clsx(styles.rating, shown() && styles.visible)}
       style={`--rating: ${rating}`}
       title={`Rating: ${formatter.format(rating)} / 5`}
     />
