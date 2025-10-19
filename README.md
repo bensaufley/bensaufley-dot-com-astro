@@ -10,3 +10,4 @@ It's mostly just Astro, rendering during build.
 [bensaufley.com]: https://bensaufley.com
 [astro]: https://astro.build
 [solidjs]: https://solidjs.com
+[preact]: https://preactjs.com
