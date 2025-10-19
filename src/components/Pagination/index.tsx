@@ -3,7 +3,7 @@ import { For, Show } from 'solid-js';
 
 import styles from './styles.module.css';
 
-export interface Props {
+interface Props {
   /** 1-indexed */
   page: number;
   path: string;

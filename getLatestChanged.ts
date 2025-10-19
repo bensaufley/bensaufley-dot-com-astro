@@ -16,10 +16,10 @@ import { slug } from './src/lib/posts.js';
 dayjs.extend(utc);
 dayjs.extend(timezone);
 
-export const dirname = typeof __dirname !== 'undefined' ? __dirname : import.meta.dirname;
+const dirname = typeof __dirname !== 'undefined' ? __dirname : import.meta.dirname;
 const git = simpleGit(dirname);
 
-export const getLastModified = async (path: string) => {
+const getLastModified = async (path: string) => {
   if (!existsSync(path)) throw new Error(`File not found: ${path}`);
   const log = await git.log({ file: path });
   const date = log.all.at(0)?.date;
