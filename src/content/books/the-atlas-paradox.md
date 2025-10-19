@@ -1,6 +1,6 @@
 ---
 title: The Atlas Paradox
-subtitle: null
+subtitle: The Atlas Book 2
 authors:
   - lastName: Blake
     firstName: Olivie
@@ -35,6 +35,8 @@ series:
   name: The Atlas
   volume: 2
 startedAt: 2025-10-05T00:00:00.000Z
-finishedAt: null
-rating: null
+finishedAt: 2025-10-14T00:00:00.000Z
+rating: 3.75
 ---
+
+I enjoyed returning to these characters but the plot lacked a strong arc. I think this is often a problem with middle books in a series. I think it also got a little fractured in the last third, and didn't cleanly handle the way in which the characters appear to be kind of pairing up. It felt like some of their conversations were almost déjà vu—entendu, I guess.
