@@ -4,12 +4,20 @@ import { getCollection } from 'astro:content';
 import ByRating, { PER_PAGE } from '~components/reading/ByRating.astro';
 import BaseLayout from '~layouts/BaseLayout.astro';
 
-export const getStaticPaths = async () => (await Promise.all([1,1.5,2,2.5,3,3.5,4,4.5,5].map(async (rating) => {
-    const books = await getCollection('books', (book) => !!book.data.finishedAt && book.data.rating === rating);
-    return Array.from({
-      length: Math.ceil((books.length || 1) / PER_PAGE),
-    }).map((_, i) => ({ params: { slug: `${rating}${i + 1 === 1 ? '' : `/${i + 1}`}` }, props: { rating, page: i + 1 } }));
-  }))).flat();
+export const getStaticPaths = async () =>
+  (
+    await Promise.all(
+      [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5].map(async (rating) => {
+        const books = await getCollection('books', (book) => !!book.data.finishedAt && book.data.rating === rating);
+        return Array.from({
+          length: Math.ceil((books.length || 1) / PER_PAGE),
+        }).map((_, i) => ({
+          params: { slug: `${rating}${i + 1 === 1 ? '' : `/${i + 1}`}` },
+          props: { rating, page: i + 1 },
+        }));
+      }),
+    )
+  ).flat();
 
 export interface Props {
   class?: string | undefined;
@@ -20,6 +28,10 @@ export interface Props {
 const { class: className, page = 1, rating } = Astro.props;
 ---
 
-<BaseLayout class={className} frontmatter={{ title: "Reading", icon: 'books' }} url={page === 0 ? `/reading/by-rating/${rating}` : `/reading/by-rationg/${rating}/${page}`}>
+<BaseLayout
+  class={className}
+  frontmatter={{ title: 'Reading', icon: 'books' }}
+  url={page === 0 ? `/reading/by-rating/${rating}` : `/reading/by-rationg/${rating}/${page}`}
+>
   <ByRating page={page} rating={rating} />
 </BaseLayout>

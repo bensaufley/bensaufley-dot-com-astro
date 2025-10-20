@@ -20,6 +20,10 @@ export interface Props {
 const { class: className, page = 1 } = Astro.props;
 ---
 
-<BaseLayout class={className} frontmatter={{ title: "Reading", icon: 'books' }} url={page === 0 ? '/reading/' : `/reading/${page}`}>
+<BaseLayout
+  class={className}
+  frontmatter={{ title: 'Reading', icon: 'books' }}
+  url={page === 0 ? '/reading/' : `/reading/${page}`}
+>
   <Read page={page} />
 </BaseLayout>
