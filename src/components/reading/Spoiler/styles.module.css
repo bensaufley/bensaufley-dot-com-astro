@@ -2,6 +2,7 @@
   background-color: var(--accentColor);
   color: transparent;
   cursor: zoom-in;
+  display: inline;
   padding: 0.125rem 0.25rem;
   transition:
     color 300ms,
