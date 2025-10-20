@@ -9,24 +9,19 @@ import Header from '~components/Header/index.astro';
 
 import cssVariables from '../shared/variables.module.css';
 
-export interface Frontmatter {
-  title: string;
-  icon: string;
-  order?: number;
-  description?: string;
-}
-
-type ConditionalProps =
+type ConditionalProps = (
   | {
       url: string;
-      frontmatter: Frontmatter;
     }
-  | ({
+  | {
       request?: {
         pathname: string;
       };
-      frontmatter?: never;
-    } & Frontmatter);
+    }
+) & {
+  title: string;
+  description?: string | undefined;
+};
 
 export type Props = ConditionalProps & {
   class?: string | undefined;
@@ -34,8 +29,8 @@ export type Props = ConditionalProps & {
 
 let pathname: string;
 const { class: className } = Astro.props;
-const { title, description } = Astro.props.frontmatter ?? Astro.props;
-if (Astro.props.frontmatter) {
+const { title, description } = Astro.props;
+if ('url' in Astro.props) {
   ({ url: pathname } = Astro.props);
 } else if (Astro.props.request) {
   ({ pathname } = Astro.props.request);

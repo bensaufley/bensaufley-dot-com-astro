@@ -2,24 +2,17 @@
 import type { SvgComponent } from 'astro/types';
 import clsx from 'clsx';
 
-import type { Frontmatter } from '~layouts/BaseLayout.astro';
+import type { Frontmatter } from '~pages/types';
 
 import styles from './styles.module.css';
 
 export interface Props {
   data: Frontmatter & { path: string };
   currentPath: string;
+  icon?: SvgComponent | undefined;
 }
 
-const { data, currentPath } = Astro.props;
-// It's annoying that we have to eager-load all of these :(
-const icons: Record<string, SvgComponent> = import.meta.glob(
-  '../../../node_modules/@phosphor-icons/core/assets/regular/*.svg',
-  { eager: true, import: 'default' },
-);
-const filename = `node_modules/@phosphor-icons/core/assets/regular/${data.icon}.svg`;
-
-const Icon = icons[`../../../${filename}`]!;
+const { data, currentPath, icon: Icon } = Astro.props;
 
 const root = data.path.split('/')[1] || 'blog';
 const currentRoot = currentPath.split('/')[1] || 'blog';
@@ -28,7 +21,13 @@ const isCurrentPath = root === currentRoot;
 
 <li>
   <a href={data.path} class={clsx(isCurrentPath && styles.active)}>
-    <span class={styles.icon}><Icon /></span>
+    {
+      Icon && (
+        <span class={styles.icon}>
+          <Icon />
+        </span>
+      )
+    }
     <span class={styles.text}>{data.title}</span>
   </a>
 </li>

@@ -1,9 +1,11 @@
 ---
 title: Blog
-icon: house
 order: 0
 ---
 
+import House from '@phosphor-icons/core/regular/house.svg';
 import Page from './blog/[page].astro';
+
+export const Icon = House;
 
 <Page class="home" page={1} />

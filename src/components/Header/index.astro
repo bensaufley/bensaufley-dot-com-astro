@@ -1,8 +1,10 @@
 ---
+import type { SvgComponent } from 'astro/types';
 import clsx from 'clsx';
 import { basename, extname, relative, resolve } from 'node:path';
 
-import type { Frontmatter } from '../../layouts/BaseLayout.astro';
+import type { Frontmatter } from '~pages/types';
+
 import ThemePicker from '../ThemePicker';
 
 import NavItem from './NavItem.astro';
@@ -15,20 +17,25 @@ interface Props {
 
 const { currentPath } = Astro.props;
 
-const topLevelFms = Object.entries<Frontmatter>(
+const topLevelPages = Object.entries<{ frontmatter: Frontmatter; Icon?: SvgComponent }>(
   import.meta.glob('../../pages/{*.astro,*.md,*.mdx,*/index.astro,*/index.md,*/index.mdx}', {
     eager: true,
-    import: 'frontmatter',
   }),
 )
   .filter(([filename]) => !/404/.test(filename))
-  .map(([filename, fm]) => {
+  .map(([filename, { frontmatter: fm, Icon }]) => {
     const path = `/${relative(resolve('../../pages'), filename)}`;
     const ext = extname(path);
     const isIndex = basename(path, ext) === 'index';
-    return { path: path.slice(0, isIndex ? -`index${ext}`.length : -ext.length).replace(/\/?$/, '/'), ...fm };
+    return {
+      Icon,
+      data: {
+        path: path.slice(0, isIndex ? -`index${ext}`.length : -ext.length).replace(/\/?$/, '/'),
+        ...fm,
+      },
+    };
   })
-  .toSorted((a, b) => {
+  .toSorted(({ data: a }, { data: b }) => {
     if (a.order === undefined && b.order === undefined) return a.title.localeCompare(b.title);
     if (a.order === undefined) return 1;
     if (b.order === undefined) return -1;
@@ -49,7 +56,7 @@ const topLevelFms = Object.entries<Frontmatter>(
 <nav class={clsx('sticky', styles.stickyNav)}>
   <a href="/" class={styles.name}> BS</a>
   <ul>
-    {topLevelFms.map((fm) => <NavItem currentPath={currentPath} data={fm} />)}
+    {topLevelPages.map(({ data, Icon }) => <NavItem currentPath={currentPath} {data} icon={Icon} />)}
   </ul>
   <ThemePicker context="header" client:only="solid-js" />
 </nav>

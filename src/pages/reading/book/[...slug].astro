@@ -37,7 +37,7 @@ const {
 } = Astro;
 ---
 
-<BaseLayout url={`/reading/book/${slug}`} frontmatter={{ title: book.title, icon: 'book' }}>
+<BaseLayout url={`/reading/book/${slug}`} title={book.title}>
   <div class={styles.bookReview}>
     <h2>{book.title}</h2>
     {book.subtitle && <h3>{book.subtitle}</h3>}

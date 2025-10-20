@@ -1,6 +1,0 @@
-{
-  "$schema": "http://json.schemastore.org/lintstagedrc.schema",
-  "**/*.{astro,md,mdx}": ["npx prettier --write"],
-  "**/*.astro": ["npm run lint:astro"],
-  "**/*.{js,cjs,ts,tsx}": ["npm run format", "npm run lint:es", "npm run typecheck"]
-}

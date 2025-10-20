@@ -1,7 +1,7 @@
 .spoiler {
   background-color: var(--accentColor);
   color: transparent;
-  cursor: default;
+  cursor: zoom-in;
   padding: 0.125rem 0.25rem;
   transition:
     color 300ms,
@@ -18,5 +18,6 @@
     background-color: var(--mainBg);
     color: color-mix(in rgb, var(--accentColor), var(--mainColor));
     filter: drop-shadow(0 0 1px var(--accentColor));
+    cursor: zoom-out;
   }
 }

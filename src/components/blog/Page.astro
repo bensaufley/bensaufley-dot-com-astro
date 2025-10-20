@@ -63,11 +63,7 @@ const renderedPosts = await Promise.all(
 const pages = Math.ceil(posts.length / PER_PAGE);
 ---
 
-<BaseLayout
-  class={className}
-  frontmatter={{ title: page === 1 ? 'Home' : 'Blog', icon: 'house' }}
-  url={page === 1 ? '/' : `/blog/${page}`}
->
+<BaseLayout class={className} title={page === 1 ? 'Home' : 'Blog'} url={page === 1 ? '/' : `/blog/${page}`}>
   {
     renderedPosts.map(({ data: { title, date, headerImage, headerImageAlt }, html, Content, slug }, i) => (
       <Fragment key={slug}>

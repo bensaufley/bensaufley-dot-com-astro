@@ -1,15 +1,18 @@
 ---
 title: Reading
-icon: books
 layout: '../../layouts/BaseLayout.astro'
 order: 1
 ---
 
-import styles from '~components/reading/styles.module.css';
+import Books from '@phosphor-icons/core/regular/books.svg';
 import NowReading from '~components/reading/NowReading.astro';
 import UpNext from '~components/reading/UpNext.astro';
 import RatingsGraph from '~components/reading/RatingsGraph.astro';
 import Read from '~components/reading/Read.astro';
+
+import styles from '~components/reading/styles.module.css';
+
+export const Icon = Books;
 
 # Reading
 

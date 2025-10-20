@@ -30,7 +30,7 @@ const { class: className, page = 1, rating } = Astro.props;
 
 <BaseLayout
   class={className}
-  frontmatter={{ title: 'Reading', icon: 'books' }}
+  title="Reading"
   url={page === 0 ? `/reading/by-rating/${rating}` : `/reading/by-rationg/${rating}/${page}`}
 >
   <ByRating page={page} rating={rating} />
