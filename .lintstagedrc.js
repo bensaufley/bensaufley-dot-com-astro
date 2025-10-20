@@ -10,6 +10,7 @@ const config = {
   '**/*.{astro,md,mdx}': ['npx prettier --write'],
   '**/*.astro': ['npm run lint:astro'],
   '**/*.{js,cjs,ts,tsx}': ['npm run format', 'npm run lint:es', typecheck],
+  '**/*.css': 'npx prettier --write',
 };
 
 export default config;
