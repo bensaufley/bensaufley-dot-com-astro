@@ -138,8 +138,8 @@
       grid-area: review;
 
       p + p,
-      p + x-spoiler:has(p),
-      x-spoiler:has(p) + p {
+      p + spoiler:has(p),
+      spoiler:has(p) + p {
         margin-top: 1rem;
       }
 

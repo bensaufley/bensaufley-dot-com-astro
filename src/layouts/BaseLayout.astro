@@ -43,8 +43,11 @@ if (Astro.props.frontmatter) {
 }
 ---
 
-<html lang="en">
+<html lang="en" class="no-js">
   <head>
+    <script>
+      document.documentElement.classList.remove('no-js');
+    </script>
     <meta charset="utf-8" />
     <meta name="generator" content={Astro.generator} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -79,13 +82,6 @@ gtag('config', 'G-HXDEJNG2F6');
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content={cssVariables.dark} />
     <title>Ben Saufley - {title}</title>
     <meta name="description" content={description ?? 'Personal website for Ben Saufley, a software engineer and illustrator from Portland, Maine.'} />
-    <!-- web components -->
-    <script>
-      import Spoiler from '~components/webComponents/Spoiler';
-
-      Spoiler.register();
-    </script>
-    <!-- end web components -->
   </head>
   <body class={clsx(className)}>
     <Header currentPath={pathname} />

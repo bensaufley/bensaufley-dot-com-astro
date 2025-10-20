@@ -1,0 +1,11 @@
+---
+import SpoilerTSX from './Spoiler/index';
+
+export interface Props {
+  hide?: boolean;
+}
+
+const { hide = true } = Astro.props;
+---
+
+<SpoilerTSX client:load hide={hide}><slot /></SpoilerTSX>
