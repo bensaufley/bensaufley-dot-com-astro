@@ -44,7 +44,7 @@
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
-    "graphql-request": "^7.2.0",
+    "graphql-request": "^7.3.1",
     "husky": "^9.1.7",
     "knip": "^5.66.1",
     "lint-staged": "^16.2.4",
