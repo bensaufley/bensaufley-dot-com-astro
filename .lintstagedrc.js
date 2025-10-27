@@ -12,7 +12,7 @@ const typecheck = (..._files) => `npm run typecheck`;
 
 /** @type import('lint-staged').Configuration */
 const config = {
-  '**/*.{astro,md,mdx}': ['npx prettier --write'],
+  '**/*.{astro,json,md,mdx}': ['npx prettier --write'],
   '**/*.astro': ['npm run format:es', astroCheck],
   '**/*.{js,cjs,ts,tsx}': ['npm run format:es', typecheck],
   '**/*.css': ['npm run format:css', 'npx prettier --write'],
