@@ -15,10 +15,10 @@
   }
 
   &.visible,
-  :root:global(.no-js) &:hover {
+  :root:global(.noJs) &:hover {
     background-color: var(--mainBg);
     color: color-mix(in rgb, var(--accentColor), var(--mainColor));
-    filter: drop-shadow(0 0 1px var(--accentColor));
     cursor: zoom-out;
+    filter: drop-shadow(0 0 1px var(--accentColor));
   }
 }

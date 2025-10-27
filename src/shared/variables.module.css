@@ -1,19 +1,18 @@
 @import url('./variables.css');
 
+/* stylelint-disable */
 :export {
-  cornSilk: $cornSilk;
-  xanthous: $xanthous;
-  orange: $orange;
-  fireEngineRed: $fireEngineRed;
-  prussianBlue: $prussianBlue;
-
-  white: $white;
-  black: $black;
-
-  light: $light;
-  dark: $dark;
   accent: $accent;
-
+  black: $black;
+  cornSilk: $cornSilk;
+  dark: $dark;
+  fireEngineRed: $fireEngineRed;
+  light: $light;
+  orange: $orange;
+  prussianBlue: $prussianBlue;
   sansStack: $sansStack;
   serifStack: $serifStack;
+  white: $white;
+  xanthous: $xanthous;
 }
+/* stylelint-enable */

@@ -11,8 +11,8 @@
       pointer-events: none;
 
       &::after {
-        opacity: 0.25;
         inset: 0 -0.5rem;
+        opacity: 0.25;
       }
     }
   }

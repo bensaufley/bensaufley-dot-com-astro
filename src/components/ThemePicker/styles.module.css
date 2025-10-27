@@ -4,8 +4,8 @@
 .themeToggle {
   flex-flow: row nowrap;
   grid-area: theme;
-  margin-left: auto;
   justify-self: flex-end;
+  margin-left: auto;
 
   button {
     appearance: none;
@@ -17,7 +17,7 @@
 
     body.light &.light,
     body.dark &.dark,
-    body:not(.light):not(.dark) &.system {
+    body:not(.light, .dark) &.system {
       scale: 1.2;
     }
 
@@ -43,8 +43,8 @@
   }
 
   nav & {
-    grid-row: 1 / 2;
     grid-column: 3 / 4;
+    grid-row: 1 / 2;
     padding: 0 1rem;
   }
 

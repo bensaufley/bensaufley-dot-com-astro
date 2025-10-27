@@ -34,13 +34,23 @@
     border: 2px solid var(--secondaryAccentColor);
     cursor: pointer;
     display: block;
-    height: auto;
-    width: 150px;
     float: none;
-    margin: 10px auto;
+    height: auto;
+    margin: 0.625rem auto;
+    width: 9.375rem;
 
     &:hover {
       border-color: var(--accentColor);
+    }
+
+    &:global(.align-left) {
+      float: left;
+      margin-right: 0.625rem;
+    }
+
+    &:global(.align-right) {
+      float: right;
+      margin-right: 0.625rem;
     }
 
     &:global(.no-border) {
@@ -53,15 +63,6 @@
         border-color: var(--secondaryAccentColor);
         cursor: default;
       }
-    }
-    &:global(.align-left) {
-      float: left;
-      margin-right: 10px;
-    }
-
-    &:global(.align-right) {
-      float: right;
-      margin-right: 10px;
     }
   }
 

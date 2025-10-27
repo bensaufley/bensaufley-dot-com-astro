@@ -34,8 +34,8 @@ body {
 
   > main {
     grid-area: main;
-    max-width: 60rem;
     margin: 0 auto;
+    max-width: 60rem;
     padding: 0 1rem;
     width: stretch;
 
@@ -76,8 +76,8 @@ a:link:not(nav *),
 a:visited:not(nav *) {
   color: var(--mainLinkColor);
   display: inline-block;
-  text-decoration: none;
   position: relative;
+  text-decoration: none;
 
   &::after {
     background-color: var(--mainLinkHoverColor);
@@ -97,8 +97,8 @@ a:visited:not(nav *) {
   &:hover,
   &:focus {
     &::after {
-      opacity: 1;
       inset: 0 -0.5rem;
+      opacity: 1;
     }
   }
 }
