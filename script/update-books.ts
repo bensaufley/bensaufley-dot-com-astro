@@ -8,8 +8,9 @@ import utc from 'dayjs/plugin/utc';
 import Enquirer from 'enquirer';
 import { gql, request } from 'graphql-request';
 import { existsSync, readFileSync } from 'node:fs';
-import { readdir, writeFile } from 'node:fs/promises';
+import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
+import prettier from 'prettier';
 import { stringify } from 'yaml';
 
 import type { BookFrontmatter } from '~content/config';
@@ -25,6 +26,8 @@ const enquirer = new Enquirer<{
 dayjs.extend(utc);
 
 const dirname = import.meta.dirname ?? __dirname;
+
+const prettierRc = JSON.parse(await readFile(resolve(dirname, '../.prettierrc'), 'utf-8'));
 
 const parseAuthor = (author: string) => {
   const parts = author.split(/\s+/g);
@@ -322,13 +325,15 @@ for (const book of books) {
   });
   if (!saveBook) continue;
 
-  await writeFile(
-    fileName,
-    `---\n${stringify(fm, null, 2).trim()}\n---\n${book.review_html ?? book.review_raw ?? ''}\n`,
-    {
-      flag: 'w',
-      encoding: 'utf-8',
-    },
-  );
+  const output = `---\n${stringify(fm, null, 2).trim()}\n---\n${book.review_html ?? book.review_raw ?? ''}\n`;
+  const formatted = await prettier.format(output, {
+    ...prettierRc,
+    parser: 'markdown',
+  });
+
+  await writeFile(fileName, formatted, {
+    flag: 'w',
+    encoding: 'utf-8',
+  });
   cli.info(`Book "${fm.title}" updated successfully!`);
 }

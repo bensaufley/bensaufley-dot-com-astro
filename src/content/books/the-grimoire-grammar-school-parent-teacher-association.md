@@ -15,6 +15,8 @@ coverImageUrl: https://assets.hardcover.app/edition/31741283/80e9630f1fa27a5ef1f
 hardcoverUrl: https://hardcover.app/books/the-grimoire-grammar-school-parent-teacher-association/editions/32296413
 series: null
 startedAt: 2025-10-18T00:00:00.000Z
-finishedAt: null
-rating: null
+finishedAt: 2025-10-23T00:00:00.000Z
+rating: 4
 ---
+
+Really enjoyed this. It's cozy, but it's a bit deeper than I might expect from something cozy. As a parent of a toddler just starting in childcare, I found that this resonated surprisingly deeply and the fantasy elements easily mapped, without being heavy handed, to real parenting concerns.
