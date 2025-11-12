@@ -1,9 +1,28 @@
+@import url('../../shared/mixins.css');
+
 .pageFooter {
   display: grid;
-  grid-template: '. copyright theme' auto / 1fr auto 1fr;
+  grid-template: 'gh copyright theme' auto / 1fr auto 1fr;
   width: stretch;
 
   p {
     grid-area: copyright;
+  }
+
+  .ghLink {
+    color: var(--mainColor);
+    grid-area: gh;
+
+    svg {
+      height: 1.25em;
+    }
+
+    &::after {
+      display: none;
+    }
+
+    @mixin desktop {
+      display: none;
+    }
   }
 }

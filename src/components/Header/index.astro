@@ -1,4 +1,5 @@
 ---
+import GitHub from '@phosphor-icons/core/fill/github-logo-fill.svg';
 import type { SvgComponent } from 'astro/types';
 import clsx from 'clsx';
 import { basename, extname, relative, resolve } from 'node:path';
@@ -45,8 +46,10 @@ const topLevelPages = Object.entries<{ frontmatter: Frontmatter; Icon?: SvgCompo
 
 <header class={clsx('sticky', styles.pageHeader)}>
   <h2 class={styles.name}>
-    <span class={styles.firstName}>Ben</span>
-    <span class={styles.lastName}>Saufley</span>
+    <a href="/">
+      <span class={styles.firstName}>Ben</span>
+      <span class={styles.lastName}>Saufley</span>
+    </a>
   </h2>
   <h3 class={styles.position}>
     Software <br class={styles.desktopBreak} />
@@ -55,6 +58,12 @@ const topLevelPages = Object.entries<{ frontmatter: Frontmatter; Icon?: SvgCompo
 </header>
 <nav class={clsx('sticky', styles.stickyNav)}>
   <a href="/" class={styles.name}> BS</a>
+  <a
+    href="https://github.com/bensaufley/personal-website"
+    rel="noopener noreferer"
+    class={styles.ghLink}
+    target="_blank"><GitHub /></a
+  >
   <ul>
     {topLevelPages.map(({ data, Icon }) => <NavItem currentPath={currentPath} {data} icon={Icon} />)}
   </ul>

@@ -33,6 +33,14 @@
       1.5px 1.5px 0 var(--secondaryAccentColor),
       2px 2px 0 var(--secondaryAccentColor);
 
+    a:link {
+      display: contents;
+
+      &::after {
+        display: none;
+      }
+    }
+
     @mixin desktop {
       line-height: 1;
       margin: 0 auto;
@@ -123,7 +131,7 @@
   background: var(--navBg);
   color: var(--navColor);
   display: grid;
-  font-family: 'DM Serif Display', serif;
+  font-family: $serifStack;
   font-size: 1rem;
   font-weight: 400;
   grid-area: nav;
@@ -158,14 +166,27 @@
     transition: opacity 300ms;
   }
 
+  a.ghLink {
+    color: var(--mainColor);
+    display: none;
+    transition: font-size 300ms;
+
+    svg {
+      width: 1em;
+    }
+
+    @mixin desktop {
+      display: flex;
+    }
+  }
+
   &:global(.stuck) {
     .name {
       opacity: 1;
       pointer-events: auto;
 
       @mixin desktop {
-        opacity: 0;
-        pointer-events: none;
+        display: none;
       }
     }
   }

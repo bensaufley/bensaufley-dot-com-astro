@@ -1,6 +1,6 @@
-import CircleFill from '@phosphor-icons/core/fill/circle-fill.svg?component-solid';
-import Circle from '@phosphor-icons/core/regular/circle.svg?component-solid';
-import CircleHalf from '@phosphor-icons/core/regular/circle-half.svg?component-solid';
+import CircleHalfTilt from '@phosphor-icons/core/fill/circle-half-tilt-fill.svg?component-solid';
+import MoonStars from '@phosphor-icons/core/fill/moon-stars-fill.svg?component-solid';
+import Sun from '@phosphor-icons/core/fill/sun-fill.svg?component-solid';
 import clsx from 'clsx';
 import { createEffect, createSignal } from 'solid-js';
 
@@ -37,7 +37,7 @@ const ThemePicker = ({ context }: Props) => (
       aria-label="Use Light Theme"
       type="button"
     >
-      <Circle />
+      <Sun />
     </button>
     <button
       onClick={() => updateTheme(null)}
@@ -46,7 +46,7 @@ const ThemePicker = ({ context }: Props) => (
       aria-label="Use System Theme"
       type="button"
     >
-      <CircleHalf />
+      <CircleHalfTilt />
     </button>
     <button
       onClick={() => updateTheme('dark')}
@@ -55,7 +55,7 @@ const ThemePicker = ({ context }: Props) => (
       aria-label="Use Dark Theme"
       type="button"
     >
-      <CircleFill />
+      <MoonStars />
     </button>
   </div>
 );

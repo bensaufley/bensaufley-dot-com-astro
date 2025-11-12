@@ -1,10 +1,18 @@
 ---
+import GitHub from '@phosphor-icons/core/fill/github-logo-fill.svg';
+
 import ThemePicker from '../ThemePicker';
 
 import styles from './styles.module.css';
 ---
 
 <footer class={styles.pageFooter}>
+  <a
+    href="https://github.com/bensaufley/personal-website"
+    rel="noopener noreferer"
+    class={styles.ghLink}
+    target="_blank"><GitHub /></a
+  >
   <p>
     ©{new Date().getFullYear()}{' '}
     <a href="/contact">Ben Saufley</a>
