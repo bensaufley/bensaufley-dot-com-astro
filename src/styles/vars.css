@@ -1,5 +1,53 @@
 @import url('../shared/variables.css');
 
+@property --navBg {
+  inherits: true;
+  initial-value: $white;
+  syntax: '<color>';
+}
+
+@property --navColor {
+  inherits: true;
+  initial-value: $dark;
+  syntax: '<color>';
+}
+
+@property --mainBg {
+  inherits: true;
+  initial-value: $light;
+  syntax: '<color>';
+}
+
+@property --mainColor {
+  inherits: true;
+  initial-value: $dark;
+  syntax: '<color>';
+}
+
+@property --mainLinkColor {
+  inherits: true;
+  initial-value: $fireEngineRed;
+  syntax: '<color>';
+}
+
+@property --mainLinkHoverColor {
+  inherits: true;
+  initial-value: $xanthous;
+  syntax: '<color>';
+}
+
+@property --accentColor {
+  inherits: true;
+  initial-value: $fireEngineRed;
+  syntax: '<color>';
+}
+
+@property --secondaryAccentColor {
+  inherits: true;
+  initial-value: $orange;
+  syntax: '<color>';
+}
+
 :root {
   --navBg: $white;
   --navColor: $dark;
@@ -12,7 +60,7 @@
 
   color-scheme: light dark;
 
-  body.dark {
+  &.dark {
     --navBg: $black;
     --navColor: $white;
     --mainBg: $dark;
@@ -27,7 +75,7 @@
   }
 
   @media (prefers-color-scheme: dark) {
-    body:not(.light) {
+    &:not(.light) {
       --navBg: $black;
       --navColor: $white;
       --mainBg: $dark;

@@ -15,10 +15,10 @@ const [theme, setTheme] = createSignal<'light' | 'dark' | null>(
 );
 
 createEffect(() => {
-  document.body.classList.remove('light', 'dark');
+  document.documentElement.classList.remove('light', 'dark');
 
   const t = theme();
-  if (t) document.body.classList.add(t);
+  if (t) document.documentElement.classList.add(t);
 });
 
 const updateTheme = (newTheme: 'light' | 'dark' | null) => {

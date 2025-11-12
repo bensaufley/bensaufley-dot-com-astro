@@ -3,17 +3,8 @@
 @import url('./css-reset.css');
 @import url('./vars.css');
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: $serifStack;
-  font-weight: 400;
-}
-
 :root {
+  background: var(--navBg);
   font-size: 14px;
 
   @mixin tablet {
@@ -70,6 +61,16 @@ body {
       align-self: top;
     }
   }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $serifStack;
+  font-weight: 400;
 }
 
 a:link:not(nav *),
