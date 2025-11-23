@@ -67,6 +67,36 @@ const since = dayjs.utc(args.since);
 
 const token = (args.token.startsWith('Bearer ') ? (args.token as string) : `Bearer ${args.token}`).trim();
 
+interface ReviewSlate {
+  document: Document;
+}
+
+interface Document {
+  object: 'document';
+  children: readonly Paragraph[];
+}
+
+interface Paragraph {
+  data: Record<string, never>;
+  type: 'paragraph';
+  object: 'block';
+  children: readonly ParagraphChild[];
+}
+
+type ParagraphChild =
+  | {
+      text: string;
+      object: 'text';
+      italic?: boolean;
+      spoiler?: boolean;
+    }
+  | {
+      object: 'inline';
+      type: 'br';
+      children: never[];
+      data: Record<string, never>;
+    };
+
 interface Response {
   me: [
     {
@@ -102,8 +132,8 @@ interface Response {
           }[];
         };
         last_read_date: string | null;
-        review_html: string | null;
-        review_raw: string | null;
+        review_slate: ReviewSlate | null;
+        review_has_spoilers: boolean;
         rating: number | null;
         user_book_status: {
           status: string;
@@ -113,6 +143,42 @@ interface Response {
     },
   ];
 }
+
+const slateToMd = (slate: ReviewSlate): string =>
+  slate.document.children
+    .flatMap((para) =>
+      para.children
+        // eslint-disable-next-line array-callback-return, consistent-return
+        .map((child, i, arr): string => {
+          switch (child.object) {
+            case 'text': {
+              const prev = arr.at(i - 1);
+              const next = arr.at(i + 1);
+              let { text, italic, spoiler } = child;
+              if (italic) {
+                const prevItalic = prev?.object === 'text' && prev.italic === true;
+                const nextItalic = next?.object === 'text' && next.italic === true;
+                if (!prevItalic) text = `_${text}`;
+                if (!nextItalic) text += '_';
+              }
+              if (spoiler) {
+                const prevSpoiler = prev?.object === 'text' && prev.spoiler === true;
+                const nextSpoiler = next?.object === 'text' && next.spoiler === true;
+                if (!prevSpoiler) text = `<Spoiler>${text}`;
+                if (!nextSpoiler) text += '</Spoiler>';
+              }
+              return text;
+            }
+            case 'inline':
+              switch (child.type) {
+                case 'br':
+                  return '\n';
+              }
+          }
+        })
+        .join(''),
+    )
+    .join('\n');
 
 const resp = await request<Response>(
   'https://api.hardcover.app/v1/graphql',
@@ -163,8 +229,8 @@ const resp = await request<Response>(
             }
           }
           last_read_date
-          review_html
-          review_raw
+          review_slate
+          review_has_spoilers
           rating
           user_book_status {
             status
@@ -311,7 +377,7 @@ for (const book of books) {
   }
 
   const { slug } = fm;
-  const fileName = resolve(dirname, '../src/content/books', `${slug!}.md`);
+  const fileName = resolve(dirname, '../src/content/books', `${slug!}.md${book.review_has_spoilers ? 'x' : ''}`);
   delete fm.slug; // Remove slug from frontmatter, it will be used as the filename
 
   const willOverwrite = existsSync(fileName);
@@ -325,7 +391,7 @@ for (const book of books) {
   });
   if (!saveBook) continue;
 
-  const output = `---\n${stringify(fm, null, 2).trim()}\n---\n${book.review_html ?? book.review_raw ?? ''}\n`;
+  const output = `---\n${stringify(fm, null, 2).trim()}\n---${book.review_has_spoilers ? "\n\nimport Spoiler from '~components/reading/Spoiler.astro';\n" : ''}\n${book.review_slate ? slateToMd(book.review_slate) : ''}\n`;
   const formatted = await prettier.format(output, {
     ...prettierRc,
     parser: 'markdown',
