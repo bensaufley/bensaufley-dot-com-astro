@@ -4,7 +4,9 @@ import Sun from '@phosphor-icons/core/fill/sun-fill.svg?component-solid';
 import clsx from 'clsx';
 import { type ComponentProps, createEffect, createSignal } from 'solid-js';
 
-import Tooltip from '~components/Tooltip';
+import type Tooltip from '~components/Tooltip';
+
+import TooltipIcon from '../TooltipIcon';
 
 import styles from './styles.module.css';
 
@@ -42,48 +44,36 @@ const tooltipProps: ComponentProps<typeof Tooltip>['tooltipProps'] = {
 
 const ThemePicker = ({ context, invert = false }: Props) => (
   <div class={clsx(styles.themeToggle, styles[context])}>
-    <Tooltip
-      as="button"
+    <TooltipIcon
       onClick={() => updateTheme('light')}
       class={styles.light}
-      title="Use Light Theme"
-      aria-label="Use Light Theme"
-      content="Use Light Theme"
-      type="button"
       invert={invert}
       tooltipProps={tooltipProps}
       zIndex={11}
+      icon={Sun}
     >
-      <Sun />
-    </Tooltip>
-    <Tooltip
-      as="button"
+      Use Light Theme
+    </TooltipIcon>
+    <TooltipIcon
       onClick={() => updateTheme(null)}
       class={styles.system}
-      title="Use System Theme"
-      aria-label="Use System Theme"
-      content="Use System Theme"
-      type="button"
       invert={invert}
       tooltipProps={tooltipProps}
       zIndex={11}
+      icon={CircleHalfTilt}
     >
-      <CircleHalfTilt />
-    </Tooltip>
-    <Tooltip
-      as="button"
+      Use System Theme
+    </TooltipIcon>
+    <TooltipIcon
       onClick={() => updateTheme('dark')}
       class={styles.dark}
-      title="Use Dark Theme"
-      aria-label="Use Dark Theme"
-      content="Use Dark Theme"
-      type="button"
       invert={invert}
       tooltipProps={tooltipProps}
       zIndex={11}
+      icon={MoonStars}
     >
-      <MoonStars />
-    </Tooltip>
+      Use Dark Theme
+    </TooltipIcon>
   </div>
 );
 

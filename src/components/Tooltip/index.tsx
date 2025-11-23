@@ -1,17 +1,17 @@
 /* eslint-disable no-redeclare, prefer-arrow-functions/prefer-arrow-functions */
-import Tt from '@corvu/tooltip';
+import Tt, { type RootProps } from '@corvu/tooltip';
 import { type ClassValue, clsx } from 'clsx';
-import type { Accessor, ComponentProps, JSX, ParentComponent } from 'solid-js';
+import type { Accessor, JSX, ParentComponent } from 'solid-js';
 
 import styles from './styles.module.css';
 
 interface Props {
   content: JSX.Element | Accessor<JSX.Element>;
   children: JSX.Element;
-  tooltipProps?: Omit<ComponentProps<typeof Tt>, 'children'>;
+  tooltipProps?: Omit<RootProps, 'children'>;
   anchorClass?: ClassValue;
   invert?: boolean;
-  zIndex?: number;
+  zIndex?: number | undefined;
 }
 
 export default function Tooltip(
