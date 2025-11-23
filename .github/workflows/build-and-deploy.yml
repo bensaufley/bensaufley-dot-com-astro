@@ -59,10 +59,14 @@ jobs:
           printf "${{ secrets.FTP_PASSWORD }}" > .ftp-credentials
           chmod 600 .ftp-credentials
 
+          mkdir -p ~/.ssh
+          ssh-keyscan -H ${{ secrets.FTP_HOST }} >> ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/known_hosts
+
           sshpass -f ./.ftp-credentials \
             rsync \
               -avzh --delete --checksum \
               ./dist/ \
-              "${{ secrets.FTP_USER }}@${{ secrets.FTP_HOST }}:/home/bensaufley/bensaufley.com/"
+              "${{ secrets.FTP_USER }}@${{ secrets.FTP_HOST }}:${{ secrets.FTP_ROOT_PATH }}"
 
           rm -f .ftp-credentials
