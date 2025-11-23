@@ -7,6 +7,11 @@
   justify-self: flex-end;
   margin-left: auto;
 
+  [data-corvu-tooltip-anchor] {
+    align-items: center;
+    display: flex;
+  }
+
   button {
     appearance: none;
     background: transparent;

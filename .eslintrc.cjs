@@ -14,6 +14,11 @@ module.exports = {
   },
   overrides: [
     {
+      files: ['*.mdx'],
+      plugins: ['mdx'],
+      extends: ['plugin:mdx/recommended'],
+    },
+    {
       files: ['*.astro'],
       parser: 'astro-eslint-parser',
       parserOptions: {

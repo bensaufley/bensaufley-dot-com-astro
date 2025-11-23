@@ -1,0 +1,125 @@
+@import url('../../shared/variables.css');
+@import url('../../shared/mixins.css');
+
+.skills {
+  header {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+}
+
+.switch {
+  align-self: center;
+  appearance: none;
+  background-color: rgb(from var(--mainColor) r g b / 15%);
+  background-image: radial-gradient(
+    circle at center,
+    rgb(from var(--accentColor) r g b / 15%),
+    rgb(from var(--accentColor) r g b / 25%) 66%,
+    transparent 66%
+  );
+  background-repeat: no-repeat;
+  background-size: 1.5rem 1.5rem;
+  border: 0;
+  border-radius: 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 0.875rem;
+  gap: 0;
+  margin-left: auto;
+  padding: 0;
+  transition: background-position 300ms;
+
+  svg {
+    height: 1rem;
+    width: auto;
+  }
+
+  &:has(span:first-child.selected) {
+    background-position: left center;
+  }
+
+  &:has(span:last-child.selected) {
+    background-position: right center;
+  }
+
+  span {
+    align-items: center;
+    border-radius: 1rem;
+    color: rgb(from var(--mainColor) r g b / 75%);
+    cursor: pointer;
+    display: flex;
+    font-family: $serifStack;
+    height: 1.5rem;
+    justify-content: center;
+    line-height: 1.5rem;
+    text-align: center;
+    transition: color 300ms;
+    width: 1.5rem;
+
+    svg {
+      display: inline-block;
+    }
+
+    &.selected {
+      color: var(--accentColor);
+    }
+  }
+}
+
+.skillSet {
+  display: grid;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+
+  .list {
+    display: flex;
+    flex-flow: row wrap;
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+  }
+
+  .list:has(svg) {
+    gap: 0.75rem;
+  }
+
+  svg {
+    height: auto;
+    width: 2rem;
+  }
+
+  [data-corvu-tooltip-trigger] {
+    display: grid;
+    grid-template: 'icon' 2rem / 2rem;
+
+    a:link,
+    a:visited {
+      &::after {
+        content: none;
+      }
+    }
+
+    > a:link,
+    > a:visited,
+    > svg {
+      color: var(--textColor);
+      display: block;
+      grid-area: icon;
+      opacity: 0;
+      place-self: center center;
+      scale: 0.8;
+      transition:
+        opacity 300ms,
+        scale 300ms;
+
+      &.visible {
+        opacity: 1;
+        scale: 1;
+      }
+    }
+  }
+
+  .list:not(:has(svg)) .skill:not(:last-of-type)::after {
+    content: ',\00a0';
+  }
+}

@@ -166,10 +166,18 @@
     transition: opacity 300ms;
   }
 
-  a.ghLink {
-    color: var(--mainColor);
+  .ghLink {
     display: none;
     transition: font-size 300ms;
+
+    [data-corvu-tooltip-anchor] {
+      align-items: center;
+      display: flex;
+    }
+
+    a {
+      color: var(--mainColor);
+    }
 
     svg {
       width: 1em;

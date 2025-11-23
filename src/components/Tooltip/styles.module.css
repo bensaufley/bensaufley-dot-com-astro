@@ -1,0 +1,75 @@
+@import url('../../shared/mixins.css');
+
+.tooltipContent {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.75rem;
+
+  &.invert {
+    background-color: #000;
+    color: #fff;
+
+    .tooltipArrow {
+      color: #000;
+    }
+
+    @mixin dark {
+      background-color: #fff;
+      color: #000;
+
+      .tooltipArrow {
+        color: #fff;
+      }
+    }
+  }
+
+  .tooltipArrow {
+    color: #fff;
+
+    @mixin dark {
+      color: #000;
+    }
+  }
+
+  @mixin dark {
+    background-color: #000;
+  }
+}
+
+.tooltipContent[data-open] {
+  --enterScale: initial;
+  --enterRotate: initial;
+  --enterTranslateX: initial;
+  --enterOpacity: 0.5;
+  --enterTranslateY: 0.25rem;
+
+  animation-duration: 150ms;
+  animation-name: enter;
+}
+
+.tooltipContent[data-closed] {
+  --exitScale: initial;
+  --exitRotate: initial;
+  --exitTranslateX: initial;
+  --exitOpacity: 0.5;
+  --exitTranslateY: 0.25rem;
+
+  animation-duration: 150ms;
+  animation-name: exit;
+}
+
+@keyframes enter {
+  from {
+    opacity: var(--enterOpacity, 1);
+    transform: translate3d(var(--enterTranslateX, 0), var(--enterTranslateY, 0), 0)
+      scale3d(var(--enterScale, 1), var(--enterScale, 1), var(--enterScale, 1)) rotate(var(--enterRotate, 0));
+  }
+}
+
+@keyframes exit {
+  to {
+    opacity: var(--exitOpacity, 1);
+    transform: translate3d(var(--exitTranslateX, 0), var(--exitTranslateY, 0), 0)
+      scale3d(var(--exitScale, 1), var(--exitScale, 1), var(--exitScale, 1)) rotate(var(--exitRotate, 0));
+  }
+}

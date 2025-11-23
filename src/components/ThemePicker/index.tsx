@@ -2,12 +2,15 @@ import CircleHalfTilt from '@phosphor-icons/core/fill/circle-half-tilt-fill.svg?
 import MoonStars from '@phosphor-icons/core/fill/moon-stars-fill.svg?component-solid';
 import Sun from '@phosphor-icons/core/fill/sun-fill.svg?component-solid';
 import clsx from 'clsx';
-import { createEffect, createSignal } from 'solid-js';
+import { type ComponentProps, createEffect, createSignal } from 'solid-js';
+
+import Tooltip from '~components/Tooltip';
 
 import styles from './styles.module.css';
 
 interface Props {
   context: 'header' | 'footer';
+  invert?: boolean;
 }
 
 const [theme, setTheme] = createSignal<'light' | 'dark' | null>(
@@ -28,35 +31,59 @@ const updateTheme = (newTheme: 'light' | 'dark' | null) => {
   else window.localStorage.setItem('theme', newTheme);
 };
 
-const ThemePicker = ({ context }: Props) => (
+const tooltipProps: ComponentProps<typeof Tooltip>['tooltipProps'] = {
+  group: 'themePicker',
+  floatingOptions: {
+    autoPlacement: {
+      allowedPlacements: ['top', 'top-end', 'top-start', 'bottom', 'bottom-end', 'bottom-start'],
+    },
+  },
+};
+
+const ThemePicker = ({ context, invert = false }: Props) => (
   <div class={clsx(styles.themeToggle, styles[context])}>
-    <button
+    <Tooltip
+      as="button"
       onClick={() => updateTheme('light')}
       class={styles.light}
       title="Use Light Theme"
       aria-label="Use Light Theme"
+      content="Use Light Theme"
       type="button"
+      invert={invert}
+      tooltipProps={tooltipProps}
+      zIndex={11}
     >
       <Sun />
-    </button>
-    <button
+    </Tooltip>
+    <Tooltip
+      as="button"
       onClick={() => updateTheme(null)}
       class={styles.system}
       title="Use System Theme"
       aria-label="Use System Theme"
+      content="Use System Theme"
       type="button"
+      invert={invert}
+      tooltipProps={tooltipProps}
+      zIndex={11}
     >
       <CircleHalfTilt />
-    </button>
-    <button
+    </Tooltip>
+    <Tooltip
+      as="button"
       onClick={() => updateTheme('dark')}
       class={styles.dark}
       title="Use Dark Theme"
       aria-label="Use Dark Theme"
+      content="Use Dark Theme"
       type="button"
+      invert={invert}
+      tooltipProps={tooltipProps}
+      zIndex={11}
     >
       <MoonStars />
-    </button>
+    </Tooltip>
   </div>
 );
 

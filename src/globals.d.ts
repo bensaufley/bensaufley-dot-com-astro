@@ -6,5 +6,19 @@ declare module 'solid-js' {
     interface IntrinsicElements {
       spoiler: HTMLAttributes<HTMLElement>;
     }
+
+    interface IntrinsicAttributes {
+      'client:load'?: boolean;
+      'client:only'?: string;
+      'client:idle'?: boolean;
+      'client:visible'?: { rootMargin?: string };
+      slot?: 'fallback';
+    }
+  }
+}
+
+declare global {
+  interface ArrayConstructor {
+    isArray(arg: any): arg is readonly any[];
   }
 }

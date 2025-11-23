@@ -1,3 +1,4 @@
+/// <reference types="astro/astro-jsx" />
 /// <reference types="vite/client" />
 /// <reference types="vite-plugin-solid-svg/types" />
 
@@ -20,7 +21,7 @@ let lastMods: LastMods;
 
 export default defineConfig({
   integrations: [
-    solid(),
+    solid({ devtools: true }),
     mdx(),
     sitemap({
       serialize: async (entry) => {

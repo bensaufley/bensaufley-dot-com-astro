@@ -46,3 +46,17 @@
     -$width 0 $width $color,
     -$width 0 $width $color;
 }
+
+@define-mixin dark {
+  /* stylelint-disable-next-line nesting-selector-no-missing-scoping-root */
+  :root.dark & {
+    @mixin-content;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    /* stylelint-disable-next-line nesting-selector-no-missing-scoping-root */
+    &:not(.light) {
+      @mixin-content;
+    }
+  }
+}

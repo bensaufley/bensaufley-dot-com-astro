@@ -6,68 +6,100 @@ order: 4
 
 import FileText from '@phosphor-icons/core/regular/file-text.svg';
 
+import Skills from '../components/resume/Skills';
+
 export const Icon = FileText;
 
-# Résumé <small>([pdf](/resumes/2025-10-resume-ben-saufley.pdf))</small>
+# Résumé
+
+{/* TODO: re-add PDF link */}
+
+## Summary
+
+Senior full-stack engineering leader with 15+ years of experience architecting scalable web applications and leading high-performing teams. Proven track record of delivering systems that drive business outcomes—from improving load times by 53% and driving $30k+ increase in daily revenue to developing dynamic dashboarding tools that cut internal reporting time from hours to minutes. Equally energized by hands-on problem-solving and mentoring engineers to grow into thoughtful, senior contributors. Adept at aligning technical strategy with business goals, building developer-centric tools, and fostering cross-functional collaboration.
+
+---
+
+<Skills client:only="solid-js" initialShowIcons={true}>
+  <Skills slot="fallback" initialShowIcons={false} />
+</Skills>
+
+---
 
 ## Experience
 
-**[PMG](https://www.pmg.com) <small>(acquired [Momentum Commerce](https://www.momentumcommerce.com) 2025)</small>** _2022 - Present_  
-**AI & Software Engineering Senior Manager** _Remote_
+### [PMG](https://pmg.com) | Remote
 
-Previously:
+**AI & Software Engineering Senior Manager** | 2022 - Present  
+_Previously: Director, Front-End Engineering ([Momentum Commerce](https://momentumcommerce.com), acquired 2025)_
 
-- **Director, Front-End Engineering <small>(Momentum Commerce)</small>** _Sep 2022 – Sep 2025_
+- Technical lead for new frontend engineering at commerce platform **driving $7B+ in annual marketplace sales** for brands including **Nike, Beats, Crocs, and Therabody**; hired and managed two engineers while serving as senior advisor to broader engineering organization
+- Architected and executed complete migration from legacy AngularJS application to modern Preact stack, expanding from 11 to 25+ routes and adding custom reporting and dashboarding interfaces
+- Designed and implemented shared component system that standardized UI/UX and accelerated feature delivery across the platform
+- Led development of dynamic reporting suite and dashboard builder enabling client-facing teams to create custom reports in minutes instead of hours, now used by 20+ internal users and cited as **"game-changer"** for client pitches and retention
+- Implemented Playwright end-to-end testing covering all 25+ application routes, establishing baseline safety for continuous deployment
+- Standardized CI/CD pipelines and streamlined environments across 3 repositories, reducing onboarding complexity and deployment inconsistencies
+- Integrated Grafana (Loki & Prometheus) and Sentry across stack, enabling proactive incident detection and resolution before customer impact; insights drove horizontal scaling improvements and more resilient backend architecture
 
-Principal engineer and manager of frontend team for internal and consumer-facing applications for analysis of online retail and marketing data, now the primary web application for PMG Commerce. Consult on broader tech team architectural and DX efforts. Building in TypeScript Preact backed by PHP with Laravel and Python with FastAPI.
+_Technology: TypeScript, Preact/React, PHP/Laravel, Python/FastAPI; Docker, ECS, GitHub Actions, Terraform_
 
----
+### Triplebyte | Remote
 
-**Triplebyte** _2021 – 2022_  
-**Senior Software Engineer** _Remote_
+**Senior Software Engineer** | 2021 – 2022
 
-Small team of product engineers working in React, TypeScript, and Ruby on Rails.
+- Full-stack engineer on small cross-functional team shipping features and resolving bugs across stack
+- Company acquired and dissolved shortly after tenure
 
----
+_Technology: React, TypeScript, and Ruby on Rails; Docker, Heroku_
 
-**[EverQuote, Inc](https://everquote.com)** _2013 – 2021_  
-**Principal Engineer** _Cambridge, MA_ &rarr; _Remote (Aug 2019)_
+### [EverQuote, Inc](https://everquote.com) | Cambridge, MA (→ Remote Aug 2019)
 
-Previously:
+**Principal Engineer** | 2013 – 2021  
+_Previously: Principal Engineer | Director, Front-End Engineering | Technical Lead, Front-End | Web Designer & Front-End Developer_
 
-- **Director, Front-End Engineering** _Aug 2017 – Jan 2019_
-- **Technical Lead** _Jan 2015 – Aug 2017_
-- **Web Designer & Front-End Developer** _2013 – Jan 2015_
+- Key contributor during company's growth from 60 to 250+ employees and expansion from one to five insurance verticals; as Principal Engineer, deployed across teams requiring technical leadership and execution support
+- Data-driven development with A/B Testing analysis on all new features providing sustained growth of conversion rate and revenue
+- Led frontend team that grew from < 5 to 9 engineers; key decision-maker in 9 frontend hires
+- **Architected and led migration from legacy Rails monolith to microservices architecture** (150k lines of code, 18 contributors across teams), building:
+  - Next.js application with re-engineered, targeted routing serving multiple pages from consolidated routes
+  - Go reverse-proxy managing session state and A/B testing
+  - Integration with gRPC backend services for data layer
+- **Introduced React-based form flow that delivered 20% conversion rate increase**
+- **Improved load times from 1,500ms to 700ms** (~53% faster) across hundreds of thousands of daily arrivals, driving **$30-35k additional daily revenue** and surpassing primary competitor's performance benchmarks
+- Championed TypeScript adoption across frontend
+- Mentored 7 engineers across junior to senior levels; mentees went on to achieve senior/staff promotions and leadership roles at companies including Apple
+- Introduced rigorous automated code quality standards checks to eliminate bike-shedding in code review
+- Launched flagship "EverQuote" brand site and initial consumer form flow, establishing company as a recognizable consumer brand for return customers
+- Served as principal in launch of Kotlin-based third-party APIs with embeddable React widgets for partner integrations
 
-Quickly developed into a full-stack subject matter expert for a large portion of the company’s consumer-facing code and infrastructure. Technical/architectural leadership, code review and standards, and career growth support. Led the development of microservices that replaced the front end of a legacy Rails monolith, significantly improving technical and business metrics, with Go and isomorphic React in TypeScript. Helped to lay the foundations and launch Kotlin-based third-party APIs with embeddable React widgets.
+_Technology: Go, TypeScript, React, Next.js, Ruby on Rails, Kotlin; Docker, Kubernetes (EKS/GKE), Bamboo_
 
----
+### Millennium Partners Sports Club Management, LLC | Boston, MA
 
-**Millennium Partners Sports Club Management, LLC** _2009 – 2013_  
-**Online Marketing Designer & Developer** _Boston, MA_
+**Online Marketing Designer & Developer** | 2009 – 2013
 
-Sole in-house developer and digital designer. Independently designed, developed, and sent thousands of emails weekly to club members, employees, and prospects. Managed web pages and applications, creating and maintaining database-backed solutions for member communications and class scheduling.
+- Sole in-house developer and digital designer supporting 6 club locations with thousands of members each
+- Designed, developed, and deployed tens of thousands emails weekly to club members, employees, and prospects
+- Built custom Rails-based project management system for marketing team, saving hundreds of dollars monthly compared to commercial solutions while delivering tailored functionality
+- Developed progressive web app (PWA) for digital membership cards, enabling members to scan into clubs via smartphone instead of physical cards
+- Created database-backed class scheduling system that automated weekly schedule generation with responsive displays for web and print
+- Streamed live interviews through Facebook for summer promotional program
+- Consulted on complete website revamp by external vendor, completing unfinished aspects of the project to get it to launch
+
+_Technology: Ruby on Rails, JavaScript/jQuery, HTML, CSS, MySQL_
 
 ---
 
 ## Education
 
-**Emerson College** _2009_  
-**MA, Global Marketing Communication & Advertising** _Boston, MA_
+### Emerson College | Boston, MA
 
-**Savannah College of Art & Design** _2007_  
-**BFA, Animation** _Savannah, GA_
+**MA, Global Marketing Communication & Advertising** | 2009
+
+### Savannah College of Art & Design | Savannah, GA
+
+**BFA, Animation** | 2007
 
 ---
 
-## Skills
-
-**Languages:** Proficient in Go, Node.js, TypeScript/JavaScript, MySQL, Postgres, HTML, CSS (SASS, PostCSS), PHP, Ruby, and bash/zsh. Experience with Kotlin, Java, Python, Swift and MongoDB.
-
-**Software:**
-
-Proficient in Vite, Webpack and Babel, React/Preact/JSX, Styled Components & CSS Modules, Redux, Vitest/Jest, Laravel, Next.js, Mocha/Chai, jQuery, Ruby on Rails, Rspec/Capybara, Wordpress, Express.js and Sinatra. Experience in Spring and Ktor.
-
-Proficient in Git, Windows and Mac environments, Docker and Kubernetes, AWS and GCP. Manage infrastructure via web UIs and CLI as well as Helm and Terraform. Develop in Visual Studio Code, RubyMine, and Xcode for Swift. Analytics in DataDog and Grafana via Prometheus & Loki. Design in Adobe Creative Cloud suite, Sketch, Figma. Office suites are no problem. Use vim when handy, but no hjkl – arrow keys exist for a reason.
-
-References available [upon request](/contact)
+_References available [upon request](/contact)_

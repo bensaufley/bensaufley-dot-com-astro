@@ -4,6 +4,7 @@ import type { SvgComponent } from 'astro/types';
 import clsx from 'clsx';
 import { basename, extname, relative, resolve } from 'node:path';
 
+import Tooltip from '~components/Tooltip';
 import type { Frontmatter } from '~pages/types';
 
 import ThemePicker from '../ThemePicker';
@@ -58,14 +59,24 @@ const topLevelPages = Object.entries<{ frontmatter: Frontmatter; Icon?: SvgCompo
 </header>
 <nav class={clsx('sticky', styles.stickyNav)}>
   <a href="/" class={styles.name}> BS</a>
-  <a
-    href="https://github.com/bensaufley/personal-website"
-    rel="noopener noreferrer"
-    class={styles.ghLink}
-    target="_blank"><GitHub /></a
-  >
+  <div class={styles.ghLink}>
+    <Tooltip
+      client:load
+      as="a"
+      href="https://github.com/bensaufley/personal-website"
+      rel="noopener noreferrer"
+      target="_blank"
+      content="View on GitHub"
+      invert
+      tooltipProps={{
+        floatingOptions: { autoPlacement: false, offset: { crossAxis: 8 } },
+        placement: 'bottom-start',
+      }}
+      zIndex={11}><GitHub /></Tooltip
+    >
+  </div>
   <ul>
     {topLevelPages.map(({ data, Icon }) => <NavItem currentPath={currentPath} {data} icon={Icon} />)}
   </ul>
-  <ThemePicker context="header" client:only="solid-js" />
+  <ThemePicker context="header" client:only="solid-js" invert />
 </nav>
