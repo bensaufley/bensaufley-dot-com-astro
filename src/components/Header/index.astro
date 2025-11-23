@@ -1,12 +1,11 @@
 ---
-import GitHub from '@phosphor-icons/core/fill/github-logo-fill.svg';
 import type { SvgComponent } from 'astro/types';
 import clsx from 'clsx';
 import { basename, extname, relative, resolve } from 'node:path';
 
-import TooltipIcon from '~components/TooltipIcon';
 import type { Frontmatter } from '~pages/types';
 
+import GitHubLink from '../GitHubLink';
 import ThemePicker from '../ThemePicker';
 
 import NavItem from './NavItem.astro';
@@ -60,17 +59,7 @@ const topLevelPages = Object.entries<{ frontmatter: Frontmatter; Icon?: SvgCompo
 <nav class={clsx('sticky', styles.stickyNav)}>
   <a href="/" class={styles.name}> BS</a>
   <div class={styles.ghLink}>
-    <TooltipIcon
-      client:load
-      icon={GitHub}
-      href="https://github.com/bensaufley/personal-website"
-      invert
-      tooltipProps={{
-        floatingOptions: { autoPlacement: false, offset: { crossAxis: 8 } },
-        placement: 'bottom-start',
-      }}
-      zIndex={11}>View this website on GitHub</TooltipIcon
-    >
+    <GitHubLink client:load />
   </div>
   <ul>
     {topLevelPages.map(({ data, Icon }) => <NavItem currentPath={currentPath} {data} icon={Icon} />)}

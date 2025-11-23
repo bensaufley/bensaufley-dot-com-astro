@@ -1,23 +1,23 @@
 import type { RootProps as TooltipRootProps } from '@corvu/tooltip';
 import { type ClassValue, clsx } from 'clsx';
-import type { ParentComponent, VoidComponent } from 'solid-js';
+import type { JSX, ParentComponent, VoidComponent } from 'solid-js';
 
 import Tooltip from './Tooltip';
 
 type Props = {
   class?: ClassValue;
-  icon: VoidComponent;
+  icon: VoidComponent<JSX.SvgSVGAttributes<SVGSVGElement>>;
   invert?: boolean;
   tooltipProps?: Omit<TooltipRootProps, 'children'>;
   zIndex?: number;
 } & (
   | {
-      href?: string;
+      href: string;
       onClick?: never;
     }
   | {
       href?: never;
-      onClick?: (event: MouseEvent) => void;
+      onClick: (event: MouseEvent) => void;
     }
 );
 
