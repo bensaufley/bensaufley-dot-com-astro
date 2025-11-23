@@ -1,8 +1,11 @@
 ---
+import type { JSX } from 'astro/jsx-runtime';
+
 import SpoilerTSX from './Spoiler/index';
 
 export interface Props {
   hide?: boolean;
+  children: JSX.Children;
 }
 
 const { hide = true } = Astro.props;

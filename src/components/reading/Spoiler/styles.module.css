@@ -12,6 +12,8 @@
   &:has(p),
   &:has(div) {
     display: block;
+    padding-block-end: inherit;
+    padding-block-start: inherit;
   }
 
   &.visible,
@@ -19,6 +21,6 @@
     background-color: var(--mainBg);
     color: color-mix(in rgb, var(--accentColor), var(--mainColor));
     cursor: zoom-out;
-    filter: drop-shadow(0 0 1px var(--accentColor));
+    filter: blur(0) drop-shadow(0 0 1px var(--accentColor));
   }
 }
