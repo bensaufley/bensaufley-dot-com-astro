@@ -41,6 +41,7 @@ jobs:
         with:
           name: website-build
           path: ./dist
+          include-hidden-files: true
           retention-days: 3
 
   deploy:
