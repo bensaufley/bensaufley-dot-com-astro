@@ -60,7 +60,6 @@ jobs:
           sshpass -f ./.ftp-credentials \
             rsync \
               -avzh --delete --checksum \
-              --password-file=.ftp-credentials \
               ./dist/ \
               "${{ secrets.FTP_USER }}@${{ secrets.FTP_HOST }}:/home/bensaufley/bensaufley.com/"
 
