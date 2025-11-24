@@ -45,7 +45,7 @@
     "eslint-plugin-mdx": "^3.6.2",
     "eslint-plugin-prefer-arrow-functions": "^3.3.2",
     "eslint-plugin-prettier": "^5.5.3",
-    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "graphql-request": "^7.3.1",
