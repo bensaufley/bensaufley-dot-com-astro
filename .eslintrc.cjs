@@ -17,6 +17,18 @@ module.exports = {
       files: ['*.mdx'],
       plugins: ['mdx'],
       extends: ['plugin:mdx/recommended'],
+      parserOptions: {
+        parser: '@typescript-eslint/parser',
+        extraFileExtensions: ['.mdx'],
+      },
+      rules: {
+        '@typescript-eslint/consistent-type-imports': 'off',
+        'import/prefer-default-export': 'off',
+
+        // These rules generate false positives, unfortunately
+        'no-unused-vars': 'off',
+        '@typescript-eslint/no-unused-vars': 'off',
+      },
     },
     {
       files: ['*.astro'],

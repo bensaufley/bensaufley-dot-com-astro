@@ -49,9 +49,7 @@ const topLevelPages = Object.entries<{ frontmatter: Frontmatter; Icon?: SvgCompo
   <h2 class={styles.name}>
     <a href="/">
       <span class={styles.firstName}>Ben</span>
-      <Tooltip client:load content="SOFF-lee">
-        <span class={styles.lastName}>Saufley</span>
-      </Tooltip>
+      <Tooltip client:load content="SOFF-lee" as="span" class={styles.lastName}>Saufley</Tooltip>
     </a>
   </h2>
   <h3 class={styles.position}>
