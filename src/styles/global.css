@@ -70,7 +70,7 @@ h4,
 h5,
 h6 {
   font-family: $serifStack;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 a:link:not(nav *),
