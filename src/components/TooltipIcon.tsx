@@ -42,7 +42,7 @@ const TooltipIcon: ParentComponent<Props> = ({
     tooltipProps={tooltipProps}
     zIndex={zIndex}
   >
-    <Icon />
+    <Icon fill="currentColor" />
   </Tooltip>
 );
 

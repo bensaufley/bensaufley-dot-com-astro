@@ -23,6 +23,7 @@
   "devDependencies": {
     "@astrojs/ts-plugin": "^1.10.5",
     "@bensaufley/eslint-config": "^1.1.3",
+    "@graphql-codegen/cli": "^6.1.0",
     "@types/cli": "^0.11.25",
     "@types/eslint": "^8.56.2",
     "@types/gtag.js": "^0.0.20",

@@ -1,14 +1,54 @@
 @import url('../../shared/variables.css');
 @import url('../../shared/mixins.css');
 
+.pageHeader {
+  align-items: flex-start;
+  display: flex;
+  flex-flow: row nowrap;
+
+  .readingLinks {
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1rem;
+    margin-left: auto;
+  }
+
+  svg {
+    height: 1.5rem;
+    width: auto;
+  }
+}
+
 .hud {
   display: grid;
-  gap: 1rem;
+  gap: 1rem 3rem;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto 1fr;
 
   .nowReading,
   .upNext {
+    display: grid;
+    grid-column-end: span 1;
+    grid-row: 1 / -1;
+    grid-template-rows: subgrid;
+
+    header {
+      align-items: flex-start;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+    }
+
+    h3 {
+      margin: 0;
+    }
+
     h3 + p {
-      margin-top: 0;
+      font-size: 0.875rem;
+      font-style: italic;
+      margin: 0;
+      opacity: 0.75;
     }
   }
 
@@ -19,13 +59,15 @@
   }
 
   ul {
+    align-items: center;
     display: flex;
     flex-flow: row nowrap;
     gap: 1rem;
     list-style: none;
-    margin: 0 -1rem;
+    margin: 0;
     overflow-x: auto;
-    padding: 1rem;
+    padding: 0;
+    width: stretch;
 
     object {
       max-height: 4.5rem;

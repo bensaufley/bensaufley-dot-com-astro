@@ -12,8 +12,10 @@ const allBooks = (await getCollection('books', (book) => !book.data.finishedAt &
 );
 ---
 
-<div class={styles.nowReading}>
-  <h3>Now Reading</h3>
+<section class={styles.nowReading}>
+  <header>
+    <h3>Now Reading</h3>
+  </header>
   <ul>
     {
       allBooks.map((book) => (
@@ -27,4 +29,4 @@ const allBooks = (await getCollection('books', (book) => !book.data.finishedAt &
       ))
     }
   </ul>
-</div>
+</section>

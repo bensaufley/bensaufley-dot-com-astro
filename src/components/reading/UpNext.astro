@@ -1,8 +1,33 @@
 ---
+import { getCollection } from 'astro:content';
+import dayjs from 'dayjs';
+import utc from 'dayjs/plugin/utc';
+
 import styles from './styles.module.css';
+
+dayjs.extend(utc);
+
+const allBooks = (await getCollection('books', (book) => !book.data.startedAt && !book.data.finishedAt)).toSorted(
+  (a, b) => a.data.title.localeCompare(b.data.title),
+);
 ---
 
-<div class={styles.upNext}>
-  <h3>Up Next</h3>
-  <p class={styles.hint}>In no particular order</p>
-</div>
+<section class={styles.upNext}>
+  <header>
+    <h3>Up Next</h3>
+    <p>In no particular order</p>
+  </header>
+  <ul>
+    {
+      allBooks.map((book) => (
+        <li class={styles.book}>
+          <a href={book.data.hardcoverUrl!} class={styles.cover} target="_blank" rel="noopener">
+            <object data={book.data.coverImageUrl} class={styles.coverImage}>
+              {book.data.title}
+            </object>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</section>

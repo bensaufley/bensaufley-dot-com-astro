@@ -9,6 +9,7 @@ import Books from '@phosphor-icons/core/regular/books.svg';
 import NowReading from '~components/reading/NowReading.astro';
 import RatingsGraph from '~components/reading/RatingsGraph.astro';
 import Read from '~components/reading/Read.astro';
+import ReadingLinks from '~components/reading/ReadingLinks';
 import UpNext from '~components/reading/UpNext.astro';
 
 import Spoiler from '../../components/reading/Spoiler.astro';
@@ -19,7 +20,10 @@ export const Icon = Books;
 
 export const components = { Spoiler };
 
-# Reading
+<header class={styles.pageHeader}>
+  <h1>Reading</h1>
+  <ReadingLinks client:load />
+</header>
 
 I read a lot, mostly in the form of audiobooks. I have enough audiobooks that I
 [built an app to manage the files][audiobook-catalog]. Here's what I'm reading,
