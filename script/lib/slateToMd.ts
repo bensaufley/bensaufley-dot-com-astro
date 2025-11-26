@@ -1,5 +1,5 @@
 export interface ReviewSlate {
-  document: Document;
+  document?: Document;
 }
 
 export interface Document {
@@ -29,7 +29,7 @@ export type ParagraphChild =
     };
 
 const slateToMd = (slate: ReviewSlate): string =>
-  slate.document.children
+  slate.document?.children
     .flatMap((para) =>
       para.children
         // eslint-disable-next-line array-callback-return, consistent-return
@@ -62,6 +62,6 @@ const slateToMd = (slate: ReviewSlate): string =>
         })
         .join(''),
     )
-    .join('\n');
+    .join('\n') ?? '';
 
 export default slateToMd;

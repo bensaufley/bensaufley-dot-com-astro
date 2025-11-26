@@ -85,8 +85,8 @@
     "typecheck": "tsc --noEmit",
     "knip": "knip",
     "prepare": "husky",
-    "script:update-books": "tsx ./scripts/update-books.ts",
-    "script:up-next": "tsx ./scripts/generate-upnext.ts"
+    "books:update": "tsx ./script/update-books.ts",
+    "books:up-next": "tsx ./script/generate-upnext.ts"
   },
   "type": "module",
   "version": "0.0.1"
