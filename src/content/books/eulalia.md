@@ -5,8 +5,8 @@ authors:
   - lastName: Jacques
     firstName: Brian
 narrators:
-  - lastName: Cast
-    firstName: A Full
+  - lastName: Full Cast
+    firstName: A
 yearPublished: 2007
 isbn10: null
 isbn13: '9781428198999'
@@ -17,6 +17,6 @@ series:
   name: Redwall
   volume: 19
 startedAt: 2025-11-25T00:00:00.000Z
-finishedAt: 2025-11-25T00:00:00.000Z
+finishedAt: null
 rating: null
 ---
