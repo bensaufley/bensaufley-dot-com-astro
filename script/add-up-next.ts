@@ -1,10 +1,10 @@
-#!/usr/bin/env -S npx tsx
 /* eslint-disable no-await-in-loop */
 import cli from 'cli';
 import { request } from 'graphql-request';
 
 import { GetUpNextDocument } from './lib/graphql-operations';
 import upsertBook from './lib/upsertBook';
+import { getToken } from './lib/utils';
 
 const args = cli.parse({
   token: ['t', 'Hardcover token', 'string'],
@@ -12,17 +12,12 @@ const args = cli.parse({
 
 const editions = cli.args.map((arg) => Number(arg.trim())).filter((arg) => !Number.isNaN(arg));
 
-if (!args.token) {
-  cli.error('Please provide a Hardcover token with -t or --token');
-  cli.getUsage(1);
-}
+const token = await getToken(args.token);
 
 if (!editions.length) {
   cli.error('Please provide at least one edition ID to add to Up Next');
   cli.getUsage(1);
 }
-
-const token = (args.token.startsWith('Bearer ') ? (args.token as string) : `Bearer ${args.token}`).trim();
 
 const responses = await Promise.allSettled(
   editions.map((edition) =>

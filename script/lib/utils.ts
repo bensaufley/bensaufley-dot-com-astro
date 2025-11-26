@@ -1,7 +1,7 @@
 import dayjs, { type Dayjs } from 'dayjs';
 import utc from 'dayjs/plugin/utc';
-import { readFileSync } from 'fs';
-import { readdir } from 'fs/promises';
+import { existsSync, readFileSync } from 'fs';
+import { readdir, readFile } from 'fs/promises';
 import { resolve } from 'path/posix';
 
 dayjs.extend(utc);
@@ -30,3 +30,19 @@ export const defaultDate = await readdir(resolve(dirname, '../../src/content/boo
       return date.isAfter(maxRead) ? date : maxRead;
     }, dayjs.utc('2020-01-01')),
 );
+
+const tokenPath = resolve(dirname, '../../.hardcover-token');
+export const getToken = (fromArg?: string | undefined) =>
+  Promise.try<string, never[]>(async () => {
+    if (fromArg?.trim()) return fromArg.trim();
+    if (process.env.HARDCOVER_TOKEN?.trim()) return process.env.HARDCOVER_TOKEN.trim();
+    if (existsSync(tokenPath)) {
+      const token = await readFile(resolve(dirname, '../../.hardcover-token'), 'utf-8');
+      if (token.trim()) return token.trim();
+    }
+    throw new Error('Please provide a Hardcover token via argument, HARDCOVER_TOKEN env var, or .hardcover-token file');
+  }).then((token) => {
+    const trimmed = token.trim();
+    if (trimmed.toLocaleLowerCase().startsWith('bearer ')) return trimmed;
+    return `Bearer ${trimmed}`;
+  });

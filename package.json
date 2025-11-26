@@ -84,7 +84,9 @@
     "start": "astro dev",
     "typecheck": "tsc --noEmit",
     "knip": "knip",
-    "prepare": "husky"
+    "prepare": "husky",
+    "script:update-books": "tsx ./scripts/update-books.ts",
+    "script:up-next": "tsx ./scripts/generate-upnext.ts"
   },
   "type": "module",
   "version": "0.0.1"

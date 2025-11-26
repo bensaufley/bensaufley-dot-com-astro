@@ -2,11 +2,9 @@
 import type { CodegenConfig } from '@graphql-codegen/cli';
 import { execSync } from 'child_process';
 
-let apiKey = process.env.HARDCOVER_API_KEY;
-if (!apiKey) {
-  throw new Error('HARDCOVER_API_KEY environment variable is not set');
-}
-if (!apiKey.toLocaleLowerCase().startsWith('bearer ')) apiKey = `Bearer ${apiKey}`;
+import { getToken } from './script/lib/utils';
+
+const apiKey = await getToken();
 
 const config: CodegenConfig = {
   schema: {

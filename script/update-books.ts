@@ -1,7 +1,4 @@
-#!/usr/bin/env -S npx tsx
-/* eslint-disable no-await-in-loop */
-/* eslint-disable import/no-extraneous-dependencies */
-
+/* eslint-disable no-await-in-loop, import/no-extraneous-dependencies */
 import cli from 'cli';
 import dayjs from 'dayjs';
 import utc from 'dayjs/plugin/utc';
@@ -9,7 +6,7 @@ import { request } from 'graphql-request';
 
 import { GetBooksDocument } from './lib/graphql-operations';
 import upsertBook from './lib/upsertBook';
-import { defaultDate } from './lib/utils';
+import { defaultDate, getToken } from './lib/utils';
 
 dayjs.extend(utc);
 
@@ -18,14 +15,8 @@ const args = cli.parse({
   since: ['s', 'Only update books since this date (ISO 8601)', 'date', defaultDate.format('YYYY-MM-DD')],
 });
 
-if (!args.token) {
-  cli.error('Please provide a Hardcover token with -t or --token');
-  cli.getUsage(1);
-}
-
+const token = await getToken(args.token);
 const since = dayjs.utc(args.since);
-
-const token = (args.token.startsWith('Bearer ') ? (args.token as string) : `Bearer ${args.token}`).trim();
 
 const resp = await request(
   'https://api.hardcover.app/v1/graphql',
