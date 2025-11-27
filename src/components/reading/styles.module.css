@@ -121,6 +121,7 @@
     grid-template-columns: subgrid;
     margin-bottom: 1rem;
     position: relative;
+    scroll-margin-top: 4.875rem;
 
     .cover {
       align-items: center;
@@ -380,8 +381,29 @@
 }
 
 .bookReview {
+  .coverImage {
+    border-radius: 3px;
+    float: left;
+    margin: 0.5rem 1rem 0.5rem 0;
+    max-height: 12rem;
+    max-width: 10rem;
+    shape-outside: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    transform: rotate(-3deg);
+  }
+
   h3 {
     font-family: $sansStack;
+  }
+
+  .back {
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0.5rem;
+
+    svg {
+      width: 1rem;
+    }
   }
 }
 

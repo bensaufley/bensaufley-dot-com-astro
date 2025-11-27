@@ -16,9 +16,9 @@ const Pagination = ({ page, pages, path }: Props) => {
   const showNext = page < pages - 1;
   const showLast = page < pages - 2;
 
-  const length = Math.min(pages - 1, 6);
+  const length = Math.min(pages - 1, 7);
   const first = Math.max(page - 3, 1);
-  const last = Math.min(first + length, pages - 1);
+  const last = Math.min(first + length - 1, pages - 1);
   const numberedPages = Array.from({ length }, (_, i) => last - (length - i) + 1);
 
   return (

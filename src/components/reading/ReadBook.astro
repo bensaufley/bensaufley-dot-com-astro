@@ -28,7 +28,7 @@ const { book, hasReview, slug } = Astro.props;
 export const LEFT_GOODREADS_DATE = dayjs.utc('2022-02-15');
 ---
 
-<li class={styles.book}>
+<li class={styles.book} id={slug}>
   <CoverImage book={book} />
   <h3>
     <div class={styles.icons}>
