@@ -8,7 +8,7 @@ import styles from './styles.module.css';
 dayjs.extend(utc);
 
 const allBooks = (await getCollection('books', (book) => !book.data.finishedAt && !!book.data.startedAt)).toSorted(
-  (a, b) => dayjs.utc(b.data.finishedAt).diff(a.data.finishedAt, 'day'),
+  (a, b) => dayjs.utc(b.data.startedAt).diff(a.data.startedAt, 'day'),
 );
 ---
 
