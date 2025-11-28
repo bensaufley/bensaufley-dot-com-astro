@@ -1,0 +1,25 @@
+.hotKey {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 0.5em;
+
+  kbd {
+    align-items: center;
+    border: 1px solid;
+    border-bottom-width: 2px;
+    border-radius: 3px;
+    display: flex;
+    height: 1.5em;
+    justify-content: center;
+    width: 1.5em;
+
+    &.space {
+      width: 3em;
+    }
+
+    svg {
+      max-height: 1em;
+      max-width: 1em;
+    }
+  }
+}

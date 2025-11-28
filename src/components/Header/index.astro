@@ -4,12 +4,13 @@ import clsx from 'clsx';
 import { basename, extname, relative, resolve } from 'node:path';
 
 import Tooltip from '~components/Tooltip';
-import type { Frontmatter } from '~pages/types';
+import type { Frontmatter } from '~lib/pageTypes';
 
 import GitHubLink from '../GitHubLink';
 import ThemePicker from '../ThemePicker';
 
 import NavItem from './NavItem.astro';
+import SearchItem from './SearchItem';
 
 import styles from './styles.module.css';
 
@@ -65,5 +66,8 @@ const topLevelPages = Object.entries<{ frontmatter: Frontmatter; Icon?: SvgCompo
   <ul>
     {topLevelPages.map(({ data, Icon }) => <NavItem currentPath={currentPath} {data} icon={Icon} />)}
   </ul>
-  <ThemePicker context="header" client:only="solid-js" invert />
+  <div class={styles.right}>
+    <SearchItem client:only="solid-js" />
+    <ThemePicker context="header" client:only="solid-js" invert />
+  </div>
 </nav>

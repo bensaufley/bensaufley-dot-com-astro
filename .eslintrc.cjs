@@ -12,6 +12,11 @@ module.exports = {
     gtag: 'writable',
     partytown: 'writable',
   },
+  env: {
+    browser: true,
+    es2024: true,
+    node: true,
+  },
   overrides: [
     {
       files: ['*.mdx'],

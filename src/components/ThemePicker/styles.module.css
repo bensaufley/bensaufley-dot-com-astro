@@ -4,8 +4,6 @@
 .themeToggle {
   flex-flow: row nowrap;
   grid-area: theme;
-  justify-self: flex-end;
-  margin-left: auto;
 
   [data-corvu-tooltip-anchor] {
     align-items: center;
@@ -33,6 +31,8 @@
 
   &.footer {
     display: flex;
+    justify-self: flex-end;
+    margin-left: auto;
 
     @mixin desktop {
       display: none;

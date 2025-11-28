@@ -127,6 +127,14 @@
   }
 }
 
+.right {
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
 .stickyNav {
   align-items: stretch;
   background: var(--navBg);

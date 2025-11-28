@@ -102,7 +102,7 @@
     > a:link,
     > a:visited,
     > svg {
-      color: var(--textColor);
+      color: var(--mainColor);
       display: block;
       grid-area: icon;
       opacity: 0;

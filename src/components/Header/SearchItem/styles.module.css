@@ -1,0 +1,159 @@
+@import url('../../../shared/mixins.css');
+
+.search {
+  align-items: center;
+  appearance: none;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  flex-flow: row nowrap;
+  font-family: inherit;
+  font-size: 1rem;
+  gap: 0.5rem;
+
+  .hotKey {
+    display: none;
+    font-size: 0.75rem;
+
+    @mixin desktop {
+      display: inherit;
+    }
+  }
+
+  &:hover {
+    color: var(--accentColor);
+  }
+
+  > svg {
+    max-height: 1.5em;
+    max-width: 1.5em;
+    width: 100%;
+  }
+}
+
+.searchOverlay {
+  backdrop-filter: blur(0.25rem);
+  background: rgb(from var(--mainBg) calc(r * 0.5) calc(g * 0.5) calc(b * 0.5) / 50%);
+  display: block;
+  inset: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  transition:
+    opacity 300ms,
+    backdrop-filter 300ms;
+  z-index: 20;
+
+  &.visible {
+    opacity: 1;
+    pointer-events: auto;
+
+    .modal {
+      animation: show 300ms forwards;
+    }
+  }
+
+  .modal {
+    --xTransform: 0%;
+
+    animation: hide 300ms forwards;
+    background: var(--mainBg);
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 30%);
+    display: flex;
+    flex-flow: column nowrap;
+    left: 1rem;
+    max-height: calc(100vh - 2rem);
+    max-width: calc(100vw - 2rem);
+    padding: 1rem;
+    position: fixed;
+    right: 1rem;
+    top: 50%;
+    transform: translate(var(--xTransform), -100%);
+
+    [type='search'] {
+      border: 1px solid rgb(from var(--mainColor) r g b / 25%);
+      border-radius: 0.25rem;
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+      width: 100%;
+
+      &:focus {
+        border-color: var(--accentColor);
+        outline: none;
+      }
+    }
+
+    h3 {
+      align-items: center;
+      display: flex;
+      flex-flow: row nowrap;
+      gap: 0.5rem;
+      margin: 0 0 1rem;
+
+      svg {
+        max-height: 1em;
+        max-width: 1em;
+        width: 100%;
+      }
+    }
+
+    .results {
+      font-size: 0.875rem;
+      margin-top: 1rem;
+      overflow-y: auto;
+
+      .result {
+        margin: 0.5rem 0;
+
+        h3 {
+          color: color-mix(in srgb, var(--mainColor), var(--accentColor));
+          margin-bottom: 0.25rem;
+        }
+      }
+
+      a:link,
+      a:visited {
+        border-left: 3px solid rgb(from var(--accentColor) r g b / 25%);
+        color: var(--mainColor);
+        padding-left: 0.5rem;
+        transition: border-color 300ms;
+
+        &::after {
+          content: none;
+        }
+
+        &:hover {
+          border-color: var(--accentColor);
+        }
+      }
+
+      mark {
+        background-color: transparent;
+        color: var(--accentColor);
+        font-weight: bold;
+      }
+    }
+
+    @mixin desktop {
+      --xTransform: -50%;
+
+      left: 50%;
+      min-width: 20rem;
+      right: auto;
+    }
+  }
+}
+
+@keyframes show {
+  to {
+    transform: translate(var(--xTransform), -50%);
+  }
+}
+
+@keyframes hide {
+  to {
+    transform: translate(var(--xTransform), -100%);
+  }
+}

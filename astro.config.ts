@@ -8,6 +8,7 @@ import partytown from '@astrojs/partytown';
 import sitemap from '@astrojs/sitemap';
 import solid from '@astrojs/solid-js';
 import { defineConfig } from 'astro/config';
+import pagefind from 'astro-pagefind';
 import dayjs from 'dayjs';
 import minMax from 'dayjs/plugin/minMax';
 import { resolve } from 'node:path';
@@ -63,6 +64,7 @@ export default defineConfig({
         }
       },
     }),
+    pagefind(),
     partytown({
       config: {
         forward: ['dataLayer.push'],
